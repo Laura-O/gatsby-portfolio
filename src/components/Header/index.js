@@ -20,7 +20,6 @@ export default class Header extends Component {
   }
 
   toggleMenu() {
-    console.log(this.state.menuActive)
     this.setState({ menuActive: !this.state.menuActive })
   }
 
@@ -31,9 +30,7 @@ export default class Header extends Component {
   }
   render() {
     const { menuActive } = this.state
-
     const barStyle = this.state.menuActive ? 'animate' : ''
-    console.log(barStyle)
 
     return (
       <header className={styles.header}>

@@ -9,6 +9,7 @@
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-sass": "^1.0.21",
+    "gatsby-source-filesystem": "^1.5.27",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -18,10 +19,15 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.11.1"
   }
 }

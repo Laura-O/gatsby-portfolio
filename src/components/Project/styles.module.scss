@@ -1,0 +1,20 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+}
+
+.left {
+  flex: 0 1 50%;
+  max-width: 48%;
+
+  img {
+    max-height: 100%;
+  }
+}
+
+.right {
+  flex: 0 1 50%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}

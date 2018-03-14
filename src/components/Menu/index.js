@@ -12,32 +12,28 @@ const Menu = ({ active, toggleNav }) => {
 
   return (
     <Fullscreen className={active ? styles.menu : styles.disable}>
-      <div>
-        <nav>
-          <ul>
-            <li className={styles.item}>
-              <Link {...linkProps} to="/">
-                Home
-              </Link>
-            </li>
-            <li className={styles.item}>
-              <Link {...linkProps} to="/About">
-                About
-              </Link>
-            </li>
-            <li className={styles.item}>
-              <Link {...linkProps} to="/Projects">
-                Projects
-              </Link>
-            </li>
-            <li className={styles.item}>
-              <Link {...linkProps} to="/Contact">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav className={styles.nav}>
+        <div className={styles.item}>
+          <Link {...linkProps} to="/">
+            Home
+          </Link>
+        </div>
+        <div className={styles.item}>
+          <Link {...linkProps} to="/about">
+            About
+          </Link>
+        </div>
+        <div className={styles.item}>
+          <Link {...linkProps} to="/projects">
+            Projects
+          </Link>
+        </div>
+        <div className={styles.item}>
+          <Link {...linkProps} to="/contact">
+            Contact
+          </Link>
+        </div>
+      </nav>
     </Fullscreen>
   )
 }

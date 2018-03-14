@@ -1,0 +1,70 @@
+[
+  {
+    "id": 0,
+    "name": "TodoTron 3000",
+    "url": "https://github.com/Laura-O/todo-tron",
+    "description": "Productivity timer for todo.txt",
+    "techs": ["Electron", "Vue.js", "Vuex"],
+    "image": "/projects/todotron.png",
+    "thumbnail": "/projects/todotron_thumb.png"
+  },
+  {
+    "id": 1,
+    "name": "FriendZone",
+    "url": "https://github.com/Laura-O/social-network",
+    "description": "A social network with chatroom",
+    "techs": ["React", "Redux", "PostgreSQL", "Socket.io"],
+    "image": "/projects/social_network.png",
+    "thumbnail": "/projects/social_network_thumb.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website",
+    "url": "http://www.laura.fyi",
+    "description":
+      "This is my portfolio website. Look around to see the features!",
+    "techs": ["Vue.js", "firebase"],
+    "image": "/projects/portfolio.png",
+    "thumbnail": "/projects/portfolio/portfolio_thumb.png"
+  },
+  {
+    "id": 3,
+    "name": "Petition",
+    "url": "https://peachtition.herokuapp.com/",
+    "description":
+      "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+    "techs": ["Express", "PostgreSQL", "Redis", "Handlebars", "JQuery"],
+    "image": "/projects/landing_page.png",
+    "thumbnail": "/projects/petition/landing_page_thumb.png"
+  },
+  {
+    "id": 4,
+    "name": "Connect 4",
+    "url": "https://connect-4-game.herokuapp.com/",
+    "description":
+      "This is an implementation of the classic Connect-4 game for 2 players.",
+    "techs": ["JQuery", "CSS", "HTML"],
+    "image": "/projects/connect-4.png",
+    "thumbnail": "/projects/connect-4/connect-4_thumb.png"
+  },
+  {
+    "id": 5,
+    "name": "Mobile flashcards",
+    "url": "",
+    "description":
+      "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+    "techs": ["React Native", "React Redux"],
+    "image": "/projects/quiz_page.png",
+    "thumbnail": "/projects/mobile_flashcards/quiz_page_thumb.png"
+  },
+  {
+    "id": 6,
+    "name": "Bubble diagram D3.js",
+    "url": "http://secure-meadow-44103.herokuapp.com/",
+    "description":
+      "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+    "techs": ["D3.js", "R", "Bootstrap"],
+    "image": "/projects/d3-stats.png",
+    "thumbnail": "/projects/d3_stats/d3-stats_thumb.png"
+  }
+]

@@ -1,6 +1,6 @@
-$wrapperWidth: 1200px;
-$headerHeight: 48px;
-$gutter: 20px;
+$wrapperWidth: 120rem;
+$headerHeight: 4.8rem;
+$gutter: 2rem;
 $columnCount: 12;
 
 /* Colors */
@@ -10,4 +10,9 @@ $colorWhite: #fff;
 /* Z Index Scale */
 $zIndexHeader: 2;
 $zIndexMenu: 3;
-$zIndexHamburger: 4;
+$zIndexHamburger: 30;
+
+$lightBackground: #efffe9;
+$darkBackground: #011627;
+$redHighlight: #e71d36;
+$linkColor: #2ec4b6;
