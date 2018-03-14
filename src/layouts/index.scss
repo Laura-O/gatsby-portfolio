@@ -57,3 +57,24 @@ a {
     color: white;
   }
 }
+
+.divider {
+  position: relative;
+  margin: 2rem;
+  height: 0.1rem;
+
+  &-transparent:before {
+    content: '';
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      rgb(48, 49, 51),
+      transparent
+    );
+  }
+}

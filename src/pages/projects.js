@@ -7,7 +7,12 @@ import projects from '../assets/projects.json'
 const ProjectsPage = () => (
   <div>
     <h1>Projects</h1>
-    {projects.map(project => <Project project={project} key={project.name} />)}
+    {projects.map(project => (
+      <div key={project.id}>
+        <Project project={project} key={project.id} />
+        <div className="divider divider-transparent" />
+      </div>
+    ))}
   </div>
 )
 
