@@ -1,0 +1,14 @@
+@import '../../scss/variables.scss';
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  margin-top: calc($headerHeight * -1);
+}
