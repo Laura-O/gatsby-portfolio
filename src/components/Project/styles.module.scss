@@ -11,6 +11,7 @@
 .left {
   flex: 0 1 50%;
   align-self: center;
+  animation: moveInLeft 1s ease-out;
 
   img {
     display: block;
@@ -19,10 +20,15 @@
   }
 }
 
+.description {
+  max-width: 400px;
+}
+
 .right {
   flex: 0 1 50%;
   flex-wrap: wrap;
   align-items: flex-start;
+  animation: moveInRight 1s ease-out;
 }
 
 .tag {
@@ -45,5 +51,33 @@
   &::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translate(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translate(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }

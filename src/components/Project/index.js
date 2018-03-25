@@ -17,7 +17,7 @@ const Project = ({ project }) => {
       </div>
       <div className={styles.right}>
         <h3>{project.name}</h3>
-        <div>{project.description}</div>
+        <div className={styles.description}>{project.description}</div>
         <ul>{listItems}</ul>
       </div>
     </div>
