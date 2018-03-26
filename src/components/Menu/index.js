@@ -1,19 +1,19 @@
-import React, { Component } from 'react'
-import Link from 'gatsby-link'
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
 
-import Fullscreen from '../Fullscreen'
+import Fullscreen from '../Fullscreen';
 
-import styles from './styles.module.scss'
+import styles from './styles.module.scss';
 
 export default class Menu extends Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
     const linkProps = {
       onClick: this.props.toggleNav,
-    }
+    };
 
     return (
       <Fullscreen className={this.props.active ? styles.menu : styles.disable}>
@@ -29,6 +29,11 @@ export default class Menu extends Component {
             </Link>
           </div>
           <div className={styles.item}>
+            <Link {...linkProps} to="/blog">
+              Blog
+            </Link>
+          </div>
+          <div className={styles.item}>
             <Link {...linkProps} to="/projects">
               Projects
             </Link>
@@ -40,6 +45,6 @@ export default class Menu extends Component {
           </div>
         </nav>
       </Fullscreen>
-    )
+    );
   }
 }

@@ -13,6 +13,7 @@
     "gatsby-remark-emoji": "^0.0.2",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
+    "react-anime": "^2.1.0",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
