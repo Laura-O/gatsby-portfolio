@@ -84,6 +84,13 @@ a {
   }
 }
 
+.animate {
+  background-color: firebrick;
+  width: 20px;
+  height: 20px;
+  z-index: 99;
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
