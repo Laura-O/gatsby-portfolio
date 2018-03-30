@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import anime from 'animejs';
+import StartAnimation from '../components/StartAnimation';
+import Fireworks from '../components/Fireworks';
 
 class IndexPage extends Component {
   componentDidMount() {
@@ -16,11 +18,9 @@ class IndexPage extends Component {
 
   render() {
     return (
-      <div>
-        <div className="animate" />
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <canvas />
+      <div className="container">
+        <StartAnimation />
+        <Fireworks />
       </div>
     );
   }

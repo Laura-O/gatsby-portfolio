@@ -1,14 +1,14 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
-import styles from './styles.module.scss'
+import styles from './styles.module.scss';
 
 const Project = ({ project }) => {
   const listItems = project.techs.map(tech => (
     <span className={styles.tag} key={tech}>
       {tech}
     </span>
-  ))
+  ));
 
   return (
     <div className={styles.project}>
@@ -21,7 +21,7 @@ const Project = ({ project }) => {
         <ul>{listItems}</ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
