@@ -1,43 +1,32 @@
 @import '../../scss/variables.scss';
 
+$colors: #fff, $redPurple, $yellow, $linkColor, $malachite;
+
+$max: 4;
+$stroke-step: 6%;
+$stroke-space: 1%;
+$stroke-time: 15s;
+$stroke-time-step: $stroke-time / $max;
+
 .text {
   fill: none;
   stroke-width: 4;
   stroke-linejoin: round;
-  stroke-dasharray: 70 330;
+  stroke-dasharray: $stroke-step
+    ($stroke-step * ($max - 1) + $stroke-space * $max);
   stroke-dashoffset: 0;
-  -webkit-animation: stroke 6s infinite linear;
-  animation: stroke 6s infinite linear;
-  font-size: 15em;
-}
+  -webkit-animation: stroke $stroke-time infinite linear;
+  animation: stroke $stroke-time infinite linear;
+  font-size: 10em;
 
-.text:nth-child(5n + 1) {
-  stroke: $redPurple;
-  -webkit-animation-delay: -1.2s;
-  animation-delay: -1.2s;
-}
-.text:nth-child(5n + 2) {
-  stroke: $yellow;
-  -webkit-animation-delay: -2.4s;
-  animation-delay: -2.4s;
-}
+  @for $item from 1 through $max {
+    $stroke-color: nth($colors, $item);
 
-.text:nth-child(5n + 3) {
-  stroke: $linkColor;
-  -webkit-animation-delay: -3.6s;
-  animation-delay: -3.6s;
-}
-
-.text:nth-child(5n + 4) {
-  stroke: #fff;
-  -webkit-animation-delay: -4.8s;
-  animation-delay: -4.8s;
-}
-
-.text:nth-child(5n + 5) {
-  stroke: $malachite;
-  -webkit-animation-delay: -6s;
-  animation-delay: -6s;
+    &:nth-child(5n + #{$item}) {
+      stroke: $stroke-color;
+      animation-delay: -$stroke-time-step * $item;
+    }
+  }
 }
 
 @-webkit-keyframes stroke {

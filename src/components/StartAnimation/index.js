@@ -9,7 +9,7 @@ class StartAnimation extends Component {
       <div>
         <svg viewBox="0 0 600 300">
           <symbol id="s-text">
-            <text textAnchor="middle" x="50%" y="50%" dy=".35em">
+            <text textAnchor="middle" x="20%" y="30%" dy=".35em">
               Hi!
             </text>
           </symbol>
