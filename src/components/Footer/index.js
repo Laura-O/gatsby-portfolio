@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <footer>
       <ul>
-        <li>bla</li>
+        <li>
+          <a href="/">bla</a>
+        </li>
       </ul>
     </footer>
   );

@@ -5,22 +5,28 @@ import StartAnimation from '../components/StartAnimation';
 import Fireworks from '../components/Fireworks';
 
 class IndexPage extends Component {
-  componentDidMount() {
-    anime({
-      targets: '.animate',
-      translateX: [{ value: 100, duration: 1200 }, { value: 0, duration: 800 }],
-      rotate: '1turn',
-      backgroundColor: '#000',
-      duration: 2000,
-      loop: true,
-    });
-  }
-
   render() {
     return (
       <div className="container">
         <StartAnimation />
         <Fireworks />
+        <div className="start-buttons">
+          <div className="start-button">
+            <Link to="/about">
+              <button className="pulse">About</button>
+            </Link>
+          </div>
+          <div className="start-button">
+            <Link to="/projects">
+              <button className="pulse">Projects</button>
+            </Link>
+          </div>
+          <div className="start-button">
+            <Link to="/blog">
+              <button className="pulse">Blog</button>
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }

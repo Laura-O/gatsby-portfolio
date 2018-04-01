@@ -27,6 +27,10 @@ $stroke-time-step: $stroke-time / $max;
       animation-delay: -$stroke-time-step * $item;
     }
   }
+
+  &:hover {
+    background-color: white;
+  }
 }
 
 @-webkit-keyframes stroke {
@@ -45,9 +49,4 @@ svg {
   position: absolute;
   width: 100%;
   height: 30%;
-}
-
-canvas {
-  width: 100%;
-  height: 100%;
 }

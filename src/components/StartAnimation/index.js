@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 class StartAnimation extends Component {
   render() {
     return (
-      <div>
+      <div className="hello">
         <svg viewBox="0 0 600 300">
           <symbol id="s-text">
             <text textAnchor="middle" x="20%" y="30%" dy=".35em">

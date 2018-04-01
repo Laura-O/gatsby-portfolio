@@ -43,6 +43,7 @@ a {
 }
 
 .page {
+  display: flex;
   padding: ($headerHeight + 2rem) 15px 15px 15px;
   min-height: 95vh;
   background-color: $background;
@@ -55,7 +56,6 @@ a {
 
 .container {
   width: 100%;
-  height: 100%;
 }
 
 .highlight-link {
@@ -71,6 +71,43 @@ a {
   &:hover {
     box-shadow: inset 0 -55px 0 0 $linkColor;
     color: white;
+  }
+}
+
+.about {
+  background-color: white;
+  width: 100%;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  z-index: 5;
+}
+
+.start-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: ($headerHeight + 20rem) 15px 15px 15px;
+
+  .pulse {
+    color: $linkColor;
+
+    &:hover,
+    &:focus {
+      animation: pulse 1s;
+      box-shadow: 0 0 0 1em rgba(#fff, 0);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 lighten($redPurple, 10);
+      }
+    }
   }
 }
 
@@ -100,13 +137,6 @@ a {
   }
 }
 
-.animate {
-  background-color: firebrick;
-  width: 20px;
-  height: 20px;
-  z-index: 99;
-}
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -133,4 +163,17 @@ a {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+.fireworks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  widows: 100%;
+  height: 80%;
+  pointer-events: none;
+}
+
+.click-material {
+  min-height: 100%;
 }

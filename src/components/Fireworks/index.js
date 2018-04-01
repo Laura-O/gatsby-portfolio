@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import anime from 'animejs';
+import styles from './styles.module.scss';
 
 export default class Fireworks extends Component {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class Fireworks extends Component {
   componentDidMount() {
     window.human = false;
 
-    var canvasEl = document.querySelector('.fireworks');
+    var canvasEl = document.querySelector('canvas');
     var ctx = canvasEl.getContext('2d');
     var numberOfParticules = 30;
     var pointerX = 0;
@@ -34,7 +35,7 @@ export default class Fireworks extends Component {
     }
 
     function setParticuleDirection(p) {
-      var angle = anime.random(0, 360) * Math.PI / 360;
+      var angle = anime.random(0, 360) * Math.PI / 180;
       var value = anime.random(30, 400);
       var radius = [-1, 1][anime.random(0, 1)] * value;
       return {

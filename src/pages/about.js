@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const AboutPage = () => (
-  <div className="container">
+  <div className="about">
     <h1>Hi people</h1>
     <Link className="highlight-link" to="/page-2/">
       Go to page 2
