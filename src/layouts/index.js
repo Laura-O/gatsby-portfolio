@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="outer-container">
     <Helmet
       title="Gatsby Default Starter"
       meta={[
@@ -17,7 +17,6 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
     <div className="page">{children()}</div>
-    <Footer />
   </div>
 );
 

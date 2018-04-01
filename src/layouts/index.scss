@@ -44,8 +44,8 @@ a {
 
 .page {
   display: flex;
-  padding: ($headerHeight + 2rem) 15px 15px 15px;
-  min-height: 95vh;
+  padding: ($headerHeight + 2rem) 0px 15px 0px;
+  min-height: 100vh;
   background-color: $background;
   color: #fff;
 }
@@ -75,8 +75,28 @@ a {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   width: 100%;
+
+  &-upper {
+    display: flex;
+    flex: 2;
+    height: 50%;
+    background-color: $redPurple;
+
+    &-left {
+      width: 50%;
+      background-color: white;
+    }
+  }
+
+  &-lower {
+    flex: 1;
+    height: 50%;
+    background-color: $linkColor;
+  }
 }
 
 button {
@@ -91,7 +111,7 @@ button {
 
 .start-buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: ($headerHeight + 20rem) 15px 15px 15px;
 
   .pulse {

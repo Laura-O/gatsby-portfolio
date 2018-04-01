@@ -3,10 +3,11 @@ import Link from 'gatsby-link';
 
 const AboutPage = () => (
   <div className="about">
-    <h1>Hi people</h1>
-    <Link className="highlight-link" to="/page-2/">
-      Go to page 2
-    </Link>
+    <div className="about-upper">
+      <div className="about-upper-left">left</div>
+      <div className="about-upper-right">right</div>
+    </div>
+    <div className="about-lower">bla</div>
   </div>
 );
 
