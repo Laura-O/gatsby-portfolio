@@ -1,5 +1,5 @@
 @import '../scss/variables.scss';
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lato|Fira+Mono');
 
 *,
 *:before,
@@ -47,7 +47,7 @@ a {
   justify-content: center;
   padding: ($headerHeight + 2rem) 0px 15px 0px;
   min-height: 100vh;
-  background-color: $background;
+  background-color: $darkBackground;
   color: #fff;
 }
 
@@ -87,15 +87,22 @@ a {
     display: flex;
     flex: 2;
     height: 50%;
-    background-color: $redPurple;
+    background-color: white;
+    color: black;
+    padding: 15px;
 
     &-left {
-      width: 50%;
+      flex: 1;
       background-color: white;
+    }
+    &-right {
+      flex: 1;
+      align-items: center;
     }
   }
 
   &-lower {
+    display: flex;
     flex: 1;
     height: 50%;
     background-color: $linkColor;
