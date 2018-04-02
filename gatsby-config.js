@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Laura Ohrndorf | Portfolio and Website',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [`gatsby-remark-emoji`],
+        plugins: [`gatsby-remark-emoji`, `gatsby-remark-prismjs`],
       },
     },
   ],

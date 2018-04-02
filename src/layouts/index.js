@@ -4,6 +4,8 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import 'prismjs/themes/prism-funky.css';
+
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (

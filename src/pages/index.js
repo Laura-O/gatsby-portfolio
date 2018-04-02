@@ -9,6 +9,9 @@ class IndexPage extends Component {
     return (
       <div className="container">
         <StartAnimation />
+        <div className="about-me">
+          I'm Laura, a full-stack developer based in Germany.
+        </div>
         <Fireworks />
         <div className="start-buttons">
           <div className="start-button">
