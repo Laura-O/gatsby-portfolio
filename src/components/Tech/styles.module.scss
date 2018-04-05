@@ -2,37 +2,58 @@
 
 .tech {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  border-top: 3px solid $redPurple;
+  z-index: inherit;
 }
 
 .techbox {
   margin: 10px;
-  border: 2px solid $redPurple;
   border-radius: 5px;
   padding: 5px;
-  width: 25%;
+  text-align: center;
 
   h1 {
-    font-size: 1.5em;
+    -webkit-transform: skew(-7deg) rotate(-7deg);
+    transform: skew(-7deg) rotate(-7deg);
+    font-size: 2em;
+    text-shadow: 0.3vmin 0.3vmin 0 lighten($malachite, 40);
   }
 }
 
 .tags {
   margin: 0;
   padding: 0;
-  list-style: none;
-  font-family: 'Fira Mono', monospace;
 
-  li,
-  a {
-    float: left;
-    height: 26px;
-    line-height: 24px;
-    position: relative;
+  li {
+    list-style-type: none;
     font-size: 1em;
     margin: 2px;
     z-index: 0;
+    text-align: center;
+    animation: fadeIn 0.2s linear;
+    animation-fill-mode: both;
+  }
+
+  @for $i from 1 through 10 {
+    li:nth-child(#{$i}) {
+      animation-delay: 0.1s * $i;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      top: 100px;
+    }
+    75% {
+      opacity: 0.5;
+      top: 0px;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

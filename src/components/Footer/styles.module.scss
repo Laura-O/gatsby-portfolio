@@ -6,19 +6,17 @@ footer {
   padding: 10px 30px 15px 30px;
   background-color: $darkBackground;
   color: $colorWhite;
-  height: 5vh;
+
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
 }
 
 .icon {
   width: 1.5em;
   height: 1.5em;
 }
-
-li {
-  display: inline-block;
-  margin: 5px;
-}
-
 .social {
   align-content: flex-end;
 }

@@ -10,5 +10,5 @@
 }
 
 .first {
-  margin-top: calc($headerHeight * -1);
+  composes: fullscreen;
 }

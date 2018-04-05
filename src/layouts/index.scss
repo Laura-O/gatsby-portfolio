@@ -78,6 +78,7 @@ a {
 .blog-posts,
 .contact {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: white;
   width: 100%;
@@ -87,27 +88,23 @@ a {
 .about {
   &-upper {
     display: flex;
-    flex: 2;
-    height: 50%;
+    flex: 1;
     background-color: white;
     color: $textColor;
     padding: 15px;
 
     &-left {
-      flex: 1;
       background-color: white;
     }
     &-right {
-      flex: 1;
       align-items: center;
     }
   }
 
   &-lower {
     display: flex;
-    flex: 1;
-    height: 50%;
-    background-color: $linkColor;
+
+    background-color: $yellow;
   }
 }
 
