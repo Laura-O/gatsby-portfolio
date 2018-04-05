@@ -6,6 +6,7 @@
   padding: 1.5rem;
   align-items: center;
   justify-content: center;
+  color: $textColor;
 }
 
 .left {
@@ -37,7 +38,7 @@
   border-radius: 5px;
   padding: 6px 15px;
   margin: 5px;
-  color: #000;
+  color: $textColor;
   transition: all 300ms ease-in-out;
   display: inline-block;
 

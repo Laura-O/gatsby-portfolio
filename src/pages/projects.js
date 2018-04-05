@@ -1,11 +1,11 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
-import Project from '../components/Project'
-import projects from '../assets/projects.json'
+import Project from '../components/Project';
+import projects from '../assets/projects.json';
 
 const ProjectsPage = () => (
-  <div>
+  <div className="projects">
     <h1>Projects</h1>
     {projects.map(project => (
       <div key={project.id}>
@@ -14,6 +14,6 @@ const ProjectsPage = () => (
       </div>
     ))}
   </div>
-)
+);
 
-export default ProjectsPage
+export default ProjectsPage;
