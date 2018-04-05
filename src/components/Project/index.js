@@ -13,7 +13,7 @@ const Project = ({ project }) => {
   return (
     <div className={styles.project}>
       <div className={styles.left}>
-        <img src={project.thumbnail} />
+        <img src={project.thumbnail} alt={project.name} />
       </div>
       <div className={styles.right}>
         <h3>{project.name}</h3>
