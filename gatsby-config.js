@@ -25,5 +25,6 @@ module.exports = {
         plugins: [`gatsby-remark-emoji`, `gatsby-remark-prismjs`],
       },
     },
+    `gatsby-plugin-netlify`,
   ],
 };

@@ -1,14 +1,15 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Laura Ohrndorf | Full-stack developer",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Laura Ohrndorf <laura.ohrndorf@gmail.com>",
   "dependencies": {
     "animejs": "^2.2.0",
     "classnames": "^2.2.5",
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-catch-links": "^1.0.19",
+    "gatsby-plugin-netlify": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-sass": "^1.0.21",
     "gatsby-remark-emoji": "^0.0.2",
@@ -20,7 +21,9 @@
     "react-anime": "^2.1.0",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
