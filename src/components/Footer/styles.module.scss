@@ -1,12 +1,24 @@
 @import '../../scss/variables.scss';
 
 footer {
-  background-color: black;
+  display: flex;
+  justify-content: flex-end;
   padding: 10px 30px 15px 30px;
-  background-color: white;
+  background-color: $darkBackground;
+  color: $colorWhite;
+  height: 5vh;
 }
 
 .icon {
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social {
+  align-content: flex-end;
 }

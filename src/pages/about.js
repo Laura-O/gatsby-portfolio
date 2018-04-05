@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Tech from '../components/Tech';
 import Bio from '../components/Bio';
+import Footer from '../components/Footer';
 
 const AboutPage = () => (
   <div className="about">
@@ -9,11 +10,12 @@ const AboutPage = () => (
       <div className="about-upper-left">
         <Bio />
       </div>
-      <div className="about-upper-right">
-        <Tech />
-      </div>
+      <div className="about-upper-right">bla</div>
     </div>
-    <div className="about-lower">bla</div>
+    <div className="about-lower">
+      <Tech />
+    </div>
+    <Footer />
   </div>
 );
 

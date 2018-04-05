@@ -2,8 +2,9 @@
 
 .tech {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .techbox {
@@ -11,6 +12,7 @@
   border: 2px solid $redPurple;
   border-radius: 5px;
   padding: 5px;
+  width: 25%;
 
   h1 {
     font-size: 1.5em;
@@ -31,42 +33,6 @@
     position: relative;
     font-size: 1em;
     margin: 2px;
-  }
-
-  a {
-    margin-left: 20px;
-    padding: 0 10px 0 12px;
-    background: $linkColor;
-    color: black;
-    text-decoration: none;
-    -moz-border-radius-bottomright: 3px;
-    -webkit-border-bottom-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    -moz-border-radius-topright: 3px;
-    -webkit-border-top-right-radius: 3px;
-    border-top-right-radius: 3px;
-  }
-
-  a:before {
-    content: '';
-    float: left;
-    position: absolute;
-    top: 0;
-    left: -12px;
-    width: 0;
-    height: 0;
-    border-color: transparent $linkColor transparent transparent;
-    border-style: solid;
-    border-width: 12px 12px 14px 0;
-  }
-  a:after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 0;
-    float: left;
-    width: 4px;
-    height: 4px;
-    background: #fff;
+    z-index: 0;
   }
 }
