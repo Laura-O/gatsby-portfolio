@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Contact from '../components/Contact';
 
 const ContactPage = () => (
-  <div>
+  <div className="contact">
     <Contact />
   </div>
 );
