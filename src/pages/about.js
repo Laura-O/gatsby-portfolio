@@ -10,10 +10,13 @@ const AboutPage = () => (
       <div className="about-upper-left">
         <Bio />
       </div>
-      <div className="about-upper-right">bla</div>
+      <div className="about-upper-right">
+        <Tech />
+      </div>
     </div>
     <div className="about-lower">
-      <Tech />
+      If you want to get in touch with me, please use the{' '}
+      <Link to="/contact">Contact form</Link>.
     </div>
     <Footer />
   </div>

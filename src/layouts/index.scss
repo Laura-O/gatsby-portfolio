@@ -141,7 +141,8 @@ table {
 
 html,
 body {
-  font-size: 16px;
+  font-size: 1em;
+  font-weight: 400;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -218,22 +219,35 @@ a {
 .about {
   &-upper {
     display: flex;
-    flex: 1;
+    flex: 2;
     background-color: white;
     color: $textColor;
-    padding: 15px;
 
     &-left {
+      flex: 2;
       background-color: white;
     }
     &-right {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
       align-items: center;
+      border-left: 3px solid $redPurple;
+      background-color: $yellow;
     }
   }
 
   &-lower {
     display: flex;
-    background-color: $yellow;
+    background-color: $darkBlue;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+
+    a {
+      color: $redPurple;
+      padding-left: 5px;
+    }
   }
 }
 
@@ -257,6 +271,7 @@ button {
   display: flex;
   justify-content: space-around;
   padding: 8rem 15px 15px 15px;
+  font-size: 1.25em;
 
   .pulse {
     color: $linkColor;

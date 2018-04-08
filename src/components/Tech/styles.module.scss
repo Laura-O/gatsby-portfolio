@@ -2,12 +2,12 @@
 
 .tech {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  border-top: 3px solid $redPurple;
   z-index: inherit;
   padding: 10px 15px;
+  background-color: $yellow;
 }
 
 .techbox {
@@ -17,10 +17,10 @@
   text-align: center;
 
   h1 {
-    -webkit-transform: skew(-7deg) rotate(-7deg);
-    transform: skew(-7deg) rotate(-7deg);
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);
     font-size: 2em;
-    text-shadow: 0.3vmin 0.3vmin 0 lighten($malachite, 40);
+    text-shadow: 0.3vmin 0.3vmin 0 lighten($redPurple, 30);
   }
 }
 

@@ -17,7 +17,7 @@ $stroke-time-step: $stroke-time / $max;
   stroke-dashoffset: 0;
   -webkit-animation: stroke $stroke-time infinite linear;
   animation: stroke $stroke-time infinite linear;
-  font-size: 10em;
+  font-size: 12em;
 
   @for $item from 1 through $max {
     $stroke-color: nth($colors, $item);

@@ -10,6 +10,7 @@ const Tech = ({ stack }) => {
 
   return (
     <div className={styles.tech}>
+      <h2>Skills</h2>
       <div className={styles.techbox}>
         <h1>Frontend</h1>
         <ul className={styles.tags}>
