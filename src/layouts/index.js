@@ -11,7 +11,7 @@ import './index.scss';
 const TemplateWrapper = ({ children }) => (
   <div className="outer-container">
     <Helmet
-      title="Gatsby Default Starter"
+      title="Laura Ohrndorf - Portfolio"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
