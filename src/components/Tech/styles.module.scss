@@ -8,6 +8,7 @@
   z-index: inherit;
   padding: 10px 15px;
   background-color: $yellow;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .techbox {
@@ -15,12 +16,16 @@
   border-radius: 5px;
   padding: 5px;
   text-align: center;
+  animation: moveInTop 1s ease-out;
 
   h1 {
-    -webkit-transform: skew(-5deg) rotate(-5deg);
-    transform: skew(-5deg) rotate(-5deg);
     font-size: 2em;
-    text-shadow: 0.3vmin 0.3vmin 0 lighten($redPurple, 30);
+    transition: all 0.5s ease;
+    animation: rotateHeading 1.5s ease-in;
+
+    &:hover {
+      text-shadow: 0.35vmin 0.35vmin 0 lighten($redPurple, 10);
+    }
   }
 }
 
@@ -34,27 +39,29 @@
     margin: 2px;
     z-index: 0;
     text-align: center;
-    animation: fadeIn 0.2s linear;
-    animation-fill-mode: both;
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
   }
 
-  @for $i from 1 through 10 {
-    li:nth-child(#{$i}) {
-      animation-delay: 0.1s * $i;
-    }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes rotateHeading {
+  0% {
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);
   }
 
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      top: 100px;
-    }
-    75% {
-      opacity: 0.5;
-      top: 0px;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: skew(0) rotate(0);
+    transform: skew(0) rotate(0);
   }
 }
