@@ -1,5 +1,5 @@
 @import '../scss/variables.scss';
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Titillium+Web|Work+Sans');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -146,19 +146,32 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+}
+
 h1 {
   line-height: 1.5;
   font-size: 3rem;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
   line-height: 1.2;
   font-size: 2rem;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h3 {
-  line-height: 1.2;
+  line-height: 1.1;
   font-size: 1.5rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
 }
 
 a {
@@ -207,13 +220,15 @@ a {
 .about,
 .projects,
 .blog-posts,
-.contact {
+.contact,
+.blog-post-wrapper {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   background-color: white;
   width: 100%;
   color: $textColor;
+  align-items: center;
 }
 
 .about {

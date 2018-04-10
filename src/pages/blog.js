@@ -2,22 +2,29 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-// import '../css/index.css'; // add some style if you want!
+import '../scss/blog.scss';
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div className="blog-posts">
+      <Helmet>
+        <title>{data.site.siteMetadata.title} • Blog</title>
+      </Helmet>
+
       {posts
         .filter(post => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
           return (
             <div className="blog-post-preview" key={post.id}>
-              <h1>
+              <h3 className="blog-title">
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </h1>
-              <h2>{post.frontmatter.date}</h2>
-              <p>{post.excerpt}</p>
+              </h3>
+              <small className="blog-date">{post.frontmatter.date}</small>
+              <div className="blog-excerpt">{post.frontmatter.excerpt}</div>
+              <div className="blog-time">
+                {post.frontmatter.timeToRead} mins
+              </div>
             </div>
           );
         })}
@@ -27,14 +34,20 @@ export default function Index({ data }) {
 
 export const pageQuery = graphql`
   query IndexQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 250)
           id
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+            excerpt
+            timeToRead
             path
           }
         }

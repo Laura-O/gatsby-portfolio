@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Laura Ohrndorf | Portfolio and Website',
+    description: 'My personal portfolio and blog',
+    siteUrl: 'https://www.laura.fyi',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -22,7 +24,19 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [`gatsby-remark-emoji`, `gatsby-remark-prismjs`],
+        plugins: [
+          `gatsby-remark-emoji`,
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              linkImagesToOriginal: false,
+              maxWidth: 590,
+            },
+          },
+        ],
       },
     },
     `gatsby-plugin-netlify`,

@@ -18,6 +18,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             excerpt(pruneLength: 250)
             html
             id
+            timeToRead
             frontmatter {
               date
               path
