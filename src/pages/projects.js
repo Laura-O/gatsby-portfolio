@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-
+import Footer from '../components/Footer';
 import Project from '../components/Project';
 import projects from '../assets/projects.json';
 
@@ -13,6 +13,7 @@ const ProjectsPage = () => (
         <div className="divider divider-transparent" />
       </div>
     ))}
+    <Footer />
   </div>
 );
 

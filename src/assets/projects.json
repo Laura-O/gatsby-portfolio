@@ -25,7 +25,7 @@
       "This is my portfolio website. Look around to see the features!",
     "techs": ["Vue.js", "firebase"],
     "image": "/projects/portfolio.png",
-    "thumbnail": "/projects/portfolio/portfolio_thumb.png"
+    "thumbnail": "/projects/portfolio_thumb.png"
   },
   {
     "id": 3,
@@ -35,7 +35,7 @@
       "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
     "techs": ["Express", "PostgreSQL", "Redis", "Handlebars", "JQuery"],
     "image": "/projects/landing_page.png",
-    "thumbnail": "/projects/petition/landing_page_thumb.png"
+    "thumbnail": "/projects/landing_page_thumb.png"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
       "This is an implementation of the classic Connect-4 game for 2 players.",
     "techs": ["JQuery", "CSS", "HTML"],
     "image": "/projects/connect-4.png",
-    "thumbnail": "/projects/connect-4/connect-4_thumb.png"
+    "thumbnail": "/projects/connect-4_thumb.png"
   },
   {
     "id": 5,
@@ -55,7 +55,7 @@
       "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
     "techs": ["React Native", "React Redux"],
     "image": "/projects/quiz_page.png",
-    "thumbnail": "/projects/mobile_flashcards/quiz_page_thumb.png"
+    "thumbnail": "/projects/quiz_page_thumb.png"
   },
   {
     "id": 6,
@@ -65,6 +65,6 @@
       "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
     "techs": ["D3.js", "R", "Bootstrap"],
     "image": "/projects/d3-stats.png",
-    "thumbnail": "/projects/d3_stats/d3-stats_thumb.png"
+    "thumbnail": "/projects/d3-stats_thumb.png"
   }
 ]
