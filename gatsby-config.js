@@ -26,7 +26,12 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-emoji`,
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              inlineCodeMarker: '±',
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           {

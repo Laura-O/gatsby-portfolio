@@ -1,9 +1,9 @@
 @import '../../scss/variables.scss';
 
-footer {
+.footer {
   display: flex;
-  justify-content: flex-end;
-  padding: 10px 30px 15px 30px;
+  width: 100%;
+  padding: 0px 30px 0px 30px;
   background-color: $darkBackground;
   color: $colorWhite;
 
@@ -11,12 +11,14 @@ footer {
     display: inline-block;
     margin: 5px;
   }
+
+  ul {
+    margin: 0.5em;
+  }
 }
 
 .icon {
-  width: 1.5em;
-  height: 1.5em;
-}
-.social {
-  align-content: flex-end;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
+import '../scss/blog.scss';
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -38,10 +40,10 @@ export default function Template({
           dangerouslySetInnerHTML={{ __html: html }}
         />
 
-        <div>
+        <div className="tag-wrapper">
           {frontmatter.tags.map((tag, index) => {
             return (
-              <div key={index} className="tags">
+              <div key={index} className="tag-single">
                 <Link to={`/tags/${tag}`}>{tag}</Link>
               </div>
             );

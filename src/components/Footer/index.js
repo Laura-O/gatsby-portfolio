@@ -8,7 +8,7 @@ import twitter from '../../assets/icons/twitter.svg';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className={styles.footer}>
       <div className={styles.social}>
         <ul className={styles.list}>
           <li>

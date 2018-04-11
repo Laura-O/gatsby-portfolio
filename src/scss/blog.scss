@@ -1,0 +1,158 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Titillium+Web|Work+Sans');
+
+em {
+  font-style: italic;
+}
+
+ul {
+  margin-left: 1.5em;
+  margin-top: 1em;
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+li {
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  margin: 1em 0 0.3em 0;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 0.8em 0 0.3em 0;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.blog-posts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+
+  .blog {
+    &-post-preview {
+      width: 80%;
+      border-bottom: 1px solid rgb(238, 238, 238);
+      padding: 0.5em 1em;
+      transition: all 0.5s ease-in-out;
+    }
+
+    &-title {
+      &:hover {
+        color: $redPurple;
+      }
+    }
+
+    &-date {
+      margin-bottom: 0.5em;
+      opacity: 0.8;
+    }
+
+    &-time {
+      text-align: right;
+      opacity: 0.6;
+      margin-bottom: 1.5em;
+    }
+
+    &-excerpt {
+      margin: 1em 0;
+    }
+  }
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  word-wrap: normal;
+  font-kerning: normal;
+  line-height: 1.5;
+
+  &-content {
+    margin: 10px 25px;
+  }
+
+  h3 {
+    margin: 0.2em 0 0.2em auto;
+    opacity: 0.8;
+  }
+
+  a {
+    text-decoration: none;
+    color: $textColor;
+    display: inline-block;
+    padding: 0px 3px;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: inset 0 -7px 0 $linkColor;
+
+    &:hover {
+      box-shadow: inset 0 -55px 0 0 $linkColor;
+      color: white;
+    }
+  }
+}
+
+.tag {
+  &-wrapper {
+    display: flex;
+  }
+  &-single {
+    border-radius: 5px;
+    padding: 4px 10px;
+    border: 1px solid #dee2e5;
+    background-color: #dee2e5;
+    transition: all 0.2s ease-in-out;
+    margin: 0 0.5em;
+    font-size: 1em;
+
+    &:hover {
+      color: #fff;
+      background-color: $yellow;
+    }
+
+    a {
+      box-shadow: none;
+
+      &:hover {
+        box-shadow: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+/**
+ * Add back the container background-color, border-radius, padding, margin
+ * and overflow that we removed from <pre>.
+ */
+.gatsby-highlight {
+  background-color: $darkBackground;
+  border-radius: 0.3em;
+  margin: 1em 0;
+  overflow: auto;
+}
+
+.gatsby-resp-image-wrapper {
+  margin: 1em 0 1.5em 0;
+}
