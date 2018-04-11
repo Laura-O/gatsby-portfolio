@@ -189,7 +189,7 @@ a {
 .page {
   display: flex;
   justify-content: center;
-  padding: ($headerHeight + 2rem) 0px 0px 0px;
+  padding: ($headerHeight + 1rem) 0px 0px 0px;
   min-height: 100vh;
   background-color: $darkBackground;
   color: #fff;

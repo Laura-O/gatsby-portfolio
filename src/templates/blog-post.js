@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 
 import '../scss/blog.scss';
@@ -9,6 +10,7 @@ export default function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
+  console.log(frontmatter.image);
 
   return (
     <div className="blog-post-wrapper">
@@ -32,9 +34,14 @@ export default function Template({
           content={frontmatter.description}
         />
       </Helmet>
+
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
         <h3>{frontmatter.date}</h3>
+        {frontmatter.image && (
+          <Img sizes={frontmatter.image.childImageSharp.sizes} />
+        )}
+
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -71,6 +78,13 @@ export const pageQuery = graphql`
         path
         title
         tags
+        image {
+          childImageSharp {
+            sizes(maxWidth: 800) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }

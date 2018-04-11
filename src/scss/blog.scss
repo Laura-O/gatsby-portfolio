@@ -91,6 +91,11 @@ p {
     margin: 10px 25px;
   }
 
+  h1 {
+    font-size: 2.5em;
+    margin: 0.2em 0 0.2em 0;
+  }
+
   h3 {
     margin: 0.2em 0 0.2em auto;
     opacity: 0.8;
@@ -155,4 +160,10 @@ p {
 
 .gatsby-resp-image-wrapper {
   margin: 1em 0 1.5em 0;
+}
+
+.gatsby-image-outer-wrapper {
+  width: 100%;
+  max-width: 600px;
+  align-items: center;
 }
