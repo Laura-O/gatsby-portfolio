@@ -8,7 +8,6 @@
   z-index: inherit;
   padding: 10px 15px;
   background-color: $yellow;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .techbox {
@@ -19,7 +18,6 @@
   animation: moveInTop 1s ease-out;
 
   h1 {
-    font-size: 2em;
     transition: all 0.5s ease;
     animation: rotateHeading 1.5s ease-in;
 
@@ -35,7 +33,6 @@
 
   li {
     list-style-type: none;
-    font-size: 1em;
     margin: 2px;
     z-index: 0;
     text-align: center;

@@ -16,6 +16,7 @@
     "gatsby-plugin-offline": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-sass": "^1.0.21",
+    "gatsby-plugin-typography": "^1.7.18",
     "gatsby-remark-copy-linked-files": "^1.5.31",
     "gatsby-remark-emoji": "^0.0.2",
     "gatsby-remark-images": "^1.5.60",
@@ -29,6 +30,9 @@
     "lodash.debounce": "^4.0.8",
     "react-anime": "^2.1.0",
     "react-helmet": "^5.2.0",
+    "typography": "^0.16.6",
+    "typography-theme-alton": "^0.15.10",
+    "typography-theme-fairy-gates": "^0.15.11",
     "update": "^0.7.4"
   },
   "keywords": [

@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 const Bio = () => {
   return (
     <div className={styles.bio}>
-      <div className={styles.headline}>About me</div>
+      <h3>About me</h3>
       <div className={styles.paragraph}>
         I started developing around 1996 when I maintained my very first website
         on

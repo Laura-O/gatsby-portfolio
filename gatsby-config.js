@@ -48,5 +48,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
   ],
 };
