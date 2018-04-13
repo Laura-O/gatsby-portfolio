@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header rendering 1`] = `
+<header>
+  <div
+    onClick={[Function]}
+  >
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+  <Menu
+    active={false}
+    toggleNav={[Function]}
+  />
+</header>
+`;

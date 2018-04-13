@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<div
+  className="hello"
+>
+  <svg
+    viewBox="0 0 600 300"
+  >
+    <symbol
+      id="s-text"
+    >
+      <text
+        dy=".45em"
+        textAnchor="left"
+        x="15%"
+        y="25%"
+      >
+        Hi!
+      </text>
+    </symbol>
+    <use
+      xlinkHref="#s-text"
+    />
+    <use
+      xlinkHref="#s-text"
+    />
+    <use
+      xlinkHref="#s-text"
+    />
+    <use
+      xlinkHref="#s-text"
+    />
+    <use
+      xlinkHref="#s-text"
+    />
+  </svg>
+</div>
+`;

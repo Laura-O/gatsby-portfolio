@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contactform rendering 1`] = `
+<div>
+  <h1>
+    Contact
+  </h1>
+  <form
+    action="/thanks/"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    method="post"
+    name="contact"
+    onSubmit={[Function]}
+  >
+    <p
+      hidden={true}
+    >
+      <label>
+        Don’t fill this out: 
+        <input
+          name="bot-field"
+        />
+      </label>
+    </p>
+    <p>
+      <label>
+        Your name:
+        <br />
+        <input
+          name="name"
+          onChange={[Function]}
+          type="text"
+        />
+      </label>
+    </p>
+    <p>
+      <label>
+        Your email:
+        <br />
+        <input
+          name="email"
+          onChange={[Function]}
+          type="email"
+        />
+      </label>
+    </p>
+    <p>
+      <label>
+        Message:
+        <br />
+        <textarea
+          name="message"
+          onChange={[Function]}
+        />
+      </label>
+    </p>
+    <p>
+      <button
+        type="submit"
+      >
+        Send
+      </button>
+    </p>
+  </form>
+</div>
+`;

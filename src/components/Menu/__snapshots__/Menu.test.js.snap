@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<Fullscreen>
+  <nav>
+    <div>
+      <GatsbyLink
+        to="/"
+      >
+        Home
+      </GatsbyLink>
+    </div>
+    <div>
+      <GatsbyLink
+        to="/about"
+      >
+        About
+      </GatsbyLink>
+    </div>
+    <div>
+      <GatsbyLink
+        to="/blog"
+      >
+        Blog
+      </GatsbyLink>
+    </div>
+    <div>
+      <GatsbyLink
+        to="/projects"
+      >
+        Projects
+      </GatsbyLink>
+    </div>
+    <div>
+      <GatsbyLink
+        to="/contact"
+      >
+        Contact
+      </GatsbyLink>
+    </div>
+  </nav>
+</Fullscreen>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<div>
+  <div>
+    <img
+      alt="TodoTron 3000"
+      src="/projects/todotron_thumb.png"
+    />
+  </div>
+  <div>
+    <h3>
+      TodoTron 3000
+    </h3>
+    <div>
+      Productivity timer for todo.txt
+    </div>
+    <ul>
+      <span
+        key="Electron"
+      >
+        Electron
+      </span>
+      <span
+        key="Vue.js"
+      >
+        Vue.js
+      </span>
+      <span
+        key="Vuex"
+      >
+        Vuex
+      </span>
+    </ul>
+  </div>
+</div>
+`;

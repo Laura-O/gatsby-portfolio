@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<Fireworks>
+  <canvas
+    className="fireworks"
+  />
+</Fireworks>
+`;
