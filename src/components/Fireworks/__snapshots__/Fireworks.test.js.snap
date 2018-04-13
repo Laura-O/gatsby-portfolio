@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`rendering 1`] = `
-<Fireworks>
+exports[`make fireworks rendering 1`] = `
+<Fireworks
+  width=""
+>
   <canvas
     className="fireworks"
   />

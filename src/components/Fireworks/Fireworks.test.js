@@ -3,7 +3,9 @@ import { mount } from 'enzyme';
 import Fireworks from './Fireworks';
 import 'jest-canvas-mock';
 
-test('rendering', () => {
-  const wrapper = mount(<Fireworks />);
-  expect(wrapper).toMatchSnapshot();
+describe('make fireworks', () => {
+  test('rendering', () => {
+    const component = mount(<Fireworks width="" />);
+    expect(component).toMatchSnapshot();
+  });
 });

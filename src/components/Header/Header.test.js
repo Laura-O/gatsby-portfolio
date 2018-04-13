@@ -1,6 +1,7 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import Header from './Header';
+import Menu from '../Menu/Menu';
 
 describe('header', () => {
   let wrapper;
@@ -19,5 +20,12 @@ describe('header', () => {
     wrapper.setState({ menuActive: false });
     instance.handleKeyPress({ keyCode: 27 });
     expect(wrapper.state().menuActive).toBe(true);
+  });
+
+  test('click', () => {
+    const instance = wrapper.instance();
+    wrapper.setState({ menuActive: true });
+    wrapper.find('div').simulate('click');
+    expect(wrapper.state().menuActive).toBe(false);
   });
 });
