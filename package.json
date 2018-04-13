@@ -28,7 +28,9 @@
     "hast-to-hyperscript": "git://github.com/lfittl/hast-to-hyperscript.git",
     "lodash": "^4.17.5",
     "lodash.debounce": "^4.0.8",
+    "react": "^16.3.1",
     "react-anime": "^2.1.0",
+    "react-dom": "^16.3.1",
     "react-helmet": "^5.2.0",
     "typography": "^0.16.6",
     "typography-theme-alton": "^0.15.10",
@@ -44,13 +46,19 @@
     "develop": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
     "eslint": "^4.18.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
     "prettier": "^1.11.1"
   }
 }
