@@ -10,8 +10,6 @@ export default function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
-  console.log(frontmatter.image);
-
   return (
     <div className="blog-post-wrapper">
       <Helmet>
@@ -71,7 +69,6 @@ export const pageQuery = graphql`
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
-      excerpt
       timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")

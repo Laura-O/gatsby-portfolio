@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog no tags 1`] = `""`;
+
+exports[`blog two tags 1`] = `
+<div>
+  <ul>
+    <li
+      key="tag1"
+    >
+      <GatsbyLink
+        to="/tags/tag1"
+      >
+        tag1
+      </GatsbyLink>
+    </li>
+    <li
+      key="tag2"
+    >
+      <GatsbyLink
+        to="/tags/tag2"
+      >
+        tag2
+      </GatsbyLink>
+    </li>
+  </ul>
+</div>
+`;

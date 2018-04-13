@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog 1 tag 1`] = `
+<div>
+  <h1>
+    1 post tagged with "tag1"
+  </h1>
+  <ul>
+    <li
+      key="path"
+    >
+      <GatsbyLink
+        to="path"
+      >
+        title
+      </GatsbyLink>
+    </li>
+  </ul>
+  <GatsbyLink
+    to="/tags"
+  >
+    All tags
+  </GatsbyLink>
+</div>
+`;
+
+exports[`blog 2 tags 1`] = `
+<div>
+  <h1>
+    2 posts tagged with "tag1"
+  </h1>
+  <ul>
+    <li
+      key="path"
+    >
+      <GatsbyLink
+        to="path"
+      >
+        title
+      </GatsbyLink>
+    </li>
+  </ul>
+  <GatsbyLink
+    to="/tags"
+  >
+    All tags
+  </GatsbyLink>
+</div>
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog rendering 1`] = `
+<div
+  className="blog-post-wrapper"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      title
+       • 
+      title
+    </title>
+    <meta
+      name="description"
+    />
+    <meta
+      content="@lowmess"
+      name="twitter:site"
+    />
+    <meta
+      content="summary"
+      name="twitter:card"
+    />
+    <meta
+      content="title"
+      property="og:site_name"
+    />
+    <meta
+      content="title"
+      name="twitter:title"
+      property="og:title"
+    />
+    <meta
+      content="undefined"
+      property="og:url"
+    />
+    <meta
+      name="twitter:description"
+      property="og:description"
+    />
+  </HelmetWrapper>
+  <div
+    className="blog-post"
+  >
+    <h1>
+      title
+    </h1>
+    <h3>
+      date
+    </h3>
+    <Image
+      Tag="div"
+      alt=""
+      fadeIn={true}
+    />
+    <div
+      className="blog-post-content"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+    <div
+      className="tag-wrapper"
+    >
+      <div
+        className="tag-single"
+        key="0"
+      >
+        <GatsbyLink
+          to="/tags/tag1"
+        >
+          tag1
+        </GatsbyLink>
+      </div>
+      <div
+        className="tag-single"
+        key="1"
+      >
+        <GatsbyLink
+          to="/tags/tag2"
+        >
+          tag2
+        </GatsbyLink>
+      </div>
+    </div>
+  </div>
+</div>
+`;

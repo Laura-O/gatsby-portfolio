@@ -20,7 +20,7 @@ exports[`rendering 1`] = `
         >
           test1
            (
-          2
+          1
           )
         </GatsbyLink>
       </li>

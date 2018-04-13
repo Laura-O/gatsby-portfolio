@@ -48,7 +48,7 @@ exports[`blog rendering 1`] = `
       fadeIn={true}
       sizes={
         Object {
-          "sizes": "something",
+          "sizes": "image",
         }
       }
     />
