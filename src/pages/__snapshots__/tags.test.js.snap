@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="title"
+  />
+  <div>
+    <h1>
+      Tags
+    </h1>
+    <ul>
+      <li
+        key="test1"
+      >
+        <GatsbyLink
+          to="/tags/test-1/"
+        >
+          test1
+           (
+          2
+          )
+        </GatsbyLink>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

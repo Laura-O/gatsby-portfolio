@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blog no post 1`] = `
+<div
+  className="blog-posts"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      title
+       • Blog
+    </title>
+  </HelmetWrapper>
+</div>
+`;
+
+exports[`blog rendering 1`] = `
+<div
+  className="blog-posts"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      title
+       • Blog
+    </title>
+  </HelmetWrapper>
+  <div
+    className="blog-post-preview"
+    key="id"
+  >
+    <h3
+      className="blog-title"
+    >
+      <GatsbyLink
+        to="path"
+      >
+        title
+      </GatsbyLink>
+    </h3>
+    <Image
+      Tag="div"
+      alt=""
+      fadeIn={true}
+      sizes={
+        Object {
+          "sizes": "something",
+        }
+      }
+    />
+    <small
+      className="blog-date"
+    >
+      date
+    </small>
+    <div
+      className="blog-excerpt"
+    >
+      excerpt
+    </div>
+    <div
+      className="blog-time"
+    >
+      10
+       mins
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<div
+  className="about"
+>
+  <div
+    className="about-upper"
+  >
+    <div
+      className="about-upper-left"
+    >
+      <Bio />
+    </div>
+    <div
+      className="about-upper-right"
+    >
+      <Tech />
+    </div>
+  </div>
+  <div
+    className="about-lower"
+  >
+    If you want to get in touch with me, please use the
+     
+    <GatsbyLink
+      to="/contact"
+    >
+      Contact form
+    </GatsbyLink>
+    .
+  </div>
+  <Footer />
+</div>
+`;

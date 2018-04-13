@@ -16,7 +16,6 @@ export default function Index({ data }) {
       {posts
         .filter(post => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
-          console.log(post.frontmatter.image);
           return (
             <div className="blog-post-preview" key={post.id}>
               <h3 className="blog-title">

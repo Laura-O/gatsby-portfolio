@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<div
+  className="container"
+>
+  <StartAnimation />
+  <div
+    className="about-me"
+  >
+    I'm Laura, a full-stack developer based in Germany.
+  </div>
+  <Fireworks />
+  <div
+    className="start-buttons"
+  >
+    <div
+      className="start-button"
+    >
+      <GatsbyLink
+        to="/about"
+      >
+        <button
+          className="pulse"
+        >
+          About
+        </button>
+      </GatsbyLink>
+    </div>
+    <div
+      className="start-button"
+    >
+      <GatsbyLink
+        to="/projects"
+      >
+        <button
+          className="pulse"
+        >
+          Projects
+        </button>
+      </GatsbyLink>
+    </div>
+    <div
+      className="start-button"
+    >
+      <GatsbyLink
+        to="/blog"
+      >
+        <button
+          className="pulse"
+        >
+          Blog
+        </button>
+      </GatsbyLink>
+    </div>
+  </div>
+</div>
+`;
