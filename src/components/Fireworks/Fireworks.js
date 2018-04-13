@@ -5,12 +5,13 @@ import styles from './styles.module.scss';
 export default class Fireworks extends Component {
   constructor(props) {
     super(props);
+    this.canvas = React.createRef();
   }
 
   componentDidMount() {
     window.human = false;
 
-    var canvasEl = document.querySelector('canvas');
+    const canvasEl = this.canvas.current;
     var ctx = canvasEl.getContext('2d');
     var numberOfParticules = 30;
     var pointerX = 0;
@@ -112,6 +113,6 @@ export default class Fireworks extends Component {
   }
 
   render() {
-    return <canvas className="fireworks" />;
+    return <canvas className="fireworks" ref={this.canvas} />;
   }
 }
