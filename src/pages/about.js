@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Tech from '../components/Tech';
-import Bio from '../components/Bio';
-import Footer from '../components/Footer';
+import Tech from '../components/Tech/Tech';
+import Bio from '../components/Bio/Bio';
+import Footer from '../components/Footer/Footer';
 
 const AboutPage = () => (
   <div className="about">

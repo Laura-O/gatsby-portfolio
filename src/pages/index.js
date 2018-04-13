@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import anime from 'animejs';
-import StartAnimation from '../components/StartAnimation';
-import Fireworks from '../components/Fireworks';
+import StartAnimation from '../components/StartAnimation/StartAnimation';
+import Fireworks from '../components/Fireworks/Fireworks';
 
 class IndexPage extends Component {
   render() {

@@ -1,36 +1,36 @@
-import React, { Component } from 'react'
-import Link from 'gatsby-link'
-import classNames from 'classnames'
-import Menu from '../Menu'
-import styles from './styles.module.scss'
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+import classNames from 'classnames';
+import Menu from '../Menu/Menu';
+import styles from './styles.module.scss';
 
 export default class Header extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       menuActive: false,
-    }
+    };
 
-    this.toggleMenu = this.toggleMenu.bind(this)
-    this.handleKeyPress = this.handleKeyPress.bind(this)
+    this.toggleMenu = this.toggleMenu.bind(this);
+    this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
   componentDidMount() {
-    document.addEventListener('keydown', this.handleKeyPress)
+    document.addEventListener('keydown', this.handleKeyPress);
   }
 
   toggleMenu() {
-    this.setState({ menuActive: !this.state.menuActive })
+    this.setState({ menuActive: !this.state.menuActive });
   }
 
   handleKeyPress(event) {
     if (event.keyCode === 27) {
-      this.toggleMenu(false)
+      this.toggleMenu(false);
     }
   }
   render() {
-    const { menuActive } = this.state
-    const barStyle = this.state.menuActive ? 'animate' : ''
+    const { menuActive } = this.state;
+    const barStyle = this.state.menuActive ? 'animate' : '';
 
     return (
       <header className={styles.header}>
@@ -45,6 +45,6 @@ export default class Header extends Component {
         </div>
         <Menu toggleNav={() => this.toggleMenu()} active={menuActive} />
       </header>
-    )
+    );
   }
 }

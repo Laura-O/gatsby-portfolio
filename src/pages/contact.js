@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Contact from '../components/Contact';
+import Contact from '../components/Contact/Contact';
 
 const ContactPage = () => (
   <div className="contact">

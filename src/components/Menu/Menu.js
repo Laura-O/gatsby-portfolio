@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
-import Fullscreen from '../Fullscreen';
+import Fullscreen from '../Fullscreen/Fullscreen';
 
 import styles from './styles.module.scss';
 
