@@ -64,8 +64,8 @@ a {
   justify-content: center;
   padding: ($headerHeight + 1rem) 0px 0px 0px;
   min-height: 100vh;
-  background-color: $colorWhite;
-  color: $colorBlack;
+  background-color: $colorBlack;
+  color: $colorWhite;
 }
 
 .container {
@@ -91,7 +91,7 @@ a {
 }
 
 .about,
-.projects,
+.project-page,
 .blog-posts,
 .contact,
 .blog-post-wrapper,

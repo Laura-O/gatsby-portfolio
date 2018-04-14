@@ -5,7 +5,7 @@ import Project from '../components/Project/Project';
 import projects from '../assets/projects.json';
 
 const ProjectsPage = () => (
-  <div className="projects">
+  <div className="project-page">
     <h1>Projects</h1>
     {projects.map(project => (
       <div key={project.id}>

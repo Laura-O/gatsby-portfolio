@@ -7,7 +7,7 @@ import Fireworks from '../components/Fireworks/Fireworks';
 class IndexPage extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="start">
         <StartAnimation />
         <div className="about-me">
           I'm Laura, a full-stack developer based in Germany.
