@@ -8,8 +8,19 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-manifest`,
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Laura Ohrndorf | Full-stack developer',
+        short_name: 'Laura Ohrndorf',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#dc0073',
+        display: 'minimal-ui',
+        icon: 'src/assets/icons/icon.png',
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
