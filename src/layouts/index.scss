@@ -64,8 +64,8 @@ a {
   justify-content: center;
   padding: ($headerHeight + 1rem) 0px 0px 0px;
   min-height: 100vh;
-  background-color: $darkBackground;
-  color: #fff;
+  background-color: $colorWhite;
+  color: $colorBlack;
 }
 
 .container {
@@ -94,7 +94,8 @@ a {
 .projects,
 .blog-posts,
 .contact,
-.blog-post-wrapper {
+.blog-post-wrapper,
+.legal {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -102,6 +103,16 @@ a {
   width: 100%;
   color: $textColor;
   align-items: center;
+}
+
+.legal {
+  margin: 1em;
+  width: 80%;
+  align-items: flex-start;
+
+  div {
+    margin-bottom: 3em;
+  }
 }
 
 .about {

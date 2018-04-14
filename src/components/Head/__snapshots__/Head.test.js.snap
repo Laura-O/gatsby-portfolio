@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+  meta={
+    Array [
+      Object {
+        "content": "Sample",
+        "name": "description",
+      },
+      Object {
+        "content": "portfolio, something",
+        "name": "keywords",
+      },
+    ]
+  }
+  title="Laura Ohrndorf - Portfolio"
+>
+  <meta
+    content="@laura-fyi"
+    name="twitter:site"
+  />
+  <meta
+    content="website"
+    name="og:type"
+  />
+  <meta
+    content="Laura Ohrndorf"
+    name="og:site_name"
+  />
+  <html
+    lang="en"
+  />
+</HelmetWrapper>
+`;

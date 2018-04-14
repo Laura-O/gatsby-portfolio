@@ -4,23 +4,7 @@ exports[`rendering 1`] = `
 <div
   className="outer-container"
 >
-  <HelmetWrapper
-    defer={true}
-    encodeSpecialCharacters={true}
-    meta={
-      Array [
-        Object {
-          "content": "Sample",
-          "name": "description",
-        },
-        Object {
-          "content": "sample, something",
-          "name": "keywords",
-        },
-      ]
-    }
-    title="Laura Ohrndorf - Portfolio"
-  />
+  <Head />
   <Header />
   <div
     className="page"
