@@ -52,21 +52,23 @@ exports[`blog rendering 1`] = `
         }
       }
     />
-    <small
-      className="blog-date"
+    <div
+      className="blog-post-infos"
     >
-      date
-    </small>
+      <small
+        className="blog-date"
+      >
+        date
+      </small>
+      <small>
+        10
+         mins
+      </small>
+    </div>
     <div
       className="blog-excerpt"
     >
       excerpt
-    </div>
-    <div
-      className="blog-time"
-    >
-      10
-       mins
     </div>
   </div>
 </div>

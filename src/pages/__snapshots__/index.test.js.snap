@@ -2,7 +2,7 @@
 
 exports[`rendering 1`] = `
 <div
-  className="container"
+  className="start"
 >
   <StartAnimation />
   <div

@@ -20,6 +20,8 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  background-color: $colorWhite;
+  color: $colorBlack;
 
   .blog {
     &-post-preview {

@@ -6,9 +6,9 @@ exports[`rendering 1`] = `
     Skills
   </h2>
   <div>
-    <h1>
+    <h3>
       Frontend
-    </h1>
+    </h3>
     <ul>
       <li
         key="React"
@@ -43,9 +43,9 @@ exports[`rendering 1`] = `
     </ul>
   </div>
   <div>
-    <h1>
+    <h3>
       Backend
-    </h1>
+    </h3>
     <ul>
       <li
         key="Node"
@@ -65,9 +65,9 @@ exports[`rendering 1`] = `
     </ul>
   </div>
   <div>
-    <h1>
+    <h3>
       Other
-    </h1>
+    </h3>
     <ul>
       <li
         key="Git"

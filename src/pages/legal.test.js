@@ -1,8 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Credits from './Credits';
+
+import LegalPage from './legal';
 
 test('rendering', () => {
-  const wrapper = shallow(<Credits path="/something" />);
+  const wrapper = shallow(<LegalPage />);
   expect(wrapper).toMatchSnapshot();
 });

@@ -2,7 +2,7 @@
 
 exports[`rendering 1`] = `
 <div
-  className="projects"
+  className="project-page"
 >
   <h1>
     Projects
