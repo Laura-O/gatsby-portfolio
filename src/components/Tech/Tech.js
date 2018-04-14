@@ -12,19 +12,19 @@ const Tech = ({ stack }) => {
     <div className={styles.tech}>
       <h2>Skills</h2>
       <div className={styles.techbox}>
-        <h1>Frontend</h1>
+        <h3>Frontend</h3>
         <ul className={styles.tags}>
           {frontEnd.map(tech => <li key={tech}>{tech}</li>)}
         </ul>
       </div>
       <div className={styles.techbox}>
-        <h1>Backend</h1>
+        <h3>Backend</h3>
         <ul className={styles.tags}>
           {backEnd.map(tech => <li key={tech}>{tech}</li>)}
         </ul>
       </div>
       <div className={styles.techbox}>
-        <h1>Other</h1>
+        <h3>Other</h3>
         <ul className={styles.tags}>
           {other.map(tech => <li key={tech}>{tech}</li>)}
         </ul>

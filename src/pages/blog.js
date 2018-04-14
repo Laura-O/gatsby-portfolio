@@ -25,12 +25,12 @@ export default function Index({ data }) {
               {post.frontmatter.image && (
                 <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
               )}
-
-              <small className="blog-date">{post.frontmatter.date}</small>
-              <div className="blog-excerpt">{post.frontmatter.excerpt}</div>
-              <div className="blog-time">
-                {post.frontmatter.timeToRead} mins
+              <div className="blog-post-infos">
+                <small className="blog-date">{post.frontmatter.date}</small>
+                <small>{post.frontmatter.timeToRead} mins</small>
               </div>
+
+              <div className="blog-excerpt">{post.frontmatter.excerpt}</div>
             </div>
           );
         })}

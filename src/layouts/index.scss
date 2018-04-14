@@ -82,7 +82,7 @@ a {
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
   text-decoration: none;
-  box-shadow: inset 0 -7px 0 $linkColor;
+  box-shadow: inset 0 -4px 0 $linkColor;
 
   &:hover {
     box-shadow: inset 0 -55px 0 0 $linkColor;
@@ -125,6 +125,7 @@ a {
     &-left {
       flex: 2;
       background-color: white;
+      padding: 1em;
     }
     &-right {
       display: flex;
@@ -133,6 +134,7 @@ a {
       align-items: center;
       border-left: 3px solid $redPurple;
       background-color: $yellow;
+      padding: 1em;
     }
   }
 
