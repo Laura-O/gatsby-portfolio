@@ -28,6 +28,11 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+      <div className={styles.legal}>
+        <small>
+          <a href="/legal">Legal notice</a>
+        </small>
+      </div>
     </footer>
   );
 };
