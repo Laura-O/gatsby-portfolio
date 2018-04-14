@@ -9,7 +9,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-manifest`,
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
