@@ -16,7 +16,7 @@ const PageWrapper = styled.div`
   justify-content: center;
   padding: 5.8rem 0px 0px 0px;
   min-height: 100vh;
-  background-color: ${constants.colorBlack};
+  background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};
 `;
 

@@ -1,37 +1,77 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`rendering 1`] = `
-<HelmetWrapper
-  defer={true}
-  encodeSpecialCharacters={true}
-  meta={
-    Array [
-      Object {
-        "content": "Sample",
-        "name": "description",
-      },
-      Object {
-        "content": "portfolio, something",
-        "name": "keywords",
-      },
-    ]
-  }
-  title="Laura Ohrndorf - Portfolio"
->
-  <meta
-    content="@laura-fyi"
-    name="twitter:site"
-  />
-  <meta
-    content="website"
-    name="og:type"
-  />
-  <meta
-    content="Laura Ohrndorf"
-    name="og:site_name"
-  />
-  <html
-    lang="en"
-  />
-</HelmetWrapper>
+exports[`head rendering 1`] = `
+<Head>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Sample",
+          "name": "description",
+        },
+        Object {
+          "content": "portfolio, something",
+          "name": "keywords",
+        },
+      ]
+    }
+    title="Laura Ohrndorf - Portfolio"
+  >
+    <SideEffect(NullComponent)
+      defer={true}
+      encodeSpecialCharacters={true}
+      htmlAttributes={
+        Object {
+          "lang": "en",
+        }
+      }
+      meta={
+        Array [
+          Object {
+            "content": "@laura-fyi",
+            "name": "twitter:site",
+          },
+          Object {
+            "content": "website",
+            "name": "og:type",
+          },
+          Object {
+            "content": "Laura Ohrndorf",
+            "name": "og:site_name",
+          },
+        ]
+      }
+      title="Laura Ohrndorf - Portfolio"
+    >
+      <NullComponent
+        defer={true}
+        encodeSpecialCharacters={true}
+        htmlAttributes={
+          Object {
+            "lang": "en",
+          }
+        }
+        meta={
+          Array [
+            Object {
+              "content": "@laura-fyi",
+              "name": "twitter:site",
+            },
+            Object {
+              "content": "website",
+              "name": "og:type",
+            },
+            Object {
+              "content": "Laura Ohrndorf",
+              "name": "og:site_name",
+            },
+          ]
+        }
+        title="Laura Ohrndorf - Portfolio"
+      />
+    </SideEffect(NullComponent)>
+  </HelmetWrapper>
+</Head>
 `;

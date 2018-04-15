@@ -1,3 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`rendering 1`] = `<styled.div />`;
+exports[`fullscreen mode active 1`] = `
+<Fullscreen
+  active={true}
+>
+  <styled.div
+    active={true}
+  >
+    <div
+      className="sc-bdVaJa jcHNws"
+    />
+  </styled.div>
+</Fullscreen>
+`;
+
+exports[`fullscreen mode active 2`] = `
+<Fullscreen
+  active={false}
+>
+  <styled.div
+    active={false}
+  >
+    <div
+      className="sc-bdVaJa hxjTWr"
+    />
+  </styled.div>
+</Fullscreen>
+`;

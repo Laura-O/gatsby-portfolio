@@ -1,8 +1,16 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import Head from './Head';
 
-test('rendering', () => {
-  const wrapper = shallow(<Head path="/something" />);
-  expect(wrapper).toMatchSnapshot();
+describe('head', () => {
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = mount(<Head />);
+    expect(wrapper.length).toBe(1);
+  });
+
+  test('rendering', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
 });

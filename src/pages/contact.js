@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Contact from '../components/Contact/Contact';
 import Credits from '../components/Credits/Credits';
-import Wrapper from '../layouts/shared/pagewrapper';
+import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
 
 const ContactWrapper = Wrapper.extend`

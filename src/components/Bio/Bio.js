@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import classNames from 'classnames';
 import styled from 'styled-components';
 
-import HighlightLink from '../../layouts/shared/link';
+import HighlightLink from '../../layouts/shared/Link';
 
 const BioWrapper = styled.div`
   margin: 10px;

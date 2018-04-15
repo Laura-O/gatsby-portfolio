@@ -1,5 +1,5 @@
 import React from 'react';
-import Wrapper from '../layouts/shared/pagewrapper';
+import Wrapper from '../layouts/shared/Pagewrapper';
 
 const LegalPage = () => (
   <div>

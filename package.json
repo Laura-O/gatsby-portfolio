@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "portfolio",
   "description": "Laura Ohrndorf | Full-stack developer",
   "version": "1.0.0",
   "author": "Laura Ohrndorf <laura.ohrndorf@gmail.com>",
@@ -25,7 +25,6 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.39",
     "gatsby-transformer-sharp": "^1.6.22",
-    "hast-to-hyperscript": "git://github.com/lfittl/hast-to-hyperscript.git",
     "lodash": "^4.17.5",
     "lodash.debounce": "^4.0.8",
     "react": "^16.3.1",
@@ -39,7 +38,7 @@
     "update": "^0.7.4"
   },
   "keywords": [
-    "gatsby"
+    "portfolio"
   ],
   "license": "MIT",
   "scripts": {
