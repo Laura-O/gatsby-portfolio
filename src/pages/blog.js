@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
@@ -52,33 +52,37 @@ const Infos = styled.div`
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <BlogWrapper>
-      <Helmet>
-        <title>{data.site.siteMetadata.title} • Blog</title>
-      </Helmet>
+    <Fragment>
+      <BlogWrapper>
+        <Helmet>
+          <title>{data.site.siteMetadata.title} • Blog</title>
+        </Helmet>
 
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <Preview key={post.id}>
-              <Title>
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </Title>
+        {posts
+          .filter(post => post.node.frontmatter.title.length > 0)
+          .map(({ node: post }) => {
+            return (
+              <Preview key={post.id}>
+                <Title>
+                  <Link to={post.frontmatter.path}>
+                    {post.frontmatter.title}
+                  </Link>
+                </Title>
 
-              {post.frontmatter.image && (
-                <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
-              )}
-              <Infos>
-                <small>{post.frontmatter.date}</small>
-                <small>{post.frontmatter.timeToRead} mins</small>
-              </Infos>
+                {post.frontmatter.image && (
+                  <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
+                )}
+                <Infos>
+                  <small>{post.frontmatter.date}</small>
+                  <small>{post.frontmatter.timeToRead} mins</small>
+                </Infos>
 
-              <Excerpt>{post.frontmatter.excerpt}</Excerpt>
-            </Preview>
-          );
-        })}
-    </BlogWrapper>
+                <Excerpt>{post.frontmatter.excerpt}</Excerpt>
+              </Preview>
+            );
+          })}
+      </BlogWrapper>
+    </Fragment>
   );
 }
 

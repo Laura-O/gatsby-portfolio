@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Link from 'gatsby-link';
 
 import Tag from '../../layouts/shared/tag';
@@ -34,16 +34,18 @@ const Project = ({ project }) => {
   const listItems = project.techs.map(tech => <Tag key={tech}>{tech}</Tag>);
 
   return (
-    <ProjectWrapper>
-      <Left>
-        <img src={project.thumbnail} alt={project.name} />
-      </Left>
-      <Right>
-        <h3>{project.name}</h3>
-        <div>{project.description}</div>
-        <ul>{listItems}</ul>
-      </Right>
-    </ProjectWrapper>
+    <Fragment>
+      <ProjectWrapper>
+        <Left>
+          <img src={project.thumbnail} alt={project.name} />
+        </Left>
+        <Right>
+          <h3>{project.name}</h3>
+          <div>{project.description}</div>
+          <ul>{listItems}</ul>
+        </Right>
+      </ProjectWrapper>
+    </Fragment>
   );
 };
 
