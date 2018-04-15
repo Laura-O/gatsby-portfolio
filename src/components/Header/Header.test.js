@@ -25,7 +25,7 @@ describe('header', () => {
   test('click', () => {
     const instance = wrapper.instance();
     wrapper.setState({ menuActive: true });
-    wrapper.find('div').simulate('click');
+    wrapper.find('.hamburger').simulate('click');
     expect(wrapper.state().menuActive).toBe(false);
   });
 });

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`contactform rendering 1`] = `
-<div>
+<styled.div>
   <h1>
     Contact
   </h1>
@@ -63,5 +63,5 @@ exports[`contactform rendering 1`] = `
       </button>
     </p>
   </form>
-</div>
+</styled.div>
 `;

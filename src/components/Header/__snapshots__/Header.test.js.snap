@@ -1,18 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`header rendering 1`] = `
-<header>
-  <div
+<styled.header>
+  <styled.div
+    active={false}
+    className="hamburger"
     onClick={[Function]}
   >
     <span />
     <span />
     <span />
     <span />
-  </div>
+  </styled.div>
   <Menu
     active={false}
     toggleNav={[Function]}
   />
-</header>
+</styled.header>
 `;

@@ -6,14 +6,25 @@ import Header from '../components/Header/Header';
 import Head from '../components/Head/Head';
 import Footer from '../components/Footer/Footer';
 import 'prismjs/themes/prism-funky.css';
+import * as constants from '../layouts/shared/style-constants';
+import styled from 'styled-components';
 
 import './index.scss';
 
+const PageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 5.8rem 0px 0px 0px;
+  min-height: 100vh;
+  background-color: ${constants.colorBlack};
+  color: ${constants.colorWhite};
+`;
+
 const TemplateWrapper = ({ children }) => (
-  <div className="outer-container">
+  <div>
     <Head />
     <Header />
-    <div className="page">{children()}</div>
+    <PageWrapper>{children()}</PageWrapper>
   </div>
 );
 

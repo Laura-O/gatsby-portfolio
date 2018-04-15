@@ -51,3 +51,9 @@ export const rotateHeading = keyframes`
     transform: skew(0) rotate(0);
   }
   `;
+
+export const pulse = keyframes`
+  0% {
+    box-shadow: 0 0 0 0 #ff108d;
+  }
+  `;

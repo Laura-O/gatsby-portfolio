@@ -23,16 +23,16 @@ const BlogPost = styled.div`
 
   a {
     text-decoration: none;
-    color: $textColor;
+    color: ${constants.textColor};
     display: inline-block;
     padding: 0px 3px;
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
     text-decoration: none;
-    box-shadow: inset 0 -4px 0 $linkColor;
+    box-shadow: inset 0 -4px 0 ${constants.linkColor};
 
     &:hover {
-      box-shadow: inset 0 -55px 0 0 $linkColor;
+      box-shadow: inset 0 -55px 0 0 ${constants.linkColor};
       color: white;
     }
   }
