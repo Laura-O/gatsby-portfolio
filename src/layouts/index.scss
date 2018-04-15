@@ -91,7 +91,6 @@ a {
 }
 
 .about,
-.project-page,
 .blog-posts,
 .contact,
 .blog-post-wrapper,
@@ -187,31 +186,6 @@ button {
       0% {
         box-shadow: 0 0 0 0 lighten($redPurple, 10);
       }
-    }
-  }
-}
-
-.divider {
-  position: relative;
-  margin: 2rem;
-  height: 0.1rem;
-
-  &-transparent {
-    &:before {
-      content: '';
-      position: absolute;
-      left: 5%;
-      right: 5%;
-      width: 90%;
-      height: 2px;
-      box-shadow: -1px 0 0 0 $linkColor;
-      background-image: linear-gradient(
-        to right,
-        transparent,
-        $linkColor,
-        transparent
-      );
-      z-index: -1;
     }
   }
 }
