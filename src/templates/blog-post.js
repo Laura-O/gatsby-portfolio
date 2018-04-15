@@ -2,8 +2,66 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
+import styled from 'styled-components';
+import * as constants from '../layouts/shared/style-constants';
+import Tag from '../layouts/shared/tag';
 
-import '../scss/blog.scss';
+const BlogPost = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+
+  &-content {
+    margin: 10px 25px;
+  }
+
+  div {
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: $textColor;
+    display: inline-block;
+    padding: 0px 3px;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: inset 0 -4px 0 $linkColor;
+
+    &:hover {
+      box-shadow: inset 0 -55px 0 0 $linkColor;
+      color: white;
+    }
+  }
+`;
+
+const PostWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  color: ${constants.textColor};
+  align-items: center;
+  ul {
+    margin-left: 1.5em;
+    margin-top: 1em;
+    list-style-position: outside;
+    list-style-type: circle;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+`;
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -11,7 +69,7 @@ export default function Template({
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   return (
-    <div className="blog-post-wrapper">
+    <PostWrapper>
       <Helmet>
         <title>
           {frontmatter.title} • {data.site.siteMetadata.title}
@@ -33,7 +91,7 @@ export default function Template({
         />
       </Helmet>
 
-      <div className="blog-post">
+      <BlogPost>
         <h1>{frontmatter.title}</h1>
         <h3>{frontmatter.date}</h3>
         {frontmatter.image && (
@@ -48,14 +106,14 @@ export default function Template({
         <div className="tag-wrapper">
           {frontmatter.tags.map((tag, index) => {
             return (
-              <div key={index} className="tag-single">
+              <Tag key={index}>
                 <Link to={`/tags/${tag}`}>{tag}</Link>
-              </div>
+              </Tag>
             );
           })}
         </div>
-      </div>
-    </div>
+      </BlogPost>
+    </PostWrapper>
   );
 }
 
