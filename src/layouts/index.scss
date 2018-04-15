@@ -24,6 +24,13 @@ button {
   pointer-events: none;
 }
 
+.gatsby-highlight {
+  background-color: $darkBackground;
+  border-radius: 0.3em;
+  margin: 1em 0;
+  overflow: auto;
+}
+
 .gatsby-resp-image-wrapper {
   margin: 1em 0 1.5em 0;
 }
@@ -32,5 +39,4 @@ button {
   width: 100%;
   max-width: 600px;
   align-items: center;
-  margin-bottom: 1em;
 }
