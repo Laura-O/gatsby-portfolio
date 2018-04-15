@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div>
-  <div>
+<styled.div>
+  <styled.div>
     <img
       alt="TodoTron 3000"
       src="/projects/todotron_thumb.png"
     />
-  </div>
-  <div>
+  </styled.div>
+  <styled.div>
     <h3>
       TodoTron 3000
     </h3>
@@ -16,22 +16,22 @@ exports[`rendering 1`] = `
       Productivity timer for todo.txt
     </div>
     <ul>
-      <span
+      <styled.span
         key="Electron"
       >
         Electron
-      </span>
-      <span
+      </styled.span>
+      <styled.span
         key="Vue.js"
       >
         Vue.js
-      </span>
-      <span
+      </styled.span>
+      <styled.span
         key="Vuex"
       >
         Vuex
-      </span>
+      </styled.span>
     </ul>
-  </div>
-</div>
+  </styled.div>
+</styled.div>
 `;

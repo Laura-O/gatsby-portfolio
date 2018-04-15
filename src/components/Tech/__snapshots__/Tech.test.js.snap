@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div>
+<styled.div>
   <h2>
     Skills
   </h2>
-  <div>
+  <styled.div>
     <h3>
       Frontend
     </h3>
-    <ul>
+    <styled.ul>
       <li
         key="React"
       >
@@ -40,13 +40,13 @@ exports[`rendering 1`] = `
       >
         SCSS
       </li>
-    </ul>
-  </div>
-  <div>
+    </styled.ul>
+  </styled.div>
+  <styled.div>
     <h3>
       Backend
     </h3>
-    <ul>
+    <styled.ul>
       <li
         key="Node"
       >
@@ -62,13 +62,13 @@ exports[`rendering 1`] = `
       >
         PostgreSQL
       </li>
-    </ul>
-  </div>
-  <div>
+    </styled.ul>
+  </styled.div>
+  <styled.div>
     <h3>
       Other
     </h3>
-    <ul>
+    <styled.ul>
       <li
         key="Git"
       >
@@ -79,7 +79,7 @@ exports[`rendering 1`] = `
       >
         R
       </li>
-    </ul>
-  </div>
-</div>
+    </styled.ul>
+  </styled.div>
+</styled.div>
 `;

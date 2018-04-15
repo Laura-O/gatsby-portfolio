@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<footer>
+<styled.footer>
   <div>
     <ul>
       <li>
         <a
           href="https://github.com/Laura-O"
         >
-          <img
+          <styled.img
             alt="github"
             src="test-file-stub"
           />
@@ -18,7 +18,7 @@ exports[`rendering 1`] = `
         <a
           href="www.linkedin.com/in/lauraohrndorf"
         >
-          <img
+          <styled.img
             alt="linkedin"
             src="test-file-stub"
           />
@@ -28,7 +28,7 @@ exports[`rendering 1`] = `
         <a
           href="https://twitter.com/laura_fyi"
         >
-          <img
+          <styled.img
             alt="twitter"
             src="test-file-stub"
           />
@@ -36,7 +36,7 @@ exports[`rendering 1`] = `
       </li>
     </ul>
   </div>
-  <div>
+  <styled.div>
     <small>
       <a
         href="/legal"
@@ -44,6 +44,6 @@ exports[`rendering 1`] = `
         Legal notice
       </a>
     </small>
-  </div>
-</footer>
+  </styled.div>
+</styled.footer>
 `;

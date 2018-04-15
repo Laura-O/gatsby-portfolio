@@ -1,8 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styled from 'styled-components';
-
-import styles from './styles.module.scss';
+import * as constants from '../../layouts/shared/style-constants';
 
 const FullscreenWrapper = styled.div`
   width: 100vw;
@@ -11,16 +10,31 @@ const FullscreenWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  ${props => {
+    if (props.active) {
+      return `
+      background: ${constants.darkBackground};
+      color: ${constants.colorWhite};
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      opacity: 0.99;
+      `;
+    } else {
+      return `
+        display: none;
+      `;
+    }
+  }};
 `;
 
-const First = styled.div`
-  composes: fullscreen;
-`;
+const Fullscreen = ({ children, active }) => {
+  // const containerClassName = classNames(styles.fullscreen, className);
 
-const Fullscreen = ({ children, className }) => {
-  const containerClassName = classNames(styles.fullscreen, className);
-
-  return <div className={containerClassName}>{children}</div>;
+  return <FullscreenWrapper active={active}>{children}</FullscreenWrapper>;
 };
 
 export default Fullscreen;

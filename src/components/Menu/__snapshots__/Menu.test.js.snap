@@ -3,41 +3,41 @@
 exports[`rendering 1`] = `
 <Fullscreen>
   <nav>
-    <div>
+    <styled.div>
       <GatsbyLink
         to="/"
       >
         Home
       </GatsbyLink>
-    </div>
-    <div>
+    </styled.div>
+    <styled.div>
       <GatsbyLink
         to="/about"
       >
         About
       </GatsbyLink>
-    </div>
-    <div>
+    </styled.div>
+    <styled.div>
       <GatsbyLink
         to="/blog"
       >
         Blog
       </GatsbyLink>
-    </div>
-    <div>
+    </styled.div>
+    <styled.div>
       <GatsbyLink
         to="/projects"
       >
         Projects
       </GatsbyLink>
-    </div>
-    <div>
+    </styled.div>
+    <styled.div>
       <GatsbyLink
         to="/contact"
       >
         Contact
       </GatsbyLink>
-    </div>
+    </styled.div>
   </nav>
 </Fullscreen>
 `;

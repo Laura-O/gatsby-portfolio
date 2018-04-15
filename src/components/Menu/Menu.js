@@ -6,8 +6,6 @@ import * as animations from '../../layouts/shared/animations';
 import * as constants from '../../layouts/shared/style-constants';
 import styled from 'styled-components';
 
-import styles from './styles.module.scss';
-
 const Item = styled.div`
   color: white;
   position: relative;
@@ -51,8 +49,8 @@ export default class Menu extends Component {
     };
 
     return (
-      <Fullscreen className={this.props.active ? styles.menu : styles.disable}>
-        <nav className={styles.nav}>
+      <Fullscreen active={this.props.active}>
+        <nav>
           <Item>
             <Link {...linkProps} to="/">
               Home
