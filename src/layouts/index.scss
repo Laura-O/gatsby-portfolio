@@ -54,11 +54,6 @@ a {
   cursor: pointer;
 }
 
-.data-reactroot {
-  display: flex;
-  justify-content: space-between;
-}
-
 .page {
   display: flex;
   justify-content: center;
@@ -90,10 +85,7 @@ a {
   }
 }
 
-.about,
-.blog-posts,
 .contact,
-.blog-post-wrapper,
 .legal {
   display: flex;
   flex-wrap: wrap;
