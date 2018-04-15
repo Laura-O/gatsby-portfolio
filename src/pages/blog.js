@@ -3,19 +3,13 @@ import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import Wrapper from '../layouts/shared/pagewrapper';
 import '../layouts/index';
 
 import * as constants from '../layouts/shared/style-constants';
 
-const BlogWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+const BlogWrapper = Wrapper.extend`
   background-color: white;
-  width: 100%;
-  color: ${constants.textColor};
-  align-items: center;
-  display: flex;
   justify-content: flex-start;
   align-items: center;
   background-color: ${constants.colorWhite};

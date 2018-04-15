@@ -1,37 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<styled.div>
+<React.Fragment>
   <styled.div>
-    <img
-      alt="TodoTron 3000"
-      src="/projects/todotron_thumb.png"
-    />
+    <styled.div>
+      <img
+        alt="TodoTron 3000"
+        src="/projects/todotron_thumb.png"
+      />
+    </styled.div>
+    <styled.div>
+      <h3>
+        TodoTron 3000
+      </h3>
+      <div>
+        Productivity timer for todo.txt
+      </div>
+      <ul>
+        <styled.span
+          key="Electron"
+        >
+          Electron
+        </styled.span>
+        <styled.span
+          key="Vue.js"
+        >
+          Vue.js
+        </styled.span>
+        <styled.span
+          key="Vuex"
+        >
+          Vuex
+        </styled.span>
+      </ul>
+    </styled.div>
   </styled.div>
-  <styled.div>
-    <h3>
-      TodoTron 3000
-    </h3>
-    <div>
-      Productivity timer for todo.txt
-    </div>
-    <ul>
-      <styled.span
-        key="Electron"
-      >
-        Electron
-      </styled.span>
-      <styled.span
-        key="Vue.js"
-      >
-        Vue.js
-      </styled.span>
-      <styled.span
-        key="Vuex"
-      >
-        Vuex
-      </styled.span>
-    </ul>
-  </styled.div>
-</styled.div>
+</React.Fragment>
 `;

@@ -1,172 +1,174 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<styled.div>
-  <h1>
-    Projects
-  </h1>
-  <div
-    key="0"
-  >
-    <Project
+<div>
+  <styled.div>
+    <h1>
+      Projects
+    </h1>
+    <div
       key="0"
-      project={
-        Object {
-          "description": "Productivity timer for todo.txt",
-          "id": 0,
-          "image": "/projects/todotron.png",
-          "name": "TodoTron 3000",
-          "techs": Array [
-            "Electron",
-            "Vue.js",
-            "Vuex",
-          ],
-          "thumbnail": "/projects/todotron_thumb.png",
-          "url": "https://github.com/Laura-O/todo-tron",
+    >
+      <Project
+        key="0"
+        project={
+          Object {
+            "description": "Productivity timer for todo.txt",
+            "id": 0,
+            "image": "/projects/todotron.png",
+            "name": "TodoTron 3000",
+            "techs": Array [
+              "Electron",
+              "Vue.js",
+              "Vuex",
+            ],
+            "thumbnail": "/projects/todotron_thumb.png",
+            "url": "https://github.com/Laura-O/todo-tron",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <div
-    key="1"
-  >
-    <Project
+      />
+      <styled.div />
+    </div>
+    <div
       key="1"
-      project={
-        Object {
-          "description": "A social network with chatroom",
-          "id": 1,
-          "image": "/projects/social_network.png",
-          "name": "FriendZone",
-          "techs": Array [
-            "React",
-            "Redux",
-            "PostgreSQL",
-            "Socket.io",
-          ],
-          "thumbnail": "/projects/social_network_thumb.png",
-          "url": "https://github.com/Laura-O/social-network",
+    >
+      <Project
+        key="1"
+        project={
+          Object {
+            "description": "A social network with chatroom",
+            "id": 1,
+            "image": "/projects/social_network.png",
+            "name": "FriendZone",
+            "techs": Array [
+              "React",
+              "Redux",
+              "PostgreSQL",
+              "Socket.io",
+            ],
+            "thumbnail": "/projects/social_network_thumb.png",
+            "url": "https://github.com/Laura-O/social-network",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <div
-    key="2"
-  >
-    <Project
+      />
+      <styled.div />
+    </div>
+    <div
       key="2"
-      project={
-        Object {
-          "description": "This is my portfolio website. Look around to see the features!",
-          "id": 2,
-          "image": "/projects/portfolio.png",
-          "name": "Portfolio Website",
-          "techs": Array [
-            "Vue.js",
-            "firebase",
-          ],
-          "thumbnail": "/projects/portfolio_thumb.png",
-          "url": "http://www.laura.fyi",
+    >
+      <Project
+        key="2"
+        project={
+          Object {
+            "description": "This is my portfolio website. Look around to see the features!",
+            "id": 2,
+            "image": "/projects/portfolio.png",
+            "name": "Portfolio Website",
+            "techs": Array [
+              "Vue.js",
+              "firebase",
+            ],
+            "thumbnail": "/projects/portfolio_thumb.png",
+            "url": "http://www.laura.fyi",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <div
-    key="3"
-  >
-    <Project
+      />
+      <styled.div />
+    </div>
+    <div
       key="3"
-      project={
-        Object {
-          "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-          "id": 3,
-          "image": "/projects/landing_page.png",
-          "name": "Petition",
-          "techs": Array [
-            "Express",
-            "PostgreSQL",
-            "Redis",
-            "Handlebars",
-            "JQuery",
-          ],
-          "thumbnail": "/projects/landing_page_thumb.png",
-          "url": "https://peachtition.herokuapp.com/",
+    >
+      <Project
+        key="3"
+        project={
+          Object {
+            "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+            "id": 3,
+            "image": "/projects/landing_page.png",
+            "name": "Petition",
+            "techs": Array [
+              "Express",
+              "PostgreSQL",
+              "Redis",
+              "Handlebars",
+              "JQuery",
+            ],
+            "thumbnail": "/projects/landing_page_thumb.png",
+            "url": "https://peachtition.herokuapp.com/",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <div
-    key="4"
-  >
-    <Project
+      />
+      <styled.div />
+    </div>
+    <div
       key="4"
-      project={
-        Object {
-          "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-          "id": 4,
-          "image": "/projects/connect-4.png",
-          "name": "Connect 4",
-          "techs": Array [
-            "JQuery",
-            "CSS",
-            "HTML",
-          ],
-          "thumbnail": "/projects/connect-4_thumb.png",
-          "url": "https://connect-4-game.herokuapp.com/",
+    >
+      <Project
+        key="4"
+        project={
+          Object {
+            "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+            "id": 4,
+            "image": "/projects/connect-4.png",
+            "name": "Connect 4",
+            "techs": Array [
+              "JQuery",
+              "CSS",
+              "HTML",
+            ],
+            "thumbnail": "/projects/connect-4_thumb.png",
+            "url": "https://connect-4-game.herokuapp.com/",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <div
-    key="5"
-  >
-    <Project
+      />
+      <styled.div />
+    </div>
+    <div
       key="5"
-      project={
-        Object {
-          "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-          "id": 5,
-          "image": "/projects/quiz_page.png",
-          "name": "Mobile flashcards",
-          "techs": Array [
-            "React Native",
-            "React Redux",
-          ],
-          "thumbnail": "/projects/quiz_page_thumb.png",
-          "url": "",
+    >
+      <Project
+        key="5"
+        project={
+          Object {
+            "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+            "id": 5,
+            "image": "/projects/quiz_page.png",
+            "name": "Mobile flashcards",
+            "techs": Array [
+              "React Native",
+              "React Redux",
+            ],
+            "thumbnail": "/projects/quiz_page_thumb.png",
+            "url": "",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <div
-    key="6"
-  >
-    <Project
+      />
+      <styled.div />
+    </div>
+    <div
       key="6"
-      project={
-        Object {
-          "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-          "id": 6,
-          "image": "/projects/d3-stats.png",
-          "name": "Bubble diagram D3.js",
-          "techs": Array [
-            "D3.js",
-            "R",
-            "Bootstrap",
-          ],
-          "thumbnail": "/projects/d3-stats_thumb.png",
-          "url": "http://secure-meadow-44103.herokuapp.com/",
+    >
+      <Project
+        key="6"
+        project={
+          Object {
+            "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+            "id": 6,
+            "image": "/projects/d3-stats.png",
+            "name": "Bubble diagram D3.js",
+            "techs": Array [
+              "D3.js",
+              "R",
+              "Bootstrap",
+            ],
+            "thumbnail": "/projects/d3-stats_thumb.png",
+            "url": "http://secure-meadow-44103.herokuapp.com/",
+          }
         }
-      }
-    />
-    <styled.div />
-  </div>
-  <Footer />
-</styled.div>
+      />
+      <styled.div />
+    </div>
+    <Footer />
+  </styled.div>
+</div>
 `;

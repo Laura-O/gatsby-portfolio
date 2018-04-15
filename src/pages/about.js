@@ -7,7 +7,9 @@ import Wrapper from '../layouts/shared/pagewrapper';
 import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 
-const AboutWrapper = Wrapper.extend``;
+const AboutWrapper = Wrapper.extend`
+  height: 100%;
+`;
 
 const Lower = styled.div`
   display: flex;
@@ -46,21 +48,23 @@ const UpperRight = styled.div`
 `;
 
 const AboutPage = () => (
-  <AboutWrapper>
-    <Upper>
-      <UpperLeft>
-        <Bio />
-      </UpperLeft>
-      <UpperRight>
-        <Tech />
-      </UpperRight>
-    </Upper>
-    <Lower>
-      If you want to get in touch with me, please use the{' '}
-      <Link to="/contact">Contact form</Link>.
-    </Lower>
-    <Footer />
-  </AboutWrapper>
+  <div>
+    <AboutWrapper>
+      <Upper>
+        <UpperLeft>
+          <Bio />
+        </UpperLeft>
+        <UpperRight>
+          <Tech />
+        </UpperRight>
+      </Upper>
+      <Lower>
+        If you want to get in touch with me, please use the{' '}
+        <Link to="/contact">Contact form</Link>.
+      </Lower>
+      <Footer />
+    </AboutWrapper>
+  </div>
 );
 
 export default AboutPage;

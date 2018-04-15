@@ -69,51 +69,59 @@ export default function Template({
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   return (
-    <PostWrapper>
-      <Helmet>
-        <title>
-          {frontmatter.title} • {data.site.siteMetadata.title}
-        </title>
-        <meta name="description" content={frontmatter.description} />
-        <meta name="twitter:site" content="@lowmess" />
-        <meta name="twitter:card" content="summary" />
-        <meta property="og:site_name" content={data.site.siteMetadata.title} />
-        <meta
-          property="og:title"
-          name="twitter:title"
-          content={frontmatter.title}
-        />
-        <meta property="og:url" content={`${data.site.siteMetadata.siteUrl}`} />
-        <meta
-          property="og:description"
-          name="twitter:description"
-          content={frontmatter.description}
-        />
-      </Helmet>
+    <div>
+      <PostWrapper>
+        <Helmet>
+          <title>
+            {frontmatter.title} • {data.site.siteMetadata.title}
+          </title>
+          <meta name="description" content={frontmatter.description} />
+          <meta name="twitter:site" content="@lowmess" />
+          <meta name="twitter:card" content="summary" />
+          <meta
+            property="og:site_name"
+            content={data.site.siteMetadata.title}
+          />
+          <meta
+            property="og:title"
+            name="twitter:title"
+            content={frontmatter.title}
+          />
+          <meta
+            property="og:url"
+            content={`${data.site.siteMetadata.siteUrl}`}
+          />
+          <meta
+            property="og:description"
+            name="twitter:description"
+            content={frontmatter.description}
+          />
+        </Helmet>
 
-      <BlogPost>
-        <h1>{frontmatter.title}</h1>
-        <h3>{frontmatter.date}</h3>
-        {frontmatter.image && (
-          <Img sizes={frontmatter.image.childImageSharp.sizes} />
-        )}
+        <BlogPost>
+          <h1>{frontmatter.title}</h1>
+          <h3>{frontmatter.date}</h3>
+          {frontmatter.image && (
+            <Img sizes={frontmatter.image.childImageSharp.sizes} />
+          )}
 
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
 
-        <div className="tag-wrapper">
-          {frontmatter.tags.map((tag, index) => {
-            return (
-              <Tag key={index}>
-                <Link to={`/tags/${tag}`}>{tag}</Link>
-              </Tag>
-            );
-          })}
-        </div>
-      </BlogPost>
-    </PostWrapper>
+          <div className="tag-wrapper">
+            {frontmatter.tags.map((tag, index) => {
+              return (
+                <Tag key={index}>
+                  <Link to={`/tags/${tag}`}>{tag}</Link>
+                </Tag>
+              );
+            })}
+          </div>
+        </BlogPost>
+      </PostWrapper>
+    </div>
   );
 }
 

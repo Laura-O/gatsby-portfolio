@@ -1,75 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`blog no post 1`] = `
-<div
-  className="blog-posts"
->
-  <HelmetWrapper
-    defer={true}
-    encodeSpecialCharacters={true}
-  >
-    <title>
-      title
-       • Blog
-    </title>
-  </HelmetWrapper>
+<div>
+  <styled.div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+    >
+      <title>
+        title
+         • Blog
+      </title>
+    </HelmetWrapper>
+  </styled.div>
 </div>
 `;
 
 exports[`blog rendering 1`] = `
-<div
-  className="blog-posts"
->
-  <HelmetWrapper
-    defer={true}
-    encodeSpecialCharacters={true}
-  >
-    <title>
-      title
-       • Blog
-    </title>
-  </HelmetWrapper>
-  <div
-    className="blog-post-preview"
-    key="id"
-  >
-    <h3
-      className="blog-title"
+<div>
+  <styled.div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
     >
-      <GatsbyLink
-        to="path"
-      >
+      <title>
         title
-      </GatsbyLink>
-    </h3>
-    <Image
-      Tag="div"
-      alt=""
-      fadeIn={true}
-      sizes={
-        Object {
-          "sizes": "image",
+         • Blog
+      </title>
+    </HelmetWrapper>
+    <styled.div
+      key="id"
+    >
+      <styled.h3>
+        <GatsbyLink
+          to="path"
+        >
+          title
+        </GatsbyLink>
+      </styled.h3>
+      <Image
+        Tag="div"
+        alt=""
+        fadeIn={true}
+        sizes={
+          Object {
+            "sizes": "image",
+          }
         }
-      }
-    />
-    <div
-      className="blog-post-infos"
-    >
-      <small
-        className="blog-date"
-      >
-        date
-      </small>
-      <small>
-        10
-         mins
-      </small>
-    </div>
-    <div
-      className="blog-excerpt"
-    >
-      excerpt
-    </div>
-  </div>
+      />
+      <styled.div>
+        <small>
+          date
+        </small>
+        <small>
+          10
+           mins
+        </small>
+      </styled.div>
+      <styled.div>
+        excerpt
+      </styled.div>
+    </styled.div>
+  </styled.div>
 </div>
 `;

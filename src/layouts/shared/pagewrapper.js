@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   background-color: white;
   width: 100%;
-  color: $textColor;
+  color: ${constants.textColor};
   align-items: center;
 `;
 
