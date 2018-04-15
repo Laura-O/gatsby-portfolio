@@ -11,18 +11,6 @@ import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
   <div className="outer-container">
-    {/* <Helmet
-      title="Laura Ohrndorf - Portfolio"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'portfolio, something' },
-      ]}
-    >
-      <meta name="twitter:site" content="@laura-fyi" />
-      <meta name="og:type" content="website" />
-      <meta name="og:site_name" content="Laura Ohrndorf" />
-      <html lang="en" />
-    </Helmet> */}
     <Head />
     <Header />
     <div className="page">{children()}</div>

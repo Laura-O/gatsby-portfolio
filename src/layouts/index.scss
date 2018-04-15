@@ -16,12 +16,6 @@ a {
   color: $colorWhite;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
 .highlight-link {
   text-decoration: none;
   color: $textColor;
@@ -98,34 +92,6 @@ button {
   }
 }
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-  80% {
-    transform: translate(1rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-  80% {
-    transform: translate(-1rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
 .fireworks {
   position: absolute;
   top: 0;
@@ -139,12 +105,12 @@ button {
   min-height: 100%;
 }
 
-.gatsby-highlight {
-  background-color: $darkBackground;
-  border-radius: 0.3em;
-  margin: 1em 0;
-  overflow: auto;
-}
+// .gatsby-highlight {
+//   background-color: $darkBackground;
+//   border-radius: 0.3em;
+//   margin: 1em 0;
+//   overflow: auto;
+// }
 
 .gatsby-resp-image-wrapper {
   margin: 1em 0 1.5em 0;
