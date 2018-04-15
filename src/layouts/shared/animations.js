@@ -27,3 +27,27 @@ export const moveInRight = keyframes`
       transform: translate(0);
     }
   `;
+
+export const moveInTop = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+  `;
+
+export const rotateHeading = keyframes`
+  0% {
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0) rotate(0);
+    transform: skew(0) rotate(0);
+  }
+  `;
