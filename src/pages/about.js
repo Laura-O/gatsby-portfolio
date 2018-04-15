@@ -29,12 +29,14 @@ const Upper = styled.div`
   flex: 2;
   background-color: white;
   color: ${constants.textColor};
+  flex-wrap: wrap;
 `;
 
 const UpperLeft = styled.div`
   flex: 2;
   background-color: white;
   padding: 1em;
+  min-width: 250px;
 `;
 
 const UpperRight = styled.div`
@@ -45,6 +47,7 @@ const UpperRight = styled.div`
   border-left: 3px solid ${constants.redPurple};
   background-color: ${constants.yellow};
   padding: 1em;
+  min-width: 250px;
 `;
 
 const AboutPage = () => (
