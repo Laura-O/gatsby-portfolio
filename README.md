@@ -1,26 +1,27 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# My personal website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+[![codecov](https://codecov.io/gh/Laura-O/gatsby-portfolio/branch/master/graph/badge.svg)](https://codecov.io/gh/Laura-O/gatsby-portfolio)
+[![Build Status](https://travis-ci.org/Laura-O/gatsby-portfolio.svg?branch=master)](https://travis-ci.org/Laura-O/gatsby-portfolio)
+[![dependencies Status](https://david-dm.org/Laura-O/Gatsby-portfolio/status.svg)](https://david-dm.org/Laura-O/Gatsby-portfolio)
 
-## Install
+## Getting started
 
-Make sure that you have the Gatsby CLI program installed:
+### Install
+
 ```sh
-npm install --global gatsby-cli
+git clone https://github.com/Laura-O/gatsby-portfolio.git
+cd gatsby-portfolio
+npm install
 ```
 
-And run from your CLI:
+### Develop
+
 ```sh
-gatsby new gatsby-example-site
+gatsby develop
 ```
 
-Then you can run it by:
+### Build
+
 ```sh
-cd gatsby-example-site
-npm run develop
+gatsby build
 ```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
