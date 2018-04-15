@@ -17,11 +17,8 @@ const First = styled.div`
   composes: fullscreen;
 `;
 
-const Fullscreen = ({ children, className, firstItem }) => {
-  const containerClassName = classNames(
-    firstItem ? styles.first : styles.fullscreen,
-    className
-  );
+const Fullscreen = ({ children, className }) => {
+  const containerClassName = classNames(styles.fullscreen, className);
 
   return <div className={containerClassName}>{children}</div>;
 };
