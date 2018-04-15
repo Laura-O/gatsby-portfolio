@@ -39,16 +39,18 @@ const Divider = styled.div`
 `;
 
 const ProjectsPage = () => (
-  <ProjectPage>
-    <h1>Projects</h1>
-    {projects.map(project => (
-      <div key={project.id}>
-        <Project project={project} key={project.id} />
-        <Divider />
-      </div>
-    ))}
-    <Footer />
-  </ProjectPage>
+  <div>
+    <ProjectPage>
+      <h1>Projects</h1>
+      {projects.map(project => (
+        <div key={project.id}>
+          <Project project={project} key={project.id} />
+          <Divider />
+        </div>
+      ))}
+      <Footer />
+    </ProjectPage>
+  </div>
 );
 
 export default ProjectsPage;
