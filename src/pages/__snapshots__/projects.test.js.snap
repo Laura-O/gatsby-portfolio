@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div
-  className="project-page"
->
+<styled.div>
   <h1>
     Projects
   </h1>
@@ -28,9 +26,7 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <div
     key="1"
@@ -54,9 +50,7 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <div
     key="2"
@@ -78,9 +72,7 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <div
     key="3"
@@ -105,9 +97,7 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <div
     key="4"
@@ -130,9 +120,7 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <div
     key="5"
@@ -154,9 +142,7 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <div
     key="6"
@@ -179,10 +165,8 @@ exports[`rendering 1`] = `
         }
       }
     />
-    <div
-      className="divider divider-transparent"
-    />
+    <styled.div />
   </div>
   <Footer />
-</div>
+</styled.div>
 `;
