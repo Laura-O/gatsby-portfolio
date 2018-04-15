@@ -36,5 +36,14 @@ exports[`rendering 1`] = `
       </li>
     </ul>
   </div>
+  <div>
+    <small>
+      <a
+        href="/legal"
+      >
+        Legal notice
+      </a>
+    </small>
+  </div>
 </footer>
 `;

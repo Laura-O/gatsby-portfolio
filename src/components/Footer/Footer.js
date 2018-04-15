@@ -1,39 +1,76 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import classNames from 'classnames';
-import styles from './styles.module.scss';
+import styled from 'styled-components';
+
 import github from '../../assets/icons/github.svg';
 import linkedin from '../../assets/icons/linkedin.svg';
 import twitter from '../../assets/icons/twitter.svg';
+import * as constants from '../../layouts/shared/style-constants';
+
+const FooterWrapper = styled.footer`
+  display: flex;
+  width: 100%;
+  padding: 0px 30px 0px 30px;
+  background-color: ${constants.darkBackground};
+  color: ${constants.colorWhite};
+  justify-content: space-between;
+  align-items: center;
+
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  ul {
+    margin: 0.5em;
+  }
+`;
+
+const Icon = styled.img`
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+`;
+
+const Legal = styled.div`
+  .legal {
+    vertical-align: middle;
+
+    a:hover {
+      color: $colorWhite;
+    }
+  }
+`;
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.social}>
-        <ul className={styles.list}>
+    <FooterWrapper>
+      <div>
+        <ul>
           <li>
             <a href="https://github.com/Laura-O">
-              <img className={styles.icon} src={github} alt="github" />
+              <Icon src={github} alt="github" />
             </a>
           </li>
           <li>
             <a href="www.linkedin.com/in/lauraohrndorf">
-              <img className={styles.icon} src={linkedin} alt="linkedin" />
+              <Icon src={linkedin} alt="linkedin" />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/laura_fyi">
-              <img className={styles.icon} src={twitter} alt="twitter" />
+              <Icon src={twitter} alt="twitter" />
             </a>
           </li>
         </ul>
       </div>
-      <div className={styles.legal}>
+      <Legal>
         <small>
           <a href="/legal">Legal notice</a>
         </small>
-      </div>
-    </footer>
+      </Legal>
+    </FooterWrapper>
   );
 };
 

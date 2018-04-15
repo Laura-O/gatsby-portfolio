@@ -1,26 +1,49 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import styles from './styles.module.scss';
+import Tag from '../../layouts/shared/tag';
+import * as animations from '../../layouts/shared/animations';
+import * as constants from '../../layouts/shared/style-constants';
+import styled from 'styled-components';
+
+const ProjectWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: ${constants.textColor};
+`;
+
+const Left = styled.div`
+  flex: 0 1 50%;
+  justify-content: center;
+  align-self: center;
+  animation: ${animations.moveInLeft} 1s ease-out;
+`;
+
+const Right = styled.div`
+  flex: 0 1 50%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  animation: ${animations.moveInRight} 1s ease-out;
+`;
 
 const Project = ({ project }) => {
-  const listItems = project.techs.map(tech => (
-    <span className={styles.tag} key={tech}>
-      {tech}
-    </span>
-  ));
+  const listItems = project.techs.map(tech => <Tag key={tech}>{tech}</Tag>);
 
   return (
-    <div className={styles.project}>
-      <div className={styles.left}>
+    <ProjectWrapper>
+      <Left>
         <img src={project.thumbnail} alt={project.name} />
-      </div>
-      <div className={styles.right}>
+      </Left>
+      <Right>
         <h3>{project.name}</h3>
-        <div className={styles.description}>{project.description}</div>
+        <div>{project.description}</div>
         <ul>{listItems}</ul>
-      </div>
-    </div>
+      </Right>
+    </ProjectWrapper>
   );
 };
 
