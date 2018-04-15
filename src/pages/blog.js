@@ -9,11 +9,7 @@ import '../layouts/index';
 import * as constants from '../layouts/shared/style-constants';
 
 const BlogWrapper = Wrapper.extend`
-  background-color: white;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: ${constants.colorWhite};
-  color: ${constants.colorBlack};
+  padding-top: 2em;
 `;
 
 const Preview = styled.div`
@@ -40,7 +36,7 @@ const Infos = styled.div`
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding: 0 1em;
+  padding: 1em;
 `;
 
 export default function Index({ data }) {

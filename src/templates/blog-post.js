@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
+import Wrapper from '../layouts/shared/pagewrapper';
 
 const BlogPost = styled.div`
   display: flex;
@@ -12,14 +13,7 @@ const BlogPost = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 80%;
-
-  &-content {
-    margin: 10px 25px;
-  }
-
-  div {
-    max-width: 100%;
-  }
+  background-color: ${constants.colorWhite};
 
   a {
     text-decoration: none;
@@ -38,14 +32,7 @@ const BlogPost = styled.div`
   }
 `;
 
-const PostWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background-color: ${constants.colorWhite};
-  width: 100%;
-  color: ${constants.textColor};
-  align-items: center;
+const PostWrapper = Wrapper.extend`
   ul {
     margin-left: 1.5em;
     margin-top: 1em;
@@ -143,7 +130,7 @@ export const pageQuery = graphql`
         tags
         image {
           childImageSharp {
-            sizes(maxWidth: 800) {
+            sizes(maxWidth: 600) {
               ...GatsbyImageSharpSizes
             }
           }

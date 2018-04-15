@@ -1,15 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div
-  className="outer-container"
->
+<div>
   <Head />
   <Header />
-  <div
-    className="page"
-  >
+  <styled.div>
     children
-  </div>
+  </styled.div>
 </div>
 `;

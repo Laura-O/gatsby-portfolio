@@ -17,6 +17,7 @@ const Lower = styled.div`
   background-color: ${constants.darkBlue};
   color: white;
   padding: 20px;
+  font-size: 1em;
 
   a {
     color: ${constants.redPurple};

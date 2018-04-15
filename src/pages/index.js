@@ -10,7 +10,7 @@ import styled from 'styled-components';
 const StartButtons = styled.div`
   display: flex;
   justify-content: space-around;
-  padding: 8rem 15px 15px 15px;
+  padding: 6rem 15px 15px 15px;
 `;
 
 const PulseButton = styled.button`

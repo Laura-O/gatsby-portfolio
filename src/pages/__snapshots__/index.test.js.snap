@@ -11,20 +11,16 @@ exports[`rendering 1`] = `
     I'm Laura, a full-stack developer based in Germany.
   </div>
   <Fireworks />
-  <div
-    className="start-buttons"
-  >
+  <styled.div>
     <div
       className="start-button"
     >
       <GatsbyLink
         to="/about"
       >
-        <button
-          className="pulse"
-        >
+        <styled.button>
           About
-        </button>
+        </styled.button>
       </GatsbyLink>
     </div>
     <div
@@ -33,11 +29,9 @@ exports[`rendering 1`] = `
       <GatsbyLink
         to="/projects"
       >
-        <button
-          className="pulse"
-        >
+        <styled.button>
           Projects
-        </button>
+        </styled.button>
       </GatsbyLink>
     </div>
     <div
@@ -46,13 +40,11 @@ exports[`rendering 1`] = `
       <GatsbyLink
         to="/blog"
       >
-        <button
-          className="pulse"
-        >
+        <styled.button>
           Blog
-        </button>
+        </styled.button>
       </GatsbyLink>
     </div>
-  </div>
+  </styled.div>
 </div>
 `;

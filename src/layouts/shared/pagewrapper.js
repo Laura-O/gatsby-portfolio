@@ -6,8 +6,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: white;
-  width: 100%;
+  background-color: ${constants.colorWhite};
+  width: 100vw;
   color: ${constants.textColor};
   align-items: center;
 `;
