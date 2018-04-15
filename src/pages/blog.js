@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import '../layouts/index';
+
 import * as constants from '../layouts/shared/style-constants';
 
 const BlogWrapper = styled.div`
