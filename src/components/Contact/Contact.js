@@ -1,6 +1,14 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import styled from 'styled-components';
+
+const FormWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+`;
 
 export function encode(data) {
   return Object.keys(data)
@@ -32,7 +40,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
+      <FormWrapper>
         <h1>Contact</h1>
         <form
           name="contact"
@@ -69,7 +77,7 @@ export default class Contact extends React.Component {
             <button type="submit">Send</button>
           </p>
         </form>
-      </div>
+      </FormWrapper>
     );
   }
 }
