@@ -42,7 +42,7 @@ const PostWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: white;
+  background-color: ${constants.colorWhite};
   width: 100%;
   color: ${constants.textColor};
   align-items: center;
