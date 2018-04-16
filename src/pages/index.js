@@ -3,11 +3,18 @@ import Link from 'gatsby-link';
 import anime from 'animejs';
 import StartAnimation from '../components/StartAnimation/StartAnimation';
 import Fireworks from '../components/Fireworks/Fireworks';
+import Wrapper from '../layouts/shared/Pagewrapper';
 import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
 import styled from 'styled-components';
 
 import '../layouts/index';
+
+const IndexWrapper = Wrapper.extend`
+  background-color: ${constants.darkBackground}
+  color: ${constants.colorWhite}
+  width: 100%;
+`;
 
 const StartButtons = styled.div`
   display: flex;
@@ -31,29 +38,31 @@ const PulseButton = styled.button`
 class IndexPage extends Component {
   render() {
     return (
-      <div className="start">
-        <StartAnimation />
-        <div className="about-me">
-          I'm Laura, a full-stack developer based in Germany.
-        </div>
-        <Fireworks />
-        <StartButtons>
-          <div className="start-button">
-            <Link to="/about">
-              <PulseButton>About</PulseButton>
-            </Link>
+      <div>
+        <IndexWrapper>
+          <StartAnimation />
+          <div className="about-me">
+            I'm Laura, a full-stack developer based in Germany.
           </div>
-          <div className="start-button">
-            <Link to="/projects">
-              <PulseButton>Projects</PulseButton>
-            </Link>
-          </div>
-          <div className="start-button">
-            <Link to="/blog">
-              <PulseButton>Blog</PulseButton>
-            </Link>
-          </div>
-        </StartButtons>
+          <Fireworks />
+          <StartButtons>
+            <div className="start-button">
+              <Link to="/about">
+                <PulseButton>About</PulseButton>
+              </Link>
+            </div>
+            <div className="start-button">
+              <Link to="/projects">
+                <PulseButton>Projects</PulseButton>
+              </Link>
+            </div>
+            <div className="start-button">
+              <Link to="/blog">
+                <PulseButton>Blog</PulseButton>
+              </Link>
+            </div>
+          </StartButtons>
+        </IndexWrapper>
       </div>
     );
   }

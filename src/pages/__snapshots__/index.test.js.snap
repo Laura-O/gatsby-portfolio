@@ -1,50 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div
-  className="start"
->
-  <StartAnimation />
-  <div
-    className="about-me"
-  >
-    I'm Laura, a full-stack developer based in Germany.
-  </div>
-  <Fireworks />
+<div>
   <styled.div>
+    <StartAnimation />
     <div
-      className="start-button"
+      className="about-me"
     >
-      <GatsbyLink
-        to="/about"
-      >
-        <styled.button>
-          About
-        </styled.button>
-      </GatsbyLink>
+      I'm Laura, a full-stack developer based in Germany.
     </div>
-    <div
-      className="start-button"
-    >
-      <GatsbyLink
-        to="/projects"
+    <Fireworks />
+    <styled.div>
+      <div
+        className="start-button"
       >
-        <styled.button>
-          Projects
-        </styled.button>
-      </GatsbyLink>
-    </div>
-    <div
-      className="start-button"
-    >
-      <GatsbyLink
-        to="/blog"
+        <GatsbyLink
+          to="/about"
+        >
+          <styled.button>
+            About
+          </styled.button>
+        </GatsbyLink>
+      </div>
+      <div
+        className="start-button"
       >
-        <styled.button>
-          Blog
-        </styled.button>
-      </GatsbyLink>
-    </div>
+        <GatsbyLink
+          to="/projects"
+        >
+          <styled.button>
+            Projects
+          </styled.button>
+        </GatsbyLink>
+      </div>
+      <div
+        className="start-button"
+      >
+        <GatsbyLink
+          to="/blog"
+        >
+          <styled.button>
+            Blog
+          </styled.button>
+        </GatsbyLink>
+      </div>
+    </styled.div>
   </styled.div>
 </div>
 `;
