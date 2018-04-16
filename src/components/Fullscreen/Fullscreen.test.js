@@ -1,8 +1,15 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import Fullscreen from './Fullscreen';
 
-test('rendering', () => {
-  const wrapper = shallow(<Fullscreen />);
-  expect(wrapper).toMatchSnapshot();
+describe('fullscreen mode', () => {
+  test('active', () => {
+    const wrapper = mount(<Fullscreen active={true} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('active', () => {
+    const wrapper = mount(<Fullscreen active={false} />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });

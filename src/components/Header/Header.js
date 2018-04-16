@@ -53,9 +53,6 @@ const Hamburger = styled.div`
   ${props => {
     if (props.active) {
       return `
-      width: 30px;
-      height: 25px;
-      position: relative;
       z-index: ${constants.zIndexHamburger};
     
       span {

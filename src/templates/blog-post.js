@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
-import Wrapper from '../layouts/shared/pagewrapper';
+import Wrapper from '../layouts/shared/Pagewrapper';
 
 const BlogPost = styled.div`
   display: flex;
