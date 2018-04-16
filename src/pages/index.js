@@ -7,6 +7,8 @@ import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
 import styled from 'styled-components';
 
+import '../layouts/index';
+
 const StartButtons = styled.div`
   display: flex;
   justify-content: space-around;
