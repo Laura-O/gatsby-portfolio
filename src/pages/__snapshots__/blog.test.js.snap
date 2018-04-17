@@ -12,6 +12,7 @@ exports[`blog no post 1`] = `
          • Blog
       </title>
     </HelmetWrapper>
+    <Footer />
   </styled.div>
 </div>
 `;
@@ -61,6 +62,7 @@ exports[`blog rendering 1`] = `
         excerpt
       </styled.div>
     </styled.div>
+    <Footer />
   </styled.div>
 </div>
 `;

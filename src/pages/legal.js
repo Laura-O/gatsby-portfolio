@@ -1,5 +1,8 @@
 import React from 'react';
 import Wrapper from '../layouts/shared/Pagewrapper';
+import Footer from '../components/Footer/Footer';
+
+import styled from 'styled-components';
 
 const LegalPage = () => (
   <div>
@@ -84,6 +87,7 @@ const LegalPage = () => (
         Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne
         Ihre Einwilligung weiter.
       </div>
+      <Footer />
     </Wrapper>
   </div>
 );

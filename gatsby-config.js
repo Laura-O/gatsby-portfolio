@@ -8,6 +8,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
