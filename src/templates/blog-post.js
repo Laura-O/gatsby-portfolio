@@ -88,6 +88,10 @@ export default function Template({
         <BlogPost>
           <h1>{frontmatter.title}</h1>
           <h3>{frontmatter.date}</h3>
+          {frontmatter.updated &&
+            frontmatter.updated != frontmatter.date && (
+              <h4>Updated: {frontmatter.updated}</h4>
+            )}
           {frontmatter.image && (
             <Img sizes={frontmatter.image.childImageSharp.sizes} />
           )}
@@ -125,6 +129,7 @@ export const pageQuery = graphql`
       timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        updated(formatString: "MMMM DD, YYYY")
         path
         title
         tags
