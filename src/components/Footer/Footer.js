@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-import Link from 'gatsby-link';
-import classNames from 'classnames';
+import React from 'react';
 import styled from 'styled-components';
 
 import github from '../../assets/icons/github.svg';
@@ -43,35 +41,33 @@ const Legal = styled.div`
   }
 `;
 
-const Footer = () => {
-  return (
-    <FooterWrapper>
-      <div>
-        <ul>
-          <li>
-            <a href="https://github.com/Laura-O">
-              <Icon src={github} alt="github" />
-            </a>
-          </li>
-          <li>
-            <a href="www.linkedin.com/in/lauraohrndorf">
-              <Icon src={linkedin} alt="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/laura_fyi">
-              <Icon src={twitter} alt="twitter" />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <Legal>
-        <small>
-          <a href="/legal">Legal notice</a>
-        </small>
-      </Legal>
-    </FooterWrapper>
-  );
-};
+const Footer = () => (
+  <FooterWrapper>
+    <div>
+      <ul>
+        <li>
+          <a href="https://github.com/Laura-O">
+            <Icon src={github} alt="github" />
+          </a>
+        </li>
+        <li>
+          <a href="www.linkedin.com/in/lauraohrndorf">
+            <Icon src={linkedin} alt="linkedin" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/laura_fyi">
+            <Icon src={twitter} alt="twitter" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <Legal>
+      <small>
+        <a href="/legal">Legal notice</a>
+      </small>
+    </Legal>
+  </FooterWrapper>
+);
 
 export default Footer;

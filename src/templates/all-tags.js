@@ -8,17 +8,16 @@ const AllTags = ({ pathContext }) => {
     return (
       <div>
         <ul>
-          {tags.map(tag => {
-            return (
-              <li key={tag}>
-                <Link to={`/tags/${tag}`}>{tag}</Link>
-              </li>
-            );
-          })}
+          {tags.map(tag => (
+            <li key={tag}>
+              <Link to={`/tags/${tag}`}>{tag}</Link>
+            </li>
+          ))}
         </ul>
       </div>
     );
   }
+  return null;
 };
 
 export default AllTags;

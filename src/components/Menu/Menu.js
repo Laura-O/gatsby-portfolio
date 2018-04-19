@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Link from 'gatsby-link';
-
-import Fullscreen from '../Fullscreen/Fullscreen';
-import * as animations from '../../layouts/shared/animations';
-import * as constants from '../../layouts/shared/style-constants';
 import styled from 'styled-components';
+import Fullscreen from '../Fullscreen/Fullscreen';
+import * as constants from '../../layouts/shared/style-constants';
 
 const Item = styled.div`
   color: white;
@@ -38,46 +36,40 @@ const Item = styled.div`
   }
 `;
 
-export default class Menu extends Component {
-  constructor(props) {
-    super(props);
-  }
+export default function Menu(props) {
+  const linkProps = {
+    onClick: props.toggleNav,
+  };
 
-  render() {
-    const linkProps = {
-      onClick: this.props.toggleNav,
-    };
-
-    return (
-      <Fullscreen active={this.props.active}>
-        <nav>
-          <Item>
-            <Link {...linkProps} to="/">
-              Home
-            </Link>
-          </Item>
-          <Item>
-            <Link {...linkProps} to="/about">
-              About
-            </Link>
-          </Item>
-          <Item>
-            <Link {...linkProps} to="/blog">
-              Blog
-            </Link>
-          </Item>
-          <Item>
-            <Link {...linkProps} to="/projects">
-              Projects
-            </Link>
-          </Item>
-          <Item>
-            <Link {...linkProps} to="/contact">
-              Contact
-            </Link>
-          </Item>
-        </nav>
-      </Fullscreen>
-    );
-  }
+  return (
+    <Fullscreen active={props.active}>
+      <nav>
+        <Item>
+          <Link {...linkProps} to="/">
+            Home
+          </Link>
+        </Item>
+        <Item>
+          <Link {...linkProps} to="/about">
+            About
+          </Link>
+        </Item>
+        <Item>
+          <Link {...linkProps} to="/blog">
+            Blog
+          </Link>
+        </Item>
+        <Item>
+          <Link {...linkProps} to="/projects">
+            Projects
+          </Link>
+        </Item>
+        <Item>
+          <Link {...linkProps} to="/contact">
+            Contact
+          </Link>
+        </Item>
+      </nav>
+    </Fullscreen>
+  );
 }

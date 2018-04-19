@@ -1,13 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-
+import styled from 'styled-components';
+import 'prismjs/themes/prism-funky.css';
 import Header from '../components/Header/Header';
 import Head from '../components/Head/Head';
-import Footer from '../components/Footer/Footer';
-import 'prismjs/themes/prism-funky.css';
 import * as constants from '../layouts/shared/style-constants';
-import styled from 'styled-components';
 
 import './index.scss';
 
@@ -27,9 +23,5 @@ const TemplateWrapper = ({ children }) => (
     <PageWrapper>{children()}</PageWrapper>
   </div>
 );
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-};
 
 export default TemplateWrapper;

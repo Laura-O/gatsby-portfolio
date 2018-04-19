@@ -4,7 +4,7 @@ import Fullscreen from './Fullscreen';
 
 describe('fullscreen mode', () => {
   test('active', () => {
-    const wrapper = mount(<Fullscreen active={true} />);
+    const wrapper = mount(<Fullscreen active />);
     expect(wrapper).toMatchSnapshot();
   });
 

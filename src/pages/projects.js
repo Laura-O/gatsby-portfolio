@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Footer from '../components/Footer/Footer';
 import Project from '../components/Project/Project';

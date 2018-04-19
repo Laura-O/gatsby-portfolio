@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 import styled from 'styled-components';
 import * as constants from '../../layouts/shared/style-constants';
 
@@ -23,18 +22,17 @@ const FullscreenWrapper = styled.div`
       z-index: 5;
       opacity: 0.99;
       `;
-    } else {
-      return `
+    }
+    return `
         display: none;
       `;
-    }
   }};
 `;
 
-const Fullscreen = ({ children, active }) => {
+const Fullscreen = ({ children, active }) => (
   // const containerClassName = classNames(styles.fullscreen, className);
 
-  return <FullscreenWrapper active={active}>{children}</FullscreenWrapper>;
-};
+  <FullscreenWrapper active={active}>{children}</FullscreenWrapper>
+);
 
 export default Fullscreen;

@@ -16,7 +16,9 @@ exports[`contactform rendering 1`] = `
     <p
       hidden={true}
     >
-      <label>
+      <label
+        htmlFor="bot-field"
+      >
         Don’t fill this out: 
         <input
           name="bot-field"
@@ -24,7 +26,9 @@ exports[`contactform rendering 1`] = `
       </label>
     </p>
     <p>
-      <label>
+      <label
+        htmlFor="name"
+      >
         Your name:
         <br />
         <input
@@ -35,7 +39,9 @@ exports[`contactform rendering 1`] = `
       </label>
     </p>
     <p>
-      <label>
+      <label
+        htmlFor="email"
+      >
         Your email:
         <br />
         <input
@@ -46,7 +52,9 @@ exports[`contactform rendering 1`] = `
       </label>
     </p>
     <p>
-      <label>
+      <label
+        htmlFor="message"
+      >
         Message:
         <br />
         <textarea

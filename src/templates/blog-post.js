@@ -89,7 +89,7 @@ export default function Template({
           <h1>{frontmatter.title}</h1>
           <h3>{frontmatter.date}</h3>
           {frontmatter.updated &&
-            frontmatter.updated != frontmatter.date && (
+            frontmatter.updated !== frontmatter.date && (
               <h4>Updated: {frontmatter.updated}</h4>
             )}
           {frontmatter.image && (
@@ -102,13 +102,11 @@ export default function Template({
           />
 
           <div className="tag-wrapper">
-            {frontmatter.tags.map((tag, index) => {
-              return (
-                <Tag key={index}>
-                  <Link to={`/tags/${tag}`}>{tag}</Link>
-                </Tag>
-              );
-            })}
+            {frontmatter.tags.map(tag => (
+              <Tag key={tag}>
+                <Link to={`/tags/${tag}`}>{tag}</Link>
+              </Tag>
+            ))}
           </div>
         </BlogPost>
       </PostWrapper>

@@ -65,7 +65,7 @@ exports[`blog rendering 1`] = `
         className="tag-wrapper"
       >
         <styled.span
-          key="0"
+          key="tag1"
         >
           <GatsbyLink
             to="/tags/tag1"
@@ -74,7 +74,7 @@ exports[`blog rendering 1`] = `
           </GatsbyLink>
         </styled.span>
         <styled.span
-          key="1"
+          key="tag2"
         >
           <GatsbyLink
             to="/tags/tag2"

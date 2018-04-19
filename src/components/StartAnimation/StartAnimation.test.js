@@ -3,6 +3,6 @@ import { shallow } from 'enzyme';
 import StartAnimation from './StartAnimation';
 
 test('rendering', () => {
-  const wrapper = shallow(<StartAnimation path="/something" />);
+  const wrapper = shallow(<StartAnimation />);
   expect(wrapper).toMatchSnapshot();
 });

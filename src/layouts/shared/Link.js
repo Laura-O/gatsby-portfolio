@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import '../../scss/variables.scss';
-import * as constants from './style-constants.js';
+import * as constants from './style-constants';
 
 const HighlightLink = styled.a`
   text-decoration: none;

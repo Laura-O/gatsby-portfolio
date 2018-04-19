@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import Link from 'gatsby-link';
-import classNames from 'classnames';
+import styled from 'styled-components';
 import Menu from '../Menu/Menu';
 import * as constants from '../../layouts/shared/style-constants';
-import styled from 'styled-components';
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -89,6 +87,7 @@ const Hamburger = styled.div`
       }
       `;
     }
+    return null;
   }};
 `;
 
@@ -118,7 +117,6 @@ export default class Header extends Component {
   }
   render() {
     const { menuActive } = this.state;
-    const barStyle = this.state.menuActive ? 'animate' : '';
 
     return (
       <HeaderWrapper>

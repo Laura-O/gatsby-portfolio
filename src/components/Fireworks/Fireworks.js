@@ -1,6 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import anime from 'animejs';
-import styles from './styles.module.scss';
 
 export default class Fireworks extends Component {
   constructor(props) {
@@ -12,21 +11,21 @@ export default class Fireworks extends Component {
     window.human = false;
 
     const canvasEl = this.canvas.current;
-    var ctx = canvasEl.getContext('2d');
-    var numberOfParticules = 30;
-    var pointerX = 0;
-    var pointerY = 0;
-    var tap =
+    const ctx = canvasEl.getContext('2d');
+    const numberOfParticules = 30;
+    let pointerX = 0;
+    let pointerY = 0;
+    const tap =
       'ontouchstart' in window || navigator.msMaxTouchPoints
         ? 'touchstart'
         : 'mousedown';
-    var colors = ['#dc0073', '#2ec4b6', '#f5b700', '#04e762'];
+    const colors = ['#dc0073', '#2ec4b6', '#f5b700', '#04e762'];
 
     function setCanvasSize() {
       canvasEl.width = window.innerWidth * 2;
       canvasEl.height = window.innerHeight * 2;
-      canvasEl.style.width = window.innerWidth + 'px';
-      canvasEl.style.height = window.innerHeight + 'px';
+      canvasEl.style.width = `${window.innerWidth}px`;
+      canvasEl.style.height = `${window.innerHeight}px`;
       canvasEl.getContext('2d').scale(2, 2);
     }
 
@@ -36,9 +35,9 @@ export default class Fireworks extends Component {
     }
 
     function setParticuleDirection(p) {
-      var angle = anime.random(0, 360) * Math.PI / 180;
-      var value = anime.random(30, 400);
-      var radius = [-1, 1][anime.random(0, 1)] * value;
+      const angle = anime.random(0, 360) * Math.PI / 180;
+      const value = anime.random(30, 400);
+      const radius = [-1, 1][anime.random(0, 1)] * value;
       return {
         x: p.x + radius * Math.cos(angle),
         y: p.y + radius * Math.sin(angle),
@@ -46,7 +45,7 @@ export default class Fireworks extends Component {
     }
 
     function createParticule(x, y) {
-      var p = {};
+      const p = {};
       p.x = x;
       p.y = y;
       p.color = colors[anime.random(0, colors.length - 1)];
@@ -62,22 +61,22 @@ export default class Fireworks extends Component {
     }
 
     function renderParticule(anim) {
-      for (var i = 0; i < anim.animatables.length; i++) {
+      for (let i = 0; i < anim.animatables.length; i++) {
         anim.animatables[i].target.draw();
       }
     }
 
     function animateParticules(x, y) {
-      var particules = [];
-      for (var i = 0; i < numberOfParticules; i++) {
+      const particules = [];
+      for (let i = 0; i < numberOfParticules; i++) {
         particules.push(createParticule(x, y));
       }
       anime.timeline().add({
         targets: particules,
-        x: function(p) {
+        x(p) {
           return p.endPos.x;
         },
-        y: function(p) {
+        y(p) {
           return p.endPos.y;
         },
         radius: 0.1,
@@ -87,16 +86,16 @@ export default class Fireworks extends Component {
       });
     }
 
-    var render = anime({
+    const render = anime({
       duration: Infinity,
-      update: function() {
+      update() {
         ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);
       },
     });
 
     document.addEventListener(
       tap,
-      function(e) {
+      e => {
         window.human = true;
         render.play();
         updateCoords(e);
@@ -105,8 +104,8 @@ export default class Fireworks extends Component {
       false
     );
 
-    var centerX = window.innerWidth / 2;
-    var centerY = window.innerHeight / 2;
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
 
     setCanvasSize();
     window.addEventListener('resize', setCanvasSize, false);

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // Components
 import Link from 'gatsby-link';
@@ -29,26 +28,26 @@ const Tags = ({ pathContext, data }) => {
   );
 };
 
-Tags.propTypes = {
-  pathContext: PropTypes.shape({
-    tag: PropTypes.string.isRequired,
-  }),
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      totalCount: PropTypes.number.isRequired,
-      edges: PropTypes.arrayOf(
-        PropTypes.shape({
-          node: PropTypes.shape({
-            frontmatter: PropTypes.shape({
-              path: PropTypes.string.isRequired,
-              title: PropTypes.string.isRequired,
-            }),
-          }),
-        }).isRequired
-      ),
-    }),
-  }),
-};
+// Tags.propTypes = {
+//   pathContext: PropTypes.shape({
+//     tag: PropTypes.string.isRequired,
+//   }),
+//   data: PropTypes.shape({
+//     allMarkdownRemark: PropTypes.shape({
+//       totalCount: PropTypes.number.isRequired,
+//       edges: PropTypes.arrayOf(
+//         PropTypes.shape({
+//           node: PropTypes.shape({
+//             frontmatter: PropTypes.shape({
+//               path: PropTypes.string.isRequired,
+//               title: PropTypes.string.isRequired,
+//             }),
+//           }),
+//         }).isRequired
+//       ),
+//     }),
+//   }),
+// };
 
 export default Tags;
 

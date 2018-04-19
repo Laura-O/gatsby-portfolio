@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import '../../scss/variables.scss';
-import * as constants from './style-constants.js';
+import * as constants from './style-constants';
 
 const Tag = styled.span`
   border: 1px solid #dee2e5;

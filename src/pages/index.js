@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Link from 'gatsby-link';
-import anime from 'animejs';
+import styled from 'styled-components';
 import StartAnimation from '../components/StartAnimation/StartAnimation';
 import Fireworks from '../components/Fireworks/Fireworks';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
-import styled from 'styled-components';
-
 import '../layouts/index';
 
 const IndexWrapper = Wrapper.extend`
@@ -35,37 +33,33 @@ const PulseButton = styled.button`
   }
 `;
 
-class IndexPage extends Component {
-  render() {
-    return (
-      <div>
-        <IndexWrapper>
-          <StartAnimation />
-          <div className="about-me">
-            I'm Laura, a full-stack developer based in Germany.
-          </div>
-          <Fireworks />
-          <StartButtons>
-            <div className="start-button">
-              <Link to="/about">
-                <PulseButton>About</PulseButton>
-              </Link>
-            </div>
-            <div className="start-button">
-              <Link to="/projects">
-                <PulseButton>Projects</PulseButton>
-              </Link>
-            </div>
-            <div className="start-button">
-              <Link to="/blog">
-                <PulseButton>Blog</PulseButton>
-              </Link>
-            </div>
-          </StartButtons>
-        </IndexWrapper>
+const IndexPage = () => (
+  <div>
+    <IndexWrapper>
+      <StartAnimation />
+      <div className="about-me">
+        I&apos;m Laura, a full-stack developer based in Germany.
       </div>
-    );
-  }
-}
+      <Fireworks />
+      <StartButtons>
+        <div className="start-button">
+          <Link to="/about">
+            <PulseButton>About</PulseButton>
+          </Link>
+        </div>
+        <div className="start-button">
+          <Link to="/projects">
+            <PulseButton>Projects</PulseButton>
+          </Link>
+        </div>
+        <div className="start-button">
+          <Link to="/blog">
+            <PulseButton>Blog</PulseButton>
+          </Link>
+        </div>
+      </StartButtons>
+    </IndexWrapper>
+  </div>
+);
 
 export default IndexPage;

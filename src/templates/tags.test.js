@@ -2,12 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import Tags from './tags';
-import {
-  frontmatterPropType,
-  sitePropType,
-  imagePropType,
-  markdownRemarkPropType,
-} from '../../test/fixtures';
+import { frontmatterPropType } from '../../test/fixtures';
 
 describe('blog', () => {
   test('1 tag', () => {

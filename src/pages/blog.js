@@ -8,8 +8,6 @@ import Footer from '../components/Footer/Footer';
 
 import '../layouts/index';
 
-import * as constants from '../layouts/shared/style-constants';
-
 const BlogWrapper = Wrapper.extend`
   padding-top: 2em;
 `;
@@ -52,27 +50,23 @@ export default function Index({ data }) {
 
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => {
-            return (
-              <Preview key={post.id}>
-                <Title>
-                  <Link to={post.frontmatter.path}>
-                    {post.frontmatter.title}
-                  </Link>
-                </Title>
+          .map(({ node: post }) => (
+            <Preview key={post.id}>
+              <Title>
+                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+              </Title>
 
-                {post.frontmatter.image && (
-                  <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
-                )}
-                <Infos>
-                  <small>{post.frontmatter.date}</small>
-                  <small>{post.frontmatter.timeToRead} mins</small>
-                </Infos>
+              {post.frontmatter.image && (
+                <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
+              )}
+              <Infos>
+                <small>{post.frontmatter.date}</small>
+                <small>{post.frontmatter.timeToRead} mins</small>
+              </Infos>
 
-                <Excerpt>{post.frontmatter.excerpt}</Excerpt>
-              </Preview>
-            );
-          })}
+              <Excerpt>{post.frontmatter.excerpt}</Excerpt>
+            </Preview>
+          ))}
         <Footer />
       </BlogWrapper>
     </div>

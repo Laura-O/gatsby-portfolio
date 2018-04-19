@@ -1,6 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Helmet from 'react-helmet';
 import styled from 'styled-components';
 
 const FormWrapper = styled.div`
@@ -13,7 +11,7 @@ const FormWrapper = styled.div`
 
 export function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
     .join('&');
 }
 
@@ -23,21 +21,21 @@ export default class Contact extends React.Component {
     this.state = {};
   }
 
-  handleChange = e => {
+  handleChange(e) {
     this.setState({ [e.target.name]: e.target.value });
-  };
+  }
 
-  handleSubmit = e => {
-    fetch('/', {
+  handleSubmit(e) {
+    this.fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contact', ...this.state }),
     })
-      .then(() => alert('Success!'))
-      .catch(error => alert(error));
+      .then(() => this.alert('Success!'))
+      .catch(error => this.alert(error));
 
     e.preventDefault();
-  };
+  }
 
   render() {
     return (
@@ -52,24 +50,24 @@ export default class Contact extends React.Component {
           onSubmit={this.handleSubmit}
         >
           <p hidden>
-            <label>
+            <label htmlFor="bot-field">
               Don’t fill this out: <input name="bot-field" />
             </label>
           </p>
           <p>
-            <label>
+            <label htmlFor="name">
               Your name:<br />
               <input type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
           <p>
-            <label>
+            <label htmlFor="email">
               Your email:<br />
               <input type="email" name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p>
-            <label>
+            <label htmlFor="message">
               Message:<br />
               <textarea name="message" onChange={this.handleChange} />
             </label>

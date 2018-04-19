@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
-import Link from 'gatsby-link';
+import styled from 'styled-components';
 
 import Tag from '../../layouts/shared/tag';
 import * as animations from '../../layouts/shared/animations';
 import * as constants from '../../layouts/shared/style-constants';
-import styled from 'styled-components';
 
 const ProjectWrapper = styled.div`
   display: flex;

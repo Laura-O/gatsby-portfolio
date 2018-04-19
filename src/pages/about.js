@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import styled from 'styled-components';
 import Tech from '../components/Tech/Tech';
 import Bio from '../components/Bio/Bio';
 import Footer from '../components/Footer/Footer';
 import Wrapper from '../layouts/shared/Pagewrapper';
-import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 
 const AboutWrapper = Wrapper.extend`

@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 import * as animations from '../../layouts/shared/animations';
@@ -44,7 +43,7 @@ const TechTags = styled.ul`
   }
 `;
 
-const Tech = ({ stack }) => {
+const Tech = () => {
   const frontEnd = ['React', 'Redux', 'Gatsby', 'Vue.js', 'HTML5', 'SCSS'];
   const backEnd = ['Node', 'Express', 'PostgreSQL'];
   const other = ['Git', 'R'];
