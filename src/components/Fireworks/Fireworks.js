@@ -51,7 +51,7 @@ export default class Fireworks extends Component {
       p.color = colors[anime.random(0, colors.length - 1)];
       p.radius = anime.random(8, 16);
       p.endPos = setParticuleDirection(p);
-      p.draw = function() {
+      p.draw = () => {
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, true);
         ctx.fillStyle = p.color;
@@ -61,14 +61,14 @@ export default class Fireworks extends Component {
     }
 
     function renderParticule(anim) {
-      for (let i = 0; i < anim.animatables.length; i++) {
+      for (let i = 0; i < anim.animatables.length; i += 1) {
         anim.animatables[i].target.draw();
       }
     }
 
     function animateParticules(x, y) {
       const particules = [];
-      for (let i = 0; i < numberOfParticules; i++) {
+      for (let i = 0; i < numberOfParticules; i += 1) {
         particules.push(createParticule(x, y));
       }
       anime.timeline().add({
@@ -103,9 +103,6 @@ export default class Fireworks extends Component {
       },
       false
     );
-
-    const centerX = window.innerWidth / 2;
-    const centerY = window.innerHeight / 2;
 
     setCanvasSize();
     window.addEventListener('resize', setCanvasSize, false);

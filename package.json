@@ -28,6 +28,7 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5",
     "lodash.debounce": "^4.0.8",
+    "prismjs": "^1.14.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-anime": "^2.1.0",

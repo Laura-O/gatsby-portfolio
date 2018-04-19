@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Fireworks from './Fireworks';
 import 'jest-canvas-mock';
+import Fireworks from './Fireworks';
 
 describe('make fireworks', () => {
   test('rendering', () => {

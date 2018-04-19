@@ -1,3 +1,7 @@
+export const imagePropType = {
+  sizes: 'image',
+};
+
 export const frontmatterPropType = {
   frontmatter: {
     title: 'title',
@@ -12,10 +16,6 @@ export const frontmatterPropType = {
       },
     },
   },
-};
-
-export const imagePropType = {
-  sizes: 'image',
 };
 
 export const markdownRemarkPropType = {

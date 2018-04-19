@@ -3,26 +3,25 @@ import { shallow } from 'enzyme';
 
 import Template from './blog-post';
 import {
-    frontmatterPropType,
-    sitePropType,
-    imagePropType,
-    markdownRemarkPropType,
+  frontmatterPropType,
+  sitePropType,
+  imagePropType,
 } from '../../test/fixtures';
 
 describe('blog', () => {
-    test('rendering', () => {
-        const renderProps = {
-            data: {
-                site: sitePropType,
-                markdownRemark: {
-                    ...frontmatterPropType,
-                },
-                indexCover: {
-                    sizes: imagePropType,
-                },
-            },
-        };
-        const wrapper = shallow(<Template {...renderProps} />);
-        expect(wrapper).toMatchSnapshot();
-    });
+  test('rendering', () => {
+    const renderProps = {
+      data: {
+        site: sitePropType,
+        markdownRemark: {
+          ...frontmatterPropType,
+        },
+        indexCover: {
+          sizes: imagePropType,
+        },
+      },
+    };
+    const wrapper = shallow(<Template {...renderProps} />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });

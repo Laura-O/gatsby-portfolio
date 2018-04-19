@@ -52,6 +52,11 @@ exports[`blog rendering 1`] = `
         Tag="div"
         alt=""
         fadeIn={true}
+        sizes={
+          Object {
+            "sizes": "image",
+          }
+        }
       />
       <div
         className="blog-post-content"

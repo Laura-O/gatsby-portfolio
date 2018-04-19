@@ -1,11 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import {
-  sitePropType,
-  imagePropType,
-  markdownRemarkPropType,
-  tagsPropType,
-} from '../../test/fixtures';
+import { sitePropType, tagsPropType } from '../../test/fixtures';
 import TagsPage from './tags';
 
 test('rendering', () => {
