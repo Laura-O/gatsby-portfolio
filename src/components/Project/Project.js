@@ -31,7 +31,6 @@ const Right = styled.div`
 
 const Project = ({ project }) => {
   const listItems = project.techs.map(tech => <Tag key={tech}>{tech}</Tag>);
-
   return (
     <Fragment>
       <ProjectWrapper>

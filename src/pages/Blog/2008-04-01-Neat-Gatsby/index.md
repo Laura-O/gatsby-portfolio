@@ -1,7 +1,7 @@
 ---
 path: "/neat-gatsby"
 date: "2018-04-01"
-updated: "2018-04-17"
+updated: "2018-04-20"
 title: "Some neat things you can do with Gatsby.js"
 tags: ["gatsby-js", "101"]
 timeToRead: 10
@@ -98,3 +98,23 @@ Additionally, Codecov also shows the code coverage (and the change of the code c
 ### Greenkeeper
 
 And there is also [Greenkeeper](https://greenkeeper.io/). It observes the dependencies of the application and automatically reates a pull request when they get updated, which saves a lot of time. Pretty neat!
+
+### Sentry
+
+[Sentry](https://www.sentry.io) "provides open source error tracking that shows you every crash in your stack as it happens" (quote from their website). There is a [Gatsby plugin](https://github.com/octalmage/gatsby-plugin-sentry) available which makes using Sentry really easy:
+
+* Create a Sentry account
+* Install the plugin with `bash±npm install --save npm install --save gatsby-plugin-sentry`
+* Add it to gatsby-config.js:
+
+```javascript
+{
+    resolve: 'gatsby-plugin-sentry',
+    options: {
+      dsn: 'SENTRY DSN (use the javascript one)',
+      version: '3.24.2'
+    },
+  }
+```
+
+And you are ready to go! :smile:
