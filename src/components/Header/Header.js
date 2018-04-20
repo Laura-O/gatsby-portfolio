@@ -54,17 +54,6 @@ const Hamburger = styled.div`
       z-index: ${constants.zIndexHamburger};
     
       span {
-        display: block;
-        position: absolute;
-        height: 20%;
-        width: 100%;
-        background: white;
-        opacity: 1;
-        left: 0;
-        transform: rotate(0deg);
-        transition: 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.1);
-        z-index: 3;
-
         &:nth-child(1) {
           top: 18px;
           width: 0%;
