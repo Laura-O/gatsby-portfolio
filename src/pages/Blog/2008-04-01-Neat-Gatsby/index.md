@@ -101,20 +101,20 @@ And there is also [Greenkeeper](https://greenkeeper.io/). It observes the depend
 
 ### Sentry
 
-[Sentry](https://www.sentry.io) "provides open source error tracking that shows you every crash in your stack as it happens" (quote from their website). There is a [Gatsby plugin](https://github.com/octalmage/gatsby-plugin-sentry) available which makes using Sentry really easy:
+[Sentry](https://www.sentry.io) "provides open source error tracking that shows you every crash in your stack as it happens" (quote from their website). There is a [Gatsby plugin](https://github.com/octalmage/gatsby-plugin-sentry) ~~available which makes using Sentry really easy~~ but it didn't work for me. That's not really a problem as it is super easy to install manually
 
 * Create a Sentry account
-* Install the plugin with `bash±npm install --save npm install --save gatsby-plugin-sentry`
-* Add it to gatsby-config.js:
+* Install Raven `bash±npm install --save raven-js`
+* Add this to your index.js:
 
 ```javascript
-{
-    resolve: 'gatsby-plugin-sentry',
-    options: {
-      dsn: 'SENTRY DSN (use the javascript one)',
-      version: '3.24.2'
-    },
-  }
+import Raven from 'raven-js';
+
+if (process.env.NODE_ENV === 'production') {
+  Raven.config('Your client key (DSN)', {
+    environment: 'production',
+  }).install();
+}
 ```
 
 And you are ready to go! :smile:
