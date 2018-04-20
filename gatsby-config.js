@@ -66,5 +66,13 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-sentry',
+      options: {
+        dsn: 'https://e0a8e3ead7644ddb9997c402a48f1608@sentry.io/1192908',
+        // Raven.js version, this is optional.
+        version: '3.19.1',
+      },
+    },
   ],
 };
