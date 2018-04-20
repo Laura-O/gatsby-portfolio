@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import 'prismjs/themes/prism-funky.css';
+import Raven from 'raven-js';
 import Header from '../components/Header/Header';
 import Head from '../components/Head/Head';
 import * as constants from '../layouts/shared/style-constants';
@@ -15,6 +16,12 @@ const PageWrapper = styled.div`
   background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};
 `;
+
+if (process.env.NODE_ENV === 'production') {
+  Raven.config('https://e0a8e3ead7644ddb9997c402a48f1608@sentry.io/1192908', {
+    environment: 'production',
+  }).install();
+}
 
 const TemplateWrapper = ({ children }) => (
   <div>
