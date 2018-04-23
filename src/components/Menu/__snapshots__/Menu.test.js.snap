@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<Fullscreen>
+<Fullscreen
+  active={true}
+>
   <nav>
     <styled.div>
       <GatsbyLink
+        onClick={[MockFunction]}
         to="/"
       >
         Home
@@ -12,6 +15,7 @@ exports[`rendering 1`] = `
     </styled.div>
     <styled.div>
       <GatsbyLink
+        onClick={[MockFunction]}
         to="/about"
       >
         About
@@ -19,6 +23,7 @@ exports[`rendering 1`] = `
     </styled.div>
     <styled.div>
       <GatsbyLink
+        onClick={[MockFunction]}
         to="/blog"
       >
         Blog
@@ -26,6 +31,7 @@ exports[`rendering 1`] = `
     </styled.div>
     <styled.div>
       <GatsbyLink
+        onClick={[MockFunction]}
         to="/projects"
       >
         Projects
@@ -33,6 +39,7 @@ exports[`rendering 1`] = `
     </styled.div>
     <styled.div>
       <GatsbyLink
+        onClick={[MockFunction]}
         to="/contact"
       >
         Contact

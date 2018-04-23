@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
 
 const AllTags = ({ pathContext }) => {
   const { tags } = pathContext;
@@ -21,3 +22,9 @@ const AllTags = ({ pathContext }) => {
 };
 
 export default AllTags;
+
+AllTags.propTypes = {
+  pathContext: PropTypes.shape({
+    tages: PropTypes.arrayOf(PropTypes.string),
+  }),
+};

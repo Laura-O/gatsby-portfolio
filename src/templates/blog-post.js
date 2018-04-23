@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
@@ -113,6 +114,14 @@ export default function Template({
     </div>
   );
 }
+
+Template.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      html: PropTypes.string.isRequired,
+    }),
+  }),
+};
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import 'prismjs/themes/prism-funky.css';
 import Raven from 'raven-js';
+import PropTypes from 'prop-types';
 import Header from '../components/Header/Header';
 import Head from '../components/Head/Head';
 import * as constants from '../layouts/shared/style-constants';
@@ -32,3 +33,7 @@ const TemplateWrapper = ({ children }) => (
 );
 
 export default TemplateWrapper;
+
+TemplateWrapper.propTypes = {
+  children: PropTypes.func.isRequired,
+};

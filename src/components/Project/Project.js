@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
-
+import PropTypes from 'prop-types';
 import Tag from '../../layouts/shared/tag';
 import * as animations from '../../layouts/shared/animations';
 import * as constants from '../../layouts/shared/style-constants';
@@ -48,3 +48,10 @@ const Project = ({ project }) => {
 };
 
 export default Project;
+
+Project.propTypes = {
+  project: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string,
+  }),
+};

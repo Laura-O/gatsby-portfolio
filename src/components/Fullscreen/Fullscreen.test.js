@@ -3,8 +3,12 @@ import { mount } from 'enzyme';
 import Fullscreen from './Fullscreen';
 
 describe('fullscreen mode', () => {
+  const props = {
+    children: [],
+  };
+
   test('active', () => {
-    const wrapper = mount(<Fullscreen active />);
+    const wrapper = mount(<Fullscreen active {...props} />);
     expect(wrapper).toMatchSnapshot();
   });
 

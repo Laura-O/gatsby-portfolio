@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import Fullscreen from '../Fullscreen/Fullscreen';
 import * as constants from '../../layouts/shared/style-constants';
 
@@ -36,7 +37,7 @@ const Item = styled.div`
   }
 `;
 
-export default function Menu(props) {
+function Menu(props) {
   const linkProps = {
     onClick: props.toggleNav,
   };
@@ -73,3 +74,10 @@ export default function Menu(props) {
     </Fullscreen>
   );
 }
+
+export default Menu;
+
+Menu.propTypes = {
+  toggleNav: PropTypes.func.isRequired,
+  active: PropTypes.bool.isRequired,
+};

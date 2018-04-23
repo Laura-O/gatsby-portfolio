@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import * as constants from '../../layouts/shared/style-constants';
 
 const FullscreenWrapper = styled.div`
@@ -36,3 +37,8 @@ const Fullscreen = ({ children, active }) => (
 );
 
 export default Fullscreen;
+
+Fullscreen.propTypes = {
+  children: PropTypes.node,
+  active: PropTypes.bool.isRequired,
+};

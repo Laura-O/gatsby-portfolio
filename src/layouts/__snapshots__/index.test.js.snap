@@ -1,6 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`rendering 1`] = `
+exports[`rendering it renders in production 1`] = `
+<div>
+  <Head />
+  <Header />
+  <styled.div>
+    children
+  </styled.div>
+</div>
+`;
+
+exports[`rendering renders outside production 1`] = `
 <div>
   <Head />
   <Header />

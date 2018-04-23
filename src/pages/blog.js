@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
@@ -39,7 +40,7 @@ const Infos = styled.div`
   padding: 1em;
 `;
 
-export default function Index({ data }) {
+function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
@@ -72,6 +73,16 @@ export default function Index({ data }) {
     </div>
   );
 }
+
+export default Index;
+
+Index.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+};
 
 export const pageQuery = graphql`
   query IndexQuery {
