@@ -73,23 +73,6 @@ exports[`blog rendering 1`] = `
         content="Cover image"
         name="twitter:image:alt"
       />
-      <meta
-        content="title"
-        property="og:site_name"
-      />
-      <meta
-        content="title"
-        name="twitter:title"
-        property="og:title"
-      />
-      <meta
-        content="undefined"
-        property="og:url"
-      />
-      <meta
-        name="twitter:description"
-        property="og:description"
-      />
     </HelmetWrapper>
     <styled.div>
       <h1>

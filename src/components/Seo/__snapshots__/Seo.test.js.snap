@@ -18,6 +18,24 @@ exports[`seo noPost 1`] = `
   >
     [{"@context":"http://schema.org","@type":"WebSite"}]
   </script>
+  <meta
+    content="Laura Ohrndorf | Portfolio and Website"
+    property="og:site_name"
+  />
+  <meta
+    content="Laura Ohrndorf | Portfolio and Website"
+    name="twitter:title"
+    property="og:title"
+  />
+  <meta
+    content="https://www.laura.fyi"
+    property="og:url"
+  />
+  <meta
+    content="portfolio"
+    name="twitter:description"
+    property="og:description"
+  />
 </HelmetWrapper>
 `;
 
@@ -39,5 +57,27 @@ exports[`seo post 1`] = `
   >
     [{"@context":"http://schema.org","@type":"WebSite"}]
   </script>
+  <meta
+    content="title"
+    property="og:site_name"
+  />
+  <meta
+    content="article"
+    property="og:type"
+  />
+  <meta
+    content="title"
+    name="twitter:title"
+    property="og:title"
+  />
+  <meta
+    content="https://www.laura.fyi"
+    property="og:url"
+  />
+  <meta
+    content="description"
+    name="twitter:description"
+    property="og:description"
+  />
 </HelmetWrapper>
 `;
