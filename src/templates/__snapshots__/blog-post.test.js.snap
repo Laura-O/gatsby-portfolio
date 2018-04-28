@@ -3,6 +3,29 @@
 exports[`blog rendering 1`] = `
 <div>
   <styled.div>
+    <Seo
+      data={
+        Object {
+          "date": "date",
+          "excerpt": "excerpt",
+          "image": Object {
+            "childImageSharp": Object {
+              "sizes": Object {
+                "sizes": "image",
+              },
+            },
+          },
+          "path": "path",
+          "tags": Array [
+            "tag1",
+            "tag2",
+          ],
+          "timeToRead": 10,
+          "title": "title",
+        }
+      }
+      isPost={true}
+    />
     <HelmetWrapper
       defer={true}
       encodeSpecialCharacters={true}
@@ -16,12 +39,39 @@ exports[`blog rendering 1`] = `
         name="description"
       />
       <meta
-        content="@lowmess"
+        content="@laura-fyi"
         name="twitter:site"
       />
       <meta
         content="summary"
         name="twitter:card"
+      />
+      <meta
+        content="@laura-fyi"
+        name="twitter:creator"
+      />
+      <meta
+        content="title"
+        name="twitter:title"
+      />
+      <meta
+        name="twitter:description"
+      />
+      <meta
+        content={
+          Object {
+            "childImageSharp": Object {
+              "sizes": Object {
+                "sizes": "image",
+              },
+            },
+          }
+        }
+        name="twitter:image"
+      />
+      <meta
+        content="Cover image"
+        name="twitter:image:alt"
       />
       <meta
         content="title"

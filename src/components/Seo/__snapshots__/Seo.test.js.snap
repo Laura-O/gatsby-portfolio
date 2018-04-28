@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`seo noPost 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    Laura Ohrndorf | Portfolio and Website
+     • Blog
+  </title>
+  <meta
+    content="portfolio"
+    name="description"
+  />
+  <script
+    type="application/ld+json"
+  >
+    [{"@context":"http://schema.org","@type":"WebSite"}]
+  </script>
+</HelmetWrapper>
+`;
+
+exports[`seo post 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    title
+     • Blog
+  </title>
+  <meta
+    content="description"
+    name="description"
+  />
+  <script
+    type="application/ld+json"
+  >
+    [{"@context":"http://schema.org","@type":"WebSite"}]
+  </script>
+</HelmetWrapper>
+`;

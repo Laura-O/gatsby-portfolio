@@ -3,6 +3,9 @@
 exports[`blog no post 1`] = `
 <div>
   <styled.div>
+    <Seo
+      isPost={false}
+    />
     <HelmetWrapper
       defer={true}
       encodeSpecialCharacters={true}
@@ -20,6 +23,9 @@ exports[`blog no post 1`] = `
 exports[`blog rendering 1`] = `
 <div>
   <styled.div>
+    <Seo
+      isPost={false}
+    />
     <HelmetWrapper
       defer={true}
       encodeSpecialCharacters={true}

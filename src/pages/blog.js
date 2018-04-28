@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
+import Seo from '../components/Seo/Seo';
 
 import '../layouts/index';
 
@@ -45,6 +46,7 @@ function Index({ data }) {
   return (
     <div>
       <BlogWrapper>
+        <Seo isPost={false} data={data.siteMetadata} />
         <Helmet>
           <title>{data.site.siteMetadata.title} • Blog</title>
         </Helmet>

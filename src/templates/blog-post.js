@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
 import Wrapper from '../layouts/shared/Pagewrapper';
+import Seo from '../components/Seo/Seo';
 
 const BlogPost = styled.div`
   display: flex;
@@ -56,34 +57,24 @@ export default function Template({
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
+
   return (
     <div>
       <PostWrapper>
+        <Seo data={frontmatter} isPost />
         <Helmet>
           <title>
             {frontmatter.title} • {data.site.siteMetadata.title}
           </title>
           <meta name="description" content={frontmatter.description} />
-          <meta name="twitter:site" content="@lowmess" />
+
+          <meta name="twitter:site" content="@laura-fyi" />
           <meta name="twitter:card" content="summary" />
-          <meta
-            property="og:site_name"
-            content={data.site.siteMetadata.title}
-          />
-          <meta
-            property="og:title"
-            name="twitter:title"
-            content={frontmatter.title}
-          />
-          <meta
-            property="og:url"
-            content={`${data.site.siteMetadata.siteUrl}`}
-          />
-          <meta
-            property="og:description"
-            name="twitter:description"
-            content={frontmatter.description}
-          />
+          <meta name="twitter:creator" content="@laura-fyi" />
+          <meta name="twitter:title" content={frontmatter.title} />
+          <meta name="twitter:description" content={frontmatter.description} />
+          <meta name="twitter:image" content={frontmatter.image} />
+          <meta name="twitter:image:alt" content="Cover image" />
         </Helmet>
 
         <BlogPost>
