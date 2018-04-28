@@ -59,6 +59,16 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-69225415-2',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        exclude: ['/preview/**'],
+      },
+    },
     `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-typography`,
