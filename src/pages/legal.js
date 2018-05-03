@@ -1,10 +1,41 @@
 import React from 'react';
+import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
 
+const LegalWrapper = Wrapper.extend`
+  width: 100vw;
+
+  h1, h2, h3 {
+    margin-right: auto;
+    margin-left: 10%;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+
+  h2, h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+`;
+
+const Paragraph = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+`;
+
 const LegalPage = () => (
   <div>
-    <Wrapper>
+    <LegalWrapper>
       <h1>Impressum</h1>
       <h3>Angaben gemäß § 5 TMG:</h3>
       <ul>
@@ -24,7 +55,7 @@ const LegalPage = () => (
 
       <h2>Haftungsausschluss:</h2>
       <h3>Haftung für Inhalte</h3>
-      <div>
+      <Paragraph>
         Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf
         diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8
         bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet,
@@ -36,9 +67,9 @@ const LegalPage = () => (
         Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von
         entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend
         entfernen.
-      </div>
+      </Paragraph>
       <h3>Haftung für Links</h3>
-      <div>
+      <Paragraph>
         Unser Angebot enthält Links zu externen Websites Dritter, auf deren
         Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden
         Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
@@ -49,9 +80,9 @@ const LegalPage = () => (
         inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete
         Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden
         von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-      </div>
+      </Paragraph>
       <h3>Urheberrecht</h3>
-      <div>
+      <Paragraph>
         Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
         Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
         Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
@@ -64,9 +95,9 @@ const LegalPage = () => (
         Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
         entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
         wir derartige Inhalte umgehend entfernen.
-      </div>
+      </Paragraph>
       <h3>Server-Log-Files</h3>
-      <div>
+      <Paragraph>
         Der Provider der Seiten erhebt und speichert automatisch Informationen
         in so genannten Server-Log Files, die Ihr Browser automatisch an uns
         übermittelt. Dies sind: Browsertyp und Browserversion verwendetes
@@ -76,17 +107,17 @@ const LegalPage = () => (
         vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen,
         wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt
         werden
-      </div>
+      </Paragraph>
       <h3>Kontaktformular</h3>
-      <div>
+      <Paragraph>
         Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre
         Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen
         Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von
         Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne
         Ihre Einwilligung weiter.
-      </div>
+      </Paragraph>
       <Footer />
-    </Wrapper>
+    </LegalWrapper>
   </div>
 );
 
