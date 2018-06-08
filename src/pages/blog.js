@@ -16,6 +16,7 @@ const BlogWrapper = Wrapper.extend`
 
 const Preview = styled.div`
   width: 80%;
+  max-width: 1280px;
   border-bottom: 1px solid rgb(238, 238, 238);
   padding: 0.5em 1em;
   transition: all 0.5s ease-in-out;
@@ -38,7 +39,7 @@ const Infos = styled.div`
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding: 1em;
+  padding: 1em 2em;
 `;
 
 function Index({ data }) {

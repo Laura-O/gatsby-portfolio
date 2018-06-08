@@ -15,6 +15,7 @@ const BlogPost = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 80%;
+  max-width: 1280px;
   background-color: ${constants.colorWhite};
 
   a {
