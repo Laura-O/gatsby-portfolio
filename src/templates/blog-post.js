@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -7,6 +7,8 @@ import styled from 'styled-components';
 import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
 import Wrapper from '../layouts/shared/Pagewrapper';
+import PageWrapper from '../components/layout';
+
 import Seo from '../components/Seo/Seo';
 
 const BlogPost = styled.div`
@@ -60,7 +62,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
 
   return (
-    <div>
+    <PageWrapper>
       <PostWrapper>
         <Seo data={frontmatter} isPost />
         <Helmet>
@@ -103,7 +105,7 @@ export default function Template({
           </div>
         </BlogPost>
       </PostWrapper>
-    </div>
+    </PageWrapper>
   );
 }
 

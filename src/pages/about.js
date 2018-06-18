@@ -1,10 +1,11 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import Tech from '../components/Tech/Tech';
 import Bio from '../components/Bio/Bio';
 import Footer from '../components/Footer/Footer';
 import Wrapper from '../layouts/shared/Pagewrapper';
+import PageWrapper from '../components/layout';
 import * as constants from '../layouts/shared/style-constants';
 
 const AboutWrapper = Wrapper.extend`
@@ -52,7 +53,7 @@ const UpperRight = styled.div`
 `;
 
 const AboutPage = () => (
-  <div>
+  <PageWrapper>
     <AboutWrapper>
       <Upper>
         <UpperLeft>
@@ -68,7 +69,7 @@ const AboutPage = () => (
       </Lower>
       <Footer />
     </AboutWrapper>
-  </div>
+  </PageWrapper>
 );
 
 export default AboutPage;

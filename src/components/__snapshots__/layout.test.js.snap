@@ -4,9 +4,7 @@ exports[`rendering it renders in production 1`] = `
 <div>
   <Head />
   <Header />
-  <styled.div>
-    children
-  </styled.div>
+  <styled.div />
 </div>
 `;
 
@@ -14,8 +12,6 @@ exports[`rendering renders outside production 1`] = `
 <div>
   <Head />
   <Header />
-  <styled.div>
-    children
-  </styled.div>
+  <styled.div />
 </div>
 `;

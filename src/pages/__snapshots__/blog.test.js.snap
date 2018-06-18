@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`blog no post 1`] = `
-<div>
+<TemplateWrapper>
   <styled.div>
     <Seo
       isPost={false}
@@ -17,11 +17,11 @@ exports[`blog no post 1`] = `
     </HelmetWrapper>
     <Footer />
   </styled.div>
-</div>
+</TemplateWrapper>
 `;
 
 exports[`blog rendering 1`] = `
-<div>
+<TemplateWrapper>
   <styled.div>
     <Seo
       isPost={false}
@@ -70,5 +70,5 @@ exports[`blog rendering 1`] = `
     </styled.div>
     <Footer />
   </styled.div>
-</div>
+</TemplateWrapper>
 `;

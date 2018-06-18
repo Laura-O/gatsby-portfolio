@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div>
+<TemplateWrapper>
   <styled.div>
     <Contact />
     <Credits />
   </styled.div>
   <Footer />
-</div>
+</TemplateWrapper>
 `;
