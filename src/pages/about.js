@@ -8,10 +8,6 @@ import Wrapper from '../layouts/shared/Pagewrapper';
 import PageWrapper from '../components/layout';
 import * as constants from '../layouts/shared/style-constants';
 
-const AboutWrapper = Wrapper.extend`
-  height: 100%;
-`;
-
 const Lower = styled.div`
   display: flex;
   width: 100%;
@@ -54,7 +50,7 @@ const UpperRight = styled.div`
 
 const AboutPage = () => (
   <PageWrapper>
-    <AboutWrapper>
+    <Wrapper>
       <Upper>
         <UpperLeft>
           <Bio />
@@ -68,7 +64,7 @@ const AboutPage = () => (
         <Link to="/contact">Contact form</Link>.
       </Lower>
       <Footer />
-    </AboutWrapper>
+    </Wrapper>
   </PageWrapper>
 );
 

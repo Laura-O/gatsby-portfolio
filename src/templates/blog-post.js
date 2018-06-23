@@ -18,6 +18,7 @@ const BlogPost = styled.div`
   align-items: center;
   width: 80%;
   max-width: 1280px;
+  margin: 10px 0;
   background-color: ${constants.colorWhite};
 
   a {
