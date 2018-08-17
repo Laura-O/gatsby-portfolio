@@ -6,7 +6,9 @@ import kebabCase from 'lodash/kebabCase';
 
 // Components
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
+
+import PageWrapper from '../components/layout';
 
 const TagsPage = ({
   data: {
@@ -16,7 +18,7 @@ const TagsPage = ({
     },
   },
 }) => (
-  <div>
+  <PageWrapper>
     <Helmet title={title} />
     <div>
       <h1>Tags</h1>
@@ -30,7 +32,7 @@ const TagsPage = ({
         ))}
       </ul>
     </div>
-  </div>
+  </PageWrapper>
 );
 
 TagsPage.propTypes = {

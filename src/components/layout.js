@@ -7,8 +7,6 @@ import Header from '../components/Header/Header';
 import Head from '../components/Head/Head';
 import * as constants from '../layouts/shared/style-constants';
 
-import './index.scss';
-
 const PageWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -28,7 +26,7 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Head />
     <Header />
-    <PageWrapper>{children()}</PageWrapper>
+    <PageWrapper>{children}</PageWrapper>
   </div>
 );
 

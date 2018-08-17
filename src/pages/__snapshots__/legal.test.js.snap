@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div>
+<TemplateWrapper>
   <styled.div>
     <h1>
       Impressum
@@ -75,5 +75,5 @@ exports[`rendering 1`] = `
     </styled.div>
     <Footer />
   </styled.div>
-</div>
+</TemplateWrapper>
 `;

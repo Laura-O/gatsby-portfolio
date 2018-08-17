@@ -1,15 +1,12 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import Tech from '../components/Tech/Tech';
 import Bio from '../components/Bio/Bio';
 import Footer from '../components/Footer/Footer';
 import Wrapper from '../layouts/shared/Pagewrapper';
+import PageWrapper from '../components/layout';
 import * as constants from '../layouts/shared/style-constants';
-
-const AboutWrapper = Wrapper.extend`
-  height: 100%;
-`;
 
 const Lower = styled.div`
   display: flex;
@@ -52,8 +49,8 @@ const UpperRight = styled.div`
 `;
 
 const AboutPage = () => (
-  <div>
-    <AboutWrapper>
+  <PageWrapper>
+    <Wrapper>
       <Upper>
         <UpperLeft>
           <Bio />
@@ -67,8 +64,8 @@ const AboutPage = () => (
         <Link to="/contact">Contact form</Link>.
       </Lower>
       <Footer />
-    </AboutWrapper>
-  </div>
+    </Wrapper>
+  </PageWrapper>
 );
 
 export default AboutPage;

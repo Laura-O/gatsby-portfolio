@@ -11,4 +11,7 @@ module.exports = {
   testPathIgnorePatterns: ['/.cache/'],
   setupFiles: ['./test/setup.js', 'jest-canvas-mock'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
+  verbose: true,
+  plugins: ['transform-class-properties'],
+  transform: { '^.+\\.js$': '<rootDir>/jestPreprocess.js' },
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -7,8 +7,9 @@ import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
 import Seo from '../components/Seo/Seo';
+import PageWrapper from '../components/layout';
 
-import '../layouts/index';
+import './index';
 
 const BlogWrapper = Wrapper.extend`
   padding-top: 2em;
@@ -45,7 +46,7 @@ const Infos = styled.div`
 function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <div>
+    <PageWrapper>
       <BlogWrapper>
         <Seo isPost={false} data={data.siteMetadata} />
         <Helmet>
@@ -73,7 +74,7 @@ function Index({ data }) {
           ))}
         <Footer />
       </BlogWrapper>
-    </div>
+    </PageWrapper>
   );
 }
 

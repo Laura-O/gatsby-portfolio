@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Footer from '../components/Footer/Footer';
 import Project from '../components/Project/Project';
+import PageWrapper from '../components/layout';
 import projects from '../assets/projects.json';
 
 const ProjectPage = styled.div`
@@ -38,7 +39,7 @@ const Divider = styled.div`
 `;
 
 const ProjectsPage = () => (
-  <div>
+  <PageWrapper>
     <ProjectPage>
       <h1>Projects</h1>
       {projects.map(project => (
@@ -49,7 +50,7 @@ const ProjectsPage = () => (
       ))}
       <Footer />
     </ProjectPage>
-  </div>
+  </PageWrapper>
 );
 
 export default ProjectsPage;
