@@ -15,7 +15,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
       "children": <styled.div>
         <styled.div>
@@ -174,13 +174,13 @@ ShallowWrapper {
       ],
       "type": [Function],
     },
-    "type": "div",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
         "children": <styled.div>
           <styled.div>
@@ -339,7 +339,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
-      "type": "div",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
