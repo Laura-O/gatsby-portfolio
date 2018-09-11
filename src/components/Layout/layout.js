@@ -11,6 +11,7 @@ import './index.scss';
 
 const PageWrapper = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 5.8rem 0px 0px 0px;
   min-height: 100vh;

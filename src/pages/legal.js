@@ -2,11 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
+import Layout from '../components/Layout/layout';
 
 const LegalWrapper = Wrapper.extend`
   width: 100vw;
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     margin-right: auto;
     margin-left: 10%;
   }
@@ -19,7 +22,8 @@ const LegalWrapper = Wrapper.extend`
     }
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -34,7 +38,7 @@ const Paragraph = styled.div`
 `;
 
 const LegalPage = () => (
-  <div>
+  <Layout>
     <LegalWrapper>
       <h1>Impressum</h1>
       <h3>Angaben gemäß § 5 TMG:</h3>
@@ -118,7 +122,7 @@ const LegalPage = () => (
       </Paragraph>
       <Footer />
     </LegalWrapper>
-  </div>
+  </Layout>
 );
 
 export default LegalPage;
