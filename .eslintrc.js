@@ -18,6 +18,8 @@ module.exports = {
     treatUndefinedAsUnspecified: 0,
     'react/prop-types': 1,
     'react/require-default-props': 0,
+    'lines-between-class-members': 0,
+    'destructuring-assignment': 0,
   },
   settings: {
     'import/core-modules': ['react', 'react-helmet'],

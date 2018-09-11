@@ -9,6 +9,8 @@ module.exports = {
     '\\.(css|less|scss)$': '<rootDir>/test/__mocks__/styleMock.js',
   },
   testPathIgnorePatterns: ['/.cache/'],
+  transform: { '^.+\\.js$': '<rootDir>/jestPreprocess.js' },
   setupFiles: ['./test/setup.js', 'jest-canvas-mock'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
+  verbose: true,
 };

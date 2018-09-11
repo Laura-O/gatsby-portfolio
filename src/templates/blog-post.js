@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from "gatsby"
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -8,6 +8,7 @@ import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Seo from '../components/Seo/Seo';
+import { graphql } from 'gatsby';
 
 const BlogPost = styled.div`
   display: flex;
