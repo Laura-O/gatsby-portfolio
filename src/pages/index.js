@@ -1,16 +1,16 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import StartAnimation from '../components/StartAnimation/StartAnimation';
 import Fireworks from '../components/Fireworks/Fireworks';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
-import '../layouts/index';
+import Layout from '../components/Layout/layout';
 
 const IndexWrapper = Wrapper.extend`
-  background-color: ${constants.darkBackground}
-  color: ${constants.colorWhite}
+  background-color: ${constants.darkBackground};
+  color: ${constants.colorWhite};
   width: 100%;
 `;
 
@@ -34,7 +34,7 @@ const PulseButton = styled.button`
 `;
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <IndexWrapper>
       <StartAnimation />
       <div className="about-me">
@@ -59,7 +59,7 @@ const IndexPage = () => (
         </div>
       </StartButtons>
     </IndexWrapper>
-  </div>
+  </Layout>
 );
 
 export default IndexPage;

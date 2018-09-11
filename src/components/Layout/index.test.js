@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import TemplateWrapper from './index';
+import TemplateWrapper from './layout';
 
 describe('rendering', () => {
   const props = {

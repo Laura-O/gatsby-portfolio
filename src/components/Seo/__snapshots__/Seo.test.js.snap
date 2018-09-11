@@ -1,83 +1,673 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`seo noPost 1`] = `
-<HelmetWrapper
-  defer={true}
-  encodeSpecialCharacters={true}
->
-  <title>
-    Laura Ohrndorf | Portfolio and Website
-     • Blog
-  </title>
-  <meta
-    content="portfolio"
-    name="description"
-  />
-  <script
-    type="application/ld+json"
-  >
-    [{"@context":"http://schema.org","@type":"WebSite"}]
-  </script>
-  <meta
-    content="Laura Ohrndorf | Portfolio and Website"
-    property="og:site_name"
-  />
-  <meta
-    content="Laura Ohrndorf | Portfolio and Website"
-    name="twitter:title"
-    property="og:title"
-  />
-  <meta
-    content="https://www.laura.fyi"
-    property="og:url"
-  />
-  <meta
-    content="portfolio"
-    name="twitter:description"
-    property="og:description"
-  />
-</HelmetWrapper>
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Seo
+    data={
+      Object {
+        "description": "description",
+        "title": "title",
+      }
+    }
+    isPost={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <title>
+          Laura Ohrndorf | Portfolio and Website
+           • Blog
+        </title>,
+        <meta
+          content="portfolio"
+          name="description"
+        />,
+        <script
+          type="application/ld+json"
+        >
+          [{"@context":"http://schema.org","@type":"WebSite"}]
+        </script>,
+        <meta
+          content="Laura Ohrndorf | Portfolio and Website"
+          property="og:site_name"
+        />,
+        null,
+        <meta
+          content="Laura Ohrndorf | Portfolio and Website"
+          name="twitter:title"
+          property="og:title"
+        />,
+        <meta
+          content="https://www.laura.fyi"
+          property="og:url"
+        />,
+        <meta
+          content="portfolio"
+          name="twitter:description"
+          property="og:description"
+        />,
+      ],
+      "defer": true,
+      "encodeSpecialCharacters": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Laura Ohrndorf | Portfolio and Website",
+            " • Blog",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Laura Ohrndorf | Portfolio and Website",
+          " • Blog",
+        ],
+        "type": "title",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "portfolio",
+          "name": "description",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+          "type": "application/ld+json",
+        },
+        "ref": null,
+        "rendered": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+        "type": "script",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "Laura Ohrndorf | Portfolio and Website",
+          "property": "og:site_name",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "Laura Ohrndorf | Portfolio and Website",
+          "name": "twitter:title",
+          "property": "og:title",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "https://www.laura.fyi",
+          "property": "og:url",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "portfolio",
+          "name": "twitter:description",
+          "property": "og:description",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <title>
+            Laura Ohrndorf | Portfolio and Website
+             • Blog
+          </title>,
+          <meta
+            content="portfolio"
+            name="description"
+          />,
+          <script
+            type="application/ld+json"
+          >
+            [{"@context":"http://schema.org","@type":"WebSite"}]
+          </script>,
+          <meta
+            content="Laura Ohrndorf | Portfolio and Website"
+            property="og:site_name"
+          />,
+          null,
+          <meta
+            content="Laura Ohrndorf | Portfolio and Website"
+            name="twitter:title"
+            property="og:title"
+          />,
+          <meta
+            content="https://www.laura.fyi"
+            property="og:url"
+          />,
+          <meta
+            content="portfolio"
+            name="twitter:description"
+            property="og:description"
+          />,
+        ],
+        "defer": true,
+        "encodeSpecialCharacters": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Laura Ohrndorf | Portfolio and Website",
+              " • Blog",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Laura Ohrndorf | Portfolio and Website",
+            " • Blog",
+          ],
+          "type": "title",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "portfolio",
+            "name": "description",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+            "type": "application/ld+json",
+          },
+          "ref": null,
+          "rendered": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+          "type": "script",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "Laura Ohrndorf | Portfolio and Website",
+            "property": "og:site_name",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "Laura Ohrndorf | Portfolio and Website",
+            "name": "twitter:title",
+            "property": "og:title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "https://www.laura.fyi",
+            "property": "og:url",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "portfolio",
+            "name": "twitter:description",
+            "property": "og:description",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
 `;
 
 exports[`seo post 1`] = `
-<HelmetWrapper
-  defer={true}
-  encodeSpecialCharacters={true}
->
-  <title>
-    title
-     • Blog
-  </title>
-  <meta
-    content="description"
-    name="description"
-  />
-  <script
-    type="application/ld+json"
-  >
-    [{"@context":"http://schema.org","@type":"WebSite"}]
-  </script>
-  <meta
-    content="title"
-    property="og:site_name"
-  />
-  <meta
-    content="article"
-    property="og:type"
-  />
-  <meta
-    content="title"
-    name="twitter:title"
-    property="og:title"
-  />
-  <meta
-    content="https://www.laura.fyi"
-    property="og:url"
-  />
-  <meta
-    content="description"
-    name="twitter:description"
-    property="og:description"
-  />
-</HelmetWrapper>
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Seo
+    data={
+      Object {
+        "description": "description",
+        "title": "title",
+      }
+    }
+    isPost={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <title>
+          title
+           • Blog
+        </title>,
+        <meta
+          content="description"
+          name="description"
+        />,
+        <script
+          type="application/ld+json"
+        >
+          [{"@context":"http://schema.org","@type":"WebSite"}]
+        </script>,
+        <meta
+          content="title"
+          property="og:site_name"
+        />,
+        <meta
+          content="article"
+          property="og:type"
+        />,
+        <meta
+          content="title"
+          name="twitter:title"
+          property="og:title"
+        />,
+        <meta
+          content="https://www.laura.fyi"
+          property="og:url"
+        />,
+        <meta
+          content="description"
+          name="twitter:description"
+          property="og:description"
+        />,
+      ],
+      "defer": true,
+      "encodeSpecialCharacters": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "title",
+            " • Blog",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "title",
+          " • Blog",
+        ],
+        "type": "title",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "description",
+          "name": "description",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+          "type": "application/ld+json",
+        },
+        "ref": null,
+        "rendered": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+        "type": "script",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "title",
+          "property": "og:site_name",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "article",
+          "property": "og:type",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "title",
+          "name": "twitter:title",
+          "property": "og:title",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "https://www.laura.fyi",
+          "property": "og:url",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "content": "description",
+          "name": "twitter:description",
+          "property": "og:description",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "meta",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <title>
+            title
+             • Blog
+          </title>,
+          <meta
+            content="description"
+            name="description"
+          />,
+          <script
+            type="application/ld+json"
+          >
+            [{"@context":"http://schema.org","@type":"WebSite"}]
+          </script>,
+          <meta
+            content="title"
+            property="og:site_name"
+          />,
+          <meta
+            content="article"
+            property="og:type"
+          />,
+          <meta
+            content="title"
+            name="twitter:title"
+            property="og:title"
+          />,
+          <meta
+            content="https://www.laura.fyi"
+            property="og:url"
+          />,
+          <meta
+            content="description"
+            name="twitter:description"
+            property="og:description"
+          />,
+        ],
+        "defer": true,
+        "encodeSpecialCharacters": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "title",
+              " • Blog",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "title",
+            " • Blog",
+          ],
+          "type": "title",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "description",
+            "name": "description",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+            "type": "application/ld+json",
+          },
+          "ref": null,
+          "rendered": "[{\\"@context\\":\\"http://schema.org\\",\\"@type\\":\\"WebSite\\"}]",
+          "type": "script",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "title",
+            "property": "og:site_name",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "article",
+            "property": "og:type",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "title",
+            "name": "twitter:title",
+            "property": "og:title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "https://www.laura.fyi",
+            "property": "og:url",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "content": "description",
+            "name": "twitter:description",
+            "property": "og:description",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "meta",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
 `;
