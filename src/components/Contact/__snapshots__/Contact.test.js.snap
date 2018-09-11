@@ -1,75 +1,901 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`contactform rendering 1`] = `
-<styled.div>
-  <h1>
-    Contact
-  </h1>
-  <form
-    action="/thanks/"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-    method="post"
-    name="contact"
-    onSubmit={[Function]}
-  >
-    <p
-      hidden={true}
-    >
-      <label
-        htmlFor="bot-field"
-      >
-        Don’t fill this out: 
-        <input
-          name="bot-field"
-        />
-      </label>
-    </p>
-    <p>
-      <label
-        htmlFor="name"
-      >
-        Your name:
-        <br />
-        <input
-          name="name"
-          onChange={[Function]}
-          type="text"
-        />
-      </label>
-    </p>
-    <p>
-      <label
-        htmlFor="email"
-      >
-        Your email:
-        <br />
-        <input
-          name="email"
-          onChange={[Function]}
-          type="email"
-        />
-      </label>
-    </p>
-    <p>
-      <label
-        htmlFor="message"
-      >
-        Message:
-        <br />
-        <textarea
-          name="message"
-          onChange={[Function]}
-        />
-      </label>
-    </p>
-    <p>
-      <button
-        type="submit"
-      >
-        Send
-      </button>
-    </p>
-  </form>
-</styled.div>
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Contact />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Contact
+        </h1>,
+        <form
+          action="/thanks/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          method="post"
+          name="contact"
+          onSubmit={[Function]}
+        >
+          <p
+            hidden={true}
+          >
+            <label
+              htmlFor="bot-field"
+            >
+              Don’t fill this out: 
+              <input
+                name="bot-field"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              htmlFor="name"
+            >
+              Your name:
+              <br />
+              <input
+                name="name"
+                onChange={[Function]}
+                type="text"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              htmlFor="email"
+            >
+              Your email:
+              <br />
+              <input
+                name="email"
+                onChange={[Function]}
+                type="email"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              htmlFor="message"
+            >
+              Message:
+              <br />
+              <textarea
+                name="message"
+                onChange={[Function]}
+              />
+            </label>
+          </p>
+          <p>
+            <button
+              type="submit"
+            >
+              Send
+            </button>
+          </p>
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Contact",
+        },
+        "ref": null,
+        "rendered": "Contact",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "action": "/thanks/",
+          "children": Array [
+            <p
+              hidden={true}
+            >
+              <label
+                htmlFor="bot-field"
+              >
+                Don’t fill this out: 
+                <input
+                  name="bot-field"
+                />
+              </label>
+            </p>,
+            <p>
+              <label
+                htmlFor="name"
+              >
+                Your name:
+                <br />
+                <input
+                  name="name"
+                  onChange={[Function]}
+                  type="text"
+                />
+              </label>
+            </p>,
+            <p>
+              <label
+                htmlFor="email"
+              >
+                Your email:
+                <br />
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  type="email"
+                />
+              </label>
+            </p>,
+            <p>
+              <label
+                htmlFor="message"
+              >
+                Message:
+                <br />
+                <textarea
+                  name="message"
+                  onChange={[Function]}
+                />
+              </label>
+            </p>,
+            <p>
+              <button
+                type="submit"
+              >
+                Send
+              </button>
+            </p>,
+          ],
+          "data-netlify": "true",
+          "data-netlify-honeypot": "bot-field",
+          "method": "post",
+          "name": "contact",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <label
+                htmlFor="bot-field"
+              >
+                Don’t fill this out: 
+                <input
+                  name="bot-field"
+                />
+              </label>,
+              "hidden": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Don’t fill this out: ",
+                  <input
+                    name="bot-field"
+                  />,
+                ],
+                "htmlFor": "bot-field",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Don’t fill this out: ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "bot-field",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <label
+                htmlFor="name"
+              >
+                Your name:
+                <br />
+                <input
+                  name="name"
+                  onChange={[Function]}
+                  type="text"
+                />
+              </label>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Your name:",
+                  <br />,
+                  <input
+                    name="name"
+                    onChange={[Function]}
+                    type="text"
+                  />,
+                ],
+                "htmlFor": "name",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Your name:",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "name",
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <label
+                htmlFor="email"
+              >
+                Your email:
+                <br />
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  type="email"
+                />
+              </label>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Your email:",
+                  <br />,
+                  <input
+                    name="email"
+                    onChange={[Function]}
+                    type="email"
+                  />,
+                ],
+                "htmlFor": "email",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Your email:",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "email",
+                    "onChange": [Function],
+                    "type": "email",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <label
+                htmlFor="message"
+              >
+                Message:
+                <br />
+                <textarea
+                  name="message"
+                  onChange={[Function]}
+                />
+              </label>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Message:",
+                  <br />,
+                  <textarea
+                    name="message"
+                    onChange={[Function]}
+                  />,
+                ],
+                "htmlFor": "message",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Message:",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "message",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "textarea",
+                },
+              ],
+              "type": "label",
+            },
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                type="submit"
+              >
+                Send
+              </button>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Send",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Send",
+              "type": "button",
+            },
+            "type": "p",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Contact
+          </h1>,
+          <form
+            action="/thanks/"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            method="post"
+            name="contact"
+            onSubmit={[Function]}
+          >
+            <p
+              hidden={true}
+            >
+              <label
+                htmlFor="bot-field"
+              >
+                Don’t fill this out: 
+                <input
+                  name="bot-field"
+                />
+              </label>
+            </p>
+            <p>
+              <label
+                htmlFor="name"
+              >
+                Your name:
+                <br />
+                <input
+                  name="name"
+                  onChange={[Function]}
+                  type="text"
+                />
+              </label>
+            </p>
+            <p>
+              <label
+                htmlFor="email"
+              >
+                Your email:
+                <br />
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  type="email"
+                />
+              </label>
+            </p>
+            <p>
+              <label
+                htmlFor="message"
+              >
+                Message:
+                <br />
+                <textarea
+                  name="message"
+                  onChange={[Function]}
+                />
+              </label>
+            </p>
+            <p>
+              <button
+                type="submit"
+              >
+                Send
+              </button>
+            </p>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Contact",
+          },
+          "ref": null,
+          "rendered": "Contact",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "action": "/thanks/",
+            "children": Array [
+              <p
+                hidden={true}
+              >
+                <label
+                  htmlFor="bot-field"
+                >
+                  Don’t fill this out: 
+                  <input
+                    name="bot-field"
+                  />
+                </label>
+              </p>,
+              <p>
+                <label
+                  htmlFor="name"
+                >
+                  Your name:
+                  <br />
+                  <input
+                    name="name"
+                    onChange={[Function]}
+                    type="text"
+                  />
+                </label>
+              </p>,
+              <p>
+                <label
+                  htmlFor="email"
+                >
+                  Your email:
+                  <br />
+                  <input
+                    name="email"
+                    onChange={[Function]}
+                    type="email"
+                  />
+                </label>
+              </p>,
+              <p>
+                <label
+                  htmlFor="message"
+                >
+                  Message:
+                  <br />
+                  <textarea
+                    name="message"
+                    onChange={[Function]}
+                  />
+                </label>
+              </p>,
+              <p>
+                <button
+                  type="submit"
+                >
+                  Send
+                </button>
+              </p>,
+            ],
+            "data-netlify": "true",
+            "data-netlify-honeypot": "bot-field",
+            "method": "post",
+            "name": "contact",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <label
+                  htmlFor="bot-field"
+                >
+                  Don’t fill this out: 
+                  <input
+                    name="bot-field"
+                  />
+                </label>,
+                "hidden": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Don’t fill this out: ",
+                    <input
+                      name="bot-field"
+                    />,
+                  ],
+                  "htmlFor": "bot-field",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Don’t fill this out: ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "bot-field",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "label",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <label
+                  htmlFor="name"
+                >
+                  Your name:
+                  <br />
+                  <input
+                    name="name"
+                    onChange={[Function]}
+                    type="text"
+                  />
+                </label>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Your name:",
+                    <br />,
+                    <input
+                      name="name"
+                      onChange={[Function]}
+                      type="text"
+                    />,
+                  ],
+                  "htmlFor": "name",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Your name:",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "name",
+                      "onChange": [Function],
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "label",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <label
+                  htmlFor="email"
+                >
+                  Your email:
+                  <br />
+                  <input
+                    name="email"
+                    onChange={[Function]}
+                    type="email"
+                  />
+                </label>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Your email:",
+                    <br />,
+                    <input
+                      name="email"
+                      onChange={[Function]}
+                      type="email"
+                    />,
+                  ],
+                  "htmlFor": "email",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Your email:",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "email",
+                      "onChange": [Function],
+                      "type": "email",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "label",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <label
+                  htmlFor="message"
+                >
+                  Message:
+                  <br />
+                  <textarea
+                    name="message"
+                    onChange={[Function]}
+                  />
+                </label>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Message:",
+                    <br />,
+                    <textarea
+                      name="message"
+                      onChange={[Function]}
+                    />,
+                  ],
+                  "htmlFor": "message",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Message:",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "name": "message",
+                      "onChange": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "textarea",
+                  },
+                ],
+                "type": "label",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  type="submit"
+                >
+                  Send
+                </button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Send",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Send",
+                "type": "button",
+              },
+              "type": "p",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
 `;

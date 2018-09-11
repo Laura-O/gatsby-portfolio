@@ -12,7 +12,7 @@ export const frontmatterPropType = {
     tags: ['tag1', 'tag2'],
     image: {
       childImageSharp: {
-        sizes: imagePropType,
+        fluid: imagePropType,
       },
     },
   },
@@ -28,7 +28,7 @@ export const markdownRemarkPropType = {
       path: 'path',
       image: {
         childImageSharp: {
-          sizes: imagePropType,
+          fluid: imagePropType,
         },
       },
     },

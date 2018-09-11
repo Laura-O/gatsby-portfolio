@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "gatsby"
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -8,7 +8,7 @@ import * as constants from '../layouts/shared/style-constants';
 import Tag from '../layouts/shared/tag';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Seo from '../components/Seo/Seo';
-import { graphql } from 'gatsby';
+import Layout from '../components/Layout/layout';
 
 const BlogPost = styled.div`
   display: flex;
@@ -61,7 +61,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
 
   return (
-    <div>
+    <Layout>
       <PostWrapper>
         <Seo data={frontmatter} isPost />
         <Helmet>
@@ -87,7 +87,7 @@ export default function Template({
               <h4>Updated: {frontmatter.updated}</h4>
             )}
           {frontmatter.image && (
-            <Img sizes={frontmatter.image.childImageSharp.sizes} />
+            <Img sizes={frontmatter.image.childImageSharp.fluid} />
           )}
 
           <div
@@ -104,7 +104,7 @@ export default function Template({
           </div>
         </BlogPost>
       </PostWrapper>
-    </div>
+    </Layout>
   );
 }
 
@@ -135,8 +135,8 @@ export const pageQuery = graphql`
         tags
         image {
           childImageSharp {
-            sizes(maxWidth: 600) {
-              ...GatsbyImageSharpSizes
+            fluid(maxWidth: 600) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

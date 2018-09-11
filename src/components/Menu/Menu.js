@@ -38,12 +38,13 @@ const Item = styled.div`
 `;
 
 function Menu(props) {
+  const { toggleNav, active } = props;
   const linkProps = {
-    onClick: props.toggleNav,
+    onClick: toggleNav,
   };
 
   return (
-    <Fullscreen active={props.active}>
+    <Fullscreen active={active}>
       <nav>
         <Item>
           <Link {...linkProps} to="/">

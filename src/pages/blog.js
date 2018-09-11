@@ -60,7 +60,7 @@ function Index({ data }) {
               </Title>
 
               {post.frontmatter.image && (
-                <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
+                <Img sizes={post.frontmatter.image.childImageSharp.fluid} />
               )}
               <Infos>
                 <small>{post.frontmatter.date}</small>
@@ -105,8 +105,8 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                sizes(maxWidth: 800) {
-                  ...GatsbyImageSharpSizes
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

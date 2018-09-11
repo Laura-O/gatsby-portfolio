@@ -1,174 +1,1595 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<div>
-  <styled.div>
-    <h1>
-      Projects
-    </h1>
-    <div
-      key="0"
-    >
-      <Project
-        key="0"
-        project={
-          Object {
-            "description": "Productivity timer for todo.txt",
-            "id": 0,
-            "image": "/projects/todotron.png",
-            "name": "TodoTron 3000",
-            "techs": Array [
-              "Electron",
-              "Vue.js",
-              "Vuex",
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProjectsPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <styled.div>
+        <h1>
+          Projects
+        </h1>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "Productivity timer for todo.txt",
+                "id": 0,
+                "image": "/projects/todotron.png",
+                "name": "TodoTron 3000",
+                "techs": Array [
+                  "Electron",
+                  "Vue.js",
+                  "Vuex",
+                ],
+                "thumbnail": "/projects/todotron_thumb.png",
+                "url": "https://github.com/Laura-O/todo-tron",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "A social network with chatroom",
+                "id": 1,
+                "image": "/projects/social_network.png",
+                "name": "FriendZone",
+                "techs": Array [
+                  "React",
+                  "Redux",
+                  "PostgreSQL",
+                  "Socket.io",
+                ],
+                "thumbnail": "/projects/social_network_thumb.png",
+                "url": "https://github.com/Laura-O/social-network",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "This is my portfolio website. Look around to see the features!",
+                "id": 2,
+                "image": "/projects/portfolio.png",
+                "name": "Portfolio Website",
+                "techs": Array [
+                  "Vue.js",
+                  "firebase",
+                ],
+                "thumbnail": "/projects/portfolio_thumb.png",
+                "url": "http://www.laura.fyi",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                "id": 3,
+                "image": "/projects/landing_page.png",
+                "name": "Petition",
+                "techs": Array [
+                  "Express",
+                  "PostgreSQL",
+                  "Redis",
+                  "Handlebars",
+                  "JQuery",
+                ],
+                "thumbnail": "/projects/landing_page_thumb.png",
+                "url": "https://peachtition.herokuapp.com/",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                "id": 4,
+                "image": "/projects/connect-4.png",
+                "name": "Connect 4",
+                "techs": Array [
+                  "JQuery",
+                  "CSS",
+                  "HTML",
+                ],
+                "thumbnail": "/projects/connect-4_thumb.png",
+                "url": "https://connect-4-game.herokuapp.com/",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                "id": 5,
+                "image": "/projects/quiz_page.png",
+                "name": "Mobile flashcards",
+                "techs": Array [
+                  "React Native",
+                  "React Redux",
+                ],
+                "thumbnail": "/projects/quiz_page_thumb.png",
+                "url": "",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <div>
+          <Project
+            project={
+              Object {
+                "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                "id": 6,
+                "image": "/projects/d3-stats.png",
+                "name": "Bubble diagram D3.js",
+                "techs": Array [
+                  "D3.js",
+                  "R",
+                  "Bootstrap",
+                ],
+                "thumbnail": "/projects/d3-stats_thumb.png",
+                "url": "http://secure-meadow-44103.herokuapp.com/",
+              }
+            }
+          />
+          <styled.div />
+        </div>
+        <Footer />
+      </styled.div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Projects
+          </h1>,
+          Array [
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "Productivity timer for todo.txt",
+                    "id": 0,
+                    "image": "/projects/todotron.png",
+                    "name": "TodoTron 3000",
+                    "techs": Array [
+                      "Electron",
+                      "Vue.js",
+                      "Vuex",
+                    ],
+                    "thumbnail": "/projects/todotron_thumb.png",
+                    "url": "https://github.com/Laura-O/todo-tron",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "A social network with chatroom",
+                    "id": 1,
+                    "image": "/projects/social_network.png",
+                    "name": "FriendZone",
+                    "techs": Array [
+                      "React",
+                      "Redux",
+                      "PostgreSQL",
+                      "Socket.io",
+                    ],
+                    "thumbnail": "/projects/social_network_thumb.png",
+                    "url": "https://github.com/Laura-O/social-network",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "This is my portfolio website. Look around to see the features!",
+                    "id": 2,
+                    "image": "/projects/portfolio.png",
+                    "name": "Portfolio Website",
+                    "techs": Array [
+                      "Vue.js",
+                      "firebase",
+                    ],
+                    "thumbnail": "/projects/portfolio_thumb.png",
+                    "url": "http://www.laura.fyi",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                    "id": 3,
+                    "image": "/projects/landing_page.png",
+                    "name": "Petition",
+                    "techs": Array [
+                      "Express",
+                      "PostgreSQL",
+                      "Redis",
+                      "Handlebars",
+                      "JQuery",
+                    ],
+                    "thumbnail": "/projects/landing_page_thumb.png",
+                    "url": "https://peachtition.herokuapp.com/",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                    "id": 4,
+                    "image": "/projects/connect-4.png",
+                    "name": "Connect 4",
+                    "techs": Array [
+                      "JQuery",
+                      "CSS",
+                      "HTML",
+                    ],
+                    "thumbnail": "/projects/connect-4_thumb.png",
+                    "url": "https://connect-4-game.herokuapp.com/",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                    "id": 5,
+                    "image": "/projects/quiz_page.png",
+                    "name": "Mobile flashcards",
+                    "techs": Array [
+                      "React Native",
+                      "React Redux",
+                    ],
+                    "thumbnail": "/projects/quiz_page_thumb.png",
+                    "url": "",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+            <div>
+              <Project
+                project={
+                  Object {
+                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                    "id": 6,
+                    "image": "/projects/d3-stats.png",
+                    "name": "Bubble diagram D3.js",
+                    "techs": Array [
+                      "D3.js",
+                      "R",
+                      "Bootstrap",
+                    ],
+                    "thumbnail": "/projects/d3-stats_thumb.png",
+                    "url": "http://secure-meadow-44103.herokuapp.com/",
+                  }
+                }
+              />
+              <styled.div />
+            </div>,
+          ],
+          <Footer />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Projects",
+          },
+          "ref": null,
+          "rendered": "Projects",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "Productivity timer for todo.txt",
+                    "id": 0,
+                    "image": "/projects/todotron.png",
+                    "name": "TodoTron 3000",
+                    "techs": Array [
+                      "Electron",
+                      "Vue.js",
+                      "Vuex",
+                    ],
+                    "thumbnail": "/projects/todotron_thumb.png",
+                    "url": "https://github.com/Laura-O/todo-tron",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/todotron_thumb.png",
-            "url": "https://github.com/Laura-O/todo-tron",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <div
-      key="1"
-    >
-      <Project
-        key="1"
-        project={
-          Object {
-            "description": "A social network with chatroom",
-            "id": 1,
-            "image": "/projects/social_network.png",
-            "name": "FriendZone",
-            "techs": Array [
-              "React",
-              "Redux",
-              "PostgreSQL",
-              "Socket.io",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "Productivity timer for todo.txt",
+                  "id": 0,
+                  "image": "/projects/todotron.png",
+                  "name": "TodoTron 3000",
+                  "techs": Array [
+                    "Electron",
+                    "Vue.js",
+                    "Vuex",
+                  ],
+                  "thumbnail": "/projects/todotron_thumb.png",
+                  "url": "https://github.com/Laura-O/todo-tron",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "A social network with chatroom",
+                    "id": 1,
+                    "image": "/projects/social_network.png",
+                    "name": "FriendZone",
+                    "techs": Array [
+                      "React",
+                      "Redux",
+                      "PostgreSQL",
+                      "Socket.io",
+                    ],
+                    "thumbnail": "/projects/social_network_thumb.png",
+                    "url": "https://github.com/Laura-O/social-network",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/social_network_thumb.png",
-            "url": "https://github.com/Laura-O/social-network",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <div
-      key="2"
-    >
-      <Project
-        key="2"
-        project={
-          Object {
-            "description": "This is my portfolio website. Look around to see the features!",
-            "id": 2,
-            "image": "/projects/portfolio.png",
-            "name": "Portfolio Website",
-            "techs": Array [
-              "Vue.js",
-              "firebase",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "A social network with chatroom",
+                  "id": 1,
+                  "image": "/projects/social_network.png",
+                  "name": "FriendZone",
+                  "techs": Array [
+                    "React",
+                    "Redux",
+                    "PostgreSQL",
+                    "Socket.io",
+                  ],
+                  "thumbnail": "/projects/social_network_thumb.png",
+                  "url": "https://github.com/Laura-O/social-network",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "This is my portfolio website. Look around to see the features!",
+                    "id": 2,
+                    "image": "/projects/portfolio.png",
+                    "name": "Portfolio Website",
+                    "techs": Array [
+                      "Vue.js",
+                      "firebase",
+                    ],
+                    "thumbnail": "/projects/portfolio_thumb.png",
+                    "url": "http://www.laura.fyi",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/portfolio_thumb.png",
-            "url": "http://www.laura.fyi",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <div
-      key="3"
-    >
-      <Project
-        key="3"
-        project={
-          Object {
-            "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-            "id": 3,
-            "image": "/projects/landing_page.png",
-            "name": "Petition",
-            "techs": Array [
-              "Express",
-              "PostgreSQL",
-              "Redis",
-              "Handlebars",
-              "JQuery",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "This is my portfolio website. Look around to see the features!",
+                  "id": 2,
+                  "image": "/projects/portfolio.png",
+                  "name": "Portfolio Website",
+                  "techs": Array [
+                    "Vue.js",
+                    "firebase",
+                  ],
+                  "thumbnail": "/projects/portfolio_thumb.png",
+                  "url": "http://www.laura.fyi",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                    "id": 3,
+                    "image": "/projects/landing_page.png",
+                    "name": "Petition",
+                    "techs": Array [
+                      "Express",
+                      "PostgreSQL",
+                      "Redis",
+                      "Handlebars",
+                      "JQuery",
+                    ],
+                    "thumbnail": "/projects/landing_page_thumb.png",
+                    "url": "https://peachtition.herokuapp.com/",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/landing_page_thumb.png",
-            "url": "https://peachtition.herokuapp.com/",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <div
-      key="4"
-    >
-      <Project
-        key="4"
-        project={
-          Object {
-            "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-            "id": 4,
-            "image": "/projects/connect-4.png",
-            "name": "Connect 4",
-            "techs": Array [
-              "JQuery",
-              "CSS",
-              "HTML",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                  "id": 3,
+                  "image": "/projects/landing_page.png",
+                  "name": "Petition",
+                  "techs": Array [
+                    "Express",
+                    "PostgreSQL",
+                    "Redis",
+                    "Handlebars",
+                    "JQuery",
+                  ],
+                  "thumbnail": "/projects/landing_page_thumb.png",
+                  "url": "https://peachtition.herokuapp.com/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                    "id": 4,
+                    "image": "/projects/connect-4.png",
+                    "name": "Connect 4",
+                    "techs": Array [
+                      "JQuery",
+                      "CSS",
+                      "HTML",
+                    ],
+                    "thumbnail": "/projects/connect-4_thumb.png",
+                    "url": "https://connect-4-game.herokuapp.com/",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/connect-4_thumb.png",
-            "url": "https://connect-4-game.herokuapp.com/",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <div
-      key="5"
-    >
-      <Project
-        key="5"
-        project={
-          Object {
-            "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-            "id": 5,
-            "image": "/projects/quiz_page.png",
-            "name": "Mobile flashcards",
-            "techs": Array [
-              "React Native",
-              "React Redux",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                  "id": 4,
+                  "image": "/projects/connect-4.png",
+                  "name": "Connect 4",
+                  "techs": Array [
+                    "JQuery",
+                    "CSS",
+                    "HTML",
+                  ],
+                  "thumbnail": "/projects/connect-4_thumb.png",
+                  "url": "https://connect-4-game.herokuapp.com/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                    "id": 5,
+                    "image": "/projects/quiz_page.png",
+                    "name": "Mobile flashcards",
+                    "techs": Array [
+                      "React Native",
+                      "React Redux",
+                    ],
+                    "thumbnail": "/projects/quiz_page_thumb.png",
+                    "url": "",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/quiz_page_thumb.png",
-            "url": "",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <div
-      key="6"
-    >
-      <Project
-        key="6"
-        project={
-          Object {
-            "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-            "id": 6,
-            "image": "/projects/d3-stats.png",
-            "name": "Bubble diagram D3.js",
-            "techs": Array [
-              "D3.js",
-              "R",
-              "Bootstrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                  "id": 5,
+                  "image": "/projects/quiz_page.png",
+                  "name": "Mobile flashcards",
+                  "techs": Array [
+                    "React Native",
+                    "React Redux",
+                  ],
+                  "thumbnail": "/projects/quiz_page_thumb.png",
+                  "url": "",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                    "id": 6,
+                    "image": "/projects/d3-stats.png",
+                    "name": "Bubble diagram D3.js",
+                    "techs": Array [
+                      "D3.js",
+                      "R",
+                      "Bootstrap",
+                    ],
+                    "thumbnail": "/projects/d3-stats_thumb.png",
+                    "url": "http://secure-meadow-44103.herokuapp.com/",
+                  }
+                }
+              />,
+              <styled.div />,
             ],
-            "thumbnail": "/projects/d3-stats_thumb.png",
-            "url": "http://secure-meadow-44103.herokuapp.com/",
-          }
-        }
-      />
-      <styled.div />
-    </div>
-    <Footer />
-  </styled.div>
-</div>
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                  "id": 6,
+                  "image": "/projects/d3-stats.png",
+                  "name": "Bubble diagram D3.js",
+                  "techs": Array [
+                    "D3.js",
+                    "R",
+                    "Bootstrap",
+                  ],
+                  "thumbnail": "/projects/d3-stats_thumb.png",
+                  "url": "http://secure-meadow-44103.herokuapp.com/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <styled.div>
+          <h1>
+            Projects
+          </h1>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "Productivity timer for todo.txt",
+                  "id": 0,
+                  "image": "/projects/todotron.png",
+                  "name": "TodoTron 3000",
+                  "techs": Array [
+                    "Electron",
+                    "Vue.js",
+                    "Vuex",
+                  ],
+                  "thumbnail": "/projects/todotron_thumb.png",
+                  "url": "https://github.com/Laura-O/todo-tron",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "A social network with chatroom",
+                  "id": 1,
+                  "image": "/projects/social_network.png",
+                  "name": "FriendZone",
+                  "techs": Array [
+                    "React",
+                    "Redux",
+                    "PostgreSQL",
+                    "Socket.io",
+                  ],
+                  "thumbnail": "/projects/social_network_thumb.png",
+                  "url": "https://github.com/Laura-O/social-network",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "This is my portfolio website. Look around to see the features!",
+                  "id": 2,
+                  "image": "/projects/portfolio.png",
+                  "name": "Portfolio Website",
+                  "techs": Array [
+                    "Vue.js",
+                    "firebase",
+                  ],
+                  "thumbnail": "/projects/portfolio_thumb.png",
+                  "url": "http://www.laura.fyi",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                  "id": 3,
+                  "image": "/projects/landing_page.png",
+                  "name": "Petition",
+                  "techs": Array [
+                    "Express",
+                    "PostgreSQL",
+                    "Redis",
+                    "Handlebars",
+                    "JQuery",
+                  ],
+                  "thumbnail": "/projects/landing_page_thumb.png",
+                  "url": "https://peachtition.herokuapp.com/",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                  "id": 4,
+                  "image": "/projects/connect-4.png",
+                  "name": "Connect 4",
+                  "techs": Array [
+                    "JQuery",
+                    "CSS",
+                    "HTML",
+                  ],
+                  "thumbnail": "/projects/connect-4_thumb.png",
+                  "url": "https://connect-4-game.herokuapp.com/",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                  "id": 5,
+                  "image": "/projects/quiz_page.png",
+                  "name": "Mobile flashcards",
+                  "techs": Array [
+                    "React Native",
+                    "React Redux",
+                  ],
+                  "thumbnail": "/projects/quiz_page_thumb.png",
+                  "url": "",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <div>
+            <Project
+              project={
+                Object {
+                  "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                  "id": 6,
+                  "image": "/projects/d3-stats.png",
+                  "name": "Bubble diagram D3.js",
+                  "techs": Array [
+                    "D3.js",
+                    "R",
+                    "Bootstrap",
+                  ],
+                  "thumbnail": "/projects/d3-stats_thumb.png",
+                  "url": "http://secure-meadow-44103.herokuapp.com/",
+                }
+              }
+            />
+            <styled.div />
+          </div>
+          <Footer />
+        </styled.div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Projects
+            </h1>,
+            Array [
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "Productivity timer for todo.txt",
+                      "id": 0,
+                      "image": "/projects/todotron.png",
+                      "name": "TodoTron 3000",
+                      "techs": Array [
+                        "Electron",
+                        "Vue.js",
+                        "Vuex",
+                      ],
+                      "thumbnail": "/projects/todotron_thumb.png",
+                      "url": "https://github.com/Laura-O/todo-tron",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "A social network with chatroom",
+                      "id": 1,
+                      "image": "/projects/social_network.png",
+                      "name": "FriendZone",
+                      "techs": Array [
+                        "React",
+                        "Redux",
+                        "PostgreSQL",
+                        "Socket.io",
+                      ],
+                      "thumbnail": "/projects/social_network_thumb.png",
+                      "url": "https://github.com/Laura-O/social-network",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "This is my portfolio website. Look around to see the features!",
+                      "id": 2,
+                      "image": "/projects/portfolio.png",
+                      "name": "Portfolio Website",
+                      "techs": Array [
+                        "Vue.js",
+                        "firebase",
+                      ],
+                      "thumbnail": "/projects/portfolio_thumb.png",
+                      "url": "http://www.laura.fyi",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                      "id": 3,
+                      "image": "/projects/landing_page.png",
+                      "name": "Petition",
+                      "techs": Array [
+                        "Express",
+                        "PostgreSQL",
+                        "Redis",
+                        "Handlebars",
+                        "JQuery",
+                      ],
+                      "thumbnail": "/projects/landing_page_thumb.png",
+                      "url": "https://peachtition.herokuapp.com/",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                      "id": 4,
+                      "image": "/projects/connect-4.png",
+                      "name": "Connect 4",
+                      "techs": Array [
+                        "JQuery",
+                        "CSS",
+                        "HTML",
+                      ],
+                      "thumbnail": "/projects/connect-4_thumb.png",
+                      "url": "https://connect-4-game.herokuapp.com/",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                      "id": 5,
+                      "image": "/projects/quiz_page.png",
+                      "name": "Mobile flashcards",
+                      "techs": Array [
+                        "React Native",
+                        "React Redux",
+                      ],
+                      "thumbnail": "/projects/quiz_page_thumb.png",
+                      "url": "",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+              <div>
+                <Project
+                  project={
+                    Object {
+                      "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                      "id": 6,
+                      "image": "/projects/d3-stats.png",
+                      "name": "Bubble diagram D3.js",
+                      "techs": Array [
+                        "D3.js",
+                        "R",
+                        "Bootstrap",
+                      ],
+                      "thumbnail": "/projects/d3-stats_thumb.png",
+                      "url": "http://secure-meadow-44103.herokuapp.com/",
+                    }
+                  }
+                />
+                <styled.div />
+              </div>,
+            ],
+            <Footer />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Projects",
+            },
+            "ref": null,
+            "rendered": "Projects",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "Productivity timer for todo.txt",
+                      "id": 0,
+                      "image": "/projects/todotron.png",
+                      "name": "TodoTron 3000",
+                      "techs": Array [
+                        "Electron",
+                        "Vue.js",
+                        "Vuex",
+                      ],
+                      "thumbnail": "/projects/todotron_thumb.png",
+                      "url": "https://github.com/Laura-O/todo-tron",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "Productivity timer for todo.txt",
+                    "id": 0,
+                    "image": "/projects/todotron.png",
+                    "name": "TodoTron 3000",
+                    "techs": Array [
+                      "Electron",
+                      "Vue.js",
+                      "Vuex",
+                    ],
+                    "thumbnail": "/projects/todotron_thumb.png",
+                    "url": "https://github.com/Laura-O/todo-tron",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "A social network with chatroom",
+                      "id": 1,
+                      "image": "/projects/social_network.png",
+                      "name": "FriendZone",
+                      "techs": Array [
+                        "React",
+                        "Redux",
+                        "PostgreSQL",
+                        "Socket.io",
+                      ],
+                      "thumbnail": "/projects/social_network_thumb.png",
+                      "url": "https://github.com/Laura-O/social-network",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "A social network with chatroom",
+                    "id": 1,
+                    "image": "/projects/social_network.png",
+                    "name": "FriendZone",
+                    "techs": Array [
+                      "React",
+                      "Redux",
+                      "PostgreSQL",
+                      "Socket.io",
+                    ],
+                    "thumbnail": "/projects/social_network_thumb.png",
+                    "url": "https://github.com/Laura-O/social-network",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "This is my portfolio website. Look around to see the features!",
+                      "id": 2,
+                      "image": "/projects/portfolio.png",
+                      "name": "Portfolio Website",
+                      "techs": Array [
+                        "Vue.js",
+                        "firebase",
+                      ],
+                      "thumbnail": "/projects/portfolio_thumb.png",
+                      "url": "http://www.laura.fyi",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "This is my portfolio website. Look around to see the features!",
+                    "id": 2,
+                    "image": "/projects/portfolio.png",
+                    "name": "Portfolio Website",
+                    "techs": Array [
+                      "Vue.js",
+                      "firebase",
+                    ],
+                    "thumbnail": "/projects/portfolio_thumb.png",
+                    "url": "http://www.laura.fyi",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                      "id": 3,
+                      "image": "/projects/landing_page.png",
+                      "name": "Petition",
+                      "techs": Array [
+                        "Express",
+                        "PostgreSQL",
+                        "Redis",
+                        "Handlebars",
+                        "JQuery",
+                      ],
+                      "thumbnail": "/projects/landing_page_thumb.png",
+                      "url": "https://peachtition.herokuapp.com/",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
+                    "id": 3,
+                    "image": "/projects/landing_page.png",
+                    "name": "Petition",
+                    "techs": Array [
+                      "Express",
+                      "PostgreSQL",
+                      "Redis",
+                      "Handlebars",
+                      "JQuery",
+                    ],
+                    "thumbnail": "/projects/landing_page_thumb.png",
+                    "url": "https://peachtition.herokuapp.com/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                      "id": 4,
+                      "image": "/projects/connect-4.png",
+                      "name": "Connect 4",
+                      "techs": Array [
+                        "JQuery",
+                        "CSS",
+                        "HTML",
+                      ],
+                      "thumbnail": "/projects/connect-4_thumb.png",
+                      "url": "https://connect-4-game.herokuapp.com/",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "This is an implementation of the classic Connect-4 game for 2 players.",
+                    "id": 4,
+                    "image": "/projects/connect-4.png",
+                    "name": "Connect 4",
+                    "techs": Array [
+                      "JQuery",
+                      "CSS",
+                      "HTML",
+                    ],
+                    "thumbnail": "/projects/connect-4_thumb.png",
+                    "url": "https://connect-4-game.herokuapp.com/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                      "id": 5,
+                      "image": "/projects/quiz_page.png",
+                      "name": "Mobile flashcards",
+                      "techs": Array [
+                        "React Native",
+                        "React Redux",
+                      ],
+                      "thumbnail": "/projects/quiz_page_thumb.png",
+                      "url": "",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
+                    "id": 5,
+                    "image": "/projects/quiz_page.png",
+                    "name": "Mobile flashcards",
+                    "techs": Array [
+                      "React Native",
+                      "React Redux",
+                    ],
+                    "thumbnail": "/projects/quiz_page_thumb.png",
+                    "url": "",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                      "id": 6,
+                      "image": "/projects/d3-stats.png",
+                      "name": "Bubble diagram D3.js",
+                      "techs": Array [
+                        "D3.js",
+                        "R",
+                        "Bootstrap",
+                      ],
+                      "thumbnail": "/projects/d3-stats_thumb.png",
+                      "url": "http://secure-meadow-44103.herokuapp.com/",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                    "id": 6,
+                    "image": "/projects/d3-stats.png",
+                    "name": "Bubble diagram D3.js",
+                    "techs": Array [
+                      "D3.js",
+                      "R",
+                      "Bootstrap",
+                    ],
+                    "thumbnail": "/projects/d3-stats_thumb.png",
+                    "url": "http://secure-meadow-44103.herokuapp.com/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
 `;

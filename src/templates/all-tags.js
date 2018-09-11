@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
-const AllTags = ({ pathContext }) => {
-  const { tags } = pathContext;
+const AllTags = ({ pageContext }) => {
+  const { tags } = pageContext;
 
   if (tags) {
     return (
@@ -24,7 +24,7 @@ const AllTags = ({ pathContext }) => {
 export default AllTags;
 
 AllTags.propTypes = {
-  pathContext: PropTypes.shape({
+  pageContext: PropTypes.shape({
     tages: PropTypes.arrayOf(PropTypes.string),
   }),
 };

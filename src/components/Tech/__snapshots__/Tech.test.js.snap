@@ -1,85 +1,827 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<styled.div>
-  <h2>
-    Skills
-  </h2>
-  <styled.div>
-    <h3>
-      Frontend
-    </h3>
-    <styled.ul>
-      <li
-        key="React"
-      >
-        React
-      </li>
-      <li
-        key="Redux"
-      >
-        Redux
-      </li>
-      <li
-        key="Gatsby"
-      >
-        Gatsby
-      </li>
-      <li
-        key="Vue.js"
-      >
-        Vue.js
-      </li>
-      <li
-        key="HTML5"
-      >
-        HTML5
-      </li>
-      <li
-        key="SCSS"
-      >
-        SCSS
-      </li>
-    </styled.ul>
-  </styled.div>
-  <styled.div>
-    <h3>
-      Backend
-    </h3>
-    <styled.ul>
-      <li
-        key="Node"
-      >
-        Node
-      </li>
-      <li
-        key="Express"
-      >
-        Express
-      </li>
-      <li
-        key="PostgreSQL"
-      >
-        PostgreSQL
-      </li>
-    </styled.ul>
-  </styled.div>
-  <styled.div>
-    <h3>
-      Other
-    </h3>
-    <styled.ul>
-      <li
-        key="Git"
-      >
-        Git
-      </li>
-      <li
-        key="R"
-      >
-        R
-      </li>
-    </styled.ul>
-  </styled.div>
-</styled.div>
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tech
+    path="/something"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Skills
+        </h2>,
+        <styled.div>
+          <h3>
+            Frontend
+          </h3>
+          <styled.ul>
+            <li>
+              React
+            </li>
+            <li>
+              Redux
+            </li>
+            <li>
+              Gatsby
+            </li>
+            <li>
+              Vue.js
+            </li>
+            <li>
+              HTML5
+            </li>
+            <li>
+              SCSS
+            </li>
+          </styled.ul>
+        </styled.div>,
+        <styled.div>
+          <h3>
+            Backend
+          </h3>
+          <styled.ul>
+            <li>
+              Node
+            </li>
+            <li>
+              Express
+            </li>
+            <li>
+              PostgreSQL
+            </li>
+          </styled.ul>
+        </styled.div>,
+        <styled.div>
+          <h3>
+            Other
+          </h3>
+          <styled.ul>
+            <li>
+              Git
+            </li>
+            <li>
+              R
+            </li>
+          </styled.ul>
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Skills",
+        },
+        "ref": null,
+        "rendered": "Skills",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Frontend
+            </h3>,
+            <styled.ul>
+              <li>
+                React
+              </li>
+              <li>
+                Redux
+              </li>
+              <li>
+                Gatsby
+              </li>
+              <li>
+                Vue.js
+              </li>
+              <li>
+                HTML5
+              </li>
+              <li>
+                SCSS
+              </li>
+            </styled.ul>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Frontend",
+            },
+            "ref": null,
+            "rendered": "Frontend",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <li>
+                  React
+                </li>,
+                <li>
+                  Redux
+                </li>,
+                <li>
+                  Gatsby
+                </li>,
+                <li>
+                  Vue.js
+                </li>,
+                <li>
+                  HTML5
+                </li>,
+                <li>
+                  SCSS
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "React",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "React",
+                },
+                "ref": null,
+                "rendered": "React",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "Redux",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Redux",
+                },
+                "ref": null,
+                "rendered": "Redux",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "Gatsby",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Gatsby",
+                },
+                "ref": null,
+                "rendered": "Gatsby",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "Vue.js",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vue.js",
+                },
+                "ref": null,
+                "rendered": "Vue.js",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "HTML5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "HTML5",
+                },
+                "ref": null,
+                "rendered": "HTML5",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "SCSS",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "SCSS",
+                },
+                "ref": null,
+                "rendered": "SCSS",
+                "type": "li",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Backend
+            </h3>,
+            <styled.ul>
+              <li>
+                Node
+              </li>
+              <li>
+                Express
+              </li>
+              <li>
+                PostgreSQL
+              </li>
+            </styled.ul>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Backend",
+            },
+            "ref": null,
+            "rendered": "Backend",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <li>
+                  Node
+                </li>,
+                <li>
+                  Express
+                </li>,
+                <li>
+                  PostgreSQL
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "Node",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Node",
+                },
+                "ref": null,
+                "rendered": "Node",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "Express",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Express",
+                },
+                "ref": null,
+                "rendered": "Express",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "PostgreSQL",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PostgreSQL",
+                },
+                "ref": null,
+                "rendered": "PostgreSQL",
+                "type": "li",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Other
+            </h3>,
+            <styled.ul>
+              <li>
+                Git
+              </li>
+              <li>
+                R
+              </li>
+            </styled.ul>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Other",
+            },
+            "ref": null,
+            "rendered": "Other",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <li>
+                  Git
+                </li>,
+                <li>
+                  R
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "Git",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Git",
+                },
+                "ref": null,
+                "rendered": "Git",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "R",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "R",
+                },
+                "ref": null,
+                "rendered": "R",
+                "type": "li",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Skills
+          </h2>,
+          <styled.div>
+            <h3>
+              Frontend
+            </h3>
+            <styled.ul>
+              <li>
+                React
+              </li>
+              <li>
+                Redux
+              </li>
+              <li>
+                Gatsby
+              </li>
+              <li>
+                Vue.js
+              </li>
+              <li>
+                HTML5
+              </li>
+              <li>
+                SCSS
+              </li>
+            </styled.ul>
+          </styled.div>,
+          <styled.div>
+            <h3>
+              Backend
+            </h3>
+            <styled.ul>
+              <li>
+                Node
+              </li>
+              <li>
+                Express
+              </li>
+              <li>
+                PostgreSQL
+              </li>
+            </styled.ul>
+          </styled.div>,
+          <styled.div>
+            <h3>
+              Other
+            </h3>
+            <styled.ul>
+              <li>
+                Git
+              </li>
+              <li>
+                R
+              </li>
+            </styled.ul>
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Skills",
+          },
+          "ref": null,
+          "rendered": "Skills",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Frontend
+              </h3>,
+              <styled.ul>
+                <li>
+                  React
+                </li>
+                <li>
+                  Redux
+                </li>
+                <li>
+                  Gatsby
+                </li>
+                <li>
+                  Vue.js
+                </li>
+                <li>
+                  HTML5
+                </li>
+                <li>
+                  SCSS
+                </li>
+              </styled.ul>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Frontend",
+              },
+              "ref": null,
+              "rendered": "Frontend",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    React
+                  </li>,
+                  <li>
+                    Redux
+                  </li>,
+                  <li>
+                    Gatsby
+                  </li>,
+                  <li>
+                    Vue.js
+                  </li>,
+                  <li>
+                    HTML5
+                  </li>,
+                  <li>
+                    SCSS
+                  </li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "React",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "React",
+                  },
+                  "ref": null,
+                  "rendered": "React",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Redux",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Redux",
+                  },
+                  "ref": null,
+                  "rendered": "Redux",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Gatsby",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Gatsby",
+                  },
+                  "ref": null,
+                  "rendered": "Gatsby",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Vue.js",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vue.js",
+                  },
+                  "ref": null,
+                  "rendered": "Vue.js",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "HTML5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HTML5",
+                  },
+                  "ref": null,
+                  "rendered": "HTML5",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "SCSS",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "SCSS",
+                  },
+                  "ref": null,
+                  "rendered": "SCSS",
+                  "type": "li",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Backend
+              </h3>,
+              <styled.ul>
+                <li>
+                  Node
+                </li>
+                <li>
+                  Express
+                </li>
+                <li>
+                  PostgreSQL
+                </li>
+              </styled.ul>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Backend",
+              },
+              "ref": null,
+              "rendered": "Backend",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    Node
+                  </li>,
+                  <li>
+                    Express
+                  </li>,
+                  <li>
+                    PostgreSQL
+                  </li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "Node",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Node",
+                  },
+                  "ref": null,
+                  "rendered": "Node",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Express",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Express",
+                  },
+                  "ref": null,
+                  "rendered": "Express",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "PostgreSQL",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "PostgreSQL",
+                  },
+                  "ref": null,
+                  "rendered": "PostgreSQL",
+                  "type": "li",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Other
+              </h3>,
+              <styled.ul>
+                <li>
+                  Git
+                </li>
+                <li>
+                  R
+                </li>
+              </styled.ul>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other",
+              },
+              "ref": null,
+              "rendered": "Other",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    Git
+                  </li>,
+                  <li>
+                    R
+                  </li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "Git",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Git",
+                  },
+                  "ref": null,
+                  "rendered": "Git",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "R",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "R",
+                  },
+                  "ref": null,
+                  "rendered": "R",
+                  "type": "li",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
 `;

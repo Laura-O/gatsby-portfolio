@@ -57,8 +57,15 @@
     "test": "jest --config jest.config.js --no-cache"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^9.0.0",
-    "babel-jest": "^23.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-remove-graphql-queries": "^2.0.2-beta.8",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.4.4",
@@ -73,9 +80,11 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-watch": "^4.0.0",
     "gatsby-plugin-styled-components": "^3.0.0-rc.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.4",
     "jest-canvas-mock": "^1.1.0",
     "jest-styled-components": "^6.0.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "react-test-renderer": "^16.5.0"
   }
 }

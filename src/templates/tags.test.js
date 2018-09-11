@@ -19,7 +19,7 @@ describe('blog', () => {
           totalCount: 1,
         },
       },
-      pathContext: {
+      pageContext: {
         tag: 'tag1',
       },
     };
@@ -41,7 +41,7 @@ describe('blog', () => {
           totalCount: 2,
         },
       },
-      pathContext: {
+      pageContext: {
         tag: 'tag1',
       },
     };

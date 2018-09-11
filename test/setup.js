@@ -1,9 +1,10 @@
-import Enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+const enzyme = require('enzyme');
+const Adapter = require('enzyme-adapter-react-16');
 
-Enzyme.configure({ adapter: new Adapter() });
+enzyme.configure({ adapter: new Adapter() });
 
-// Setup the global graphql tagged template literals
-global.graphql = args => args;
+global.shallow = enzyme.shallow;
+global.render = enzyme.render;
+global.mount = enzyme.mount;
 
 global.window.HTMLCanvasElement.prototype.getContext = jest.fn();
