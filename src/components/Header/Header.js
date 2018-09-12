@@ -48,8 +48,10 @@ const Hamburger = styled.div`
       top: 80%;
     }
   }
+
   ${props => {
-    if (props.active) {
+    const { active } = props;
+    if (active) {
       return `
       z-index: ${constants.zIndexHamburger};
     
@@ -83,6 +85,7 @@ const Hamburger = styled.div`
 export default class Header extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       menuActive: false,
     };
@@ -96,7 +99,7 @@ export default class Header extends Component {
   }
 
   toggleMenu() {
-    this.setState({ menuActive: !this.state.menuActive });
+    this.setState(prevState => ({ menuActive: !prevState.menuActive }));
   }
 
   handleKeyPress(event) {

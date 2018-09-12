@@ -3,20 +3,21 @@ import Contact from '../components/Contact/Contact';
 import Credits from '../components/Credits/Credits';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
+import Layout from '../components/Layout/layout';
 
 const ContactWrapper = Wrapper.extend`
-  width: 100vw;
-  height: 90%;
+  height: 80vh;
+  width: 100%;
 `;
 
 const ContactPage = () => (
-  <div>
+  <Layout>
     <ContactWrapper>
       <Contact />
       <Credits />
     </ContactWrapper>
     <Footer />
-  </div>
+  </Layout>
 );
 
 export default ContactPage;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -7,8 +7,7 @@ import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
 import Seo from '../components/Seo/Seo';
-
-import '../layouts/index';
+import Layout from '../components/Layout/layout';
 
 const BlogWrapper = Wrapper.extend`
   padding-top: 2em;
@@ -45,7 +44,7 @@ const Infos = styled.div`
 function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <div>
+    <Layout>
       <BlogWrapper>
         <Seo isPost={false} data={data.siteMetadata} />
         <Helmet>
@@ -61,7 +60,7 @@ function Index({ data }) {
               </Title>
 
               {post.frontmatter.image && (
-                <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
+                <Img sizes={post.frontmatter.image.childImageSharp.fluid} />
               )}
               <Infos>
                 <small>{post.frontmatter.date}</small>
@@ -73,7 +72,7 @@ function Index({ data }) {
           ))}
         <Footer />
       </BlogWrapper>
-    </div>
+    </Layout>
   );
 }
 
@@ -106,8 +105,8 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                sizes(maxWidth: 800) {
-                  ...GatsbyImageSharpSizes
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

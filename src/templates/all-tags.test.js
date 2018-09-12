@@ -6,7 +6,7 @@ import AllTags from './all-tags';
 describe('blog', () => {
   test('two tags', () => {
     const renderProps = {
-      pathContext: {
+      pageContext: {
         tags: ['tag1', 'tag2'],
       },
     };
@@ -16,7 +16,7 @@ describe('blog', () => {
 
   test('no tags', () => {
     const renderProps = {
-      pathContext: {},
+      pageContext: {},
     };
     const wrapper = shallow(<AllTags {...renderProps} />);
     expect(wrapper).toMatchSnapshot();
