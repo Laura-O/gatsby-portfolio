@@ -35,7 +35,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <Seo
           data={undefined}
           isPost={false}
@@ -50,7 +50,7 @@ ShallowWrapper {
           </title>
         </HelmetWrapper>
         <Footer />
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -142,7 +142,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <Seo
             data={undefined}
             isPost={false}
@@ -157,7 +157,7 @@ ShallowWrapper {
             </title>
           </HelmetWrapper>
           <Footer />
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {
@@ -321,7 +321,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <Seo
           data={undefined}
           isPost={false}
@@ -368,7 +368,7 @@ ShallowWrapper {
           </styled.div>
         </styled.div>
         <Footer />
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -638,7 +638,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <Seo
             data={undefined}
             isPost={false}
@@ -685,7 +685,7 @@ ShallowWrapper {
             </styled.div>
           </styled.div>
           <Footer />
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {

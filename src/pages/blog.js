@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer';
 import Seo from '../components/Seo/Seo';
 import Layout from '../components/Layout/layout';
 
-const BlogWrapper = Wrapper.extend`
+const BlogWrapper = styled(Wrapper)`
   padding-top: 2em;
 `;
 

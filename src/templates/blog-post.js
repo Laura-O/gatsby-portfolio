@@ -36,7 +36,7 @@ const BlogPost = styled.div`
   }
 `;
 
-const PostWrapper = Wrapper.extend`
+const PostWrapper = styled(Wrapper)`
   ul {
     margin-left: 1.5em;
     margin-top: 1em;

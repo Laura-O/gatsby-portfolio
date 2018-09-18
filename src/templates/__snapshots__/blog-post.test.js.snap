@@ -52,7 +52,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <Seo
           data={
             Object {
@@ -171,7 +171,7 @@ ShallowWrapper {
             </styled.span>
           </div>
         </styled.div>
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -714,7 +714,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <Seo
             data={
               Object {
@@ -833,7 +833,7 @@ ShallowWrapper {
               </styled.span>
             </div>
           </styled.div>
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {
