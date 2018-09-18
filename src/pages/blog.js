@@ -60,7 +60,7 @@ function Index({ data }) {
               </Title>
 
               {post.frontmatter.image && (
-                <Img sizes={post.frontmatter.image.childImageSharp.fluid} />
+                <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
               )}
               <Infos>
                 <small>{post.frontmatter.date}</small>
