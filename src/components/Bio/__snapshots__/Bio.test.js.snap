@@ -1,41 +1,371 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`rendering 1`] = `
-<styled.div>
-  <h3>
-    About me
-  </h3>
-  <styled.div>
-    I started developing around 1996 when I maintained my very first website on
-    <styled.a
-      href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
-    >
-      Geocities
-    </styled.a>
-    . A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and
-     
-    <styled.a
-      className="highlight-link"
-      href="https://en.wikipedia.org/wiki/Movable_Type"
-    >
-      Movable Type
-    </styled.a>
-     
-    was the state of the art.
-  </styled.div>
-  <styled.div>
-    After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
-  </styled.div>
-  <styled.div>
-    My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with
-     
-    <styled.a
-      className="highlight-link"
-      href="https://www.gatsbyjs.org/"
-    >
-      Gatsby.js
-    </styled.a>
-    , which is a static site generator for React.
-  </styled.div>
-</styled.div>
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bio />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <h3>
+          About me
+        </h3>,
+        <styled.div>
+          I started developing around 1996 when I maintained my very first website on
+          <styled.a
+            href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
+          >
+            Geocities
+          </styled.a>
+          . A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and
+           
+          <styled.a
+            className="highlight-link"
+            href="https://en.wikipedia.org/wiki/Movable_Type"
+          >
+            Movable Type
+          </styled.a>
+           
+          was the state of the art.
+        </styled.div>,
+        <styled.div>
+          After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
+        </styled.div>,
+        <styled.div>
+          My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with
+           
+          <styled.a
+            className="highlight-link"
+            href="https://www.gatsbyjs.org/"
+          >
+            Gatsby.js
+          </styled.a>
+          , which is a static site generator for React.
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "About me",
+        },
+        "ref": null,
+        "rendered": "About me",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "I started developing around 1996 when I maintained my very first website on",
+            <styled.a
+              href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
+            >
+              Geocities
+            </styled.a>,
+            ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
+            " ",
+            <styled.a
+              className="highlight-link"
+              href="https://en.wikipedia.org/wiki/Movable_Type"
+            >
+              Movable Type
+            </styled.a>,
+            " ",
+            "was the state of the art.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "I started developing around 1996 when I maintained my very first website on",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Geocities",
+              "href": "https://en.wikipedia.org/wiki/Yahoo!_GeoCities",
+            },
+            "ref": null,
+            "rendered": "Geocities",
+            "type": [Function],
+          },
+          ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Movable Type",
+              "className": "highlight-link",
+              "href": "https://en.wikipedia.org/wiki/Movable_Type",
+            },
+            "ref": null,
+            "rendered": "Movable Type",
+            "type": [Function],
+          },
+          " ",
+          "was the state of the art.",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+        },
+        "ref": null,
+        "rendered": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+            " ",
+            <styled.a
+              className="highlight-link"
+              href="https://www.gatsbyjs.org/"
+            >
+              Gatsby.js
+            </styled.a>,
+            ", which is a static site generator for React.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Gatsby.js",
+              "className": "highlight-link",
+              "href": "https://www.gatsbyjs.org/",
+            },
+            "ref": null,
+            "rendered": "Gatsby.js",
+            "type": [Function],
+          },
+          ", which is a static site generator for React.",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <h3>
+            About me
+          </h3>,
+          <styled.div>
+            I started developing around 1996 when I maintained my very first website on
+            <styled.a
+              href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
+            >
+              Geocities
+            </styled.a>
+            . A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and
+             
+            <styled.a
+              className="highlight-link"
+              href="https://en.wikipedia.org/wiki/Movable_Type"
+            >
+              Movable Type
+            </styled.a>
+             
+            was the state of the art.
+          </styled.div>,
+          <styled.div>
+            After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
+          </styled.div>,
+          <styled.div>
+            My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with
+             
+            <styled.a
+              className="highlight-link"
+              href="https://www.gatsbyjs.org/"
+            >
+              Gatsby.js
+            </styled.a>
+            , which is a static site generator for React.
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About me",
+          },
+          "ref": null,
+          "rendered": "About me",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "I started developing around 1996 when I maintained my very first website on",
+              <styled.a
+                href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
+              >
+                Geocities
+              </styled.a>,
+              ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
+              " ",
+              <styled.a
+                className="highlight-link"
+                href="https://en.wikipedia.org/wiki/Movable_Type"
+              >
+                Movable Type
+              </styled.a>,
+              " ",
+              "was the state of the art.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "I started developing around 1996 when I maintained my very first website on",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Geocities",
+                "href": "https://en.wikipedia.org/wiki/Yahoo!_GeoCities",
+              },
+              "ref": null,
+              "rendered": "Geocities",
+              "type": [Function],
+            },
+            ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Movable Type",
+                "className": "highlight-link",
+                "href": "https://en.wikipedia.org/wiki/Movable_Type",
+              },
+              "ref": null,
+              "rendered": "Movable Type",
+              "type": [Function],
+            },
+            " ",
+            "was the state of the art.",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+          },
+          "ref": null,
+          "rendered": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+              " ",
+              <styled.a
+                className="highlight-link"
+                href="https://www.gatsbyjs.org/"
+              >
+                Gatsby.js
+              </styled.a>,
+              ", which is a static site generator for React.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Gatsby.js",
+                "className": "highlight-link",
+                "href": "https://www.gatsbyjs.org/",
+              },
+              "ref": null,
+              "rendered": "Gatsby.js",
+              "type": [Function],
+            },
+            ", which is a static site generator for React.",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
 `;

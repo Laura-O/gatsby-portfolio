@@ -1,1 +1,2 @@
-module.exports = 'test-file-stub';
+const gatsby = jest.requireActual('gatsby');
+module.exports = { ...gatsby, graphql: jest.fn(), Link: 'Link' };

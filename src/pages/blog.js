@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
@@ -7,8 +7,7 @@ import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
 import Seo from '../components/Seo/Seo';
-
-import '../layouts/index';
+import Layout from '../components/Layout/layout';
 
 const BlogWrapper = Wrapper.extend`
   padding-top: 2em;
@@ -16,6 +15,7 @@ const BlogWrapper = Wrapper.extend`
 
 const Preview = styled.div`
   width: 80%;
+  max-width: 1280px;
   border-bottom: 1px solid rgb(238, 238, 238);
   padding: 0.5em 1em;
   transition: all 0.5s ease-in-out;
@@ -38,13 +38,13 @@ const Infos = styled.div`
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding: 1em;
+  padding: 1em 2em;
 `;
 
 function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <div>
+    <Layout>
       <BlogWrapper>
         <Seo isPost={false} data={data.siteMetadata} />
         <Helmet>
@@ -60,7 +60,7 @@ function Index({ data }) {
               </Title>
 
               {post.frontmatter.image && (
-                <Img sizes={post.frontmatter.image.childImageSharp.sizes} />
+                <Img sizes={post.frontmatter.image.childImageSharp.fluid} />
               )}
               <Infos>
                 <small>{post.frontmatter.date}</small>
@@ -72,7 +72,7 @@ function Index({ data }) {
           ))}
         <Footer />
       </BlogWrapper>
-    </div>
+    </Layout>
   );
 }
 
@@ -105,8 +105,8 @@ export const pageQuery = graphql`
             path
             image {
               childImageSharp {
-                sizes(maxWidth: 800) {
-                  ...GatsbyImageSharpSizes
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

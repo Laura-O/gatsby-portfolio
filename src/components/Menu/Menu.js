@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Fullscreen from '../Fullscreen/Fullscreen';
@@ -38,12 +38,13 @@ const Item = styled.div`
 `;
 
 function Menu(props) {
+  const { toggleNav, active } = props;
   const linkProps = {
-    onClick: props.toggleNav,
+    onClick: toggleNav,
   };
 
   return (
-    <Fullscreen active={props.active}>
+    <Fullscreen active={active}>
       <nav>
         <Item>
           <Link {...linkProps} to="/">
