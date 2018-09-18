@@ -5,7 +5,7 @@ import Tag from '../../layouts/shared/tag';
 import * as animations from '../../layouts/shared/animations';
 import * as constants from '../../layouts/shared/style-constants';
 
-const Techtag = Tag.extend`
+const Techtag = styled(Tag)`
   padding: 4px 10px;
   margin: 5px;
 `;
@@ -32,7 +32,9 @@ const Right = styled.div`
 `;
 
 const Project = ({ project }) => {
-  const listItems = project.techs.map(tech => <Techtag key={tech}>{tech}</Techtag>);
+  const listItems = project.techs.map(tech => (
+    <Techtag key={tech}>{tech}</Techtag>
+  ));
   return (
     <Fragment>
       <ProjectWrapper>
@@ -40,7 +42,9 @@ const Project = ({ project }) => {
           <img src={project.thumbnail} alt={project.name} />
         </Left>
         <Right>
-          <h3><a href={project.url}>{project.name}</a></h3>
+          <h3>
+            <a href={project.url}>{project.name}</a>
+          </h3>
           <div>{project.description}</div>
           <ul>{listItems}</ul>
         </Right>

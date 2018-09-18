@@ -52,15 +52,15 @@ ShallowWrapper {
             Productivity timer for todo.txt
           </div>
           <ul>
-            <styled.span>
+            <Styled(styled.span)>
               Electron
-            </styled.span>
-            <styled.span>
+            </Styled(styled.span)>
+            <Styled(styled.span)>
               Vue.js
-            </styled.span>
-            <styled.span>
+            </Styled(styled.span)>
+            <Styled(styled.span)>
               Vuex
-            </styled.span>
+            </Styled(styled.span)>
           </ul>
         </styled.div>
       </styled.div>,
@@ -90,15 +90,15 @@ ShallowWrapper {
               Productivity timer for todo.txt
             </div>
             <ul>
-              <styled.span>
+              <Styled(styled.span)>
                 Electron
-              </styled.span>
-              <styled.span>
+              </Styled(styled.span)>
+              <Styled(styled.span)>
                 Vue.js
-              </styled.span>
-              <styled.span>
+              </Styled(styled.span)>
+              <Styled(styled.span)>
                 Vuex
-              </styled.span>
+              </Styled(styled.span)>
             </ul>
           </styled.div>,
         ],
@@ -147,15 +147,15 @@ ShallowWrapper {
                 Productivity timer for todo.txt
               </div>,
               <ul>
-                <styled.span>
+                <Styled(styled.span)>
                   Electron
-                </styled.span>
-                <styled.span>
+                </Styled(styled.span)>
+                <Styled(styled.span)>
                   Vue.js
-                </styled.span>
-                <styled.span>
+                </Styled(styled.span)>
+                <Styled(styled.span)>
                   Vuex
-                </styled.span>
+                </Styled(styled.span)>
               </ul>,
             ],
           },
@@ -204,15 +204,15 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <styled.span>
+                  <Styled(styled.span)>
                     Electron
-                  </styled.span>,
-                  <styled.span>
+                  </Styled(styled.span)>,
+                  <Styled(styled.span)>
                     Vue.js
-                  </styled.span>,
-                  <styled.span>
+                  </Styled(styled.span)>,
+                  <Styled(styled.span)>
                     Vuex
-                  </styled.span>,
+                  </Styled(styled.span)>,
                 ],
               },
               "ref": null,
@@ -286,15 +286,15 @@ ShallowWrapper {
               Productivity timer for todo.txt
             </div>
             <ul>
-              <styled.span>
+              <Styled(styled.span)>
                 Electron
-              </styled.span>
-              <styled.span>
+              </Styled(styled.span)>
+              <Styled(styled.span)>
                 Vue.js
-              </styled.span>
-              <styled.span>
+              </Styled(styled.span)>
+              <Styled(styled.span)>
                 Vuex
-              </styled.span>
+              </Styled(styled.span)>
             </ul>
           </styled.div>
         </styled.div>,
@@ -324,15 +324,15 @@ ShallowWrapper {
                 Productivity timer for todo.txt
               </div>
               <ul>
-                <styled.span>
+                <Styled(styled.span)>
                   Electron
-                </styled.span>
-                <styled.span>
+                </Styled(styled.span)>
+                <Styled(styled.span)>
                   Vue.js
-                </styled.span>
-                <styled.span>
+                </Styled(styled.span)>
+                <Styled(styled.span)>
                   Vuex
-                </styled.span>
+                </Styled(styled.span)>
               </ul>
             </styled.div>,
           ],
@@ -381,15 +381,15 @@ ShallowWrapper {
                   Productivity timer for todo.txt
                 </div>,
                 <ul>
-                  <styled.span>
+                  <Styled(styled.span)>
                     Electron
-                  </styled.span>
-                  <styled.span>
+                  </Styled(styled.span)>
+                  <Styled(styled.span)>
                     Vue.js
-                  </styled.span>
-                  <styled.span>
+                  </Styled(styled.span)>
+                  <Styled(styled.span)>
                     Vuex
-                  </styled.span>
+                  </Styled(styled.span)>
                 </ul>,
               ],
             },
@@ -438,15 +438,15 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    <styled.span>
+                    <Styled(styled.span)>
                       Electron
-                    </styled.span>,
-                    <styled.span>
+                    </Styled(styled.span)>,
+                    <Styled(styled.span)>
                       Vue.js
-                    </styled.span>,
-                    <styled.span>
+                    </Styled(styled.span)>,
+                    <Styled(styled.span)>
                       Vuex
-                    </styled.span>,
+                    </Styled(styled.span)>,
                   ],
                 },
                 "ref": null,

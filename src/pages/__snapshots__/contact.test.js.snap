@@ -18,10 +18,10 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <styled.div>
+        <Styled(styled.div)>
           <Contact />
           <Credits />
-        </styled.div>,
+        </Styled(styled.div)>,
         <Footer />,
       ],
     },
@@ -79,10 +79,10 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <styled.div>
+          <Styled(styled.div)>
             <Contact />
             <Credits />
-          </styled.div>,
+          </Styled(styled.div)>,
           <Footer />,
         ],
       },

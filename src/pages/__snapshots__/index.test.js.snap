@@ -17,7 +17,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <StartAnimation />
         <div
           className="about-me"
@@ -60,7 +60,7 @@ ShallowWrapper {
             </Unknown>
           </div>
         </styled.div>
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -325,7 +325,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <StartAnimation />
           <div
             className="about-me"
@@ -368,7 +368,7 @@ ShallowWrapper {
               </Unknown>
             </div>
           </styled.div>
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {

@@ -9,7 +9,7 @@ import Layout from '../components/Layout/layout';
 
 import * as constants from '../layouts/shared/style-constants';
 
-const AboutWrapper = Wrapper.extend`
+const AboutWrapper = styled(Wrapper)`
   height: 80vh;
 `;
 

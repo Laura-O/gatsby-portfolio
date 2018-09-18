@@ -17,7 +17,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <styled.div>
           <styled.div>
             <Bio />
@@ -37,7 +37,7 @@ ShallowWrapper {
           .
         </styled.div>
         <Footer />
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -182,7 +182,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <styled.div>
             <styled.div>
               <Bio />
@@ -202,7 +202,7 @@ ShallowWrapper {
             .
           </styled.div>
           <Footer />
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {
