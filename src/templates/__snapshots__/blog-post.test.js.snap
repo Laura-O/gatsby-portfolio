@@ -136,6 +136,7 @@ ShallowWrapper {
           <Image
             Tag="div"
             alt=""
+            critical={false}
             fadeIn={true}
             sizes={
               Object {
@@ -262,6 +263,7 @@ ShallowWrapper {
             <Image
               Tag="div"
               alt=""
+              critical={false}
               fadeIn={true}
               sizes={
                 Object {
@@ -526,6 +528,7 @@ ShallowWrapper {
               <Image
                 Tag="div"
                 alt=""
+                critical={false}
                 fadeIn={true}
                 sizes={
                   Object {
@@ -593,6 +596,7 @@ ShallowWrapper {
               "props": Object {
                 "Tag": "div",
                 "alt": "",
+                "critical": false,
                 "fadeIn": true,
                 "sizes": Object {
                   "sizes": "image",
@@ -794,6 +798,7 @@ ShallowWrapper {
             <Image
               Tag="div"
               alt=""
+              critical={false}
               fadeIn={true}
               sizes={
                 Object {
@@ -920,6 +925,7 @@ ShallowWrapper {
               <Image
                 Tag="div"
                 alt=""
+                critical={false}
                 fadeIn={true}
                 sizes={
                   Object {
@@ -1184,6 +1190,7 @@ ShallowWrapper {
                 <Image
                   Tag="div"
                   alt=""
+                  critical={false}
                   fadeIn={true}
                   sizes={
                     Object {
@@ -1251,6 +1258,7 @@ ShallowWrapper {
                 "props": Object {
                   "Tag": "div",
                   "alt": "",
+                  "critical": false,
                   "fadeIn": true,
                   "sizes": Object {
                     "sizes": "image",
