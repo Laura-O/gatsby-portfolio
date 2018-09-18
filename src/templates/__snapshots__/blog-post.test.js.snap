@@ -138,7 +138,7 @@ ShallowWrapper {
             alt=""
             critical={false}
             fadeIn={true}
-            sizes={
+            fluid={
               Object {
                 "sizes": "image",
               }
@@ -265,7 +265,7 @@ ShallowWrapper {
               alt=""
               critical={false}
               fadeIn={true}
-              sizes={
+              fluid={
                 Object {
                   "sizes": "image",
                 }
@@ -530,7 +530,7 @@ ShallowWrapper {
                 alt=""
                 critical={false}
                 fadeIn={true}
-                sizes={
+                fluid={
                   Object {
                     "sizes": "image",
                   }
@@ -598,7 +598,7 @@ ShallowWrapper {
                 "alt": "",
                 "critical": false,
                 "fadeIn": true,
-                "sizes": Object {
+                "fluid": Object {
                   "sizes": "image",
                 },
               },
@@ -800,7 +800,7 @@ ShallowWrapper {
               alt=""
               critical={false}
               fadeIn={true}
-              sizes={
+              fluid={
                 Object {
                   "sizes": "image",
                 }
@@ -927,7 +927,7 @@ ShallowWrapper {
                 alt=""
                 critical={false}
                 fadeIn={true}
-                sizes={
+                fluid={
                   Object {
                     "sizes": "image",
                   }
@@ -1192,7 +1192,7 @@ ShallowWrapper {
                   alt=""
                   critical={false}
                   fadeIn={true}
-                  sizes={
+                  fluid={
                     Object {
                       "sizes": "image",
                     }
@@ -1260,7 +1260,7 @@ ShallowWrapper {
                   "alt": "",
                   "critical": false,
                   "fadeIn": true,
-                  "sizes": Object {
+                  "fluid": Object {
                     "sizes": "image",
                   },
                 },

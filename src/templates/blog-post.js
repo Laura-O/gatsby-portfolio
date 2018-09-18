@@ -87,7 +87,7 @@ export default function Template({
               <h4>Updated: {frontmatter.updated}</h4>
             )}
           {frontmatter.image && (
-            <Img sizes={frontmatter.image.childImageSharp.fluid} />
+            <Img fluid={frontmatter.image.childImageSharp.fluid} />
           )}
 
           <div
