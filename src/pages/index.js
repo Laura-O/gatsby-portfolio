@@ -8,7 +8,7 @@ import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
 import Layout from '../components/Layout/layout';
 
-const IndexWrapper = Wrapper.extend`
+const IndexWrapper = styled(Wrapper)`
   background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};
   width: 100%;

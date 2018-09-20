@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer';
 import Seo from '../components/Seo/Seo';
 import Layout from '../components/Layout/layout';
 
-const BlogWrapper = Wrapper.extend`
+const BlogWrapper = styled(Wrapper)`
   padding-top: 2em;
 `;
 
@@ -60,7 +60,7 @@ function Index({ data }) {
               </Title>
 
               {post.frontmatter.image && (
-                <Img sizes={post.frontmatter.image.childImageSharp.fluid} />
+                <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
               )}
               <Infos>
                 <small>{post.frontmatter.date}</small>
@@ -106,7 +106,7 @@ export const pageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_noBase64
                 }
               }
             }

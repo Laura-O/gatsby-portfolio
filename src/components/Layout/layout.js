@@ -34,7 +34,3 @@ const TemplateWrapper = ({ children }) => (
 );
 
 export default TemplateWrapper;
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func.isRequired,
-};

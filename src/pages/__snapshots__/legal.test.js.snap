@@ -17,7 +17,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <h1>
           Impressum
         </h1>
@@ -89,7 +89,7 @@ ShallowWrapper {
           Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
         </styled.div>
         <Footer />
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -485,7 +485,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <h1>
             Impressum
           </h1>
@@ -557,7 +557,7 @@ ShallowWrapper {
             Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
           </styled.div>
           <Footer />
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {

@@ -52,7 +52,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <Seo
           data={
             Object {
@@ -136,8 +136,9 @@ ShallowWrapper {
           <Image
             Tag="div"
             alt=""
+            critical={false}
             fadeIn={true}
-            sizes={
+            fluid={
               Object {
                 "sizes": "image",
               }
@@ -170,7 +171,7 @@ ShallowWrapper {
             </styled.span>
           </div>
         </styled.div>
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -262,8 +263,9 @@ ShallowWrapper {
             <Image
               Tag="div"
               alt=""
+              critical={false}
               fadeIn={true}
-              sizes={
+              fluid={
                 Object {
                   "sizes": "image",
                 }
@@ -526,8 +528,9 @@ ShallowWrapper {
               <Image
                 Tag="div"
                 alt=""
+                critical={false}
                 fadeIn={true}
-                sizes={
+                fluid={
                   Object {
                     "sizes": "image",
                   }
@@ -593,8 +596,9 @@ ShallowWrapper {
               "props": Object {
                 "Tag": "div",
                 "alt": "",
+                "critical": false,
                 "fadeIn": true,
-                "sizes": Object {
+                "fluid": Object {
                   "sizes": "image",
                 },
               },
@@ -710,7 +714,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <Seo
             data={
               Object {
@@ -794,8 +798,9 @@ ShallowWrapper {
             <Image
               Tag="div"
               alt=""
+              critical={false}
               fadeIn={true}
-              sizes={
+              fluid={
                 Object {
                   "sizes": "image",
                 }
@@ -828,7 +833,7 @@ ShallowWrapper {
               </styled.span>
             </div>
           </styled.div>
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {
@@ -920,8 +925,9 @@ ShallowWrapper {
               <Image
                 Tag="div"
                 alt=""
+                critical={false}
                 fadeIn={true}
-                sizes={
+                fluid={
                   Object {
                     "sizes": "image",
                   }
@@ -1184,8 +1190,9 @@ ShallowWrapper {
                 <Image
                   Tag="div"
                   alt=""
+                  critical={false}
                   fadeIn={true}
-                  sizes={
+                  fluid={
                     Object {
                       "sizes": "image",
                     }
@@ -1251,8 +1258,9 @@ ShallowWrapper {
                 "props": Object {
                   "Tag": "div",
                   "alt": "",
+                  "critical": false,
                   "fadeIn": true,
-                  "sizes": Object {
+                  "fluid": Object {
                     "sizes": "image",
                   },
                 },

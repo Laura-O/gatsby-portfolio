@@ -4,7 +4,7 @@ import Wrapper from '../layouts/shared/Pagewrapper';
 import Footer from '../components/Footer/Footer';
 import Layout from '../components/Layout/layout';
 
-const LegalWrapper = Wrapper.extend`
+const LegalWrapper = styled(Wrapper)`
   width: 100vw;
 
   h1,

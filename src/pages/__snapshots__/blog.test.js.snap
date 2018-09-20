@@ -35,7 +35,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <Seo
           data={undefined}
           isPost={false}
@@ -50,7 +50,7 @@ ShallowWrapper {
           </title>
         </HelmetWrapper>
         <Footer />
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -142,7 +142,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <Seo
             data={undefined}
             isPost={false}
@@ -157,7 +157,7 @@ ShallowWrapper {
             </title>
           </HelmetWrapper>
           <Footer />
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {
@@ -321,7 +321,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <styled.div>
+      "children": <Styled(styled.div)>
         <Seo
           data={undefined}
           isPost={false}
@@ -346,8 +346,9 @@ ShallowWrapper {
           <Image
             Tag="div"
             alt=""
+            critical={false}
             fadeIn={true}
-            sizes={
+            fluid={
               Object {
                 "sizes": "image",
               }
@@ -367,7 +368,7 @@ ShallowWrapper {
           </styled.div>
         </styled.div>
         <Footer />
-      </styled.div>,
+      </Styled(styled.div)>,
     },
     "ref": null,
     "rendered": Object {
@@ -401,8 +402,9 @@ ShallowWrapper {
               <Image
                 Tag="div"
                 alt=""
+                critical={false}
                 fadeIn={true}
-                sizes={
+                fluid={
                   Object {
                     "sizes": "image",
                   }
@@ -487,8 +489,9 @@ ShallowWrapper {
               <Image
                 Tag="div"
                 alt=""
+                critical={false}
                 fadeIn={true}
-                sizes={
+                fluid={
                   Object {
                     "sizes": "image",
                   }
@@ -543,8 +546,9 @@ ShallowWrapper {
               "props": Object {
                 "Tag": "div",
                 "alt": "",
+                "critical": false,
                 "fadeIn": true,
-                "sizes": Object {
+                "fluid": Object {
                   "sizes": "image",
                 },
               },
@@ -634,7 +638,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <styled.div>
+        "children": <Styled(styled.div)>
           <Seo
             data={undefined}
             isPost={false}
@@ -659,8 +663,9 @@ ShallowWrapper {
             <Image
               Tag="div"
               alt=""
+              critical={false}
               fadeIn={true}
-              sizes={
+              fluid={
                 Object {
                   "sizes": "image",
                 }
@@ -680,7 +685,7 @@ ShallowWrapper {
             </styled.div>
           </styled.div>
           <Footer />
-        </styled.div>,
+        </Styled(styled.div)>,
       },
       "ref": null,
       "rendered": Object {
@@ -714,8 +719,9 @@ ShallowWrapper {
                 <Image
                   Tag="div"
                   alt=""
+                  critical={false}
                   fadeIn={true}
-                  sizes={
+                  fluid={
                     Object {
                       "sizes": "image",
                     }
@@ -800,8 +806,9 @@ ShallowWrapper {
                 <Image
                   Tag="div"
                   alt=""
+                  critical={false}
                   fadeIn={true}
-                  sizes={
+                  fluid={
                     Object {
                       "sizes": "image",
                     }
@@ -856,8 +863,9 @@ ShallowWrapper {
                 "props": Object {
                   "Tag": "div",
                   "alt": "",
+                  "critical": false,
                   "fadeIn": true,
-                  "sizes": Object {
+                  "fluid": Object {
                     "sizes": "image",
                   },
                 },

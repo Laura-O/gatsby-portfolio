@@ -36,7 +36,7 @@ const BlogPost = styled.div`
   }
 `;
 
-const PostWrapper = Wrapper.extend`
+const PostWrapper = styled(Wrapper)`
   ul {
     margin-left: 1.5em;
     margin-top: 1em;
@@ -87,7 +87,7 @@ export default function Template({
               <h4>Updated: {frontmatter.updated}</h4>
             )}
           {frontmatter.image && (
-            <Img sizes={frontmatter.image.childImageSharp.fluid} />
+            <Img fluid={frontmatter.image.childImageSharp.fluid} />
           )}
 
           <div
