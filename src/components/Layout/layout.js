@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import 'prismjs/themes/prism-funky.css';
+import 'prismjs/themes/prism-solarizedlight.css';
 import Raven from 'raven-js';
 import PropTypes from 'prop-types';
 import Header from '../Header/Header';
