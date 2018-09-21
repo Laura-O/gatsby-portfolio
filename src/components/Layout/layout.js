@@ -33,4 +33,8 @@ const TemplateWrapper = ({ children }) => (
   </div>
 );
 
+TemplateWrapper.propTypes = {
+  children: PropTypes.node,
+};
+
 export default TemplateWrapper;
