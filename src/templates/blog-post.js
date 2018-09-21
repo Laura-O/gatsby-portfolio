@@ -16,8 +16,12 @@ const BlogPost = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  max-width: 1280px;
+  max-width: 740px;
   background-color: ${constants.colorWhite};
+
+  h1 {
+    margin-top: 1em;
+  }
 
   a {
     text-decoration: none;
@@ -36,6 +40,12 @@ const BlogPost = styled.div`
   }
 `;
 
+const BlogPostContent = styled.div`
+  .gatsby-resp-image-wrapper {
+    margin-top: 2em;
+  }
+`;
+
 const PostWrapper = styled(Wrapper)`
   ul {
     margin-left: 1.5em;
@@ -49,8 +59,12 @@ const PostWrapper = styled(Wrapper)`
   }
 
   p {
-    margin-top: 0.5em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-top: 1em;
   }
 `;
 
@@ -90,10 +104,7 @@ export default function Template({
             <Img fluid={frontmatter.image.childImageSharp.fluid} />
           )}
 
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <BlogPostContent dangerouslySetInnerHTML={{ __html: html }} />
 
           <div className="tag-wrapper">
             {frontmatter.tags.map(tag => (
