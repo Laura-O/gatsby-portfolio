@@ -28,35 +28,7 @@ ShallowWrapper {
               >
                 <styled.img
                   alt="github"
-                  src={
-                    Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    }
-                  }
+                  src={undefined}
                 />
               </a>
             </li>
@@ -66,35 +38,7 @@ ShallowWrapper {
               >
                 <styled.img
                   alt="linkedin"
-                  src={
-                    Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    }
-                  }
+                  src={undefined}
                 />
               </a>
             </li>
@@ -104,35 +48,7 @@ ShallowWrapper {
               >
                 <styled.img
                   alt="twitter"
-                  src={
-                    Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    }
-                  }
+                  src={undefined}
                 />
               </a>
             </li>
@@ -163,35 +79,7 @@ ShallowWrapper {
               >
                 <styled.img
                   alt="github"
-                  src={
-                    Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    }
-                  }
+                  src={undefined}
                 />
               </a>
             </li>
@@ -201,35 +89,7 @@ ShallowWrapper {
               >
                 <styled.img
                   alt="linkedin"
-                  src={
-                    Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    }
-                  }
+                  src={undefined}
                 />
               </a>
             </li>
@@ -239,35 +99,7 @@ ShallowWrapper {
               >
                 <styled.img
                   alt="twitter"
-                  src={
-                    Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    }
-                  }
+                  src={undefined}
                 />
               </a>
             </li>
@@ -286,35 +118,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="github"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>,
@@ -324,35 +128,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="linkedin"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>,
@@ -362,35 +138,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="twitter"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>,
@@ -408,35 +156,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="github"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>,
               },
@@ -448,35 +168,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <styled.img
                     alt="github"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />,
                   "href": "https://github.com/Laura-O",
                 },
@@ -487,33 +179,7 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "alt": "github",
-                    "src": Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    },
+                    "src": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -533,35 +199,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="linkedin"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>,
               },
@@ -573,35 +211,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <styled.img
                     alt="linkedin"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />,
                   "href": "www.linkedin.com/in/lauraohrndorf",
                 },
@@ -612,33 +222,7 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "alt": "linkedin",
-                    "src": Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    },
+                    "src": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -658,35 +242,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="twitter"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>,
               },
@@ -698,35 +254,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <styled.img
                     alt="twitter"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />,
                   "href": "https://twitter.com/laura_fyi",
                 },
@@ -737,33 +265,7 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "alt": "twitter",
-                    "src": Object {
-                      "Link": "Link",
-                      "PageRenderer": [Function],
-                      "StaticQuery": [Function],
-                      "StaticQueryContext": Object {
-                        "$$typeof": Symbol(react.context),
-                        "Consumer": [Circular],
-                        "Provider": Object {
-                          "$$typeof": Symbol(react.provider),
-                          "_context": [Circular],
-                        },
-                        "_calculateChangedBits": null,
-                        "_currentRenderer": null,
-                        "_currentRenderer2": null,
-                        "_currentValue": Object {},
-                        "_currentValue2": Object {},
-                        "unstable_read": [Function],
-                      },
-                      "graphql": [MockFunction],
-                      "navigate": [Function],
-                      "navigateTo": [Function],
-                      "parsePath": [Function],
-                      "push": [Function],
-                      "replace": [Function],
-                      "waitForRouteChange": [Function],
-                      "withPrefix": [Function],
-                    },
+                    "src": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -838,35 +340,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="github"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>
@@ -876,35 +350,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="linkedin"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>
@@ -914,35 +360,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="twitter"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>
@@ -973,35 +391,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="github"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>
@@ -1011,35 +401,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="linkedin"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>
@@ -1049,35 +411,7 @@ ShallowWrapper {
                 >
                   <styled.img
                     alt="twitter"
-                    src={
-                      Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      }
-                    }
+                    src={undefined}
                   />
                 </a>
               </li>
@@ -1096,35 +430,7 @@ ShallowWrapper {
                   >
                     <styled.img
                       alt="github"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />
                   </a>
                 </li>,
@@ -1134,35 +440,7 @@ ShallowWrapper {
                   >
                     <styled.img
                       alt="linkedin"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />
                   </a>
                 </li>,
@@ -1172,35 +450,7 @@ ShallowWrapper {
                   >
                     <styled.img
                       alt="twitter"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />
                   </a>
                 </li>,
@@ -1218,35 +468,7 @@ ShallowWrapper {
                   >
                     <styled.img
                       alt="github"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />
                   </a>,
                 },
@@ -1258,35 +480,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": <styled.img
                       alt="github"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />,
                     "href": "https://github.com/Laura-O",
                   },
@@ -1297,33 +491,7 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "alt": "github",
-                      "src": Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      },
+                      "src": undefined,
                     },
                     "ref": null,
                     "rendered": null,
@@ -1343,35 +511,7 @@ ShallowWrapper {
                   >
                     <styled.img
                       alt="linkedin"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />
                   </a>,
                 },
@@ -1383,35 +523,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": <styled.img
                       alt="linkedin"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />,
                     "href": "www.linkedin.com/in/lauraohrndorf",
                   },
@@ -1422,33 +534,7 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "alt": "linkedin",
-                      "src": Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      },
+                      "src": undefined,
                     },
                     "ref": null,
                     "rendered": null,
@@ -1468,35 +554,7 @@ ShallowWrapper {
                   >
                     <styled.img
                       alt="twitter"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />
                   </a>,
                 },
@@ -1508,35 +566,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": <styled.img
                       alt="twitter"
-                      src={
-                        Object {
-                          "Link": "Link",
-                          "PageRenderer": [Function],
-                          "StaticQuery": [Function],
-                          "StaticQueryContext": Object {
-                            "$$typeof": Symbol(react.context),
-                            "Consumer": [Circular],
-                            "Provider": Object {
-                              "$$typeof": Symbol(react.provider),
-                              "_context": [Circular],
-                            },
-                            "_calculateChangedBits": null,
-                            "_currentRenderer": null,
-                            "_currentRenderer2": null,
-                            "_currentValue": Object {},
-                            "_currentValue2": Object {},
-                            "unstable_read": [Function],
-                          },
-                          "graphql": [MockFunction],
-                          "navigate": [Function],
-                          "navigateTo": [Function],
-                          "parsePath": [Function],
-                          "push": [Function],
-                          "replace": [Function],
-                          "waitForRouteChange": [Function],
-                          "withPrefix": [Function],
-                        }
-                      }
+                      src={undefined}
                     />,
                     "href": "https://twitter.com/laura_fyi",
                   },
@@ -1547,33 +577,7 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "alt": "twitter",
-                      "src": Object {
-                        "Link": "Link",
-                        "PageRenderer": [Function],
-                        "StaticQuery": [Function],
-                        "StaticQueryContext": Object {
-                          "$$typeof": Symbol(react.context),
-                          "Consumer": [Circular],
-                          "Provider": Object {
-                            "$$typeof": Symbol(react.provider),
-                            "_context": [Circular],
-                          },
-                          "_calculateChangedBits": null,
-                          "_currentRenderer": null,
-                          "_currentRenderer2": null,
-                          "_currentValue": Object {},
-                          "_currentValue2": Object {},
-                          "unstable_read": [Function],
-                        },
-                        "graphql": [MockFunction],
-                        "navigate": [Function],
-                        "navigateTo": [Function],
-                        "parsePath": [Function],
-                        "push": [Function],
-                        "replace": [Function],
-                        "waitForRouteChange": [Function],
-                        "withPrefix": [Function],
-                      },
+                      "src": undefined,
                     },
                     "ref": null,
                     "rendered": null,

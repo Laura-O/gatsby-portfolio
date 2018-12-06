@@ -29,35 +29,35 @@ ShallowWrapper {
           <div
             className="start-button"
           >
-            <Unknown
+            <GatsbyLink
               to="/about"
             >
               <styled.button>
                 About
               </styled.button>
-            </Unknown>
+            </GatsbyLink>
           </div>
           <div
             className="start-button"
           >
-            <Unknown
+            <GatsbyLink
               to="/projects"
             >
               <styled.button>
                 Projects
               </styled.button>
-            </Unknown>
+            </GatsbyLink>
           </div>
           <div
             className="start-button"
           >
-            <Unknown
+            <GatsbyLink
               to="/blog"
             >
               <styled.button>
                 Blog
               </styled.button>
-            </Unknown>
+            </GatsbyLink>
           </div>
         </styled.div>
       </Styled(styled.div)>,
@@ -80,35 +80,35 @@ ShallowWrapper {
             <div
               className="start-button"
             >
-              <Unknown
+              <GatsbyLink
                 to="/about"
               >
                 <styled.button>
                   About
                 </styled.button>
-              </Unknown>
+              </GatsbyLink>
             </div>
             <div
               className="start-button"
             >
-              <Unknown
+              <GatsbyLink
                 to="/projects"
               >
                 <styled.button>
                   Projects
                 </styled.button>
-              </Unknown>
+              </GatsbyLink>
             </div>
             <div
               className="start-button"
             >
-              <Unknown
+              <GatsbyLink
                 to="/blog"
               >
                 <styled.button>
                   Blog
                 </styled.button>
-              </Unknown>
+              </GatsbyLink>
             </div>
           </styled.div>,
         ],
@@ -154,35 +154,35 @@ ShallowWrapper {
               <div
                 className="start-button"
               >
-                <Unknown
+                <GatsbyLink
                   to="/about"
                 >
                   <styled.button>
                     About
                   </styled.button>
-                </Unknown>
+                </GatsbyLink>
               </div>,
               <div
                 className="start-button"
               >
-                <Unknown
+                <GatsbyLink
                   to="/projects"
                 >
                   <styled.button>
                     Projects
                   </styled.button>
-                </Unknown>
+                </GatsbyLink>
               </div>,
               <div
                 className="start-button"
               >
-                <Unknown
+                <GatsbyLink
                   to="/blog"
                 >
                   <styled.button>
                     Blog
                   </styled.button>
-                </Unknown>
+                </GatsbyLink>
               </div>,
             ],
           },
@@ -193,20 +193,20 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <Unknown
+                "children": <GatsbyLink
                   to="/about"
                 >
                   <styled.button>
                     About
                   </styled.button>
-                </Unknown>,
+                </GatsbyLink>,
                 "className": "start-button",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "function",
+                "nodeType": "class",
                 "props": Object {
                   "children": <styled.button>
                     About
@@ -234,20 +234,20 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <Unknown
+                "children": <GatsbyLink
                   to="/projects"
                 >
                   <styled.button>
                     Projects
                   </styled.button>
-                </Unknown>,
+                </GatsbyLink>,
                 "className": "start-button",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "function",
+                "nodeType": "class",
                 "props": Object {
                   "children": <styled.button>
                     Projects
@@ -275,20 +275,20 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <Unknown
+                "children": <GatsbyLink
                   to="/blog"
                 >
                   <styled.button>
                     Blog
                   </styled.button>
-                </Unknown>,
+                </GatsbyLink>,
                 "className": "start-button",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "function",
+                "nodeType": "class",
                 "props": Object {
                   "children": <styled.button>
                     Blog
@@ -337,35 +337,35 @@ ShallowWrapper {
             <div
               className="start-button"
             >
-              <Unknown
+              <GatsbyLink
                 to="/about"
               >
                 <styled.button>
                   About
                 </styled.button>
-              </Unknown>
+              </GatsbyLink>
             </div>
             <div
               className="start-button"
             >
-              <Unknown
+              <GatsbyLink
                 to="/projects"
               >
                 <styled.button>
                   Projects
                 </styled.button>
-              </Unknown>
+              </GatsbyLink>
             </div>
             <div
               className="start-button"
             >
-              <Unknown
+              <GatsbyLink
                 to="/blog"
               >
                 <styled.button>
                   Blog
                 </styled.button>
-              </Unknown>
+              </GatsbyLink>
             </div>
           </styled.div>
         </Styled(styled.div)>,
@@ -388,35 +388,35 @@ ShallowWrapper {
               <div
                 className="start-button"
               >
-                <Unknown
+                <GatsbyLink
                   to="/about"
                 >
                   <styled.button>
                     About
                   </styled.button>
-                </Unknown>
+                </GatsbyLink>
               </div>
               <div
                 className="start-button"
               >
-                <Unknown
+                <GatsbyLink
                   to="/projects"
                 >
                   <styled.button>
                     Projects
                   </styled.button>
-                </Unknown>
+                </GatsbyLink>
               </div>
               <div
                 className="start-button"
               >
-                <Unknown
+                <GatsbyLink
                   to="/blog"
                 >
                   <styled.button>
                     Blog
                   </styled.button>
-                </Unknown>
+                </GatsbyLink>
               </div>
             </styled.div>,
           ],
@@ -462,35 +462,35 @@ ShallowWrapper {
                 <div
                   className="start-button"
                 >
-                  <Unknown
+                  <GatsbyLink
                     to="/about"
                   >
                     <styled.button>
                       About
                     </styled.button>
-                  </Unknown>
+                  </GatsbyLink>
                 </div>,
                 <div
                   className="start-button"
                 >
-                  <Unknown
+                  <GatsbyLink
                     to="/projects"
                   >
                     <styled.button>
                       Projects
                     </styled.button>
-                  </Unknown>
+                  </GatsbyLink>
                 </div>,
                 <div
                   className="start-button"
                 >
-                  <Unknown
+                  <GatsbyLink
                     to="/blog"
                   >
                     <styled.button>
                       Blog
                     </styled.button>
-                  </Unknown>
+                  </GatsbyLink>
                 </div>,
               ],
             },
@@ -501,20 +501,20 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Unknown
+                  "children": <GatsbyLink
                     to="/about"
                   >
                     <styled.button>
                       About
                     </styled.button>
-                  </Unknown>,
+                  </GatsbyLink>,
                   "className": "start-button",
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "function",
+                  "nodeType": "class",
                   "props": Object {
                     "children": <styled.button>
                       About
@@ -542,20 +542,20 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Unknown
+                  "children": <GatsbyLink
                     to="/projects"
                   >
                     <styled.button>
                       Projects
                     </styled.button>
-                  </Unknown>,
+                  </GatsbyLink>,
                   "className": "start-button",
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "function",
+                  "nodeType": "class",
                   "props": Object {
                     "children": <styled.button>
                       Projects
@@ -583,20 +583,20 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Unknown
+                  "children": <GatsbyLink
                     to="/blog"
                   >
                     <styled.button>
                       Blog
                     </styled.button>
-                  </Unknown>,
+                  </GatsbyLink>,
                   "className": "start-button",
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "function",
+                  "nodeType": "class",
                   "props": Object {
                     "children": <styled.button>
                       Blog

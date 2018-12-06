@@ -66,18 +66,18 @@ ShallowWrapper {
     "props": Object {
       "children": <ul>
         <li>
-          <Unknown
+          <GatsbyLink
             to="/tags/tag1"
           >
             tag1
-          </Unknown>
+          </GatsbyLink>
         </li>
         <li>
-          <Unknown
+          <GatsbyLink
             to="/tags/tag2"
           >
             tag2
-          </Unknown>
+          </GatsbyLink>
         </li>
       </ul>,
     },
@@ -89,18 +89,18 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <li>
-            <Unknown
+            <GatsbyLink
               to="/tags/tag1"
             >
               tag1
-            </Unknown>
+            </GatsbyLink>
           </li>,
           <li>
-            <Unknown
+            <GatsbyLink
               to="/tags/tag2"
             >
               tag2
-            </Unknown>
+            </GatsbyLink>
           </li>,
         ],
       },
@@ -111,17 +111,17 @@ ShallowWrapper {
           "key": "tag1",
           "nodeType": "host",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               to="/tags/tag1"
             >
               tag1
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "tag1",
               "to": "/tags/tag1",
@@ -137,17 +137,17 @@ ShallowWrapper {
           "key": "tag2",
           "nodeType": "host",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               to="/tags/tag2"
             >
               tag2
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "tag2",
               "to": "/tags/tag2",
@@ -171,18 +171,18 @@ ShallowWrapper {
       "props": Object {
         "children": <ul>
           <li>
-            <Unknown
+            <GatsbyLink
               to="/tags/tag1"
             >
               tag1
-            </Unknown>
+            </GatsbyLink>
           </li>
           <li>
-            <Unknown
+            <GatsbyLink
               to="/tags/tag2"
             >
               tag2
-            </Unknown>
+            </GatsbyLink>
           </li>
         </ul>,
       },
@@ -194,18 +194,18 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
-              <Unknown
+              <GatsbyLink
                 to="/tags/tag1"
               >
                 tag1
-              </Unknown>
+              </GatsbyLink>
             </li>,
             <li>
-              <Unknown
+              <GatsbyLink
                 to="/tags/tag2"
               >
                 tag2
-              </Unknown>
+              </GatsbyLink>
             </li>,
           ],
         },
@@ -216,17 +216,17 @@ ShallowWrapper {
             "key": "tag1",
             "nodeType": "host",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 to="/tags/tag1"
               >
                 tag1
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "tag1",
                 "to": "/tags/tag1",
@@ -242,17 +242,17 @@ ShallowWrapper {
             "key": "tag2",
             "nodeType": "host",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 to="/tags/tag2"
               >
                 tag2
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "tag2",
                 "to": "/tags/tag2",
