@@ -48,6 +48,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -71,17 +72,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": true,
-                  "children": Array [],
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 47,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -97,9 +88,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -142,7 +134,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -152,7 +144,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -174,7 +166,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -196,6 +188,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -250,7 +243,213 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": true,
+                  "children": Array [],
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": true,
+                        "children": Array [],
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa jcHNws"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -306,7 +505,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -318,6 +517,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -347,6 +547,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -370,17 +571,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": true,
-                  "children": Array [],
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 47,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -396,9 +587,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -441,7 +633,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -451,7 +643,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -473,7 +665,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -495,6 +687,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -549,7 +742,213 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": true,
+                  "children": Array [],
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": true,
+                        "children": Array [],
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa jcHNws"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -605,7 +1004,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -633,6 +1032,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -657,13 +1057,14 @@ ReactWrapper {
             "stateNode": <div
               class="sc-bdVaJa jcHNws"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -699,6 +1100,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -722,17 +1124,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": true,
-                  "children": Array [],
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 47,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -748,9 +1140,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -793,7 +1186,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -803,7 +1196,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -825,7 +1218,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -847,6 +1240,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -901,7 +1295,213 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": true,
+                  "children": Array [],
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": true,
+                        "children": Array [],
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa jcHNws"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -957,7 +1557,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -969,6 +1569,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -998,6 +1599,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1021,17 +1623,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": true,
-                  "children": Array [],
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 47,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -1047,9 +1639,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -1092,7 +1685,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -1102,7 +1695,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -1124,7 +1717,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -1146,6 +1739,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -1200,7 +1794,213 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": true,
+                  "children": Array [],
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": true,
+                              "children": Array [],
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": true,
+                        "children": Array [],
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa jcHNws"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -1256,7 +2056,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -1272,7 +2072,7 @@ ReactWrapper {
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": Object {
@@ -1376,6 +2176,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -1399,17 +2200,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": true,
-                    "children": Array [],
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 47,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -1425,9 +2216,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -1470,7 +2262,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -1480,7 +2272,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -1502,7 +2294,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -1524,6 +2316,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -1578,7 +2371,213 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": true,
+                            "children": Array [],
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": true,
+                    "children": Array [],
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa jcHNws"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -1634,7 +2633,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -1646,6 +2645,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1675,6 +2675,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -1698,17 +2699,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": true,
-                    "children": Array [],
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 47,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -1724,9 +2715,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -1769,7 +2761,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -1779,7 +2771,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -1801,7 +2793,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -1823,6 +2815,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -1877,7 +2870,213 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": true,
+                            "children": Array [],
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": true,
+                    "children": Array [],
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa jcHNws"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -1933,7 +3132,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -1961,6 +3160,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1985,13 +3185,14 @@ ReactWrapper {
               "stateNode": <div
                 class="sc-bdVaJa jcHNws"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -2027,6 +3228,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -2050,17 +3252,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": true,
-                    "children": Array [],
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 47,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -2076,9 +3268,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -2121,7 +3314,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -2131,7 +3324,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -2153,7 +3346,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -2175,6 +3368,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -2229,7 +3423,213 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": true,
+                            "children": Array [],
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": true,
+                    "children": Array [],
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa jcHNws"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -2285,7 +3685,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -2297,6 +3697,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -2326,6 +3727,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -2349,17 +3751,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": true,
-                    "children": Array [],
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 47,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -2375,9 +3767,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -2420,7 +3813,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -2430,7 +3823,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -2452,7 +3845,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -2474,6 +3867,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -2528,7 +3922,213 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": true,
+                            "children": Array [],
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": true,
+                    "children": Array [],
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa jcHNws"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": true,
+                                "children": Array [],
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": true,
+                          "children": Array [],
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa jcHNws"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -2584,7 +4184,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -2600,7 +4200,7 @@ ReactWrapper {
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": [Circular],
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": Object {
@@ -2737,6 +4337,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -2758,16 +4359,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": false,
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 53,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -2783,9 +4375,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -2828,7 +4421,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -2838,7 +4431,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -2859,7 +4452,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -2880,6 +4473,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -2933,7 +4527,208 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": false,
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": false,
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa hxjTWr"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 13,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -2986,7 +4781,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -2998,6 +4793,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -3025,6 +4821,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3046,16 +4843,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": false,
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 53,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -3071,9 +4859,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -3116,7 +4905,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -3126,7 +4915,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -3147,7 +4936,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -3168,6 +4957,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -3221,7 +5011,208 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": false,
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": false,
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa hxjTWr"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 13,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -3274,7 +5265,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -3302,6 +5293,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -3326,13 +5318,14 @@ ReactWrapper {
             "stateNode": <div
               class="sc-bdVaJa hxjTWr"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -3368,6 +5361,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3389,16 +5383,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": false,
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 53,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -3414,9 +5399,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -3459,7 +5445,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -3469,7 +5455,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -3490,7 +5476,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -3511,6 +5497,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -3564,7 +5551,208 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": false,
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": false,
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa hxjTWr"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 13,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -3617,7 +5805,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -3629,6 +5817,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -3656,6 +5845,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3677,16 +5867,7 @@ ReactWrapper {
                 },
               },
               "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "active": false,
-                },
-              },
-              "ref": null,
-              "return": FiberNode {
+              "nextEffect": FiberNode {
                 "_debugID": 53,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
@@ -3702,9 +5883,10 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": [Circular],
                   "child": null,
-                  "childExpirationTime": 1,
+                  "childExpirationTime": 1073741823,
                   "effectTag": 0,
-                  "expirationTime": 1,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
                   "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
@@ -3747,7 +5929,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -3757,7 +5939,7 @@ ReactWrapper {
                     "firstEffect": null,
                     "firstUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -3778,7 +5960,7 @@ ReactWrapper {
                     "lastEffect": null,
                     "lastUpdate": Object {
                       "callback": null,
-                      "expirationTime": 1,
+                      "expirationTime": 1073741823,
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
@@ -3799,6 +5981,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -3852,7 +6035,208 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "active": false,
+                },
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 1073741823,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 1073741823,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1073741823,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={
+                            Object {
+                              "active": false,
+                            }
+                          }
+                        />,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "active": false,
+                      }
+                    }
+                  />,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="sc-bdVaJa hxjTWr"
+                    />
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 13,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -3905,7 +6289,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -3921,7 +6305,7 @@ ReactWrapper {
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": Object {
@@ -4024,6 +6408,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -4045,16 +6430,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": false,
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 53,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -4070,9 +6446,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -4115,7 +6492,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -4125,7 +6502,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -4146,7 +6523,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -4167,6 +6544,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -4220,7 +6598,208 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": false,
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": false,
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa hxjTWr"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 13,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -4273,7 +6852,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -4285,6 +6864,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -4312,6 +6892,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -4333,16 +6914,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": false,
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 53,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -4358,9 +6930,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -4403,7 +6976,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -4413,7 +6986,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -4434,7 +7007,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -4455,6 +7028,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -4508,7 +7082,208 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": false,
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": false,
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa hxjTWr"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 13,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -4561,7 +7336,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -4589,6 +7364,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -4613,13 +7389,14 @@ ReactWrapper {
               "stateNode": <div
                 class="sc-bdVaJa hxjTWr"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -4655,6 +7432,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -4676,16 +7454,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": false,
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 53,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -4701,9 +7470,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -4746,7 +7516,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -4756,7 +7526,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -4777,7 +7547,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -4798,6 +7568,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -4851,7 +7622,208 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": false,
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": false,
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa hxjTWr"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 13,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -4904,7 +7876,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -4916,6 +7888,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -4943,6 +7916,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -4964,16 +7938,7 @@ ReactWrapper {
                   },
                 },
                 "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "Component": [Function],
-                  "context": null,
-                  "props": Object {
-                    "active": false,
-                  },
-                },
-                "ref": null,
-                "return": FiberNode {
+                "nextEffect": FiberNode {
                   "_debugID": 53,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
@@ -4989,9 +7954,10 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": [Circular],
                     "child": null,
-                    "childExpirationTime": 1,
+                    "childExpirationTime": 1073741823,
                     "effectTag": 0,
-                    "expirationTime": 1,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
                     "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
@@ -5034,7 +8000,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -5044,7 +8010,7 @@ ReactWrapper {
                       "firstEffect": null,
                       "firstUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -5065,7 +8031,7 @@ ReactWrapper {
                       "lastEffect": null,
                       "lastUpdate": Object {
                         "callback": null,
-                        "expirationTime": 1,
+                        "expirationTime": 1073741823,
                         "next": null,
                         "nextEffect": null,
                         "payload": Object {
@@ -5086,6 +8052,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -5139,7 +8106,208 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "active": false,
+                          }
+                        }
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {
+                    "active": false,
+                  },
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 53,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 53,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 1073741823,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                          class="sc-bdVaJa hxjTWr"
+                        />
+                      </div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 13,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={
+                              Object {
+                                "active": false,
+                              }
+                            }
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "active": false,
+                        }
+                      }
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                        class="sc-bdVaJa hxjTWr"
+                      />
+                    </div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 13,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -5192,7 +8360,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -5208,7 +8376,7 @@ ReactWrapper {
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": [Circular],
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": Object {
