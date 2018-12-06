@@ -29,11 +29,11 @@ ShallowWrapper {
         <styled.div>
           If you want to get in touch with me, please use the
            
-          <Unknown
+          <GatsbyLink
             to="/contact"
           >
             Contact form
-          </Unknown>
+          </GatsbyLink>
           .
         </styled.div>
         <Footer />
@@ -57,11 +57,11 @@ ShallowWrapper {
           <styled.div>
             If you want to get in touch with me, please use the
              
-            <Unknown
+            <GatsbyLink
               to="/contact"
             >
               Contact form
-            </Unknown>
+            </GatsbyLink>
             .
           </styled.div>,
           <Footer />,
@@ -134,11 +134,11 @@ ShallowWrapper {
             "children": Array [
               "If you want to get in touch with me, please use the",
               " ",
-              <Unknown
+              <GatsbyLink
                 to="/contact"
               >
                 Contact form
-              </Unknown>,
+              </GatsbyLink>,
               ".",
             ],
           },
@@ -149,7 +149,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "Contact form",
                 "to": "/contact",
@@ -194,11 +194,11 @@ ShallowWrapper {
           <styled.div>
             If you want to get in touch with me, please use the
              
-            <Unknown
+            <GatsbyLink
               to="/contact"
             >
               Contact form
-            </Unknown>
+            </GatsbyLink>
             .
           </styled.div>
           <Footer />
@@ -222,11 +222,11 @@ ShallowWrapper {
             <styled.div>
               If you want to get in touch with me, please use the
                
-              <Unknown
+              <GatsbyLink
                 to="/contact"
               >
                 Contact form
-              </Unknown>
+              </GatsbyLink>
               .
             </styled.div>,
             <Footer />,
@@ -299,11 +299,11 @@ ShallowWrapper {
               "children": Array [
                 "If you want to get in touch with me, please use the",
                 " ",
-                <Unknown
+                <GatsbyLink
                   to="/contact"
                 >
                   Contact form
-                </Unknown>,
+                </GatsbyLink>,
                 ".",
               ],
             },
@@ -314,7 +314,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "function",
+                "nodeType": "class",
                 "props": Object {
                   "children": "Contact form",
                   "to": "/contact",

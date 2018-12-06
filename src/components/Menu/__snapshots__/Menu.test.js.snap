@@ -23,44 +23,44 @@ ShallowWrapper {
       "active": true,
       "children": <nav>
         <styled.div>
-          <Unknown
+          <GatsbyLink
             onClick={[MockFunction]}
             to="/"
           >
             Home
-          </Unknown>
+          </GatsbyLink>
         </styled.div>
         <styled.div>
-          <Unknown
+          <GatsbyLink
             onClick={[MockFunction]}
             to="/about"
           >
             About
-          </Unknown>
+          </GatsbyLink>
         </styled.div>
         <styled.div>
-          <Unknown
+          <GatsbyLink
             onClick={[MockFunction]}
             to="/blog"
           >
             Blog
-          </Unknown>
+          </GatsbyLink>
         </styled.div>
         <styled.div>
-          <Unknown
+          <GatsbyLink
             onClick={[MockFunction]}
             to="/projects"
           >
             Projects
-          </Unknown>
+          </GatsbyLink>
         </styled.div>
         <styled.div>
-          <Unknown
+          <GatsbyLink
             onClick={[MockFunction]}
             to="/contact"
           >
             Contact
-          </Unknown>
+          </GatsbyLink>
         </styled.div>
       </nav>,
     },
@@ -72,44 +72,44 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/"
             >
               Home
-            </Unknown>
+            </GatsbyLink>
           </styled.div>,
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/about"
             >
               About
-            </Unknown>
+            </GatsbyLink>
           </styled.div>,
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/blog"
             >
               Blog
-            </Unknown>
+            </GatsbyLink>
           </styled.div>,
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/projects"
             >
               Projects
-            </Unknown>
+            </GatsbyLink>
           </styled.div>,
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/contact"
             >
               Contact
-            </Unknown>
+            </GatsbyLink>
           </styled.div>,
         ],
       },
@@ -120,18 +120,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               onClick={[MockFunction]}
               to="/"
             >
               Home
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "Home",
               "onClick": [MockFunction],
@@ -148,18 +148,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               onClick={[MockFunction]}
               to="/about"
             >
               About
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "About",
               "onClick": [MockFunction],
@@ -176,18 +176,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               onClick={[MockFunction]}
               to="/blog"
             >
               Blog
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "Blog",
               "onClick": [MockFunction],
@@ -204,18 +204,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               onClick={[MockFunction]}
               to="/projects"
             >
               Projects
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "Projects",
               "onClick": [MockFunction],
@@ -232,18 +232,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Unknown
+            "children": <GatsbyLink
               onClick={[MockFunction]}
               to="/contact"
             >
               Contact
-            </Unknown>,
+            </GatsbyLink>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
               "children": "Contact",
               "onClick": [MockFunction],
@@ -269,44 +269,44 @@ ShallowWrapper {
         "active": true,
         "children": <nav>
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/"
             >
               Home
-            </Unknown>
+            </GatsbyLink>
           </styled.div>
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/about"
             >
               About
-            </Unknown>
+            </GatsbyLink>
           </styled.div>
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/blog"
             >
               Blog
-            </Unknown>
+            </GatsbyLink>
           </styled.div>
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/projects"
             >
               Projects
-            </Unknown>
+            </GatsbyLink>
           </styled.div>
           <styled.div>
-            <Unknown
+            <GatsbyLink
               onClick={[MockFunction]}
               to="/contact"
             >
               Contact
-            </Unknown>
+            </GatsbyLink>
           </styled.div>
         </nav>,
       },
@@ -318,44 +318,44 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <styled.div>
-              <Unknown
+              <GatsbyLink
                 onClick={[MockFunction]}
                 to="/"
               >
                 Home
-              </Unknown>
+              </GatsbyLink>
             </styled.div>,
             <styled.div>
-              <Unknown
+              <GatsbyLink
                 onClick={[MockFunction]}
                 to="/about"
               >
                 About
-              </Unknown>
+              </GatsbyLink>
             </styled.div>,
             <styled.div>
-              <Unknown
+              <GatsbyLink
                 onClick={[MockFunction]}
                 to="/blog"
               >
                 Blog
-              </Unknown>
+              </GatsbyLink>
             </styled.div>,
             <styled.div>
-              <Unknown
+              <GatsbyLink
                 onClick={[MockFunction]}
                 to="/projects"
               >
                 Projects
-              </Unknown>
+              </GatsbyLink>
             </styled.div>,
             <styled.div>
-              <Unknown
+              <GatsbyLink
                 onClick={[MockFunction]}
                 to="/contact"
               >
                 Contact
-              </Unknown>
+              </GatsbyLink>
             </styled.div>,
           ],
         },
@@ -366,18 +366,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 onClick={[MockFunction]}
                 to="/"
               >
                 Home
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "Home",
                 "onClick": [MockFunction],
@@ -394,18 +394,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 onClick={[MockFunction]}
                 to="/about"
               >
                 About
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "About",
                 "onClick": [MockFunction],
@@ -422,18 +422,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 onClick={[MockFunction]}
                 to="/blog"
               >
                 Blog
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "Blog",
                 "onClick": [MockFunction],
@@ -450,18 +450,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 onClick={[MockFunction]}
                 to="/projects"
               >
                 Projects
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "Projects",
                 "onClick": [MockFunction],
@@ -478,18 +478,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Unknown
+              "children": <GatsbyLink
                 onClick={[MockFunction]}
                 to="/contact"
               >
                 Contact
-              </Unknown>,
+              </GatsbyLink>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
                 "children": "Contact",
                 "onClick": [MockFunction],

@@ -47,14 +47,14 @@ ShallowWrapper {
           </h1>
           <ul>
             <li>
-              <Unknown
+              <GatsbyLink
                 to="/tags/test-1/"
               >
                 test1
                  (
                 1
                 )
-              </Unknown>
+              </GatsbyLink>
             </li>
           </ul>
         </div>,
@@ -86,14 +86,14 @@ ShallowWrapper {
             </h1>,
             <ul>
               <li>
-                <Unknown
+                <GatsbyLink
                   to="/tags/test-1/"
                 >
                   test1
                    (
                   1
                   )
-                </Unknown>
+                </GatsbyLink>
               </li>
             </ul>,
           ],
@@ -118,14 +118,14 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <li>
-                  <Unknown
+                  <GatsbyLink
                     to="/tags/test-1/"
                   >
                     test1
                      (
                     1
                     )
-                  </Unknown>
+                  </GatsbyLink>
                 </li>,
               ],
             },
@@ -136,20 +136,20 @@ ShallowWrapper {
                 "key": "test1",
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Unknown
+                  "children": <GatsbyLink
                     to="/tags/test-1/"
                   >
                     test1
                      (
                     1
                     )
-                  </Unknown>,
+                  </GatsbyLink>,
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "function",
+                  "nodeType": "class",
                   "props": Object {
                     "children": Array [
                       "test1",
@@ -197,14 +197,14 @@ ShallowWrapper {
             </h1>
             <ul>
               <li>
-                <Unknown
+                <GatsbyLink
                   to="/tags/test-1/"
                 >
                   test1
                    (
                   1
                   )
-                </Unknown>
+                </GatsbyLink>
               </li>
             </ul>
           </div>,
@@ -236,14 +236,14 @@ ShallowWrapper {
               </h1>,
               <ul>
                 <li>
-                  <Unknown
+                  <GatsbyLink
                     to="/tags/test-1/"
                   >
                     test1
                      (
                     1
                     )
-                  </Unknown>
+                  </GatsbyLink>
                 </li>
               </ul>,
             ],
@@ -268,14 +268,14 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <li>
-                    <Unknown
+                    <GatsbyLink
                       to="/tags/test-1/"
                     >
                       test1
                        (
                       1
                       )
-                    </Unknown>
+                    </GatsbyLink>
                   </li>,
                 ],
               },
@@ -286,20 +286,20 @@ ShallowWrapper {
                   "key": "test1",
                   "nodeType": "host",
                   "props": Object {
-                    "children": <Unknown
+                    "children": <GatsbyLink
                       to="/tags/test-1/"
                     >
                       test1
                        (
                       1
                       )
-                    </Unknown>,
+                    </GatsbyLink>,
                   },
                   "ref": null,
                   "rendered": Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "function",
+                    "nodeType": "class",
                     "props": Object {
                       "children": Array [
                         "test1",

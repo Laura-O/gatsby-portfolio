@@ -335,11 +335,11 @@ ShallowWrapper {
         </HelmetWrapper>
         <styled.div>
           <styled.h3>
-            <Unknown
+            <GatsbyLink
               to="path"
             >
               title
-            </Unknown>
+            </GatsbyLink>
           </styled.h3>
           <Image
             Tag="div"
@@ -391,11 +391,11 @@ ShallowWrapper {
           Array [
             <styled.div>
               <styled.h3>
-                <Unknown
+                <GatsbyLink
                   to="path"
                 >
                   title
-                </Unknown>
+                </GatsbyLink>
               </styled.h3>
               <Image
                 Tag="div"
@@ -478,11 +478,11 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <styled.h3>
-                <Unknown
+                <GatsbyLink
                   to="path"
                 >
                   title
-                </Unknown>
+                </GatsbyLink>
               </styled.h3>,
               <Image
                 Tag="div"
@@ -516,17 +516,17 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <Unknown
+                "children": <GatsbyLink
                   to="path"
                 >
                   title
-                </Unknown>,
+                </GatsbyLink>,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "function",
+                "nodeType": "class",
                 "props": Object {
                   "children": "title",
                   "to": "path",
@@ -652,11 +652,11 @@ ShallowWrapper {
           </HelmetWrapper>
           <styled.div>
             <styled.h3>
-              <Unknown
+              <GatsbyLink
                 to="path"
               >
                 title
-              </Unknown>
+              </GatsbyLink>
             </styled.h3>
             <Image
               Tag="div"
@@ -708,11 +708,11 @@ ShallowWrapper {
             Array [
               <styled.div>
                 <styled.h3>
-                  <Unknown
+                  <GatsbyLink
                     to="path"
                   >
                     title
-                  </Unknown>
+                  </GatsbyLink>
                 </styled.h3>
                 <Image
                   Tag="div"
@@ -795,11 +795,11 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <styled.h3>
-                  <Unknown
+                  <GatsbyLink
                     to="path"
                   >
                     title
-                  </Unknown>
+                  </GatsbyLink>
                 </styled.h3>,
                 <Image
                   Tag="div"
@@ -833,17 +833,17 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <Unknown
+                  "children": <GatsbyLink
                     to="path"
                   >
                     title
-                  </Unknown>,
+                  </GatsbyLink>,
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "function",
+                  "nodeType": "class",
                   "props": Object {
                     "children": "title",
                     "to": "path",
