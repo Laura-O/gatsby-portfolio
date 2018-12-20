@@ -36,7 +36,7 @@
     "raven-js": "^3.27.0",
     "react": "16.7.0",
     "react-anime": "^2.2.0",
-    "react-dom": "^16.6.3",
+    "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
     "styled-components": "^3.4.10",
