@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import StartAnimation from '../components/StartAnimation/StartAnimation';
-import Fireworks from '../components/Fireworks/Fireworks';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
@@ -12,12 +10,43 @@ const IndexWrapper = styled(Wrapper)`
   background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};
   width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'Left' 'Right';
+
+  @media screen and (min-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 'Left Right';
+    padding: 0 2rem;
+    align-items: center;
+  }
 `;
 
-const StartButtons = styled.div`
-  display: flex;
-  justify-content: space-around;
-  padding: 6rem 15px 15px 15px;
+const IndexRight = styled.section`
+  grid-area: Right;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto);
+  grid-gap: 0;
+  grid-template-areas: 'IndexRightTop' 'IndexRightBottom';
+`;
+
+const IndexRightContent = styled.section`
+  grid-area: IndexRightBottom;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
 `;
 
 const PulseButton = styled.button`
@@ -33,31 +62,36 @@ const PulseButton = styled.button`
   }
 `;
 
+const PageLink = styled.div`
+  padding: 2rem;
+`;
+
 const IndexPage = () => (
   <Layout>
     <IndexWrapper>
-      <StartAnimation />
-      <div className="about-me">
+      <section>
         I&apos;m Laura, a full-stack developer based in Germany.
-      </div>
-      <Fireworks />
-      <StartButtons>
-        <div className="start-button">
-          <Link to="/about">
-            <PulseButton>About</PulseButton>
-          </Link>
-        </div>
-        <div className="start-button">
-          <Link to="/projects">
-            <PulseButton>Projects</PulseButton>
-          </Link>
-        </div>
-        <div className="start-button">
-          <Link to="/blog">
-            <PulseButton>Blog</PulseButton>
-          </Link>
-        </div>
-      </StartButtons>
+      </section>
+
+      <IndexRight>
+        <IndexRightContent>
+          <PageLink>
+            <Link to="/about">
+              <PulseButton>About</PulseButton>
+            </Link>
+          </PageLink>
+          <PageLink>
+            <Link to="/projects">
+              <PulseButton>Projects</PulseButton>
+            </Link>
+          </PageLink>
+          <PageLink>
+            <Link to="/blog">
+              <PulseButton>Blog</PulseButton>
+            </Link>
+          </PageLink>
+        </IndexRightContent>
+      </IndexRight>
     </IndexWrapper>
   </Layout>
 );
