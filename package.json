@@ -43,6 +43,7 @@
     "typography": "^0.16.18",
     "typography-theme-alton": "^0.15.10",
     "typography-theme-fairy-gates": "^0.15.11",
+    "typography-theme-kirkham": "^0.16.18",
     "update": "^0.7.4"
   },
   "keywords": [

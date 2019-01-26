@@ -46,7 +46,7 @@ const TemplateWrapper = ({ children }) => (
     </Helmet>
     <PageWrapper>
       <Header />
-      <Content >{children}</Content>
+      <Content>{children}</Content>
       <Footer />
     </PageWrapper>
   </div>

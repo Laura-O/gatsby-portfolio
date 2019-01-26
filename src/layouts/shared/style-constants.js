@@ -24,3 +24,5 @@ export const malachite = '#04e762';
 export const darkBlue = '#011627';
 export const background = '#252c36';
 export const textColor = '#242729';
+
+export const landingBackground = "#e6e8f4";

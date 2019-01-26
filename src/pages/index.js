@@ -5,11 +5,13 @@ import Wrapper from '../layouts/shared/Pagewrapper';
 import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
 import Layout from '../components/Layout/layout';
+import PageLink from '../components/PageLink/PageLink'
 
 const IndexWrapper = styled(Wrapper)`
-  background-color: ${constants.darkBackground};
-  color: ${constants.colorWhite};
+  background-color: ${constants.landingBackground};
+  color: ${constants.colorBlack};
   width: 100%;
+  height: 100%;
 
   display: grid;
   grid-template-columns: 1fr;
@@ -19,33 +21,21 @@ const IndexWrapper = styled(Wrapper)`
   @media screen and (min-width: 600px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr auto;
     grid-gap: 2rem;
-    grid-template-areas: 'Left Right';
+    grid-template-areas:
+      'Left RightTop'
+      'Left RightBottom';
     padding: 0 2rem;
     align-items: center;
   }
 `;
 
-const IndexRight = styled.section`
-  grid-area: Right;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(auto);
-  grid-gap: 0;
-  grid-template-areas: 'IndexRightTop' 'IndexRightBottom';
-`;
-
 const IndexRightContent = styled.section`
-  grid-area: IndexRightBottom;
+  grid-area: RightTop;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-gap: 0;
-  grid-template-columns: repeat(1, 1fr);
+  
   align-items: center;
 `;
 
@@ -62,9 +52,6 @@ const PulseButton = styled.button`
   }
 `;
 
-const PageLink = styled.div`
-  padding: 2rem;
-`;
 
 const IndexPage = () => (
   <Layout>
@@ -73,25 +60,25 @@ const IndexPage = () => (
         I&apos;m Laura, a full-stack developer based in Germany.
       </section>
 
-      <IndexRight>
-        <IndexRightContent>
-          <PageLink>
-            <Link to="/about">
-              <PulseButton>About</PulseButton>
+
+      <IndexRightContent>
+        <PageLink>
+          <Link to="/about">
+            About
             </Link>
-          </PageLink>
-          <PageLink>
-            <Link to="/projects">
-              <PulseButton>Projects</PulseButton>
+        </PageLink>
+        <PageLink>
+          <Link to="/projects">
+            Projects
             </Link>
-          </PageLink>
-          <PageLink>
-            <Link to="/blog">
-              <PulseButton>Blog</PulseButton>
-            </Link>
-          </PageLink>
-        </IndexRightContent>
-      </IndexRight>
+        </PageLink>
+        <PageLink>
+          <Link to="/blog">
+            Blog
+          </Link>
+        </PageLink>
+      </IndexRightContent>
+
     </IndexWrapper>
   </Layout>
 );
