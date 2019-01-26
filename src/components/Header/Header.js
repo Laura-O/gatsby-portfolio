@@ -7,10 +7,7 @@ const HeaderWrapper = styled.header`
   display: flex;
   justify-content: flex-end;
   background: ${constants.darkBackground};
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  flex-shrink: 0;
   padding: 1.5rem;
   height: ${constants.headerHeight};
   z-index: ${constants.zIndexHeader};
