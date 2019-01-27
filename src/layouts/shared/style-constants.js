@@ -20,9 +20,17 @@ export const linkColor = '#2ec4b6';
 export const redPurple = '#dc0073';
 export const yellow = '#f5b700';
 export const green = '#89fc00';
-export const malachite = '#04e762';
+// export const malachite = '#04e762';
 export const darkBlue = '#011627';
 export const background = '#252c36';
 export const textColor = '#242729';
 
 export const landingBackground = "#e6e8f4";
+
+export const malachite = '#00cf52';
+export const oxfordBlue = '#032e3e';
+
+export const blueSapphire = '#19646a';
+
+export const carribeanGreenLight = '#00c690';
+export const carribeanGreenDark = '#00df96';

@@ -68,7 +68,6 @@ const AboutPage = () => (
         If you want to get in touch with me, please use the{' '}
         <Link to="/contact">Contact form</Link>.
       </Lower>
-      <Footer />
     </AboutWrapper>
   </Layout>
 );

@@ -29,14 +29,13 @@ ShallowWrapper {
         <styled.div>
           If you want to get in touch with me, please use the
            
-          <GatsbyLink
+          <UNDEFINED
             to="/contact"
           >
             Contact form
-          </GatsbyLink>
+          </UNDEFINED>
           .
         </styled.div>
-        <Footer />
       </Styled(styled.div)>,
     },
     "ref": null,
@@ -57,14 +56,13 @@ ShallowWrapper {
           <styled.div>
             If you want to get in touch with me, please use the
              
-            <GatsbyLink
+            <UNDEFINED
               to="/contact"
             >
               Contact form
-            </GatsbyLink>
+            </UNDEFINED>
             .
           </styled.div>,
-          <Footer />,
         ],
       },
       "ref": null,
@@ -134,11 +132,11 @@ ShallowWrapper {
             "children": Array [
               "If you want to get in touch with me, please use the",
               " ",
-              <GatsbyLink
+              <UNDEFINED
                 to="/contact"
               >
                 Contact form
-              </GatsbyLink>,
+              </UNDEFINED>,
               ".",
             ],
           },
@@ -149,26 +147,20 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "Contact form",
                 "to": "/contact",
               },
               "ref": null,
               "rendered": "Contact form",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
             },
             ".",
           ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
           "type": [Function],
         },
       ],
@@ -194,14 +186,13 @@ ShallowWrapper {
           <styled.div>
             If you want to get in touch with me, please use the
              
-            <GatsbyLink
+            <UNDEFINED
               to="/contact"
             >
               Contact form
-            </GatsbyLink>
+            </UNDEFINED>
             .
           </styled.div>
-          <Footer />
         </Styled(styled.div)>,
       },
       "ref": null,
@@ -222,14 +213,13 @@ ShallowWrapper {
             <styled.div>
               If you want to get in touch with me, please use the
                
-              <GatsbyLink
+              <UNDEFINED
                 to="/contact"
               >
                 Contact form
-              </GatsbyLink>
+              </UNDEFINED>
               .
             </styled.div>,
-            <Footer />,
           ],
         },
         "ref": null,
@@ -299,11 +289,11 @@ ShallowWrapper {
               "children": Array [
                 "If you want to get in touch with me, please use the",
                 " ",
-                <GatsbyLink
+                <UNDEFINED
                   to="/contact"
                 >
                   Contact form
-                </GatsbyLink>,
+                </UNDEFINED>,
                 ".",
               ],
             },
@@ -314,26 +304,20 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "children": "Contact form",
                   "to": "/contact",
                 },
                 "ref": null,
                 "rendered": "Contact form",
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
               },
               ".",
             ],
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
             "type": [Function],
           },
         ],

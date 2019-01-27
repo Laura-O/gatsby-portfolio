@@ -335,11 +335,11 @@ ShallowWrapper {
         </HelmetWrapper>
         <styled.div>
           <styled.h3>
-            <GatsbyLink
+            <UNDEFINED
               to="path"
             >
               title
-            </GatsbyLink>
+            </UNDEFINED>
           </styled.h3>
           <Image
             Tag="div"
@@ -391,11 +391,11 @@ ShallowWrapper {
           Array [
             <styled.div>
               <styled.h3>
-                <GatsbyLink
+                <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.h3>
               <Image
                 Tag="div"
@@ -478,11 +478,11 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <styled.h3>
-                <GatsbyLink
+                <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.h3>,
               <Image
                 Tag="div"
@@ -516,24 +516,27 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <GatsbyLink
+                "children": <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>,
+                </UNDEFINED>,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "children": "title",
                   "to": "path",
                 },
                 "ref": null,
                 "rendered": "title",
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
               },
               "type": [Function],
             },
@@ -652,11 +655,11 @@ ShallowWrapper {
           </HelmetWrapper>
           <styled.div>
             <styled.h3>
-              <GatsbyLink
+              <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>
+              </UNDEFINED>
             </styled.h3>
             <Image
               Tag="div"
@@ -708,11 +711,11 @@ ShallowWrapper {
             Array [
               <styled.div>
                 <styled.h3>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="path"
                   >
                     title
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.h3>
                 <Image
                   Tag="div"
@@ -795,11 +798,11 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <styled.h3>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="path"
                   >
                     title
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.h3>,
                 <Image
                   Tag="div"
@@ -833,24 +836,27 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <GatsbyLink
+                  "children": <UNDEFINED
                     to="path"
                   >
                     title
-                  </GatsbyLink>,
+                  </UNDEFINED>,
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "children": "title",
                     "to": "path",
                   },
                   "ref": null,
                   "rendered": "title",
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
                 },
                 "type": [Function],
               },

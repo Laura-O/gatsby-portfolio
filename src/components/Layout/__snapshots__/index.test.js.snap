@@ -20,31 +20,137 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Head />,
-        <Header />,
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": "Sample",
+                "name": "description",
+              },
+              Object {
+                "content": "portfolio, something",
+                "name": "keywords",
+              },
+            ]
+          }
+          title="Laura Ohrndorf - Portfolio"
+        >
+          <meta
+            content="@laura-fyi"
+            name="twitter:site"
+          />
+          <meta
+            content="website"
+            name="og:type"
+          />
+          <meta
+            content="Laura Ohrndorf"
+            name="og:site_name"
+          />
+          <html
+            lang="en"
+          />
+        </HelmetWrapper>,
         <styled.div>
-          [Function]
+          <Header />
+          <styled.div>
+            [Function]
+          </styled.div>
+          <Footer />
         </styled.div>,
       ],
+      "className": "siteRoot",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "children": Array [
+            <meta
+              content="@laura-fyi"
+              name="twitter:site"
+            />,
+            <meta
+              content="website"
+              name="og:type"
+            />,
+            <meta
+              content="Laura Ohrndorf"
+              name="og:site_name"
+            />,
+            <html
+              lang="en"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "meta": Array [
+            Object {
+              "content": "Sample",
+              "name": "description",
+            },
+            Object {
+              "content": "portfolio, something",
+              "name": "keywords",
+            },
+          ],
+          "title": "Laura Ohrndorf - Portfolio",
+        },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "@laura-fyi",
+              "name": "twitter:site",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "website",
+              "name": "og:type",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Laura Ohrndorf",
+              "name": "og:site_name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "lang": "en",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "html",
+          },
+        ],
         "type": [Function],
       },
       Object {
@@ -52,10 +158,46 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": [Function],
+          "children": Array [
+            <Header />,
+            <styled.div>
+              [Function]
+            </styled.div>,
+            <Footer />,
+          ],
         },
         "ref": null,
-        "rendered": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -68,31 +210,137 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Head />,
-          <Header />,
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            meta={
+              Array [
+                Object {
+                  "content": "Sample",
+                  "name": "description",
+                },
+                Object {
+                  "content": "portfolio, something",
+                  "name": "keywords",
+                },
+              ]
+            }
+            title="Laura Ohrndorf - Portfolio"
+          >
+            <meta
+              content="@laura-fyi"
+              name="twitter:site"
+            />
+            <meta
+              content="website"
+              name="og:type"
+            />
+            <meta
+              content="Laura Ohrndorf"
+              name="og:site_name"
+            />
+            <html
+              lang="en"
+            />
+          </HelmetWrapper>,
           <styled.div>
-            [Function]
+            <Header />
+            <styled.div>
+              [Function]
+            </styled.div>
+            <Footer />
           </styled.div>,
         ],
+        "className": "siteRoot",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "children": Array [
+              <meta
+                content="@laura-fyi"
+                name="twitter:site"
+              />,
+              <meta
+                content="website"
+                name="og:type"
+              />,
+              <meta
+                content="Laura Ohrndorf"
+                name="og:site_name"
+              />,
+              <html
+                lang="en"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "meta": Array [
+              Object {
+                "content": "Sample",
+                "name": "description",
+              },
+              Object {
+                "content": "portfolio, something",
+                "name": "keywords",
+              },
+            ],
+            "title": "Laura Ohrndorf - Portfolio",
+          },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "@laura-fyi",
+                "name": "twitter:site",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "website",
+                "name": "og:type",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Laura Ohrndorf",
+                "name": "og:site_name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "lang": "en",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "html",
+            },
+          ],
           "type": [Function],
         },
         Object {
@@ -100,10 +348,46 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": [Function],
+            "children": Array [
+              <Header />,
+              <styled.div>
+                [Function]
+              </styled.div>,
+              <Footer />,
+            ],
           },
           "ref": null,
-          "rendered": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": [Function],
+              },
+              "ref": null,
+              "rendered": [Function],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],
@@ -150,31 +434,137 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Head />,
-        <Header />,
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": "Sample",
+                "name": "description",
+              },
+              Object {
+                "content": "portfolio, something",
+                "name": "keywords",
+              },
+            ]
+          }
+          title="Laura Ohrndorf - Portfolio"
+        >
+          <meta
+            content="@laura-fyi"
+            name="twitter:site"
+          />
+          <meta
+            content="website"
+            name="og:type"
+          />
+          <meta
+            content="Laura Ohrndorf"
+            name="og:site_name"
+          />
+          <html
+            lang="en"
+          />
+        </HelmetWrapper>,
         <styled.div>
-          [Function]
+          <Header />
+          <styled.div>
+            [Function]
+          </styled.div>
+          <Footer />
         </styled.div>,
       ],
+      "className": "siteRoot",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "children": Array [
+            <meta
+              content="@laura-fyi"
+              name="twitter:site"
+            />,
+            <meta
+              content="website"
+              name="og:type"
+            />,
+            <meta
+              content="Laura Ohrndorf"
+              name="og:site_name"
+            />,
+            <html
+              lang="en"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "meta": Array [
+            Object {
+              "content": "Sample",
+              "name": "description",
+            },
+            Object {
+              "content": "portfolio, something",
+              "name": "keywords",
+            },
+          ],
+          "title": "Laura Ohrndorf - Portfolio",
+        },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "@laura-fyi",
+              "name": "twitter:site",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "website",
+              "name": "og:type",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Laura Ohrndorf",
+              "name": "og:site_name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "lang": "en",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "html",
+          },
+        ],
         "type": [Function],
       },
       Object {
@@ -182,10 +572,46 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": [Function],
+          "children": Array [
+            <Header />,
+            <styled.div>
+              [Function]
+            </styled.div>,
+            <Footer />,
+          ],
         },
         "ref": null,
-        "rendered": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": [Function],
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -198,31 +624,137 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Head />,
-          <Header />,
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            meta={
+              Array [
+                Object {
+                  "content": "Sample",
+                  "name": "description",
+                },
+                Object {
+                  "content": "portfolio, something",
+                  "name": "keywords",
+                },
+              ]
+            }
+            title="Laura Ohrndorf - Portfolio"
+          >
+            <meta
+              content="@laura-fyi"
+              name="twitter:site"
+            />
+            <meta
+              content="website"
+              name="og:type"
+            />
+            <meta
+              content="Laura Ohrndorf"
+              name="og:site_name"
+            />
+            <html
+              lang="en"
+            />
+          </HelmetWrapper>,
           <styled.div>
-            [Function]
+            <Header />
+            <styled.div>
+              [Function]
+            </styled.div>
+            <Footer />
           </styled.div>,
         ],
+        "className": "siteRoot",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "children": Array [
+              <meta
+                content="@laura-fyi"
+                name="twitter:site"
+              />,
+              <meta
+                content="website"
+                name="og:type"
+              />,
+              <meta
+                content="Laura Ohrndorf"
+                name="og:site_name"
+              />,
+              <html
+                lang="en"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "meta": Array [
+              Object {
+                "content": "Sample",
+                "name": "description",
+              },
+              Object {
+                "content": "portfolio, something",
+                "name": "keywords",
+              },
+            ],
+            "title": "Laura Ohrndorf - Portfolio",
+          },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "@laura-fyi",
+                "name": "twitter:site",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "website",
+                "name": "og:type",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Laura Ohrndorf",
+                "name": "og:site_name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "lang": "en",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "html",
+            },
+          ],
           "type": [Function],
         },
         Object {
@@ -230,10 +762,46 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": [Function],
+            "children": Array [
+              <Header />,
+              <styled.div>
+                [Function]
+              </styled.div>,
+              <Footer />,
+            ],
           },
           "ref": null,
-          "rendered": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": [Function],
+              },
+              "ref": null,
+              "rendered": [Function],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],
