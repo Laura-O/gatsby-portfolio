@@ -9,6 +9,7 @@ import * as constants from '../../layouts/shared/style-constants';
 const FooterWrapper = styled.footer`
   display: flex;
   width: 100%;
+  height: 50px;
   padding: 0px 30px 0px 30px;
   background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};

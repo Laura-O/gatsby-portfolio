@@ -5,7 +5,7 @@ import 'prismjs/themes/prism-solarizedlight.css';
 import Raven from 'raven-js';
 import PropTypes from 'prop-types';
 import Header from '../Header/Header';
-import Footer from "../Footer/Footer";
+import Footer from '../Footer/Footer';
 import * as constants from '../../layouts/shared/style-constants';
 
 import './index.scss';
@@ -13,16 +13,15 @@ import './index.scss';
 const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-height: 100vh;
   background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};
 `;
 
 const Content = styled.div`
-  flex-grow: 1;
-`
-
+  flex: 1;
+  position: relative;
+`;
 
 if (process.env.NODE_ENV === 'production') {
   Raven.config('https://e0a8e3ead7644ddb9997c402a48f1608@sentry.io/1192908', {
