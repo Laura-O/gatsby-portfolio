@@ -24,6 +24,7 @@ const Content = styled.div`
 
   justify-content: center;
   align-items: center;
+  align-content: center;
 
   overflow: hidden;
 `;

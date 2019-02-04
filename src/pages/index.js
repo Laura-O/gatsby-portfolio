@@ -15,8 +15,6 @@ const IndexWrapper = styled(Wrapper)`
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 
-  align-content: space-evenly;
-
   background: transparent;
   overflow: hidden;
 
@@ -24,13 +22,13 @@ const IndexWrapper = styled(Wrapper)`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     grid-template-areas:
       'Left RightTop'
       'Left RightBottom';
-    padding: 0 2rem;
+    padding: 0 3rem;
 
-    max-width: 800px;
+    justify-items: center;
   }
 
   h3 {
