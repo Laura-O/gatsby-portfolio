@@ -24,6 +24,8 @@ const Content = styled.div`
 
   justify-content: center;
   align-items: center;
+
+  overflow: hidden;
 `;
 
 if (process.env.NODE_ENV === 'production') {

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import * as constants from '../layouts/shared/style-constants';
 import Layout from '../components/Layout/layout';
-import PageLink from '../components/PageLink/PageLink'
+import PageLink from '../components/PageLink/PageLink';
 
 const IndexWrapper = styled(Wrapper)`
   color: ${constants.colorBlack};
@@ -14,13 +14,11 @@ const IndexWrapper = styled(Wrapper)`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  
+
   align-content: space-evenly;
 
   background: transparent;
   overflow: hidden;
-
-  align-self: center;
 
   @media screen and (min-width: 600px) {
     display: grid;
@@ -33,7 +31,6 @@ const IndexWrapper = styled(Wrapper)`
     padding: 0 2rem;
 
     max-width: 800px;
-
   }
 
   h3 {
@@ -54,9 +51,9 @@ const IndexRightContent = styled.section`
 
 const IndexPage = () => (
   <Layout>
-    <div className='stars-small' />
-    <div className='stars-middle' />
-    <div className='stars-large' />
+    <div className="stars-small" />
+    <div className="stars-middle" />
+    <div className="stars-large" />
 
     <IndexWrapper>
       <section>

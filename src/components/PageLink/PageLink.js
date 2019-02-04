@@ -4,38 +4,37 @@ import PropTypes from 'prop-types';
 
 const PageLinkWrapper = styled.div`
   flex-grow: 1;
-  margin: 2rem;
-  padding: 1rem;
+  margin: 1.5rem;
+  padding: 0.5rem;
 
   color: white;
 
-  border: 5px solid white;
-  border-radius: 5px;
+  border: 3px solid white;
+  border-radius: 10px;
   text-align: center;
 
   h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
   }
 
   &:hover {
-    border-color: #00C690;
+    border-color: #00c690;
 
     h1 {
-      color: #00C690;
+      color: #00c690;
     }
   }
 `;
 
-function PageLink({children}) {
-    return (
-      <PageLinkWrapper>{children}</PageLinkWrapper>
-    )
-  
+function PageLink({ children }) {
+  return <PageLinkWrapper>{children}</PageLinkWrapper>;
 }
 
 PageLink.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default PageLink;
