@@ -50,7 +50,6 @@ ShallowWrapper {
              • Blog
           </title>
         </HelmetWrapper>
-        <Footer />
       </Styled(styled.div)>,
     },
     "ref": null,
@@ -74,7 +73,6 @@ ShallowWrapper {
             </title>
           </HelmetWrapper>,
           Array [],
-          <Footer />,
         ],
       },
       "ref": null,
@@ -123,15 +121,6 @@ ShallowWrapper {
           },
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
       "type": [Function],
     },
@@ -157,7 +146,6 @@ ShallowWrapper {
                • Blog
             </title>
           </HelmetWrapper>
-          <Footer />
         </Styled(styled.div)>,
       },
       "ref": null,
@@ -181,7 +169,6 @@ ShallowWrapper {
               </title>
             </HelmetWrapper>,
             Array [],
-            <Footer />,
           ],
         },
         "ref": null,
@@ -228,15 +215,6 @@ ShallowWrapper {
               ],
               "type": "title",
             },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
             "type": [Function],
           },
         ],
@@ -371,7 +349,6 @@ ShallowWrapper {
             excerpt
           </styled.div>
         </styled.div>
-        <Footer />
       </Styled(styled.div)>,
     },
     "ref": null,
@@ -428,7 +405,6 @@ ShallowWrapper {
               </styled.div>
             </styled.div>,
           ],
-          <Footer />,
         ],
       },
       "ref": null,
@@ -625,15 +601,6 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
       "type": [Function],
     },
@@ -691,7 +658,6 @@ ShallowWrapper {
               excerpt
             </styled.div>
           </styled.div>
-          <Footer />
         </Styled(styled.div)>,
       },
       "ref": null,
@@ -748,7 +714,6 @@ ShallowWrapper {
                 </styled.div>
               </styled.div>,
             ],
-            <Footer />,
           ],
         },
         "ref": null,
@@ -943,15 +908,6 @@ ShallowWrapper {
                 "type": [Function],
               },
             ],
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
             "type": [Function],
           },
         ],

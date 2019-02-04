@@ -20,13 +20,13 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div
-          class="stars-small"
+          className="stars-small"
         />,
         <div
-          class="stars-middle"
+          className="stars-middle"
         />,
         <div
-          class="stars-large"
+          className="stars-large"
         />,
         <Styled(styled.div)>
           <section>
@@ -73,7 +73,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "class": "stars-small",
+          "className": "stars-small",
         },
         "ref": null,
         "rendered": null,
@@ -84,7 +84,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "class": "stars-middle",
+          "className": "stars-middle",
         },
         "ref": null,
         "rendered": null,
@@ -95,7 +95,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "class": "stars-large",
+          "className": "stars-large",
         },
         "ref": null,
         "rendered": null,
@@ -351,13 +351,13 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            class="stars-small"
+            className="stars-small"
           />,
           <div
-            class="stars-middle"
+            className="stars-middle"
           />,
           <div
-            class="stars-large"
+            className="stars-large"
           />,
           <Styled(styled.div)>
             <section>
@@ -404,7 +404,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "class": "stars-small",
+            "className": "stars-small",
           },
           "ref": null,
           "rendered": null,
@@ -415,7 +415,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "class": "stars-middle",
+            "className": "stars-middle",
           },
           "ref": null,
           "rendered": null,
@@ -426,7 +426,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "class": "stars-large",
+            "className": "stars-large",
           },
           "ref": null,
           "rendered": null,

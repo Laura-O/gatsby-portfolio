@@ -163,7 +163,6 @@ ShallowWrapper {
           />
           <styled.div />
         </div>
-        <Footer />
       </styled.div>,
     },
     "ref": null,
@@ -319,7 +318,6 @@ ShallowWrapper {
               <styled.div />
             </div>,
           ],
-          <Footer />,
         ],
       },
       "ref": null,
@@ -778,15 +776,6 @@ ShallowWrapper {
           ],
           "type": "div",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
       "type": [Function],
     },
@@ -943,7 +932,6 @@ ShallowWrapper {
             />
             <styled.div />
           </div>
-          <Footer />
         </styled.div>,
       },
       "ref": null,
@@ -1099,7 +1087,6 @@ ShallowWrapper {
                 <styled.div />
               </div>,
             ],
-            <Footer />,
           ],
         },
         "ref": null,
@@ -1557,15 +1544,6 @@ ShallowWrapper {
               },
             ],
             "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
           },
         ],
         "type": [Function],

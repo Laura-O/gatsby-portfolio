@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
-import Footer from '../components/Footer/Footer';
 import Layout from '../components/Layout/layout';
 
 const LegalWrapper = styled(Wrapper)`
@@ -120,7 +119,6 @@ const LegalPage = () => (
         Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne
         Ihre Einwilligung weiter.
       </Paragraph>
-      <Footer />
     </LegalWrapper>
   </Layout>
 );

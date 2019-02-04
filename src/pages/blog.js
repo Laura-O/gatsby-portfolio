@@ -5,7 +5,6 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
-import Footer from '../components/Footer/Footer';
 import Seo from '../components/Seo/Seo';
 import Layout from '../components/Layout/layout';
 
@@ -70,7 +69,6 @@ function Index({ data }) {
               <Excerpt>{post.frontmatter.excerpt}</Excerpt>
             </Preview>
           ))}
-        <Footer />
       </BlogWrapper>
     </Layout>
   );
