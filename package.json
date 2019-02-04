@@ -10,7 +10,7 @@
     "classnames": "^2.2.6",
     "date-fns": "^1.29.0",
     "gatsby": "^2.0.89",
-    "gatsby-image": "2.0.25",
+    "gatsby-image": "2.0.29",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-manifest": "^2.0.13",
