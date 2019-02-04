@@ -21,6 +21,9 @@ const PageWrapper = styled.div`
 const Content = styled.div`
   flex: 1;
   position: relative;
+
+  justify-content: center;
+  align-items: center;
 `;
 
 if (process.env.NODE_ENV === 'production') {

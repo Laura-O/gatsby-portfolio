@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const PageLinkWrapper = styled.div`
   flex-grow: 1;
@@ -9,7 +10,7 @@ const PageLinkWrapper = styled.div`
   color: white;
 
   border: 5px solid white;
-  border-radiud: 50px;
+  border-radius: 5px;
   text-align: center;
 
   h1 {
@@ -26,6 +27,15 @@ const PageLinkWrapper = styled.div`
   }
 `;
 
-const PageLink = props => <PageLinkWrapper>{props.children}</PageLinkWrapper>;
+function PageLink({children}) {
+    return (
+      <PageLinkWrapper>{children}</PageLinkWrapper>
+    )
+  
+}
+
+PageLink.propTypes = {
+  children: PropTypes.node.isRequired
+};
 
 export default PageLink;

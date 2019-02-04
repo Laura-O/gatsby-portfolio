@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import Wrapper from '../layouts/shared/Pagewrapper';
-import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
 import Layout from '../components/Layout/layout';
 import PageLink from '../components/PageLink/PageLink'
@@ -15,9 +14,13 @@ const IndexWrapper = styled(Wrapper)`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  
+  align-content: space-evenly;
 
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background: transparent;
   overflow: hidden;
+
+  align-self: center;
 
   @media screen and (min-width: 600px) {
     display: grid;
@@ -28,12 +31,14 @@ const IndexWrapper = styled(Wrapper)`
       'Left RightTop'
       'Left RightBottom';
     padding: 0 2rem;
-    align-items: center;
+
+    max-width: 800px;
+
   }
 
   h3 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 `;
 
@@ -49,15 +54,14 @@ const IndexRightContent = styled.section`
 
 const IndexPage = () => (
   <Layout>
-    <div class='stars-small'></div>
-    <div class='stars-middle'></div>
-    <div class='stars-large'></div>
+    <div className='stars-small' />
+    <div className='stars-middle' />
+    <div className='stars-large' />
 
     <IndexWrapper>
       <section>
         <h3>Hi, I&apos;m Laura, a full-stack developer based in Germany.</h3>
       </section>
-
 
       <IndexRightContent>
         <PageLink>
@@ -76,7 +80,6 @@ const IndexPage = () => (
           </Link>
         </PageLink>
       </IndexRightContent>
-
     </IndexWrapper>
   </Layout>
 );
