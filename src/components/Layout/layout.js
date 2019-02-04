@@ -1,10 +1,11 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import 'prismjs/themes/prism-solarizedlight.css';
 import Raven from 'raven-js';
 import PropTypes from 'prop-types';
 import Header from '../Header/Header';
-import Head from '../Head/Head';
+import Footer from '../Footer/Footer';
 import * as constants from '../../layouts/shared/style-constants';
 
 import './index.scss';
@@ -12,11 +13,20 @@ import './index.scss';
 const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 5.8rem 0px 0px 0px;
   min-height: 100vh;
   background-color: ${constants.darkBackground};
   color: ${constants.colorWhite};
+`;
+
+const Content = styled.div`
+  flex: 1;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  overflow: hidden;
 `;
 
 if (process.env.NODE_ENV === 'production') {
@@ -26,10 +36,24 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const TemplateWrapper = ({ children }) => (
-  <div>
-    <Head />
-    <Header />
-    <PageWrapper>{children}</PageWrapper>
+  <div className="siteRoot">
+    <Helmet
+      title="Laura Ohrndorf - Portfolio"
+      meta={[
+        { name: 'description', content: 'Sample' },
+        { name: 'keywords', content: 'portfolio, something' },
+      ]}
+    >
+      <meta name="twitter:site" content="@laura-fyi" />
+      <meta name="og:type" content="website" />
+      <meta name="og:site_name" content="Laura Ohrndorf" />
+      <html lang="en" />
+    </Helmet>
+    <PageWrapper>
+      <Header />
+      <Content>{children}</Content>
+      <Footer />
+    </PageWrapper>
   </div>
 );
 

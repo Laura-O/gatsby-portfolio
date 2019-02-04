@@ -43,6 +43,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -60,18 +61,18 @@ ShallowWrapper {
         </h1>,
         <ul>
           <li>
-            <GatsbyLink
+            <UNDEFINED
               to="path"
             >
               title
-            </GatsbyLink>
+            </UNDEFINED>
           </li>
         </ul>,
-        <GatsbyLink
+        <UNDEFINED
           to="/tags"
         >
           All tags
-        </GatsbyLink>,
+        </UNDEFINED>,
       ],
     },
     "ref": null,
@@ -94,11 +95,11 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
-              <GatsbyLink
+              <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>
+              </UNDEFINED>
             </li>,
           ],
         },
@@ -109,24 +110,27 @@ ShallowWrapper {
             "key": "path",
             "nodeType": "host",
             "props": Object {
-              "children": <GatsbyLink
+              "children": <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>,
+              </UNDEFINED>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "title",
                 "to": "path",
               },
               "ref": null,
               "rendered": "title",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
             },
             "type": "li",
           },
@@ -136,14 +140,17 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "All tags",
           "to": "/tags",
         },
         "ref": null,
         "rendered": "All tags",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
       },
     ],
     "type": "div",
@@ -160,18 +167,18 @@ ShallowWrapper {
           </h1>,
           <ul>
             <li>
-              <GatsbyLink
+              <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>
+              </UNDEFINED>
             </li>
           </ul>,
-          <GatsbyLink
+          <UNDEFINED
             to="/tags"
           >
             All tags
-          </GatsbyLink>,
+          </UNDEFINED>,
         ],
       },
       "ref": null,
@@ -194,11 +201,11 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <li>
-                <GatsbyLink
+                <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>
+                </UNDEFINED>
               </li>,
             ],
           },
@@ -209,24 +216,27 @@ ShallowWrapper {
               "key": "path",
               "nodeType": "host",
               "props": Object {
-                "children": <GatsbyLink
+                "children": <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>,
+                </UNDEFINED>,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "children": "title",
                   "to": "path",
                 },
                 "ref": null,
                 "rendered": "title",
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
               },
               "type": "li",
             },
@@ -236,14 +246,17 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "All tags",
             "to": "/tags",
           },
           "ref": null,
           "rendered": "All tags",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
         },
       ],
       "type": "div",
@@ -253,9 +266,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
@@ -312,6 +329,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -329,18 +347,18 @@ ShallowWrapper {
         </h1>,
         <ul>
           <li>
-            <GatsbyLink
+            <UNDEFINED
               to="path"
             >
               title
-            </GatsbyLink>
+            </UNDEFINED>
           </li>
         </ul>,
-        <GatsbyLink
+        <UNDEFINED
           to="/tags"
         >
           All tags
-        </GatsbyLink>,
+        </UNDEFINED>,
       ],
     },
     "ref": null,
@@ -363,11 +381,11 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
-              <GatsbyLink
+              <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>
+              </UNDEFINED>
             </li>,
           ],
         },
@@ -378,24 +396,27 @@ ShallowWrapper {
             "key": "path",
             "nodeType": "host",
             "props": Object {
-              "children": <GatsbyLink
+              "children": <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>,
+              </UNDEFINED>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "title",
                 "to": "path",
               },
               "ref": null,
               "rendered": "title",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
             },
             "type": "li",
           },
@@ -405,14 +426,17 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": "All tags",
           "to": "/tags",
         },
         "ref": null,
         "rendered": "All tags",
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
       },
     ],
     "type": "div",
@@ -429,18 +453,18 @@ ShallowWrapper {
           </h1>,
           <ul>
             <li>
-              <GatsbyLink
+              <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>
+              </UNDEFINED>
             </li>
           </ul>,
-          <GatsbyLink
+          <UNDEFINED
             to="/tags"
           >
             All tags
-          </GatsbyLink>,
+          </UNDEFINED>,
         ],
       },
       "ref": null,
@@ -463,11 +487,11 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <li>
-                <GatsbyLink
+                <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>
+                </UNDEFINED>
               </li>,
             ],
           },
@@ -478,24 +502,27 @@ ShallowWrapper {
               "key": "path",
               "nodeType": "host",
               "props": Object {
-                "children": <GatsbyLink
+                "children": <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>,
+                </UNDEFINED>,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "children": "title",
                   "to": "path",
                 },
                 "ref": null,
                 "rendered": "title",
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
               },
               "type": "li",
             },
@@ -505,14 +532,17 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "All tags",
             "to": "/tags",
           },
           "ref": null,
           "rendered": "All tags",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
         },
       ],
       "type": "div",
@@ -522,9 +552,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Contact from '../components/Contact/Contact';
 import Credits from '../components/Credits/Credits';
 import Wrapper from '../layouts/shared/Pagewrapper';
-import Footer from '../components/Footer/Footer';
 import Layout from '../components/Layout/layout';
 
 const ContactWrapper = styled(Wrapper)`
@@ -17,7 +16,6 @@ const ContactPage = () => (
       <Contact />
       <Credits />
     </ContactWrapper>
-    <Footer />
   </Layout>
 );
 

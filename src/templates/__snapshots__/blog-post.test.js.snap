@@ -41,6 +41,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -155,18 +156,18 @@ ShallowWrapper {
             className="tag-wrapper"
           >
             <styled.span>
-              <GatsbyLink
+              <UNDEFINED
                 to="/tags/tag1"
               >
                 tag1
-              </GatsbyLink>
+              </UNDEFINED>
             </styled.span>
             <styled.span>
-              <GatsbyLink
+              <UNDEFINED
                 to="/tags/tag2"
               >
                 tag2
-              </GatsbyLink>
+              </UNDEFINED>
             </styled.span>
           </div>
         </styled.div>
@@ -281,18 +282,18 @@ ShallowWrapper {
               className="tag-wrapper"
             >
               <styled.span>
-                <GatsbyLink
+                <UNDEFINED
                   to="/tags/tag1"
                 >
                   tag1
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.span>
               <styled.span>
-                <GatsbyLink
+                <UNDEFINED
                   to="/tags/tag2"
                 >
                   tag2
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.span>
             </div>
           </styled.div>,
@@ -545,18 +546,18 @@ ShallowWrapper {
                 className="tag-wrapper"
               >
                 <styled.span>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="/tags/tag1"
                   >
                     tag1
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.span>
                 <styled.span>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="/tags/tag2"
                   >
                     tag2
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.span>
               </div>,
             ],
@@ -623,18 +624,18 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <styled.span>
-                    <GatsbyLink
+                    <UNDEFINED
                       to="/tags/tag1"
                     >
                       tag1
-                    </GatsbyLink>
+                    </UNDEFINED>
                   </styled.span>,
                   <styled.span>
-                    <GatsbyLink
+                    <UNDEFINED
                       to="/tags/tag2"
                     >
                       tag2
-                    </GatsbyLink>
+                    </UNDEFINED>
                   </styled.span>,
                 ],
                 "className": "tag-wrapper",
@@ -646,24 +647,27 @@ ShallowWrapper {
                   "key": "tag1",
                   "nodeType": "class",
                   "props": Object {
-                    "children": <GatsbyLink
+                    "children": <UNDEFINED
                       to="/tags/tag1"
                     >
                       tag1
-                    </GatsbyLink>,
+                    </UNDEFINED>,
                   },
                   "ref": null,
                   "rendered": Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "children": "tag1",
                       "to": "/tags/tag1",
                     },
                     "ref": null,
                     "rendered": "tag1",
-                    "type": [Function],
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
                   },
                   "type": [Function],
                 },
@@ -672,24 +676,27 @@ ShallowWrapper {
                   "key": "tag2",
                   "nodeType": "class",
                   "props": Object {
-                    "children": <GatsbyLink
+                    "children": <UNDEFINED
                       to="/tags/tag2"
                     >
                       tag2
-                    </GatsbyLink>,
+                    </UNDEFINED>,
                   },
                   "ref": null,
                   "rendered": Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "children": "tag2",
                       "to": "/tags/tag2",
                     },
                     "ref": null,
                     "rendered": "tag2",
-                    "type": [Function],
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
                   },
                   "type": [Function],
                 },
@@ -813,18 +820,18 @@ ShallowWrapper {
               className="tag-wrapper"
             >
               <styled.span>
-                <GatsbyLink
+                <UNDEFINED
                   to="/tags/tag1"
                 >
                   tag1
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.span>
               <styled.span>
-                <GatsbyLink
+                <UNDEFINED
                   to="/tags/tag2"
                 >
                   tag2
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.span>
             </div>
           </styled.div>
@@ -939,18 +946,18 @@ ShallowWrapper {
                 className="tag-wrapper"
               >
                 <styled.span>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="/tags/tag1"
                   >
                     tag1
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.span>
                 <styled.span>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="/tags/tag2"
                   >
                     tag2
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.span>
               </div>
             </styled.div>,
@@ -1203,18 +1210,18 @@ ShallowWrapper {
                   className="tag-wrapper"
                 >
                   <styled.span>
-                    <GatsbyLink
+                    <UNDEFINED
                       to="/tags/tag1"
                     >
                       tag1
-                    </GatsbyLink>
+                    </UNDEFINED>
                   </styled.span>
                   <styled.span>
-                    <GatsbyLink
+                    <UNDEFINED
                       to="/tags/tag2"
                     >
                       tag2
-                    </GatsbyLink>
+                    </UNDEFINED>
                   </styled.span>
                 </div>,
               ],
@@ -1281,18 +1288,18 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <styled.span>
-                      <GatsbyLink
+                      <UNDEFINED
                         to="/tags/tag1"
                       >
                         tag1
-                      </GatsbyLink>
+                      </UNDEFINED>
                     </styled.span>,
                     <styled.span>
-                      <GatsbyLink
+                      <UNDEFINED
                         to="/tags/tag2"
                       >
                         tag2
-                      </GatsbyLink>
+                      </UNDEFINED>
                     </styled.span>,
                   ],
                   "className": "tag-wrapper",
@@ -1304,24 +1311,27 @@ ShallowWrapper {
                     "key": "tag1",
                     "nodeType": "class",
                     "props": Object {
-                      "children": <GatsbyLink
+                      "children": <UNDEFINED
                         to="/tags/tag1"
                       >
                         tag1
-                      </GatsbyLink>,
+                      </UNDEFINED>,
                     },
                     "ref": null,
                     "rendered": Object {
                       "instance": null,
                       "key": undefined,
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "children": "tag1",
                         "to": "/tags/tag1",
                       },
                       "ref": null,
                       "rendered": "tag1",
-                      "type": [Function],
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "render": [Function],
+                      },
                     },
                     "type": [Function],
                   },
@@ -1330,24 +1340,27 @@ ShallowWrapper {
                     "key": "tag2",
                     "nodeType": "class",
                     "props": Object {
-                      "children": <GatsbyLink
+                      "children": <UNDEFINED
                         to="/tags/tag2"
                       >
                         tag2
-                      </GatsbyLink>,
+                      </UNDEFINED>,
                     },
                     "ref": null,
                     "rendered": Object {
                       "instance": null,
                       "key": undefined,
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "children": "tag2",
                         "to": "/tags/tag2",
                       },
                       "ref": null,
                       "rendered": "tag2",
-                      "type": [Function],
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "render": [Function],
+                      },
                     },
                     "type": [Function],
                   },
@@ -1367,9 +1380,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,

@@ -24,6 +24,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -49,7 +50,6 @@ ShallowWrapper {
              • Blog
           </title>
         </HelmetWrapper>
-        <Footer />
       </Styled(styled.div)>,
     },
     "ref": null,
@@ -73,7 +73,6 @@ ShallowWrapper {
             </title>
           </HelmetWrapper>,
           Array [],
-          <Footer />,
         ],
       },
       "ref": null,
@@ -122,15 +121,6 @@ ShallowWrapper {
           },
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
       "type": [Function],
     },
@@ -156,7 +146,6 @@ ShallowWrapper {
                • Blog
             </title>
           </HelmetWrapper>
-          <Footer />
         </Styled(styled.div)>,
       },
       "ref": null,
@@ -180,7 +169,6 @@ ShallowWrapper {
               </title>
             </HelmetWrapper>,
             Array [],
-            <Footer />,
           ],
         },
         "ref": null,
@@ -229,15 +217,6 @@ ShallowWrapper {
             },
             "type": [Function],
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
         ],
         "type": [Function],
       },
@@ -248,9 +227,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
@@ -308,6 +291,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -335,11 +319,11 @@ ShallowWrapper {
         </HelmetWrapper>
         <styled.div>
           <styled.h3>
-            <GatsbyLink
+            <UNDEFINED
               to="path"
             >
               title
-            </GatsbyLink>
+            </UNDEFINED>
           </styled.h3>
           <Image
             Tag="div"
@@ -365,7 +349,6 @@ ShallowWrapper {
             excerpt
           </styled.div>
         </styled.div>
-        <Footer />
       </Styled(styled.div)>,
     },
     "ref": null,
@@ -391,11 +374,11 @@ ShallowWrapper {
           Array [
             <styled.div>
               <styled.h3>
-                <GatsbyLink
+                <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.h3>
               <Image
                 Tag="div"
@@ -422,7 +405,6 @@ ShallowWrapper {
               </styled.div>
             </styled.div>,
           ],
-          <Footer />,
         ],
       },
       "ref": null,
@@ -478,11 +460,11 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <styled.h3>
-                <GatsbyLink
+                <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>
+                </UNDEFINED>
               </styled.h3>,
               <Image
                 Tag="div"
@@ -516,24 +498,27 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <GatsbyLink
+                "children": <UNDEFINED
                   to="path"
                 >
                   title
-                </GatsbyLink>,
+                </UNDEFINED>,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "children": "title",
                   "to": "path",
                 },
                 "ref": null,
                 "rendered": "title",
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
               },
               "type": [Function],
             },
@@ -616,15 +601,6 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
       "type": [Function],
     },
@@ -652,11 +628,11 @@ ShallowWrapper {
           </HelmetWrapper>
           <styled.div>
             <styled.h3>
-              <GatsbyLink
+              <UNDEFINED
                 to="path"
               >
                 title
-              </GatsbyLink>
+              </UNDEFINED>
             </styled.h3>
             <Image
               Tag="div"
@@ -682,7 +658,6 @@ ShallowWrapper {
               excerpt
             </styled.div>
           </styled.div>
-          <Footer />
         </Styled(styled.div)>,
       },
       "ref": null,
@@ -708,11 +683,11 @@ ShallowWrapper {
             Array [
               <styled.div>
                 <styled.h3>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="path"
                   >
                     title
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.h3>
                 <Image
                   Tag="div"
@@ -739,7 +714,6 @@ ShallowWrapper {
                 </styled.div>
               </styled.div>,
             ],
-            <Footer />,
           ],
         },
         "ref": null,
@@ -795,11 +769,11 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <styled.h3>
-                  <GatsbyLink
+                  <UNDEFINED
                     to="path"
                   >
                     title
-                  </GatsbyLink>
+                  </UNDEFINED>
                 </styled.h3>,
                 <Image
                   Tag="div"
@@ -833,24 +807,27 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <GatsbyLink
+                  "children": <UNDEFINED
                     to="path"
                   >
                     title
-                  </GatsbyLink>,
+                  </UNDEFINED>,
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "children": "title",
                     "to": "path",
                   },
                   "ref": null,
                   "rendered": "title",
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
                 },
                 "type": [Function],
               },
@@ -933,15 +910,6 @@ ShallowWrapper {
             ],
             "type": [Function],
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
         ],
         "type": [Function],
       },
@@ -952,9 +920,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,

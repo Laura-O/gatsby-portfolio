@@ -1,63 +1,80 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import StartAnimation from '../components/StartAnimation/StartAnimation';
-import Fireworks from '../components/Fireworks/Fireworks';
 import Wrapper from '../layouts/shared/Pagewrapper';
-import * as animations from '../layouts/shared/animations';
 import * as constants from '../layouts/shared/style-constants';
 import Layout from '../components/Layout/layout';
+import PageLink from '../components/PageLink/PageLink';
 
 const IndexWrapper = styled(Wrapper)`
-  background-color: ${constants.darkBackground};
-  color: ${constants.colorWhite};
+  color: ${constants.colorBlack};
   width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+
+  background: transparent;
+  overflow: hidden;
+
+  @media screen and (min-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 1rem;
+    grid-template-areas:
+      'Left RightTop'
+      'Left RightBottom';
+    padding: 0 3rem;
+
+    justify-items: center;
+  }
+
+  h3 {
+    color: white;
+    font-size: 2rem;
+  }
 `;
 
-const StartButtons = styled.div`
-  display: flex;
-  justify-content: space-around;
-  padding: 6rem 15px 15px 15px;
-`;
+const IndexRightContent = styled.section`
+  margin: 2rem;
+  padding: 0;
+  align-items: center;
 
-const PulseButton = styled.button`
-  color: ${constants.linkColor};
-
-  &:hover,
-  &:focus {
-    animation: ${animations.pulse} ease-out 1s;
-    box-shadow: 0 0 0 1em rgba(255, 255, 255, 0);
-    border: 2px solid ${constants.redPurple};
-    color: ${constants.redPurple};
-    cursor: pointer;
+  @media screen and (min-width: 600px) {
+    grid-area: RightTop;
   }
 `;
 
 const IndexPage = () => (
   <Layout>
+    <div className="stars-small" />
+    <div className="stars-middle" />
+    <div className="stars-large" />
+
     <IndexWrapper>
-      <StartAnimation />
-      <div className="about-me">
-        I&apos;m Laura, a full-stack developer based in Germany.
-      </div>
-      <Fireworks />
-      <StartButtons>
-        <div className="start-button">
+      <section>
+        <h3>Hi, I&apos;m Laura, a full-stack developer based in Germany.</h3>
+      </section>
+
+      <IndexRightContent>
+        <PageLink>
           <Link to="/about">
-            <PulseButton>About</PulseButton>
+            <h1>About</h1>
           </Link>
-        </div>
-        <div className="start-button">
+        </PageLink>
+        <PageLink>
           <Link to="/projects">
-            <PulseButton>Projects</PulseButton>
+            <h1>Projects</h1>
           </Link>
-        </div>
-        <div className="start-button">
+        </PageLink>
+        <PageLink>
           <Link to="/blog">
-            <PulseButton>Blog</PulseButton>
+            <h1>Blog</h1>
           </Link>
-        </div>
-      </StartButtons>
+        </PageLink>
+      </IndexRightContent>
     </IndexWrapper>
   </Layout>
 );

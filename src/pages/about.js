@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 import Tech from '../components/Tech/Tech';
 import Bio from '../components/Bio/Bio';
-import Footer from '../components/Footer/Footer';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Layout from '../components/Layout/layout';
 
@@ -68,7 +67,6 @@ const AboutPage = () => (
         If you want to get in touch with me, please use the{' '}
         <Link to="/contact">Contact form</Link>.
       </Lower>
-      <Footer />
     </AboutWrapper>
   </Layout>
 );

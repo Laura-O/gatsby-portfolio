@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Footer from '../components/Footer/Footer';
 import Layout from '../components/Layout/layout';
 import Project from '../components/Project/Project';
 import projects from '../assets/projects.json';
@@ -48,7 +47,6 @@ const ProjectsPage = () => (
           <Divider />
         </div>
       ))}
-      <Footer />
     </ProjectPage>
   </Layout>
 );
