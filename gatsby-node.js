@@ -1,10 +1,9 @@
 const path = require('path');
 const _ = require('lodash');
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
   const tagTemplate = path.resolve('src/templates/tags.js');
 
   const loadPosts = new Promise((resolve, reject) => {
@@ -12,6 +11,7 @@ exports.createPages = ({ actions, graphql }) => {
       {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { fileAbsolutePath: {regex : "/Blog/"} },
           limit: 1000
         ) {
           edges {
@@ -33,7 +33,7 @@ exports.createPages = ({ actions, graphql }) => {
       }
     `).then(result => {
       if (result.errors) {
-        return Promise.reject(result.errors);
+        return reject(result.errors);
       }
 
       const posts = result.data.allMarkdownRemark.edges;
@@ -41,7 +41,7 @@ exports.createPages = ({ actions, graphql }) => {
       posts.forEach(({ node }) => {
         createPage({
           path: node.frontmatter.path,
-          component: blogPostTemplate,
+          component: path.resolve(`src/templates/blog-post.js`),
         });
       });
 
@@ -71,5 +71,30 @@ exports.createPages = ({ actions, graphql }) => {
     });
   });
 
-  return Promise.all([loadPosts]);
+  const loadGalleries = new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allContentfulExtendedGalleries {
+          edges {
+            node {
+              slug
+            }
+          }
+        }
+      }
+    `).then(result => {
+      result.data.allContentfulExtendedGalleries.edges.map(({ node }) => {
+        createPage({
+          path: `${node.slug}/`,
+          component: path.resolve(`./src/templates/gallery.js`),
+          context: {
+            slug: node.slug,
+          },
+        })
+      })
+      resolve()
+    })
+})
+
+  return Promise.all([loadPosts, loadGalleries]);
 };
