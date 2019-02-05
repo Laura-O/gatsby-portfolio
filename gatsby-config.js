@@ -67,6 +67,14 @@ module.exports = {
               maxWidth: 590,
             },
           },
+          {
+            resolve: `gatsby-remark-images-contentful`,
+            options: {
+              maxWidth: 650,
+              backgroundColor: 'white',
+              linkImagesToOriginal: false,
+            },
+          },
         ],
       },
     },

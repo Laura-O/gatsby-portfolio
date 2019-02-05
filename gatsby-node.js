@@ -74,7 +74,7 @@ exports.createPages = ({ graphql, actions }) => {
   const loadGalleries = new Promise((resolve, reject) => {
     graphql(`
       {
-        allContentfulExtendedGalleries {
+        allContentfulExtendedGallery {
           edges {
             node {
               slug
@@ -83,7 +83,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `).then(result => {
-      result.data.allContentfulExtendedGalleries.edges.map(({ node }) => {
+      result.data.allContentfulExtendedGallery.edges.map(({ node }) => {
         createPage({
           path: `${node.slug}/`,
           component: path.resolve(`./src/templates/gallery.js`),
@@ -94,7 +94,7 @@ exports.createPages = ({ graphql, actions }) => {
       })
       resolve()
     })
-})
+  })
 
   return Promise.all([loadPosts, loadGalleries]);
 };
