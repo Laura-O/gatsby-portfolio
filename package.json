@@ -83,7 +83,7 @@
     "jest-canvas-mock": "^1.1.0",
     "jest-styled-components": "^6.3.1",
     "prettier": "1.14.2",
-    "react-test-renderer": "^16.7.0",
+    "react-test-renderer": "^16.8.0",
     "terser": "^3.14.1"
   }
 }
