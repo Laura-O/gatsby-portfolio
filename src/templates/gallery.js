@@ -1,20 +1,28 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
+import React from 'react';
+import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 import Layout from '../components/Layout/layout';
+import GalleryHeader from '../components/Gallery/GalleryHeader';
+import SubGallery from '../components/Gallery/SubGallery';
 
 const GalleryTemplate = ({ data, location }) => {
-  const gallery = data.contentfulExtendedGallery
-  const subGalleries = data.contentfulExtendedGallery.galleries
-
-  console.log(data)
+  const gallery = data.contentfulExtendedGallery;
+  const subGalleries = data.contentfulExtendedGallery.galleries;
 
   return (
     <Layout location={location}>
-      <div>.</div>
+      <GalleryHeader gallery />
+
+      {subGalleries.map((subGallery, index) => (
+        <div key={index}>
+          {subGallery.__typename === 'ContentfulSubGallery' && (
+            <SubGallery images={subGallery.images} />
+          )}
+        </div>
+      ))}
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query($slug: String!) {
@@ -28,7 +36,7 @@ export const query = graphql`
         title
         id
         slug
-      }     
+      }
       body {
         childMarkdownRemark {
           html
@@ -42,11 +50,19 @@ export const query = graphql`
           title
           images {
             title
-            
+            fluid(maxWidth: 1000, quality: 75) {
+              ...GatsbyContentfulFluid_withWebp
+              src
+              aspectRatio
+            }
+            fixed {
+              height
+              width
+            }
           }
         }
       }
     }
   }
-`
-export default GalleryTemplate
+`;
+export default GalleryTemplate;
