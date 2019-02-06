@@ -8,6 +8,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import * as constants from '../../layouts/shared/style-constants';
 
+import 'semantic-ui-less/semantic.less';
 import './index.scss';
 
 const PageWrapper = styled.div`

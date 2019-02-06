@@ -11,7 +11,7 @@ exports.createPages = ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { fileAbsolutePath: {regex : "/Blog/"} },
+          filter: { fileAbsolutePath: { regex: "/Blog/" } }
           limit: 1000
         ) {
           edges {
@@ -90,11 +90,24 @@ exports.createPages = ({ graphql, actions }) => {
           context: {
             slug: node.slug,
           },
-        })
-      })
-      resolve()
-    })
-  })
+        });
+      });
+      resolve();
+    });
+  });
 
   return Promise.all([loadPosts, loadGalleries]);
+};
+
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        '../../theme.config$': path.join(
+          __dirname,
+          'src/semantic/theme.config'
+        ),
+      },
+    },
+  });
 };

@@ -1,6 +1,6 @@
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
   siteMetadata: {
@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-less`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
