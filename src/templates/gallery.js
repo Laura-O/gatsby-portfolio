@@ -8,7 +8,7 @@ import SubGallery from '../components/Gallery/SubGallery';
 import * as constants from '../layouts/shared/style-constants';
 
 const GalleryWrapper = styled.div`
-  background-color: ${constants.lightBackground};
+  background-color: #fff;
   height: 100%;
 `;
 
@@ -25,7 +25,7 @@ const GalleryTemplate = ({ data, location }) => {
 
         {subGalleries.map((subGallery, index) => (
           <div key={index}>
-            (<SubGallery images={subGallery.images} />)
+            <SubGallery images={subGallery.images} />
           </div>
         ))}
       </GalleryWrapper>

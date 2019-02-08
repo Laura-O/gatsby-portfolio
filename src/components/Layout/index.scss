@@ -114,11 +114,12 @@ button {
 
 .react-photo-gallery--gallery {
   img {
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
     transition: transform 400ms ease-out;
+    margin: 0 3px;
   }
 
-  img:hover {
-    transform: scale(1.05);
+  div {
+    justify-content: center;
   }
 }

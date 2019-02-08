@@ -7,6 +7,10 @@ import Lightbox from 'react-images';
 
 import { Divider } from 'semantic-ui-react';
 
+const SubGalleryWrapper = styled.div`
+  padding: 10px 20px;
+`;
+
 export default class SubGallery extends Component {
   constructor() {
     super();
@@ -71,8 +75,8 @@ export default class SubGallery extends Component {
     const { currentImage, lightboxIsOpen } = this.state;
 
     return (
-      <div>
-        <Gallery photos={photos} onClick={this.openLightbox} />
+      <SubGalleryWrapper>
+        <Gallery photos={photos} onClick={this.openLightbox} margin={5} />
 
         <Lightbox
           images={photos}
@@ -83,7 +87,7 @@ export default class SubGallery extends Component {
           isOpen={lightboxIsOpen}
         />
         <Divider />
-      </div>
+      </SubGalleryWrapper>
     );
   }
 }
