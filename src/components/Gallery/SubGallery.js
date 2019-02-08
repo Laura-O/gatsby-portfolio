@@ -72,7 +72,8 @@ export default class SubGallery extends Component {
 
     return (
       <div>
-        <Gallery photos={photos} margin={10} onClick={this.openLightbox} />
+        <Gallery photos={photos} onClick={this.openLightbox} />
+
         <Lightbox
           images={photos}
           onClose={this.closeLightbox}
