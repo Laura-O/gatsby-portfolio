@@ -1,5 +1,5 @@
 export const wrapperWidth = '120rem';
-export const headerHeight = '4.8rem';
+export const headerHeight = '3rem';
 export const gutter = '2rem';
 export const columnCount = '12';
 
@@ -12,7 +12,7 @@ export const zIndexHeader = '2';
 export const zIndexMenu = '3';
 export const zIndexHamburger = '30';
 
-export const lightBackground = '#efffe9';
+export const lightBackground = '#ededed';
 export const darkBackground = '#0c090d';
 // export const darkBackground = '#011627';
 export const redHighlight = '#e71d36';
@@ -34,3 +34,10 @@ export const blueSapphire = '#19646a';
 
 export const carribeanGreenLight = '#00c690';
 export const carribeanGreenDark = '#00df96';
+
+export const lightgreen = "#0EF3C5";
+export const springgeen = "#45bb89";
+export const greenvarient = "#038298";
+export const aegean = "#3d82ab";
+export const bermuda = "#91d4c2";
+export const nightsky = "#172347";

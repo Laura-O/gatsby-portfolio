@@ -8,14 +8,13 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import * as constants from '../../layouts/shared/style-constants';
 
-import 'semantic-ui-less/semantic.less';
 import './index.scss';
 
 const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: ${constants.darkBackground};
+  background-color: ${constants.lightBackground};
   color: ${constants.colorWhite};
 `;
 

@@ -8,7 +8,7 @@ const HeaderWrapper = styled.header`
   justify-content: flex-end;
   background: ${constants.darkBackground};
   flex-shrink: 0;
-  padding: 1.5rem;
+  padding: 1rem;
   height: ${constants.headerHeight};
   z-index: ${constants.zIndexHeader};
 `;
