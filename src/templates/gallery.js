@@ -14,7 +14,7 @@ const GalleryWrapper = styled.div`
 
 const GalleryTemplate = ({ data, location }) => {
   const gallery = data.contentfulExtendedGallery;
-  const subGalleries = data.contentfulExtendedGallery.galleries;
+  const subGalleries = data.contentfulExtendedGallery.galleries.reverse();
 
   console.log(gallery);
 

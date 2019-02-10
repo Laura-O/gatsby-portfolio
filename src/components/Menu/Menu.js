@@ -6,7 +6,6 @@ import Fullscreen from '../Fullscreen/Fullscreen';
 import * as constants from '../../layouts/shared/style-constants';
 
 const Item = styled.div`
-  color: white;
   position: relative;
   font-size: 3rem;
   line-height: 2;
@@ -30,9 +29,10 @@ const Item = styled.div`
 
   a {
     text-decoration: none;
+    color: ${constants.colorWhite};
 
     &:hover {
-      color: white;
+      color: ${constants.colorWhite}
     }
   }
 `;
