@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
-import { Divider } from 'semantic-ui-react';
+import {Divider} from '../StyledComponents/index'
 
 const SubGalleryWrapper = styled.div`
   padding: 10px 20px;
@@ -33,6 +33,7 @@ export default class SubGallery extends Component {
           srcSet: image.fluid.srcSet,
           width: image.fixed.width,
           height: image.fixed.height,
+          caption: image.title
         }
       )
     );
@@ -73,7 +74,7 @@ export default class SubGallery extends Component {
   render() {
     const photos = this.makeGallery();
     const { currentImage, lightboxIsOpen } = this.state;
-
+    
     return (
       <SubGalleryWrapper>
         <Gallery photos={photos} onClick={this.openLightbox} margin={5} />
@@ -86,15 +87,16 @@ export default class SubGallery extends Component {
           currentImage={currentImage}
           isOpen={lightboxIsOpen}
         />
-        <Divider />
+        <Divider>bla</Divider>
       </SubGalleryWrapper>
     );
   }
 }
 
 SubGallery.propTypes = {
-  project: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    description: PropTypes.string,
-  }),
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+    }).isRequired
+  ),
 };

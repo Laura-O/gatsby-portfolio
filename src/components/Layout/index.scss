@@ -14,12 +14,16 @@ $shadows-small: multiple-box-shadow(700);
 $shadows-middle: multiple-box-shadow(200);
 $shadows-large: multiple-box-shadow(100);
 
+a {
+  text-decoration: none;
+}
+
 button {
   background: none;
   border: 2px solid;
   line-height: 1;
-  margin: 0.5em;
-  padding: 0.5em 1em;
+  margin: .5em;
+  padding: .5em 1em;
 }
 
 .gatsby-highlight {

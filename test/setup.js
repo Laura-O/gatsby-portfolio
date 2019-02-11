@@ -8,3 +8,8 @@ global.render = enzyme.render;
 global.mount = enzyme.mount;
 
 global.window.HTMLCanvasElement.prototype.getContext = jest.fn();
+
+
+global.___loader = {
+    enqueue: jest.fn(),
+}

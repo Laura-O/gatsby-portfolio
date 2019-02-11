@@ -71,7 +71,7 @@ exports.createPages = ({ graphql, actions }) => {
     });
   });
 
-  const loadGalleries = new Promise((resolve, reject) => {
+  const loadGalleries = new Promise((resolve) => {
     graphql(`
       {
         allContentfulExtendedGallery {

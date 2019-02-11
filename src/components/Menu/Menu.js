@@ -32,7 +32,7 @@ const Item = styled.div`
     color: ${constants.colorWhite};
 
     &:hover {
-      color: ${constants.colorWhite}
+      color: ${constants.colorWhite};
     }
   }
 `;
@@ -46,11 +46,6 @@ function Menu(props) {
   return (
     <Fullscreen active={active}>
       <nav>
-        <Item>
-          <Link {...linkProps} to="/">
-            Home
-          </Link>
-        </Item>
         <Item>
           <Link {...linkProps} to="/about">
             About
@@ -68,7 +63,7 @@ function Menu(props) {
         </Item>
         <Item>
           <Link {...linkProps} to="/contact">
-            Contact
+            Galleries
           </Link>
         </Item>
       </nav>

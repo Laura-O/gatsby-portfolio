@@ -1,30 +1,26 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Helmet from 'react-helmet';
 import Layout from '../components/Layout/layout';
 import GalleryHeader from '../components/Gallery/GalleryHeader';
 import SubGallery from '../components/Gallery/SubGallery';
-import * as constants from '../layouts/shared/style-constants';
 
 const GalleryWrapper = styled.div`
   background-color: #fff;
   height: 100%;
 `;
 
-const GalleryTemplate = ({ data, location }) => {
+const GalleryTemplate = ({ data }) => {
   const gallery = data.contentfulExtendedGallery;
   const subGalleries = data.contentfulExtendedGallery.galleries.reverse();
 
-  console.log(gallery);
-
   return (
-    <Layout location={location}>
+    <Layout>
       <GalleryWrapper>
-        <GalleryHeader gallery />
+        <GalleryHeader {...gallery} />
 
-        {subGalleries.map((subGallery, index) => (
-          <div key={index}>
+        {subGalleries.map((subGallery) => (
+          <div key={subGalleries.id}>
             <SubGallery images={subGallery.images} />
           </div>
         ))}

@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-
-import agua from '../../assets/aqua.mp4';
 
 const VideoHeader = styled.div`
   width: 100%;
@@ -27,22 +25,21 @@ const Overlay = styled.div`
   text-align: center;
 `;
 
-export default class GalleryHeader extends Component {
-  render() {
-    console.log(this.props);
-
+function GalleryHeader(gallery) {
     return (
       <div>
         <VideoHeader>
           <video autoPlay loop>
-            <source type="video/mp4" src={agua} />
+            <source type="video/mp4" src={gallery.hero.file.url} />
           </video>
-          <Overlay>dsada</Overlay>
+          <Overlay>{gallery.title}</Overlay>
         </VideoHeader>
       </div>
     );
-  }
+  
 }
+
+export default GalleryHeader;
 
 GalleryHeader.propTypes = {
   project: PropTypes.shape({

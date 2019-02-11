@@ -26,14 +26,6 @@ ShallowWrapper {
         <styled.div>
           <UNDEFINED
             onClick={[MockFunction]}
-            to="/"
-          >
-            Home
-          </UNDEFINED>
-        </styled.div>
-        <styled.div>
-          <UNDEFINED
-            onClick={[MockFunction]}
             to="/about"
           >
             About
@@ -60,7 +52,7 @@ ShallowWrapper {
             onClick={[MockFunction]}
             to="/contact"
           >
-            Contact
+            Galleries
           </UNDEFINED>
         </styled.div>
       </nav>,
@@ -72,14 +64,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <styled.div>
-            <UNDEFINED
-              onClick={[MockFunction]}
-              to="/"
-            >
-              Home
-            </UNDEFINED>
-          </styled.div>,
           <styled.div>
             <UNDEFINED
               onClick={[MockFunction]}
@@ -109,44 +93,13 @@ ShallowWrapper {
               onClick={[MockFunction]}
               to="/contact"
             >
-              Contact
+              Galleries
             </UNDEFINED>
           </styled.div>,
         ],
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <UNDEFINED
-              onClick={[MockFunction]}
-              to="/"
-            >
-              Home
-            </UNDEFINED>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Home",
-              "onClick": [MockFunction],
-              "to": "/",
-            },
-            "ref": null,
-            "rendered": "Home",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "render": [Function],
-            },
-          },
-          "type": [Function],
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -249,7 +202,7 @@ ShallowWrapper {
               onClick={[MockFunction]}
               to="/contact"
             >
-              Contact
+              Galleries
             </UNDEFINED>,
           },
           "ref": null,
@@ -258,12 +211,12 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Contact",
+              "children": "Galleries",
               "onClick": [MockFunction],
               "to": "/contact",
             },
             "ref": null,
-            "rendered": "Contact",
+            "rendered": "Galleries",
             "type": Object {
               "$$typeof": Symbol(react.forward_ref),
               "render": [Function],
@@ -284,14 +237,6 @@ ShallowWrapper {
       "props": Object {
         "active": true,
         "children": <nav>
-          <styled.div>
-            <UNDEFINED
-              onClick={[MockFunction]}
-              to="/"
-            >
-              Home
-            </UNDEFINED>
-          </styled.div>
           <styled.div>
             <UNDEFINED
               onClick={[MockFunction]}
@@ -321,7 +266,7 @@ ShallowWrapper {
               onClick={[MockFunction]}
               to="/contact"
             >
-              Contact
+              Galleries
             </UNDEFINED>
           </styled.div>
         </nav>,
@@ -333,14 +278,6 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <styled.div>
-              <UNDEFINED
-                onClick={[MockFunction]}
-                to="/"
-              >
-                Home
-              </UNDEFINED>
-            </styled.div>,
             <styled.div>
               <UNDEFINED
                 onClick={[MockFunction]}
@@ -370,44 +307,13 @@ ShallowWrapper {
                 onClick={[MockFunction]}
                 to="/contact"
               >
-                Contact
+                Galleries
               </UNDEFINED>
             </styled.div>,
           ],
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <UNDEFINED
-                onClick={[MockFunction]}
-                to="/"
-              >
-                Home
-              </UNDEFINED>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Home",
-                "onClick": [MockFunction],
-                "to": "/",
-              },
-              "ref": null,
-              "rendered": "Home",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "render": [Function],
-              },
-            },
-            "type": [Function],
-          },
           Object {
             "instance": null,
             "key": undefined,
@@ -510,7 +416,7 @@ ShallowWrapper {
                 onClick={[MockFunction]}
                 to="/contact"
               >
-                Contact
+                Galleries
               </UNDEFINED>,
             },
             "ref": null,
@@ -519,12 +425,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": "Contact",
+                "children": "Galleries",
                 "onClick": [MockFunction],
                 "to": "/contact",
               },
               "ref": null,
-              "rendered": "Contact",
+              "rendered": "Galleries",
               "type": Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "render": [Function],

@@ -7,18 +7,22 @@ import Layout from '../components/Layout/layout';
 
 const GalleryWrapper = styled.div`
   margin: 0 2rem;
-`
+  padding-top: 2em;
+
+  h1 {
+  }
+`;
 
 const Card = styled.div`
   background-color: white;
   padding: 1em;
 
   color: black;
-`
+`;
 
 const CardsWrapper = styled.div`
   display: flex;
-`
+`;
 
 function Galleries({ data }) {
   const galleries = data.allContentfulExtendedGallery.edges;
@@ -29,39 +33,50 @@ function Galleries({ data }) {
         <h1>Galleries</h1>
         <CardsWrapper>
           {galleries.map(gallery => (
-            <Card>
-              <Link to={gallery.node.slug}><img src={gallery.node.preview.fluid.src} /></Link>
+            <Card key={gallery.id}>
+              <Link to={gallery.node.slug}>
+                <img
+                  src={gallery.node.preview.fluid.src}
+                  alt={`Gallery Preview${gallery.node.title}`}
+                />
+              </Link>
               <footer>
                 <h3>{gallery.node.title}</h3>
               </footer>
             </Card>
           ))}
         </CardsWrapper>
-
       </GalleryWrapper>
-    </Layout>)
+    </Layout>
+  );
 }
-;
-
 export default Galleries;
+
+Galleries.propTypes = {
+  data: PropTypes.shape({
+    allContentfulExtendedGallery: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+};
 
 export const query = graphql`
   query GalleryQuery {
     allContentfulExtendedGallery {
-        edges {
-          node {
-        id
-        slug
-        title
+      edges {
+        node {
+          id
+          slug
+          title
           preview {
-          fluid(maxWidth: 400, quality: 75) {
-          ...GatsbyContentfulFluid_withWebp
+            fluid(maxWidth: 400, quality: 75) {
+              ...GatsbyContentfulFluid_withWebp
               src
-        aspectRatio
+              aspectRatio
+            }
+          }
+        }
       }
     }
   }
-}
-}
-}
 `;
