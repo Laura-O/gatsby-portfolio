@@ -20,8 +20,8 @@ const GalleryTemplate = ({ data }) => {
         <GalleryHeader {...gallery} />
 
         {subGalleries.map((subGallery) => (
-          <div key={subGalleries.id}>
-            <SubGallery images={subGallery.images} />
+          <div key={subGallery.id}>
+            <SubGallery images={subGallery.images} title={subGallery.title} />
           </div>
         ))}
       </GalleryWrapper>
