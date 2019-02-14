@@ -43,6 +43,8 @@ exports.createPages = ({ graphql, actions }) => {
           path: node.frontmatter.path,
           component: path.resolve(`src/templates/blog-post.js`),
         });
+
+        
       });
 
       // Tag pages:

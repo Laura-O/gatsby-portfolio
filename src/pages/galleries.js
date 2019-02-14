@@ -25,19 +25,22 @@ const CardsWrapper = styled.div`
 `;
 
 function Galleries({ data }) {
-  const galleries = data.allContentfulExtendedGallery.edges;
+  let galleries = null;
+  if (data !== undefined) {
+    galleries = data.allContentfulExtendedGallery.edges
+  }
 
   return (
     <Layout>
       <GalleryWrapper>
         <h1>Galleries</h1>
         <CardsWrapper>
-          {galleries.map(gallery => (
+          {galleries && galleries.map(gallery => (
             <Card key={gallery.id}>
               <Link to={gallery.node.slug}>
                 <img
                   src={gallery.node.preview.fluid.src}
-                  alt={`Gallery Preview${gallery.node.title}`}
+                  alt={`Gallery Preview ${gallery.node.title}`}
                 />
               </Link>
               <footer>
@@ -45,6 +48,7 @@ function Galleries({ data }) {
               </footer>
             </Card>
           ))}
+          {!galleries && <div>There are not galleries available.</div>}
         </CardsWrapper>
       </GalleryWrapper>
     </Layout>
