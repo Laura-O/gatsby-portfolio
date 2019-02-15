@@ -1,5 +1,9 @@
 export const imagePropType = {
-  sizes: 'image',
+  "base64": "base64",
+  "aspectRatio": 1.5,
+  "src": "src",
+  "srcSet": "srcSet",
+  "sizes": "(max-width: 600px) 100vw, 600px"
 };
 
 export const frontmatterPropType = {
