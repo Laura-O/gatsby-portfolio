@@ -74,12 +74,13 @@ export default class SubGallery extends Component {
     const { images, title } = this.props;
 
     const photos = this.makeGallery(images);
+
     const { currentImage, lightboxIsOpen } = this.state;
 
     return (
       <SubGalleryWrapper>
         <Divider>{title}</Divider>
-        <Gallery photos={photos} onClick={this.openLightbox} margin={5} />
+        <Gallery photos={photos} onClick={this.openLightbox} margin={5} data-testid="lightbox" />
 
         <Lightbox
           images={photos}

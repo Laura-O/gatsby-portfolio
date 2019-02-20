@@ -1,25 +1,23 @@
 import React from 'react';
 import { render, cleanup } from 'react-testing-library'
 
-import {imageArray} from "../../../test/fixtures"
-
-import Layout from "../Layout/layout"
-import SubGallery from './SubGallery';
-
+import GalleryTemplate from './gallery';
 
 afterEach(cleanup)
 
-
 const props = 
             {
-                "images": imageArray,
-                "title": "Example Gallery"
+                "contentfulExtendedGallery": {
+                    "galleries": {
+
+                    }
+                },
               }
 
 describe('rendering', () => {
     test('it renders the title', () => {
 
-        const { getByText } = render(<Layout><SubGallery {...props} /></Layout>)
+        const { getByText } = render(<GalleryTemplate data={props} />)
 
         const titleNode = getByText("Example Gallery")
         expect(titleNode).toBeDefined()
