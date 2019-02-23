@@ -6,16 +6,13 @@ import * as constants from '../../layouts/shared/style-constants';
 
 const TechItem = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  z-index: inherit;
-  padding: 10px 15px;
-  background-color: ${constants.yellow};
+ 
 `;
 
 const TechBox = styled.div`
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
   padding: 5px;
   text-align: center;
@@ -44,7 +41,7 @@ const TechTags = styled.ul`
 `;
 
 const Tech = () => {
-  const frontEnd = ['React', 'Redux', 'Gatsby', 'Vue.js', 'HTML5', 'SCSS'];
+  const frontEnd = ['JavaScript', 'Elm', 'React/Redux, Gatsby, Vue', 'HTML5', 'SCSS'];
   const backEnd = ['Node', 'Express', 'PostgreSQL'];
   const other = ['Git', 'R'];
 

@@ -5,15 +5,17 @@ import Tech from '../components/Tech/Tech';
 import Bio from '../components/Bio/Bio';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Layout from '../components/Layout/layout';
+import Me from "../components/Me/Me"
 
 import * as constants from '../layouts/shared/style-constants';
 
 const AboutWrapper = styled(Wrapper)`
-  height: 80vh;
+  height: 100%;
 `;
 
 const Lower = styled.div`
   display: flex;
+  align-self: flex-end;
   width: 100%;
   background-color: ${constants.darkBlue};
   color: white;
@@ -36,9 +38,7 @@ const Upper = styled.div`
 
 const UpperLeft = styled.div`
   flex: 2;
-  background-color: white;
-  padding: 1em;
-  min-width: 250px;
+  z-index: 2;
 `;
 
 const UpperRight = styled.div`
@@ -60,12 +60,11 @@ const AboutPage = () => (
           <Bio />
         </UpperLeft>
         <UpperRight>
-          <Tech />
+          <Me />
         </UpperRight>
       </Upper>
       <Lower>
-        If you want to get in touch with me, please use the{' '}
-        <Link to="/contact">Contact form</Link>.
+        <Tech />
       </Lower>
     </AboutWrapper>
   </Layout>
