@@ -17,7 +17,7 @@ const Lower = styled.div`
   display: flex;
   align-self: flex-end;
   width: 100%;
-  background-color: ${constants.darkBlue};
+  background-color: ${constants.nightsky};
   color: white;
   padding: 20px;
   font-size: 1em;
@@ -38,7 +38,6 @@ const Upper = styled.div`
 
 const UpperLeft = styled.div`
   flex: 2;
-  z-index: 2;
 `;
 
 const UpperRight = styled.div`
@@ -46,8 +45,8 @@ const UpperRight = styled.div`
   flex-direction: column;
   flex: 1;
   align-items: center;
-  border-left: 3px solid ${constants.redPurple};
-  background-color: ${constants.yellow};
+  border-left: 3px solid ${constants.lightgreen};
+  background-color: ${constants.aegean};
   padding: 1em;
   min-width: 250px;
 `;
