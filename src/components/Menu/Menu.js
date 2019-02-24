@@ -62,7 +62,7 @@ function Menu(props) {
           </Link>
         </Item>
         <Item>
-          <Link {...linkProps} to="/contact">
+          <Link {...linkProps} to="/galleries">
             Galleries
           </Link>
         </Item>

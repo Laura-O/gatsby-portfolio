@@ -50,7 +50,7 @@ ShallowWrapper {
         <styled.div>
           <UNDEFINED
             onClick={[MockFunction]}
-            to="/contact"
+            to="/galleries"
           >
             Galleries
           </UNDEFINED>
@@ -91,7 +91,7 @@ ShallowWrapper {
           <styled.div>
             <UNDEFINED
               onClick={[MockFunction]}
-              to="/contact"
+              to="/galleries"
             >
               Galleries
             </UNDEFINED>
@@ -200,7 +200,7 @@ ShallowWrapper {
           "props": Object {
             "children": <UNDEFINED
               onClick={[MockFunction]}
-              to="/contact"
+              to="/galleries"
             >
               Galleries
             </UNDEFINED>,
@@ -213,7 +213,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Galleries",
               "onClick": [MockFunction],
-              "to": "/contact",
+              "to": "/galleries",
             },
             "ref": null,
             "rendered": "Galleries",
@@ -264,7 +264,7 @@ ShallowWrapper {
           <styled.div>
             <UNDEFINED
               onClick={[MockFunction]}
-              to="/contact"
+              to="/galleries"
             >
               Galleries
             </UNDEFINED>
@@ -305,7 +305,7 @@ ShallowWrapper {
             <styled.div>
               <UNDEFINED
                 onClick={[MockFunction]}
-                to="/contact"
+                to="/galleries"
               >
                 Galleries
               </UNDEFINED>
@@ -414,7 +414,7 @@ ShallowWrapper {
             "props": Object {
               "children": <UNDEFINED
                 onClick={[MockFunction]}
-                to="/contact"
+                to="/galleries"
               >
                 Galleries
               </UNDEFINED>,
@@ -427,7 +427,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Galleries",
                 "onClick": [MockFunction],
-                "to": "/contact",
+                "to": "/galleries",
               },
               "ref": null,
               "rendered": "Galleries",
