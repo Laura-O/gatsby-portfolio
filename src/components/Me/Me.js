@@ -4,9 +4,6 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import Img from 'gatsby-image'
 
-
-import HighlightLink from '../../layouts/shared/Link';
-
 const MeWrapper = styled.div`
   width: 100%;
   height: 100%;
@@ -43,8 +40,8 @@ const MeWrapper = styled.div`
 
 
 const Me = () => (
-    <StaticQuery
-        query={graphql`
+  <StaticQuery
+    query={graphql`
         query {
           imageOne: file(relativePath: { eq: "me1.jpg" }) {
             childImageSharp {
@@ -62,15 +59,15 @@ const Me = () => (
           }
         }
     `}
-        render={data => (
-            <MeWrapper>
-                <div className="wrapper">
-                    <Img className="first" fluid={data.imageOne.childImageSharp.fluid} />
-                    <Img className="second" fluid={data.imageTwo.childImageSharp.fluid} />
-                </div>
-            </MeWrapper>
-        )}
-    />
+    render={data => (
+      <MeWrapper>
+        <div className="wrapper">
+          <Img className="first" fluid={data.imageOne.childImageSharp.fluid} />
+          <Img className="second" fluid={data.imageTwo.childImageSharp.fluid} />
+        </div>
+      </MeWrapper>
+    )}
+  />
 );
 
 export default Me;
