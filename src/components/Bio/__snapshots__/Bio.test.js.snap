@@ -20,31 +20,55 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h3>
-          About me
+          Hi, I am Laura!
         </h3>,
         <styled.div>
-          I started developing around 1996 when I maintained my very first website on
+          <h4>
+            Today
+          </h4>
+          I started developing websites around 1996 when I maintained my very first website on
           <styled.a
             href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
           >
             Geocities
           </styled.a>
-          . A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and
-           
+          . My excitement for web technologies hasn't changed since the early years and I am a fullstack developer now.
+        </styled.div>,
+        <styled.div>
+          <h4>
+            Before
+          </h4>
+          I have a degree in computer science and then worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
+        </styled.div>,
+        <styled.div>
+          <h4>
+            Other things
+          </h4>
+          I am a 
           <styled.a
             className="highlight-link"
-            href="https://en.wikipedia.org/wiki/Movable_Type"
+            href="https://www.worldcubeassociation.org/persons/2009OHRN01"
           >
-            Movable Type
+            speedcuber
           </styled.a>
-           
-          was the state of the art.
+           and the 
+          <styled.a
+            className="highlight-link"
+            href="https://www.worldcubeassociation.org/"
+          >
+            WCA
+          </styled.a>
+           Senior Delegate for Western Europe. I am also an 
+          <styled.a
+            className="highlight-link"
+            href="https://en.wikipedia.org/wiki/Aquascaping"
+          >
+            Aquascaper
+          </styled.a>
+           and I enjoy playing video games.
         </styled.div>,
         <styled.div>
-          After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
-        </styled.div>,
-        <styled.div>
-          My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with
+          By the way, this website was built with
            
           <styled.a
             className="highlight-link"
@@ -63,10 +87,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "About me",
+          "children": "Hi, I am Laura!",
         },
         "ref": null,
-        "rendered": "About me",
+        "rendered": "Hi, I am Laura!",
         "type": "h3",
       },
       Object {
@@ -75,27 +99,32 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            "I started developing around 1996 when I maintained my very first website on",
+            <h4>
+              Today
+            </h4>,
+            "I started developing websites around 1996 when I maintained my very first website on",
             <styled.a
               href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
             >
               Geocities
             </styled.a>,
-            ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
-            " ",
-            <styled.a
-              className="highlight-link"
-              href="https://en.wikipedia.org/wiki/Movable_Type"
-            >
-              Movable Type
-            </styled.a>,
-            " ",
-            "was the state of the art.",
+            ". My excitement for web technologies hasn't changed since the early years and I am a fullstack developer now.",
           ],
         },
         "ref": null,
         "rendered": Array [
-          "I started developing around 1996 when I maintained my very first website on",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Today",
+            },
+            "ref": null,
+            "rendered": "Today",
+            "type": "h4",
+          },
+          "I started developing websites around 1996 when I maintained my very first website on",
           Object {
             "instance": null,
             "key": undefined,
@@ -108,23 +137,7 @@ ShallowWrapper {
             "rendered": "Geocities",
             "type": [Function],
           },
-          ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
-          " ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Movable Type",
-              "className": "highlight-link",
-              "href": "https://en.wikipedia.org/wiki/Movable_Type",
-            },
-            "ref": null,
-            "rendered": "Movable Type",
-            "type": [Function],
-          },
-          " ",
-          "was the state of the art.",
+          ". My excitement for web technologies hasn't changed since the early years and I am a fullstack developer now.",
         ],
         "type": [Function],
       },
@@ -133,10 +146,28 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+          "children": Array [
+            <h4>
+              Before
+            </h4>,
+            "I have a degree in computer science and then worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+          ],
         },
         "ref": null,
-        "rendered": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Before",
+            },
+            "ref": null,
+            "rendered": "Before",
+            "type": "h4",
+          },
+          "I have a degree in computer science and then worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+        ],
         "type": [Function],
       },
       Object {
@@ -145,7 +176,99 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+            <h4>
+              Other things
+            </h4>,
+            "I am a ",
+            <styled.a
+              className="highlight-link"
+              href="https://www.worldcubeassociation.org/persons/2009OHRN01"
+            >
+              speedcuber
+            </styled.a>,
+            " and the ",
+            <styled.a
+              className="highlight-link"
+              href="https://www.worldcubeassociation.org/"
+            >
+              WCA
+            </styled.a>,
+            " Senior Delegate for Western Europe. I am also an ",
+            <styled.a
+              className="highlight-link"
+              href="https://en.wikipedia.org/wiki/Aquascaping"
+            >
+              Aquascaper
+            </styled.a>,
+            " and I enjoy playing video games.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Other things",
+            },
+            "ref": null,
+            "rendered": "Other things",
+            "type": "h4",
+          },
+          "I am a ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "speedcuber",
+              "className": "highlight-link",
+              "href": "https://www.worldcubeassociation.org/persons/2009OHRN01",
+            },
+            "ref": null,
+            "rendered": "speedcuber",
+            "type": [Function],
+          },
+          " and the ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "WCA",
+              "className": "highlight-link",
+              "href": "https://www.worldcubeassociation.org/",
+            },
+            "ref": null,
+            "rendered": "WCA",
+            "type": [Function],
+          },
+          " Senior Delegate for Western Europe. I am also an ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Aquascaper",
+              "className": "highlight-link",
+              "href": "https://en.wikipedia.org/wiki/Aquascaping",
+            },
+            "ref": null,
+            "rendered": "Aquascaper",
+            "type": [Function],
+          },
+          " and I enjoy playing video games.",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "By the way, this website was built with",
             " ",
             <styled.a
               className="highlight-link"
@@ -158,7 +281,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+          "By the way, this website was built with",
           " ",
           Object {
             "instance": null,
@@ -188,31 +311,55 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h3>
-            About me
+            Hi, I am Laura!
           </h3>,
           <styled.div>
-            I started developing around 1996 when I maintained my very first website on
+            <h4>
+              Today
+            </h4>
+            I started developing websites around 1996 when I maintained my very first website on
             <styled.a
               href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
             >
               Geocities
             </styled.a>
-            . A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and
-             
+            . My excitement for web technologies hasn't changed since the early years and I am a fullstack developer now.
+          </styled.div>,
+          <styled.div>
+            <h4>
+              Before
+            </h4>
+            I have a degree in computer science and then worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
+          </styled.div>,
+          <styled.div>
+            <h4>
+              Other things
+            </h4>
+            I am a 
             <styled.a
               className="highlight-link"
-              href="https://en.wikipedia.org/wiki/Movable_Type"
+              href="https://www.worldcubeassociation.org/persons/2009OHRN01"
             >
-              Movable Type
+              speedcuber
             </styled.a>
-             
-            was the state of the art.
+             and the 
+            <styled.a
+              className="highlight-link"
+              href="https://www.worldcubeassociation.org/"
+            >
+              WCA
+            </styled.a>
+             Senior Delegate for Western Europe. I am also an 
+            <styled.a
+              className="highlight-link"
+              href="https://en.wikipedia.org/wiki/Aquascaping"
+            >
+              Aquascaper
+            </styled.a>
+             and I enjoy playing video games.
           </styled.div>,
           <styled.div>
-            After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.
-          </styled.div>,
-          <styled.div>
-            My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with
+            By the way, this website was built with
              
             <styled.a
               className="highlight-link"
@@ -231,10 +378,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "About me",
+            "children": "Hi, I am Laura!",
           },
           "ref": null,
-          "rendered": "About me",
+          "rendered": "Hi, I am Laura!",
           "type": "h3",
         },
         Object {
@@ -243,27 +390,32 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              "I started developing around 1996 when I maintained my very first website on",
+              <h4>
+                Today
+              </h4>,
+              "I started developing websites around 1996 when I maintained my very first website on",
               <styled.a
                 href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities"
               >
                 Geocities
               </styled.a>,
-              ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
-              " ",
-              <styled.a
-                className="highlight-link"
-                href="https://en.wikipedia.org/wiki/Movable_Type"
-              >
-                Movable Type
-              </styled.a>,
-              " ",
-              "was the state of the art.",
+              ". My excitement for web technologies hasn't changed since the early years and I am a fullstack developer now.",
             ],
           },
           "ref": null,
           "rendered": Array [
-            "I started developing around 1996 when I maintained my very first website on",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Today",
+              },
+              "ref": null,
+              "rendered": "Today",
+              "type": "h4",
+            },
+            "I started developing websites around 1996 when I maintained my very first website on",
             Object {
               "instance": null,
               "key": undefined,
@@ -276,23 +428,7 @@ ShallowWrapper {
               "rendered": "Geocities",
               "type": [Function],
             },
-            ". A few years later, I had a weblog. Believe me, it was an exciting time when there were less than 100 weblogs in Germany and",
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Movable Type",
-                "className": "highlight-link",
-                "href": "https://en.wikipedia.org/wiki/Movable_Type",
-              },
-              "ref": null,
-              "rendered": "Movable Type",
-              "type": [Function],
-            },
-            " ",
-            "was the state of the art.",
+            ". My excitement for web technologies hasn't changed since the early years and I am a fullstack developer now.",
           ],
           "type": [Function],
         },
@@ -301,10 +437,28 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+            "children": Array [
+              <h4>
+                Before
+              </h4>,
+              "I have a degree in computer science and then worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+            ],
           },
           "ref": null,
-          "rendered": "After school, I started studying computer science at the university and after graduating, I worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Before",
+              },
+              "ref": null,
+              "rendered": "Before",
+              "type": "h4",
+            },
+            "I have a degree in computer science and then worked as a research assistant in computer science education. I wrote my Ph.D. thesis about misconceptions in computer science.",
+          ],
           "type": [Function],
         },
         Object {
@@ -313,7 +467,99 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+              <h4>
+                Other things
+              </h4>,
+              "I am a ",
+              <styled.a
+                className="highlight-link"
+                href="https://www.worldcubeassociation.org/persons/2009OHRN01"
+              >
+                speedcuber
+              </styled.a>,
+              " and the ",
+              <styled.a
+                className="highlight-link"
+                href="https://www.worldcubeassociation.org/"
+              >
+                WCA
+              </styled.a>,
+              " Senior Delegate for Western Europe. I am also an ",
+              <styled.a
+                className="highlight-link"
+                href="https://en.wikipedia.org/wiki/Aquascaping"
+              >
+                Aquascaper
+              </styled.a>,
+              " and I enjoy playing video games.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other things",
+              },
+              "ref": null,
+              "rendered": "Other things",
+              "type": "h4",
+            },
+            "I am a ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "speedcuber",
+                "className": "highlight-link",
+                "href": "https://www.worldcubeassociation.org/persons/2009OHRN01",
+              },
+              "ref": null,
+              "rendered": "speedcuber",
+              "type": [Function],
+            },
+            " and the ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "WCA",
+                "className": "highlight-link",
+                "href": "https://www.worldcubeassociation.org/",
+              },
+              "ref": null,
+              "rendered": "WCA",
+              "type": [Function],
+            },
+            " Senior Delegate for Western Europe. I am also an ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Aquascaper",
+                "className": "highlight-link",
+                "href": "https://en.wikipedia.org/wiki/Aquascaping",
+              },
+              "ref": null,
+              "rendered": "Aquascaper",
+              "type": [Function],
+            },
+            " and I enjoy playing video games.",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "By the way, this website was built with",
               " ",
               <styled.a
                 className="highlight-link"
@@ -326,7 +572,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": Array [
-            "My excitement for web technologies hasn't changed since the early years - I am more and more excited about the fast developing technologies and tools. I have experience with several JavaScript frameworks, especially with React. React has a simple but great API, which provides a lot of flexibility and there is so much awesome stuff you can do with it. By the way, this website was built with",
+            "By the way, this website was built with",
             " ",
             Object {
               "instance": null,

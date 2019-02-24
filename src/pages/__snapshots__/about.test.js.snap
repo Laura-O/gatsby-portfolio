@@ -24,18 +24,11 @@ ShallowWrapper {
             <Bio />
           </styled.div>
           <styled.div>
-            <Tech />
+            <Me />
           </styled.div>
         </styled.div>
         <styled.div>
-          If you want to get in touch with me, please use the
-           
-          <UNDEFINED
-            to="/contact"
-          >
-            Contact form
-          </UNDEFINED>
-          .
+          <Tech />
         </styled.div>
       </Styled(styled.div)>,
     },
@@ -51,18 +44,11 @@ ShallowWrapper {
               <Bio />
             </styled.div>
             <styled.div>
-              <Tech />
+              <Me />
             </styled.div>
           </styled.div>,
           <styled.div>
-            If you want to get in touch with me, please use the
-             
-            <UNDEFINED
-              to="/contact"
-            >
-              Contact form
-            </UNDEFINED>
-            .
+            <Tech />
           </styled.div>,
         ],
       },
@@ -78,7 +64,7 @@ ShallowWrapper {
                 <Bio />
               </styled.div>,
               <styled.div>
-                <Tech />
+                <Me />
               </styled.div>,
             ],
           },
@@ -108,7 +94,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <Tech />,
+                "children": <Me />,
               },
               "ref": null,
               "rendered": Object {
@@ -130,38 +116,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": Array [
-              "If you want to get in touch with me, please use the",
-              " ",
-              <UNDEFINED
-                to="/contact"
-              >
-                Contact form
-              </UNDEFINED>,
-              ".",
-            ],
+            "children": <Tech />,
           },
           "ref": null,
-          "rendered": Array [
-            "If you want to get in touch with me, please use the",
-            " ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Contact form",
-                "to": "/contact",
-              },
-              "ref": null,
-              "rendered": "Contact form",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "render": [Function],
-              },
-            },
-            ".",
-          ],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
       ],
@@ -181,18 +147,11 @@ ShallowWrapper {
               <Bio />
             </styled.div>
             <styled.div>
-              <Tech />
+              <Me />
             </styled.div>
           </styled.div>
           <styled.div>
-            If you want to get in touch with me, please use the
-             
-            <UNDEFINED
-              to="/contact"
-            >
-              Contact form
-            </UNDEFINED>
-            .
+            <Tech />
           </styled.div>
         </Styled(styled.div)>,
       },
@@ -208,18 +167,11 @@ ShallowWrapper {
                 <Bio />
               </styled.div>
               <styled.div>
-                <Tech />
+                <Me />
               </styled.div>
             </styled.div>,
             <styled.div>
-              If you want to get in touch with me, please use the
-               
-              <UNDEFINED
-                to="/contact"
-              >
-                Contact form
-              </UNDEFINED>
-              .
+              <Tech />
             </styled.div>,
           ],
         },
@@ -235,7 +187,7 @@ ShallowWrapper {
                   <Bio />
                 </styled.div>,
                 <styled.div>
-                  <Tech />
+                  <Me />
                 </styled.div>,
               ],
             },
@@ -265,7 +217,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <Tech />,
+                  "children": <Me />,
                 },
                 "ref": null,
                 "rendered": Object {
@@ -287,38 +239,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": Array [
-                "If you want to get in touch with me, please use the",
-                " ",
-                <UNDEFINED
-                  to="/contact"
-                >
-                  Contact form
-                </UNDEFINED>,
-                ".",
-              ],
+              "children": <Tech />,
             },
             "ref": null,
-            "rendered": Array [
-              "If you want to get in touch with me, please use the",
-              " ",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Contact form",
-                  "to": "/contact",
-                },
-                "ref": null,
-                "rendered": "Contact form",
-                "type": Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "render": [Function],
-                },
-              },
-              ".",
-            ],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
             "type": [Function],
           },
         ],

@@ -6,17 +6,16 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Project
     project={
       Object {
-        "description": "Productivity timer for todo.txt",
+        "description": "Website for FMC Europe 2019",
         "id": 0,
-        "image": "/projects/todotron.png",
-        "name": "TodoTron 3000",
+        "image": "/projects/FMC-Europe-2019.png",
+        "name": "FMC Europe 2019",
         "techs": Array [
-          "Electron",
-          "Vue.js",
-          "Vuex",
+          "Gatsby.js",
+          "Netlify",
         ],
-        "thumbnail": "/projects/todotron_thumb.png",
-        "url": "https://github.com/Laura-O/todo-tron",
+        "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+        "url": "https://fmc-europe2019.fewest-moves.com/",
       }
     }
   />,
@@ -32,42 +31,224 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "class",
     "props": Object {
-      "children": <styled.div>
+      "children": Array [
         <styled.div>
           <img
-            alt="TodoTron 3000"
-            src="/projects/todotron_thumb.png"
+            alt="FMC Europe 2019"
+            src="/projects/FMC-Europe-2019_thumb.png"
           />
-        </styled.div>
+        </styled.div>,
         <styled.div>
-          <h3>
-            <a
-              href="https://github.com/Laura-O/todo-tron"
-            >
-              TodoTron 3000
-            </a>
-          </h3>
           <div>
-            Productivity timer for todo.txt
+            <h3>
+              <a
+                href="https://fmc-europe2019.fewest-moves.com/"
+              >
+                FMC Europe 2019
+              </a>
+            </h3>
           </div>
-          <ul>
-            <Styled(styled.span)>
-              Electron
-            </Styled(styled.span)>
-            <Styled(styled.span)>
-              Vue.js
-            </Styled(styled.span)>
-            <Styled(styled.span)>
-              Vuex
-            </Styled(styled.span)>
-          </ul>
-        </styled.div>
-      </styled.div>,
+          <div>
+            Website for FMC Europe 2019
+          </div>
+          <div
+            className="list"
+          >
+            <ul>
+              <Styled(styled.span)>
+                Gatsby.js
+              </Styled(styled.span)>
+              <Styled(styled.span)>
+                Netlify
+              </Styled(styled.span)>
+            </ul>
+          </div>
+        </styled.div>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <img
+            alt="FMC Europe 2019"
+            src="/projects/FMC-Europe-2019_thumb.png"
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "FMC Europe 2019",
+            "src": "/projects/FMC-Europe-2019_thumb.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div>
+              <h3>
+                <a
+                  href="https://fmc-europe2019.fewest-moves.com/"
+                >
+                  FMC Europe 2019
+                </a>
+              </h3>
+            </div>,
+            <div>
+              Website for FMC Europe 2019
+            </div>,
+            <div
+              className="list"
+            >
+              <ul>
+                <Styled(styled.span)>
+                  Gatsby.js
+                </Styled(styled.span)>
+                <Styled(styled.span)>
+                  Netlify
+                </Styled(styled.span)>
+              </ul>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h3>
+                <a
+                  href="https://fmc-europe2019.fewest-moves.com/"
+                >
+                  FMC Europe 2019
+                </a>
+              </h3>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="https://fmc-europe2019.fewest-moves.com/"
+                >
+                  FMC Europe 2019
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "FMC Europe 2019",
+                  "href": "https://fmc-europe2019.fewest-moves.com/",
+                },
+                "ref": null,
+                "rendered": "FMC Europe 2019",
+                "type": "a",
+              },
+              "type": "h3",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Website for FMC Europe 2019",
+            },
+            "ref": null,
+            "rendered": "Website for FMC Europe 2019",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul>
+                <Styled(styled.span)>
+                  Gatsby.js
+                </Styled(styled.span)>
+                <Styled(styled.span)>
+                  Netlify
+                </Styled(styled.span)>
+              </ul>,
+              "className": "list",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Styled(styled.span)>
+                    Gatsby.js
+                  </Styled(styled.span)>,
+                  <Styled(styled.span)>
+                    Netlify
+                  </Styled(styled.span)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "Gatsby.js",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Gatsby.js",
+                  },
+                  "ref": null,
+                  "rendered": "Gatsby.js",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "Netlify",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Netlify",
+                  },
+                  "ref": null,
+                  "rendered": "Netlify",
+                  "type": [Function],
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
@@ -75,32 +256,35 @@ ShallowWrapper {
         "children": Array [
           <styled.div>
             <img
-              alt="TodoTron 3000"
-              src="/projects/todotron_thumb.png"
+              alt="FMC Europe 2019"
+              src="/projects/FMC-Europe-2019_thumb.png"
             />
           </styled.div>,
           <styled.div>
-            <h3>
-              <a
-                href="https://github.com/Laura-O/todo-tron"
-              >
-                TodoTron 3000
-              </a>
-            </h3>
             <div>
-              Productivity timer for todo.txt
+              <h3>
+                <a
+                  href="https://fmc-europe2019.fewest-moves.com/"
+                >
+                  FMC Europe 2019
+                </a>
+              </h3>
             </div>
-            <ul>
-              <Styled(styled.span)>
-                Electron
-              </Styled(styled.span)>
-              <Styled(styled.span)>
-                Vue.js
-              </Styled(styled.span)>
-              <Styled(styled.span)>
-                Vuex
-              </Styled(styled.span)>
-            </ul>
+            <div>
+              Website for FMC Europe 2019
+            </div>
+            <div
+              className="list"
+            >
+              <ul>
+                <Styled(styled.span)>
+                  Gatsby.js
+                </Styled(styled.span)>
+                <Styled(styled.span)>
+                  Netlify
+                </Styled(styled.span)>
+              </ul>
+            </div>
           </styled.div>,
         ],
       },
@@ -112,8 +296,8 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": <img
-              alt="TodoTron 3000"
-              src="/projects/todotron_thumb.png"
+              alt="FMC Europe 2019"
+              src="/projects/FMC-Europe-2019_thumb.png"
             />,
           },
           "ref": null,
@@ -122,8 +306,8 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "TodoTron 3000",
-              "src": "/projects/todotron_thumb.png",
+              "alt": "FMC Europe 2019",
+              "src": "/projects/FMC-Europe-2019_thumb.png",
             },
             "ref": null,
             "rendered": null,
@@ -137,27 +321,30 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <h3>
-                <a
-                  href="https://github.com/Laura-O/todo-tron"
-                >
-                  TodoTron 3000
-                </a>
-              </h3>,
               <div>
-                Productivity timer for todo.txt
+                <h3>
+                  <a
+                    href="https://fmc-europe2019.fewest-moves.com/"
+                  >
+                    FMC Europe 2019
+                  </a>
+                </h3>
               </div>,
-              <ul>
-                <Styled(styled.span)>
-                  Electron
-                </Styled(styled.span)>
-                <Styled(styled.span)>
-                  Vue.js
-                </Styled(styled.span)>
-                <Styled(styled.span)>
-                  Vuex
-                </Styled(styled.span)>
-              </ul>,
+              <div>
+                Website for FMC Europe 2019
+              </div>,
+              <div
+                className="list"
+              >
+                <ul>
+                  <Styled(styled.span)>
+                    Gatsby.js
+                  </Styled(styled.span)>
+                  <Styled(styled.span)>
+                    Netlify
+                  </Styled(styled.span)>
+                </ul>
+              </div>,
             ],
           },
           "ref": null,
@@ -167,11 +354,13 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <a
-                  href="https://github.com/Laura-O/todo-tron"
-                >
-                  TodoTron 3000
-                </a>,
+                "children": <h3>
+                  <a
+                    href="https://fmc-europe2019.fewest-moves.com/"
+                  >
+                    FMC Europe 2019
+                  </a>
+                </h3>,
               },
               "ref": null,
               "rendered": Object {
@@ -179,232 +368,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "TodoTron 3000",
-                  "href": "https://github.com/Laura-O/todo-tron",
-                },
-                "ref": null,
-                "rendered": "TodoTron 3000",
-                "type": "a",
-              },
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Productivity timer for todo.txt",
-              },
-              "ref": null,
-              "rendered": "Productivity timer for todo.txt",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <Styled(styled.span)>
-                    Electron
-                  </Styled(styled.span)>,
-                  <Styled(styled.span)>
-                    Vue.js
-                  </Styled(styled.span)>,
-                  <Styled(styled.span)>
-                    Vuex
-                  </Styled(styled.span)>,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": "Electron",
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": "Electron",
-                  },
-                  "ref": null,
-                  "rendered": "Electron",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": "Vue.js",
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": "Vue.js",
-                  },
-                  "ref": null,
-                  "rendered": "Vue.js",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": "Vuex",
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": "Vuex",
-                  },
-                  "ref": null,
-                  "rendered": "Vuex",
-                  "type": [Function],
-                },
-              ],
-              "type": "ul",
-            },
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-    "type": Symbol(react.fragment),
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": <styled.div>
-          <styled.div>
-            <img
-              alt="TodoTron 3000"
-              src="/projects/todotron_thumb.png"
-            />
-          </styled.div>
-          <styled.div>
-            <h3>
-              <a
-                href="https://github.com/Laura-O/todo-tron"
-              >
-                TodoTron 3000
-              </a>
-            </h3>
-            <div>
-              Productivity timer for todo.txt
-            </div>
-            <ul>
-              <Styled(styled.span)>
-                Electron
-              </Styled(styled.span)>
-              <Styled(styled.span)>
-                Vue.js
-              </Styled(styled.span)>
-              <Styled(styled.span)>
-                Vuex
-              </Styled(styled.span)>
-            </ul>
-          </styled.div>
-        </styled.div>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <styled.div>
-              <img
-                alt="TodoTron 3000"
-                src="/projects/todotron_thumb.png"
-              />
-            </styled.div>,
-            <styled.div>
-              <h3>
-                <a
-                  href="https://github.com/Laura-O/todo-tron"
-                >
-                  TodoTron 3000
-                </a>
-              </h3>
-              <div>
-                Productivity timer for todo.txt
-              </div>
-              <ul>
-                <Styled(styled.span)>
-                  Electron
-                </Styled(styled.span)>
-                <Styled(styled.span)>
-                  Vue.js
-                </Styled(styled.span)>
-                <Styled(styled.span)>
-                  Vuex
-                </Styled(styled.span)>
-              </ul>
-            </styled.div>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <img
-                alt="TodoTron 3000"
-                src="/projects/todotron_thumb.png"
-              />,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "TodoTron 3000",
-                "src": "/projects/todotron_thumb.png",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <h3>
-                  <a
-                    href="https://github.com/Laura-O/todo-tron"
-                  >
-                    TodoTron 3000
-                  </a>
-                </h3>,
-                <div>
-                  Productivity timer for todo.txt
-                </div>,
-                <ul>
-                  <Styled(styled.span)>
-                    Electron
-                  </Styled(styled.span)>
-                  <Styled(styled.span)>
-                    Vue.js
-                  </Styled(styled.span)>
-                  <Styled(styled.span)>
-                    Vuex
-                  </Styled(styled.span)>
-                </ul>,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
                   "children": <a
-                    href="https://github.com/Laura-O/todo-tron"
+                    href="https://fmc-europe2019.fewest-moves.com/"
                   >
-                    TodoTron 3000
+                    FMC Europe 2019
                   </a>,
                 },
                 "ref": null,
@@ -413,40 +380,55 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "TodoTron 3000",
-                    "href": "https://github.com/Laura-O/todo-tron",
+                    "children": "FMC Europe 2019",
+                    "href": "https://fmc-europe2019.fewest-moves.com/",
                   },
                   "ref": null,
-                  "rendered": "TodoTron 3000",
+                  "rendered": "FMC Europe 2019",
                   "type": "a",
                 },
                 "type": "h3",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Productivity timer for todo.txt",
-                },
-                "ref": null,
-                "rendered": "Productivity timer for todo.txt",
-                "type": "div",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Website for FMC Europe 2019",
               },
-              Object {
+              "ref": null,
+              "rendered": "Website for FMC Europe 2019",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul>
+                  <Styled(styled.span)>
+                    Gatsby.js
+                  </Styled(styled.span)>
+                  <Styled(styled.span)>
+                    Netlify
+                  </Styled(styled.span)>
+                </ul>,
+                "className": "list",
+              },
+              "ref": null,
+              "rendered": Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
                     <Styled(styled.span)>
-                      Electron
+                      Gatsby.js
                     </Styled(styled.span)>,
                     <Styled(styled.span)>
-                      Vue.js
-                    </Styled(styled.span)>,
-                    <Styled(styled.span)>
-                      Vuex
+                      Netlify
                     </Styled(styled.span)>,
                   ],
                 },
@@ -454,47 +436,36 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "Electron",
+                    "key": "Gatsby.js",
                     "nodeType": "class",
                     "props": Object {
-                      "children": "Electron",
+                      "children": "Gatsby.js",
                     },
                     "ref": null,
-                    "rendered": "Electron",
+                    "rendered": "Gatsby.js",
                     "type": [Function],
                   },
                   Object {
                     "instance": null,
-                    "key": "Vue.js",
+                    "key": "Netlify",
                     "nodeType": "class",
                     "props": Object {
-                      "children": "Vue.js",
+                      "children": "Netlify",
                     },
                     "ref": null,
-                    "rendered": "Vue.js",
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": "Vuex",
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": "Vuex",
-                    },
-                    "ref": null,
-                    "rendered": "Vuex",
+                    "rendered": "Netlify",
                     "type": [Function],
                   },
                 ],
                 "type": "ul",
               },
-            ],
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      "type": Symbol(react.fragment),
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
