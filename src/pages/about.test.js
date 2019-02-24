@@ -1,9 +1,18 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, cleanup } from 'react-testing-library'
 
 import AboutPage from './about';
 
-test('rendering', () => {
-  const wrapper = shallow(<AboutPage />);
-  expect(wrapper).toMatchSnapshot();
+afterEach(cleanup)
+
+describe('rendering', () => {
+
+
+  test('it renders the link to the gallery', () => {
+    const { getByText } = render(<AboutPage />)
+
+    const title = getByText("Hi, I am Laura!")
+    expect(title).toBeDefined()
+  })
+
 });

@@ -1,7 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import { render, cleanup } from 'react-testing-library'
 
 import TemplateWrapper from './layout';
+
+afterEach(cleanup)
+
 
 describe('rendering', () => {
   const props = {
@@ -20,7 +24,10 @@ describe('rendering', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  afterEach(() => {
-    delete process.env.NODE_ENV;
-  });
+  it(`renders a header`, () => {
+    const { getByText } = render(<TemplateWrapper />)
+
+    const headerElement = getByText('About')
+    expect(headerElement).toBeDefined()
+})
 });

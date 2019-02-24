@@ -22,12 +22,31 @@ ShallowWrapper {
         <h1>
           Projects
         </h1>
-        <div>
+        <styled.div>
+          <Project
+            project={
+              Object {
+                "description": "Website for FMC Europe 2019",
+                "id": 0,
+                "image": "/projects/FMC-Europe-2019.png",
+                "name": "FMC Europe 2019",
+                "techs": Array [
+                  "Gatsby.js",
+                  "Netlify",
+                ],
+                "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                "url": "https://fmc-europe2019.fewest-moves.com/",
+              }
+            }
+          />
+          <styled.div />
+        </styled.div>
+        <styled.div>
           <Project
             project={
               Object {
                 "description": "Productivity timer for todo.txt",
-                "id": 0,
+                "id": 1,
                 "image": "/projects/todotron.png",
                 "name": "TodoTron 3000",
                 "techs": Array [
@@ -41,29 +60,8 @@ ShallowWrapper {
             }
           />
           <styled.div />
-        </div>
-        <div>
-          <Project
-            project={
-              Object {
-                "description": "A social network with chatroom",
-                "id": 1,
-                "image": "/projects/social_network.png",
-                "name": "FriendZone",
-                "techs": Array [
-                  "React",
-                  "Redux",
-                  "PostgreSQL",
-                  "Socket.io",
-                ],
-                "thumbnail": "/projects/social_network_thumb.png",
-                "url": "https://github.com/Laura-O/social-network",
-              }
-            }
-          />
-          <styled.div />
-        </div>
-        <div>
+        </styled.div>
+        <styled.div>
           <Project
             project={
               Object {
@@ -81,13 +79,33 @@ ShallowWrapper {
             }
           />
           <styled.div />
-        </div>
-        <div>
+        </styled.div>
+        <styled.div>
+          <Project
+            project={
+              Object {
+                "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                "id": 3,
+                "image": "/projects/d3-stats.png",
+                "name": "Bubble diagram D3.js",
+                "techs": Array [
+                  "D3.js",
+                  "R",
+                  "Bootstrap",
+                ],
+                "thumbnail": "/projects/d3-stats_thumb.png",
+                "url": "http://secure-meadow-44103.herokuapp.com/",
+              }
+            }
+          />
+          <styled.div />
+        </styled.div>
+        <styled.div>
           <Project
             project={
               Object {
                 "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                "id": 3,
+                "id": 4,
                 "image": "/projects/landing_page.png",
                 "name": "Petition",
                 "techs": Array [
@@ -103,13 +121,13 @@ ShallowWrapper {
             }
           />
           <styled.div />
-        </div>
-        <div>
+        </styled.div>
+        <styled.div>
           <Project
             project={
               Object {
                 "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                "id": 4,
+                "id": 5,
                 "image": "/projects/connect-4.png",
                 "name": "Connect 4",
                 "techs": Array [
@@ -123,13 +141,13 @@ ShallowWrapper {
             }
           />
           <styled.div />
-        </div>
-        <div>
+        </styled.div>
+        <styled.div>
           <Project
             project={
               Object {
                 "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                "id": 5,
+                "id": 6,
                 "image": "/projects/quiz_page.png",
                 "name": "Mobile flashcards",
                 "techs": Array [
@@ -142,27 +160,7 @@ ShallowWrapper {
             }
           />
           <styled.div />
-        </div>
-        <div>
-          <Project
-            project={
-              Object {
-                "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                "id": 6,
-                "image": "/projects/d3-stats.png",
-                "name": "Bubble diagram D3.js",
-                "techs": Array [
-                  "D3.js",
-                  "R",
-                  "Bootstrap",
-                ],
-                "thumbnail": "/projects/d3-stats_thumb.png",
-                "url": "http://secure-meadow-44103.herokuapp.com/",
-              }
-            }
-          />
-          <styled.div />
-        </div>
+        </styled.div>
       </styled.div>,
     },
     "ref": null,
@@ -176,12 +174,31 @@ ShallowWrapper {
             Projects
           </h1>,
           Array [
-            <div>
+            <styled.div>
+              <Project
+                project={
+                  Object {
+                    "description": "Website for FMC Europe 2019",
+                    "id": 0,
+                    "image": "/projects/FMC-Europe-2019.png",
+                    "name": "FMC Europe 2019",
+                    "techs": Array [
+                      "Gatsby.js",
+                      "Netlify",
+                    ],
+                    "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                    "url": "https://fmc-europe2019.fewest-moves.com/",
+                  }
+                }
+              />
+              <styled.div />
+            </styled.div>,
+            <styled.div>
               <Project
                 project={
                   Object {
                     "description": "Productivity timer for todo.txt",
-                    "id": 0,
+                    "id": 1,
                     "image": "/projects/todotron.png",
                     "name": "TodoTron 3000",
                     "techs": Array [
@@ -195,29 +212,8 @@ ShallowWrapper {
                 }
               />
               <styled.div />
-            </div>,
-            <div>
-              <Project
-                project={
-                  Object {
-                    "description": "A social network with chatroom",
-                    "id": 1,
-                    "image": "/projects/social_network.png",
-                    "name": "FriendZone",
-                    "techs": Array [
-                      "React",
-                      "Redux",
-                      "PostgreSQL",
-                      "Socket.io",
-                    ],
-                    "thumbnail": "/projects/social_network_thumb.png",
-                    "url": "https://github.com/Laura-O/social-network",
-                  }
-                }
-              />
-              <styled.div />
-            </div>,
-            <div>
+            </styled.div>,
+            <styled.div>
               <Project
                 project={
                   Object {
@@ -235,13 +231,33 @@ ShallowWrapper {
                 }
               />
               <styled.div />
-            </div>,
-            <div>
+            </styled.div>,
+            <styled.div>
+              <Project
+                project={
+                  Object {
+                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                    "id": 3,
+                    "image": "/projects/d3-stats.png",
+                    "name": "Bubble diagram D3.js",
+                    "techs": Array [
+                      "D3.js",
+                      "R",
+                      "Bootstrap",
+                    ],
+                    "thumbnail": "/projects/d3-stats_thumb.png",
+                    "url": "http://secure-meadow-44103.herokuapp.com/",
+                  }
+                }
+              />
+              <styled.div />
+            </styled.div>,
+            <styled.div>
               <Project
                 project={
                   Object {
                     "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                    "id": 3,
+                    "id": 4,
                     "image": "/projects/landing_page.png",
                     "name": "Petition",
                     "techs": Array [
@@ -257,13 +273,13 @@ ShallowWrapper {
                 }
               />
               <styled.div />
-            </div>,
-            <div>
+            </styled.div>,
+            <styled.div>
               <Project
                 project={
                   Object {
                     "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                    "id": 4,
+                    "id": 5,
                     "image": "/projects/connect-4.png",
                     "name": "Connect 4",
                     "techs": Array [
@@ -277,13 +293,13 @@ ShallowWrapper {
                 }
               />
               <styled.div />
-            </div>,
-            <div>
+            </styled.div>,
+            <styled.div>
               <Project
                 project={
                   Object {
                     "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                    "id": 5,
+                    "id": 6,
                     "image": "/projects/quiz_page.png",
                     "name": "Mobile flashcards",
                     "techs": Array [
@@ -296,27 +312,7 @@ ShallowWrapper {
                 }
               />
               <styled.div />
-            </div>,
-            <div>
-              <Project
-                project={
-                  Object {
-                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                    "id": 6,
-                    "image": "/projects/d3-stats.png",
-                    "name": "Bubble diagram D3.js",
-                    "techs": Array [
-                      "D3.js",
-                      "R",
-                      "Bootstrap",
-                    ],
-                    "thumbnail": "/projects/d3-stats_thumb.png",
-                    "url": "http://secure-meadow-44103.herokuapp.com/",
-                  }
-                }
-              />
-              <styled.div />
-            </div>,
+            </styled.div>,
           ],
         ],
       },
@@ -336,14 +332,75 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "0",
-          "nodeType": "host",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "Website for FMC Europe 2019",
+                    "id": 0,
+                    "image": "/projects/FMC-Europe-2019.png",
+                    "name": "FMC Europe 2019",
+                    "techs": Array [
+                      "Gatsby.js",
+                      "Netlify",
+                    ],
+                    "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                    "url": "https://fmc-europe2019.fewest-moves.com/",
+                  }
+                }
+              />,
+              <styled.div />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "Website for FMC Europe 2019",
+                  "id": 0,
+                  "image": "/projects/FMC-Europe-2019.png",
+                  "name": "FMC Europe 2019",
+                  "techs": Array [
+                    "Gatsby.js",
+                    "Netlify",
+                  ],
+                  "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                  "url": "https://fmc-europe2019.fewest-moves.com/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <Project
                 project={
                   Object {
                     "description": "Productivity timer for todo.txt",
-                    "id": 0,
+                    "id": 1,
                     "image": "/projects/todotron.png",
                     "name": "TodoTron 3000",
                     "techs": Array [
@@ -363,12 +420,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "0",
+              "key": "1",
               "nodeType": "function",
               "props": Object {
                 "project": Object {
                   "description": "Productivity timer for todo.txt",
-                  "id": 0,
+                  "id": 1,
                   "image": "/projects/todotron.png",
                   "name": "TodoTron 3000",
                   "techs": Array [
@@ -394,77 +451,12 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Project
-                project={
-                  Object {
-                    "description": "A social network with chatroom",
-                    "id": 1,
-                    "image": "/projects/social_network.png",
-                    "name": "FriendZone",
-                    "techs": Array [
-                      "React",
-                      "Redux",
-                      "PostgreSQL",
-                      "Socket.io",
-                    ],
-                    "thumbnail": "/projects/social_network_thumb.png",
-                    "url": "https://github.com/Laura-O/social-network",
-                  }
-                }
-              />,
-              <styled.div />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "1",
-              "nodeType": "function",
-              "props": Object {
-                "project": Object {
-                  "description": "A social network with chatroom",
-                  "id": 1,
-                  "image": "/projects/social_network.png",
-                  "name": "FriendZone",
-                  "techs": Array [
-                    "React",
-                    "Redux",
-                    "PostgreSQL",
-                    "Socket.io",
-                  ],
-                  "thumbnail": "/projects/social_network_thumb.png",
-                  "url": "https://github.com/Laura-O/social-network",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": "2",
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <Project
@@ -520,19 +512,82 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": "3",
-          "nodeType": "host",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Project
+                project={
+                  Object {
+                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                    "id": 3,
+                    "image": "/projects/d3-stats.png",
+                    "name": "Bubble diagram D3.js",
+                    "techs": Array [
+                      "D3.js",
+                      "R",
+                      "Bootstrap",
+                    ],
+                    "thumbnail": "/projects/d3-stats_thumb.png",
+                    "url": "http://secure-meadow-44103.herokuapp.com/",
+                  }
+                }
+              />,
+              <styled.div />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "project": Object {
+                  "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                  "id": 3,
+                  "image": "/projects/d3-stats.png",
+                  "name": "Bubble diagram D3.js",
+                  "techs": Array [
+                    "D3.js",
+                    "R",
+                    "Bootstrap",
+                  ],
+                  "thumbnail": "/projects/d3-stats_thumb.png",
+                  "url": "http://secure-meadow-44103.herokuapp.com/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <Project
                 project={
                   Object {
                     "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                    "id": 3,
+                    "id": 4,
                     "image": "/projects/landing_page.png",
                     "name": "Petition",
                     "techs": Array [
@@ -554,12 +609,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "3",
+              "key": "4",
               "nodeType": "function",
               "props": Object {
                 "project": Object {
                   "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                  "id": 3,
+                  "id": 4,
                   "image": "/projects/landing_page.png",
                   "name": "Petition",
                   "techs": Array [
@@ -587,19 +642,19 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
-          "key": "4",
-          "nodeType": "host",
+          "key": "5",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <Project
                 project={
                   Object {
                     "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                    "id": 4,
+                    "id": 5,
                     "image": "/projects/connect-4.png",
                     "name": "Connect 4",
                     "techs": Array [
@@ -619,12 +674,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "4",
+              "key": "5",
               "nodeType": "function",
               "props": Object {
                 "project": Object {
                   "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                  "id": 4,
+                  "id": 5,
                   "image": "/projects/connect-4.png",
                   "name": "Connect 4",
                   "techs": Array [
@@ -650,19 +705,19 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": "div",
+          "type": [Function],
         },
         Object {
           "instance": null,
-          "key": "5",
-          "nodeType": "host",
+          "key": "6",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
               <Project
                 project={
                   Object {
                     "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                    "id": 5,
+                    "id": 6,
                     "image": "/projects/quiz_page.png",
                     "name": "Mobile flashcards",
                     "techs": Array [
@@ -681,12 +736,12 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "5",
+              "key": "6",
               "nodeType": "function",
               "props": Object {
                 "project": Object {
                   "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                  "id": 5,
+                  "id": 6,
                   "image": "/projects/quiz_page.png",
                   "name": "Mobile flashcards",
                   "techs": Array [
@@ -711,70 +766,7 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": "6",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Project
-                project={
-                  Object {
-                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                    "id": 6,
-                    "image": "/projects/d3-stats.png",
-                    "name": "Bubble diagram D3.js",
-                    "techs": Array [
-                      "D3.js",
-                      "R",
-                      "Bootstrap",
-                    ],
-                    "thumbnail": "/projects/d3-stats_thumb.png",
-                    "url": "http://secure-meadow-44103.herokuapp.com/",
-                  }
-                }
-              />,
-              <styled.div />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "6",
-              "nodeType": "function",
-              "props": Object {
-                "project": Object {
-                  "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                  "id": 6,
-                  "image": "/projects/d3-stats.png",
-                  "name": "Bubble diagram D3.js",
-                  "techs": Array [
-                    "D3.js",
-                    "R",
-                    "Bootstrap",
-                  ],
-                  "thumbnail": "/projects/d3-stats_thumb.png",
-                  "url": "http://secure-meadow-44103.herokuapp.com/",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "div",
+          "type": [Function],
         },
       ],
       "type": [Function],
@@ -791,12 +783,31 @@ ShallowWrapper {
           <h1>
             Projects
           </h1>
-          <div>
+          <styled.div>
+            <Project
+              project={
+                Object {
+                  "description": "Website for FMC Europe 2019",
+                  "id": 0,
+                  "image": "/projects/FMC-Europe-2019.png",
+                  "name": "FMC Europe 2019",
+                  "techs": Array [
+                    "Gatsby.js",
+                    "Netlify",
+                  ],
+                  "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                  "url": "https://fmc-europe2019.fewest-moves.com/",
+                }
+              }
+            />
+            <styled.div />
+          </styled.div>
+          <styled.div>
             <Project
               project={
                 Object {
                   "description": "Productivity timer for todo.txt",
-                  "id": 0,
+                  "id": 1,
                   "image": "/projects/todotron.png",
                   "name": "TodoTron 3000",
                   "techs": Array [
@@ -810,29 +821,8 @@ ShallowWrapper {
               }
             />
             <styled.div />
-          </div>
-          <div>
-            <Project
-              project={
-                Object {
-                  "description": "A social network with chatroom",
-                  "id": 1,
-                  "image": "/projects/social_network.png",
-                  "name": "FriendZone",
-                  "techs": Array [
-                    "React",
-                    "Redux",
-                    "PostgreSQL",
-                    "Socket.io",
-                  ],
-                  "thumbnail": "/projects/social_network_thumb.png",
-                  "url": "https://github.com/Laura-O/social-network",
-                }
-              }
-            />
-            <styled.div />
-          </div>
-          <div>
+          </styled.div>
+          <styled.div>
             <Project
               project={
                 Object {
@@ -850,13 +840,33 @@ ShallowWrapper {
               }
             />
             <styled.div />
-          </div>
-          <div>
+          </styled.div>
+          <styled.div>
+            <Project
+              project={
+                Object {
+                  "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                  "id": 3,
+                  "image": "/projects/d3-stats.png",
+                  "name": "Bubble diagram D3.js",
+                  "techs": Array [
+                    "D3.js",
+                    "R",
+                    "Bootstrap",
+                  ],
+                  "thumbnail": "/projects/d3-stats_thumb.png",
+                  "url": "http://secure-meadow-44103.herokuapp.com/",
+                }
+              }
+            />
+            <styled.div />
+          </styled.div>
+          <styled.div>
             <Project
               project={
                 Object {
                   "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                  "id": 3,
+                  "id": 4,
                   "image": "/projects/landing_page.png",
                   "name": "Petition",
                   "techs": Array [
@@ -872,13 +882,13 @@ ShallowWrapper {
               }
             />
             <styled.div />
-          </div>
-          <div>
+          </styled.div>
+          <styled.div>
             <Project
               project={
                 Object {
                   "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                  "id": 4,
+                  "id": 5,
                   "image": "/projects/connect-4.png",
                   "name": "Connect 4",
                   "techs": Array [
@@ -892,13 +902,13 @@ ShallowWrapper {
               }
             />
             <styled.div />
-          </div>
-          <div>
+          </styled.div>
+          <styled.div>
             <Project
               project={
                 Object {
                   "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                  "id": 5,
+                  "id": 6,
                   "image": "/projects/quiz_page.png",
                   "name": "Mobile flashcards",
                   "techs": Array [
@@ -911,27 +921,7 @@ ShallowWrapper {
               }
             />
             <styled.div />
-          </div>
-          <div>
-            <Project
-              project={
-                Object {
-                  "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                  "id": 6,
-                  "image": "/projects/d3-stats.png",
-                  "name": "Bubble diagram D3.js",
-                  "techs": Array [
-                    "D3.js",
-                    "R",
-                    "Bootstrap",
-                  ],
-                  "thumbnail": "/projects/d3-stats_thumb.png",
-                  "url": "http://secure-meadow-44103.herokuapp.com/",
-                }
-              }
-            />
-            <styled.div />
-          </div>
+          </styled.div>
         </styled.div>,
       },
       "ref": null,
@@ -945,12 +935,31 @@ ShallowWrapper {
               Projects
             </h1>,
             Array [
-              <div>
+              <styled.div>
+                <Project
+                  project={
+                    Object {
+                      "description": "Website for FMC Europe 2019",
+                      "id": 0,
+                      "image": "/projects/FMC-Europe-2019.png",
+                      "name": "FMC Europe 2019",
+                      "techs": Array [
+                        "Gatsby.js",
+                        "Netlify",
+                      ],
+                      "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                      "url": "https://fmc-europe2019.fewest-moves.com/",
+                    }
+                  }
+                />
+                <styled.div />
+              </styled.div>,
+              <styled.div>
                 <Project
                   project={
                     Object {
                       "description": "Productivity timer for todo.txt",
-                      "id": 0,
+                      "id": 1,
                       "image": "/projects/todotron.png",
                       "name": "TodoTron 3000",
                       "techs": Array [
@@ -964,29 +973,8 @@ ShallowWrapper {
                   }
                 />
                 <styled.div />
-              </div>,
-              <div>
-                <Project
-                  project={
-                    Object {
-                      "description": "A social network with chatroom",
-                      "id": 1,
-                      "image": "/projects/social_network.png",
-                      "name": "FriendZone",
-                      "techs": Array [
-                        "React",
-                        "Redux",
-                        "PostgreSQL",
-                        "Socket.io",
-                      ],
-                      "thumbnail": "/projects/social_network_thumb.png",
-                      "url": "https://github.com/Laura-O/social-network",
-                    }
-                  }
-                />
-                <styled.div />
-              </div>,
-              <div>
+              </styled.div>,
+              <styled.div>
                 <Project
                   project={
                     Object {
@@ -1004,13 +992,33 @@ ShallowWrapper {
                   }
                 />
                 <styled.div />
-              </div>,
-              <div>
+              </styled.div>,
+              <styled.div>
+                <Project
+                  project={
+                    Object {
+                      "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                      "id": 3,
+                      "image": "/projects/d3-stats.png",
+                      "name": "Bubble diagram D3.js",
+                      "techs": Array [
+                        "D3.js",
+                        "R",
+                        "Bootstrap",
+                      ],
+                      "thumbnail": "/projects/d3-stats_thumb.png",
+                      "url": "http://secure-meadow-44103.herokuapp.com/",
+                    }
+                  }
+                />
+                <styled.div />
+              </styled.div>,
+              <styled.div>
                 <Project
                   project={
                     Object {
                       "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                      "id": 3,
+                      "id": 4,
                       "image": "/projects/landing_page.png",
                       "name": "Petition",
                       "techs": Array [
@@ -1026,13 +1034,13 @@ ShallowWrapper {
                   }
                 />
                 <styled.div />
-              </div>,
-              <div>
+              </styled.div>,
+              <styled.div>
                 <Project
                   project={
                     Object {
                       "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                      "id": 4,
+                      "id": 5,
                       "image": "/projects/connect-4.png",
                       "name": "Connect 4",
                       "techs": Array [
@@ -1046,13 +1054,13 @@ ShallowWrapper {
                   }
                 />
                 <styled.div />
-              </div>,
-              <div>
+              </styled.div>,
+              <styled.div>
                 <Project
                   project={
                     Object {
                       "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                      "id": 5,
+                      "id": 6,
                       "image": "/projects/quiz_page.png",
                       "name": "Mobile flashcards",
                       "techs": Array [
@@ -1065,27 +1073,7 @@ ShallowWrapper {
                   }
                 />
                 <styled.div />
-              </div>,
-              <div>
-                <Project
-                  project={
-                    Object {
-                      "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                      "id": 6,
-                      "image": "/projects/d3-stats.png",
-                      "name": "Bubble diagram D3.js",
-                      "techs": Array [
-                        "D3.js",
-                        "R",
-                        "Bootstrap",
-                      ],
-                      "thumbnail": "/projects/d3-stats_thumb.png",
-                      "url": "http://secure-meadow-44103.herokuapp.com/",
-                    }
-                  }
-                />
-                <styled.div />
-              </div>,
+              </styled.div>,
             ],
           ],
         },
@@ -1105,14 +1093,75 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "0",
-            "nodeType": "host",
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "Website for FMC Europe 2019",
+                      "id": 0,
+                      "image": "/projects/FMC-Europe-2019.png",
+                      "name": "FMC Europe 2019",
+                      "techs": Array [
+                        "Gatsby.js",
+                        "Netlify",
+                      ],
+                      "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                      "url": "https://fmc-europe2019.fewest-moves.com/",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "Website for FMC Europe 2019",
+                    "id": 0,
+                    "image": "/projects/FMC-Europe-2019.png",
+                    "name": "FMC Europe 2019",
+                    "techs": Array [
+                      "Gatsby.js",
+                      "Netlify",
+                    ],
+                    "thumbnail": "/projects/FMC-Europe-2019_thumb.png",
+                    "url": "https://fmc-europe2019.fewest-moves.com/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Project
                   project={
                     Object {
                       "description": "Productivity timer for todo.txt",
-                      "id": 0,
+                      "id": 1,
                       "image": "/projects/todotron.png",
                       "name": "TodoTron 3000",
                       "techs": Array [
@@ -1132,12 +1181,12 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "0",
+                "key": "1",
                 "nodeType": "function",
                 "props": Object {
                   "project": Object {
                     "description": "Productivity timer for todo.txt",
-                    "id": 0,
+                    "id": 1,
                     "image": "/projects/todotron.png",
                     "name": "TodoTron 3000",
                     "techs": Array [
@@ -1163,77 +1212,12 @@ ShallowWrapper {
                 "type": [Function],
               },
             ],
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": "1",
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <Project
-                  project={
-                    Object {
-                      "description": "A social network with chatroom",
-                      "id": 1,
-                      "image": "/projects/social_network.png",
-                      "name": "FriendZone",
-                      "techs": Array [
-                        "React",
-                        "Redux",
-                        "PostgreSQL",
-                        "Socket.io",
-                      ],
-                      "thumbnail": "/projects/social_network_thumb.png",
-                      "url": "https://github.com/Laura-O/social-network",
-                    }
-                  }
-                />,
-                <styled.div />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "1",
-                "nodeType": "function",
-                "props": Object {
-                  "project": Object {
-                    "description": "A social network with chatroom",
-                    "id": 1,
-                    "image": "/projects/social_network.png",
-                    "name": "FriendZone",
-                    "techs": Array [
-                      "React",
-                      "Redux",
-                      "PostgreSQL",
-                      "Socket.io",
-                    ],
-                    "thumbnail": "/projects/social_network_thumb.png",
-                    "url": "https://github.com/Laura-O/social-network",
-                  },
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-            ],
-            "type": "div",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": "2",
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Project
@@ -1289,19 +1273,82 @@ ShallowWrapper {
                 "type": [Function],
               },
             ],
-            "type": "div",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": "3",
-            "nodeType": "host",
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Project
+                  project={
+                    Object {
+                      "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                      "id": 3,
+                      "image": "/projects/d3-stats.png",
+                      "name": "Bubble diagram D3.js",
+                      "techs": Array [
+                        "D3.js",
+                        "R",
+                        "Bootstrap",
+                      ],
+                      "thumbnail": "/projects/d3-stats_thumb.png",
+                      "url": "http://secure-meadow-44103.herokuapp.com/",
+                    }
+                  }
+                />,
+                <styled.div />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "function",
+                "props": Object {
+                  "project": Object {
+                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
+                    "id": 3,
+                    "image": "/projects/d3-stats.png",
+                    "name": "Bubble diagram D3.js",
+                    "techs": Array [
+                      "D3.js",
+                      "R",
+                      "Bootstrap",
+                    ],
+                    "thumbnail": "/projects/d3-stats_thumb.png",
+                    "url": "http://secure-meadow-44103.herokuapp.com/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Project
                   project={
                     Object {
                       "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                      "id": 3,
+                      "id": 4,
                       "image": "/projects/landing_page.png",
                       "name": "Petition",
                       "techs": Array [
@@ -1323,12 +1370,12 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "3",
+                "key": "4",
                 "nodeType": "function",
                 "props": Object {
                   "project": Object {
                     "description": "This is a website for a petition. Users can register, add information to their profile and sign the petition.",
-                    "id": 3,
+                    "id": 4,
                     "image": "/projects/landing_page.png",
                     "name": "Petition",
                     "techs": Array [
@@ -1356,19 +1403,19 @@ ShallowWrapper {
                 "type": [Function],
               },
             ],
-            "type": "div",
+            "type": [Function],
           },
           Object {
             "instance": null,
-            "key": "4",
-            "nodeType": "host",
+            "key": "5",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Project
                   project={
                     Object {
                       "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                      "id": 4,
+                      "id": 5,
                       "image": "/projects/connect-4.png",
                       "name": "Connect 4",
                       "techs": Array [
@@ -1388,12 +1435,12 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "4",
+                "key": "5",
                 "nodeType": "function",
                 "props": Object {
                   "project": Object {
                     "description": "This is an implementation of the classic Connect-4 game for 2 players.",
-                    "id": 4,
+                    "id": 5,
                     "image": "/projects/connect-4.png",
                     "name": "Connect 4",
                     "techs": Array [
@@ -1419,19 +1466,19 @@ ShallowWrapper {
                 "type": [Function],
               },
             ],
-            "type": "div",
+            "type": [Function],
           },
           Object {
             "instance": null,
-            "key": "5",
-            "nodeType": "host",
+            "key": "6",
+            "nodeType": "class",
             "props": Object {
               "children": Array [
                 <Project
                   project={
                     Object {
                       "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                      "id": 5,
+                      "id": 6,
                       "image": "/projects/quiz_page.png",
                       "name": "Mobile flashcards",
                       "techs": Array [
@@ -1450,12 +1497,12 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "5",
+                "key": "6",
                 "nodeType": "function",
                 "props": Object {
                   "project": Object {
                     "description": "A simple flashcard App built with React Native. You can create decks with questions, add questions and take a quiz. There is also a function to create daily reminders.",
-                    "id": 5,
+                    "id": 6,
                     "image": "/projects/quiz_page.png",
                     "name": "Mobile flashcards",
                     "techs": Array [
@@ -1480,70 +1527,7 @@ ShallowWrapper {
                 "type": [Function],
               },
             ],
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": "6",
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <Project
-                  project={
-                    Object {
-                      "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                      "id": 6,
-                      "image": "/projects/d3-stats.png",
-                      "name": "Bubble diagram D3.js",
-                      "techs": Array [
-                        "D3.js",
-                        "R",
-                        "Bootstrap",
-                      ],
-                      "thumbnail": "/projects/d3-stats_thumb.png",
-                      "url": "http://secure-meadow-44103.herokuapp.com/",
-                    }
-                  }
-                />,
-                <styled.div />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "6",
-                "nodeType": "function",
-                "props": Object {
-                  "project": Object {
-                    "description": "This is an interactive bubble diagram I created from a database export of the World Cube Association WCA. It visualizes the competitors who attended the most competitions.",
-                    "id": 6,
-                    "image": "/projects/d3-stats.png",
-                    "name": "Bubble diagram D3.js",
-                    "techs": Array [
-                      "D3.js",
-                      "R",
-                      "Bootstrap",
-                    ],
-                    "thumbnail": "/projects/d3-stats_thumb.png",
-                    "url": "http://secure-meadow-44103.herokuapp.com/",
-                  },
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-            ],
-            "type": "div",
+            "type": [Function],
           },
         ],
         "type": [Function],

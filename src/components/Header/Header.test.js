@@ -1,6 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import 'jest-styled-components';
+import { render, cleanup, fireEvent } from 'react-testing-library'
+
 import Header from './Header';
 
 describe('header', () => {
@@ -39,4 +41,6 @@ describe('header', () => {
     const hamburger = wrapper.find('.hamburger');
     expect(hamburger).toHaveStyleRule('z-index', '30');
   });
+
+
 });

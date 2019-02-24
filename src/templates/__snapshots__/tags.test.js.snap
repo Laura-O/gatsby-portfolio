@@ -16,7 +16,11 @@ ShallowWrapper {
                   "image": Object {
                     "childImageSharp": Object {
                       "fluid": Object {
-                        "sizes": "image",
+                        "aspectRatio": 1.5,
+                        "base64": "base64",
+                        "sizes": "(max-width: 600px) 100vw, 600px",
+                        "src": "src",
+                        "srcSet": "srcSet",
                       },
                     },
                   },
@@ -302,7 +306,11 @@ ShallowWrapper {
                   "image": Object {
                     "childImageSharp": Object {
                       "fluid": Object {
-                        "sizes": "image",
+                        "aspectRatio": 1.5,
+                        "base64": "base64",
+                        "sizes": "(max-width: 600px) 100vw, 600px",
+                        "src": "src",
+                        "srcSet": "srcSet",
                       },
                     },
                   },

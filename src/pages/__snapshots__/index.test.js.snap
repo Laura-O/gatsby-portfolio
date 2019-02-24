@@ -46,6 +46,15 @@ ShallowWrapper {
             </PageLink>
             <PageLink>
               <UNDEFINED
+                to="/galleries"
+              >
+                <h1>
+                  Galleries
+                </h1>
+              </UNDEFINED>
+            </PageLink>
+            <PageLink>
+              <UNDEFINED
                 to="/projects"
               >
                 <h1>
@@ -124,6 +133,15 @@ ShallowWrapper {
               </PageLink>
               <PageLink>
                 <UNDEFINED
+                  to="/galleries"
+                >
+                  <h1>
+                    Galleries
+                  </h1>
+                </UNDEFINED>
+              </PageLink>
+              <PageLink>
+                <UNDEFINED
                   to="/projects"
                 >
                   <h1>
@@ -185,6 +203,15 @@ ShallowWrapper {
                 </PageLink>,
                 <PageLink>
                   <UNDEFINED
+                    to="/galleries"
+                  >
+                    <h1>
+                      Galleries
+                    </h1>
+                  </UNDEFINED>
+                </PageLink>,
+                <PageLink>
+                  <UNDEFINED
                     to="/projects"
                   >
                     <h1>
@@ -239,6 +266,49 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "About",
+                    "type": "h1",
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <UNDEFINED
+                    to="/galleries"
+                  >
+                    <h1>
+                      Galleries
+                    </h1>
+                  </UNDEFINED>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <h1>
+                      Galleries
+                    </h1>,
+                    "to": "/galleries",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Galleries",
+                    },
+                    "ref": null,
+                    "rendered": "Galleries",
                     "type": "h1",
                   },
                   "type": Object {
@@ -377,6 +447,15 @@ ShallowWrapper {
               </PageLink>
               <PageLink>
                 <UNDEFINED
+                  to="/galleries"
+                >
+                  <h1>
+                    Galleries
+                  </h1>
+                </UNDEFINED>
+              </PageLink>
+              <PageLink>
+                <UNDEFINED
                   to="/projects"
                 >
                   <h1>
@@ -455,6 +534,15 @@ ShallowWrapper {
                 </PageLink>
                 <PageLink>
                   <UNDEFINED
+                    to="/galleries"
+                  >
+                    <h1>
+                      Galleries
+                    </h1>
+                  </UNDEFINED>
+                </PageLink>
+                <PageLink>
+                  <UNDEFINED
                     to="/projects"
                   >
                     <h1>
@@ -516,6 +604,15 @@ ShallowWrapper {
                   </PageLink>,
                   <PageLink>
                     <UNDEFINED
+                      to="/galleries"
+                    >
+                      <h1>
+                        Galleries
+                      </h1>
+                    </UNDEFINED>
+                  </PageLink>,
+                  <PageLink>
+                    <UNDEFINED
                       to="/projects"
                     >
                       <h1>
@@ -570,6 +667,49 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "About",
+                      "type": "h1",
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <UNDEFINED
+                      to="/galleries"
+                    >
+                      <h1>
+                        Galleries
+                      </h1>
+                    </UNDEFINED>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <h1>
+                        Galleries
+                      </h1>,
+                      "to": "/galleries",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Galleries",
+                      },
+                      "ref": null,
+                      "rendered": "Galleries",
                       "type": "h1",
                     },
                     "type": Object {

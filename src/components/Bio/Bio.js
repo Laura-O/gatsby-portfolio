@@ -15,34 +15,42 @@ const Paragraph = styled.div`
 
 const Bio = () => (
   <BioWrapper>
-    <h3>About me</h3>
+    <h3>Hi, I am Laura!</h3>
     <Paragraph>
-      I started developing around 1996 when I maintained my very first website
+      <h4>Today</h4>
+      I started developing websites around 1996 when I maintained my very first website
       on
       <HighlightLink href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities">
         Geocities
-      </HighlightLink>. A few years later, I had a weblog. Believe me, it was an
-      exciting time when there were less than 100 weblogs in Germany and{' '}
-      <HighlightLink
-        className="highlight-link"
-        href="https://en.wikipedia.org/wiki/Movable_Type"
-      >
-        Movable Type
-      </HighlightLink>{' '}
-      was the state of the art.
+      </HighlightLink>. My excitement for web technologies hasn&apos;t changed since the early
+      years and I am a fullstack developer now.
     </Paragraph>
     <Paragraph>
-      After school, I started studying computer science at the university and
-      after graduating, I worked as a research assistant in computer science
+      <h4>Before</h4>
+      I have a degree in computer science and then worked as a research assistant in computer science
       education. I wrote my Ph.D. thesis about misconceptions in computer
       science.
     </Paragraph>
     <Paragraph>
-      My excitement for web technologies hasn&apos;t changed since the early
-      years - I am more and more excited about the fast developing technologies
-      and tools. I have experience with several JavaScript frameworks,
-      especially with React. React has a simple but great API, which provides a
-      lot of flexibility and there is so much awesome stuff you can do with it.
+      <h4>Other things</h4>
+      I am a <HighlightLink
+        className="highlight-link"
+        href="https://www.worldcubeassociation.org/persons/2009OHRN01"
+      >
+        speedcuber
+      </HighlightLink> and the <HighlightLink
+        className="highlight-link"
+        href="https://www.worldcubeassociation.org/"
+      >
+        WCA
+      </HighlightLink> Senior Delegate for Western Europe. I am also an <HighlightLink
+        className="highlight-link"
+        href="https://en.wikipedia.org/wiki/Aquascaping"
+      >
+        Aquascaper
+      </HighlightLink> and I enjoy playing video games.
+    </Paragraph>
+    <Paragraph>
       By the way, this website was built with{' '}
       <HighlightLink
         className="highlight-link"

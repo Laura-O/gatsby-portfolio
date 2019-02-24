@@ -83,7 +83,6 @@ export default function Template({
             {frontmatter.title} • {data.site.siteMetadata.title}
           </title>
           <meta name="description" content={frontmatter.description} />
-
           <meta name="twitter:site" content="@laura-fyi" />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:creator" content="@laura-fyi" />

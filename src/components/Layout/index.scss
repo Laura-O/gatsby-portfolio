@@ -1,33 +1,29 @@
 @import '../../scss/variables.scss';
 
-@function multiple-box-shadow ($n){
+// Star foo
+@function multiple-box-shadow($n) {
   $value: '#{random(2000)}px #{random(2000)}px #ffffff';
   @for $i from 2 through $n {
-    $value: '#{$value}, #{random(2000)}px #{random(2000)}px #ffffff'
+    $value: '#{$value}, #{random(2000)}px #{random(2000)}px #ffffff';
   }
-    
-  @return unquote($value)
+
+  @return unquote($value);
 }
 
 $shadows-small: multiple-box-shadow(700);
 $shadows-middle: multiple-box-shadow(200);
 $shadows-large: multiple-box-shadow(100);
 
-
 a {
-  color: inherit;
   text-decoration: none;
-  outline: 0;
-  cursor: pointer;
-  color: azure;
 }
 
 button {
   background: none;
   border: 2px solid;
   line-height: 1;
-  margin: 0.5em;
-  padding: 0.5em 1em;
+  margin: .5em;
+  padding: .5em 1em;
 }
 
 .gatsby-highlight {
@@ -47,16 +43,15 @@ button {
   align-items: center;
 }
 
-
 .stars-small {
   width: 1px;
   height: 1px;
   background: transparent;
   box-shadow: $shadows-small;
   animation: animateStars 50s linear infinite;
-    
+
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 2000px;
     width: 1px;
@@ -72,9 +67,9 @@ button {
   background: transparent;
   box-shadow: $shadows-middle;
   animation: animateStars 100s linear infinite;
-    
+
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 2000px;
     width: 2px;
@@ -91,9 +86,9 @@ button {
   background: transparent;
   box-shadow: $shadows-large;
   animation: animateStars 150s linear infinite;
-    
+
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 2000px;
     width: 3px;
@@ -103,12 +98,22 @@ button {
     box-shadow: $shadows-large;
   }
 }
-    
+
 @keyframes animateStars {
-  from
-    {transform: translateY(0px)}
-  to		
-    {transform: translateY(-2000px)}
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
 }
+
+.react-photo-gallery--gallery {
+  img {
+    box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+    transition: transform 400ms ease-out;
+    margin: 0 3px;
+  }
+
   
-    
+}

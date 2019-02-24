@@ -14,8 +14,7 @@ const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: ${constants.darkBackground};
-  color: ${constants.colorWhite};
+  background-color: ${constants.lightBackground};
 `;
 
 const Content = styled.div`

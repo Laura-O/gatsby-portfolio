@@ -1,8 +1,7 @@
 import Typography from 'typography';
-import kirkhamTheme from 'typography-theme-kirkham';
-// kirkhamTheme.bodyFontFamily = ['Source Sans Pro', 'sans-serif']
+import irvingTheme from 'typography-theme-irving'
 
-const typography = new Typography(kirkhamTheme);
+const typography = new Typography(irvingTheme);
 const { rhythm, scale } = typography;
 
 export { rhythm, scale, typography as default };

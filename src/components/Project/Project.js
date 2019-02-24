@@ -15,6 +15,7 @@ const ProjectWrapper = styled.div`
   flex-wrap: wrap;
   padding: 1.5rem;
   color: ${constants.textColor};
+  width: 90%;
 `;
 
 const Left = styled.div`
@@ -27,8 +28,16 @@ const Left = styled.div`
 
 const Right = styled.div`
   flex: 2;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   animation: ${animations.moveInRight} 1s ease-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .list {
+    margin-top: auto;
+  }
 `;
 
 const Project = ({ project }) => {
@@ -36,20 +45,20 @@ const Project = ({ project }) => {
     <Techtag key={tech}>{tech}</Techtag>
   ));
   return (
-    <Fragment>
-      <ProjectWrapper>
-        <Left>
-          <img src={project.thumbnail} alt={project.name} />
-        </Left>
-        <Right>
-          <h3>
-            <a href={project.url}>{project.name}</a>
-          </h3>
-          <div>{project.description}</div>
-          <ul>{listItems}</ul>
-        </Right>
-      </ProjectWrapper>
-    </Fragment>
+
+    <ProjectWrapper>
+      <Left>
+        <img src={project.thumbnail} alt={project.name} />
+      </Left>
+      <Right>
+        <div><h3>
+          <a href={project.url}>{project.name}</a>
+        </h3></div>
+        <div>{project.description}</div>
+        <div className="list"><ul>{listItems}</ul></div>
+      </Right>
+    </ProjectWrapper>
+
   );
 };
 

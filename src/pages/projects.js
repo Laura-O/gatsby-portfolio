@@ -12,7 +12,11 @@ const ProjectPage = styled.div`
   width: 100%;
   color: black;
   align-items: center;
-  padding-top: 5em;
+  padding-top: 3em;
+`;
+
+const ProjectWrapper = styled.div`
+  width: 80%;
 `;
 
 const Divider = styled.div`
@@ -42,10 +46,10 @@ const ProjectsPage = () => (
     <ProjectPage>
       <h1>Projects</h1>
       {projects.map(project => (
-        <div key={project.id}>
+        <ProjectWrapper key={project.id}>
           <Project project={project} key={project.id} />
           <Divider />
-        </div>
+        </ProjectWrapper>
       ))}
     </ProjectPage>
   </Layout>

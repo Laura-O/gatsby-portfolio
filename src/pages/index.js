@@ -15,7 +15,7 @@ const IndexWrapper = styled(Wrapper)`
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 
-  background: transparent;
+  background-color: #172347;
   overflow: hidden;
 
   @media screen and (min-width: 600px) {
@@ -62,6 +62,11 @@ const IndexPage = () => (
         <PageLink>
           <Link to="/about">
             <h1>About</h1>
+          </Link>
+        </PageLink>
+        <PageLink>
+          <Link to="/galleries">
+            <h1>Galleries</h1>
           </Link>
         </PageLink>
         <PageLink>

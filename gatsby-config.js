@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: 'Laura Ohrndorf | Portfolio and Website',
@@ -6,12 +10,10 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-less`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {},
-    },
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -28,15 +30,29 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: '/projects',
+        name: 'projects',
         path: `${__dirname}/src/assets/projects`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `po1xkkbe5qk0`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'pages',
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
@@ -57,6 +73,14 @@ module.exports = {
             options: {
               linkImagesToOriginal: false,
               maxWidth: 590,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images-contentful`,
+            options: {
+              maxWidth: 650,
+              backgroundColor: 'white',
+              linkImagesToOriginal: false,
             },
           },
         ],
