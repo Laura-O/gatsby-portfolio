@@ -1,6 +1,10 @@
 import React from 'react';
+import { render } from 'react-testing-library';
+
 import { mount } from 'enzyme';
 import Fullscreen from './Fullscreen';
+
+import 'jest-dom/extend-expect';
 
 describe('fullscreen mode', () => {
   const props = {
@@ -8,12 +12,14 @@ describe('fullscreen mode', () => {
   };
 
   test('active', () => {
-    const wrapper = mount(<Fullscreen active {...props} />);
-    expect(wrapper).toMatchSnapshot();
+    const { getByTestId } = render(<Fullscreen active {...props} />);
+
+    expect(getByTestId('fullscreen')).toHaveStyle('position: fixed');
   });
 
-  test('active', () => {
-    const wrapper = mount(<Fullscreen active={false} />);
-    expect(wrapper).toMatchSnapshot();
+  test('not active', () => {
+    const { getByTestId } = render(<Fullscreen active={false} />);
+
+    expect(getByTestId('fullscreen')).toHaveStyle('display: flex');
   });
 });
