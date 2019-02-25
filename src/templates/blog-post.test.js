@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from 'react-testing-library';
 
 import Template from './blog-post';
 import {
@@ -9,19 +9,27 @@ import {
 } from '../../test/fixtures';
 
 describe('blog', () => {
-  test('rendering', () => {
-    const renderProps = {
-      data: {
-        site: sitePropType,
-        markdownRemark: {
-          ...frontmatterPropType,
-        },
-        indexCover: {
-          sizes: imagePropType,
-        },
+  const renderProps = {
+    data: {
+      site: sitePropType,
+      markdownRemark: {
+        ...frontmatterPropType,
       },
-    };
-    const wrapper = shallow(<Template {...renderProps} />);
-    expect(wrapper).toMatchSnapshot();
+      indexCover: {
+        sizes: imagePropType,
+      },
+    },
+  };
+
+  const { getByText } = render(<Template {...renderProps} />);
+
+  test('rendering', () => {
+    const title = getByText('title');
+    expect(title).toBeDefined();
+  });
+
+  test('updated', () => {
+    const subtitle = getByText('Updated: anotherdate');
+    expect(subtitle).toBeDefined();
   });
 });

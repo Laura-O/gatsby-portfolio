@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
-import { Divider } from '../StyledComponents/index'
+import { Divider } from '../StyledComponents/index';
 
 const SubGalleryWrapper = styled.div`
-  padding: .5em 1em;
+  padding: 0.5em 1em;
 `;
 
 export default class SubGallery extends Component {
@@ -22,7 +22,6 @@ export default class SubGallery extends Component {
   }
 
   makeGallery(images) {
-
     const galleryImageSet = images.map(image =>
       Object.assign(
         {},
@@ -32,7 +31,7 @@ export default class SubGallery extends Component {
           srcSet: image.fluid.srcSet,
           width: image.fixed.width,
           height: image.fixed.height,
-          caption: image.title
+          caption: image.title,
         }
       )
     );
@@ -80,7 +79,12 @@ export default class SubGallery extends Component {
     return (
       <SubGalleryWrapper>
         <Divider>{title}</Divider>
-        <Gallery photos={photos} onClick={this.openLightbox} margin={5} data-testid="lightbox" />
+        <Gallery
+          photos={photos}
+          onClick={this.openLightbox}
+          margin={5}
+          data-testid="lightbox"
+        />
 
         <Lightbox
           images={photos}
@@ -90,13 +94,13 @@ export default class SubGallery extends Component {
           currentImage={currentImage}
           isOpen={lightboxIsOpen}
         />
-
       </SubGalleryWrapper>
     );
   }
 }
 
 SubGallery.propTypes = {
+  title: PropTypes.string,
   images: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,

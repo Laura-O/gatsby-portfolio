@@ -56,6 +56,7 @@ ShallowWrapper {
           </UNDEFINED>
         </styled.div>
       </nav>,
+      "data-testid": "fullscreen",
     },
     "ref": null,
     "rendered": Object {
@@ -270,6 +271,7 @@ ShallowWrapper {
             </UNDEFINED>
           </styled.div>
         </nav>,
+        "data-testid": "fullscreen",
       },
       "ref": null,
       "rendered": Object {

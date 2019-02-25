@@ -44,7 +44,7 @@ function Menu(props) {
   };
 
   return (
-    <Fullscreen active={active}>
+    <Fullscreen active={active} data-testid="fullscreen">
       <nav>
         <Item>
           <Link {...linkProps} to="/about">
