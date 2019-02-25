@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import Layout from '../components/Layout/layout';
 import GalleryHeader from '../components/Gallery/GalleryHeader';
 import SubGallery from '../components/Gallery/SubGallery';
@@ -18,8 +19,7 @@ const GalleryTemplate = ({ data }) => {
     <Layout>
       <GalleryWrapper>
         <GalleryHeader {...gallery} />
-
-        {subGalleries.map((subGallery) => (
+        {subGalleries.map(subGallery => (
           <div key={subGallery.id}>
             <SubGallery images={subGallery.images} title={subGallery.title} />
           </div>
@@ -27,6 +27,14 @@ const GalleryTemplate = ({ data }) => {
       </GalleryWrapper>
     </Layout>
   );
+};
+
+GalleryTemplate.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      html: PropTypes.string.isRequired,
+    }),
+  }),
 };
 
 export const query = graphql`
