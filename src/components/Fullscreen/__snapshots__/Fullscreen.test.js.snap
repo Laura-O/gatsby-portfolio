@@ -47,10 +47,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -89,10 +89,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -110,6 +110,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -188,10 +189,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -220,6 +221,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -297,10 +299,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -318,6 +320,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -396,10 +399,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -428,6 +431,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -520,10 +524,10 @@ ReactWrapper {
             "alternate": null,
             "child": [Circular],
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -550,10 +554,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -592,10 +596,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -613,6 +617,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -691,10 +696,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -723,6 +728,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -800,10 +806,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -821,6 +827,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -899,10 +906,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -931,6 +938,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -1039,10 +1047,10 @@ ReactWrapper {
             "alternate": null,
             "child": null,
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 0,
             "elementType": "div",
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -1050,6 +1058,7 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [],
               "className": "sc-bdVaJa jcHNws",
+              "data-testid": "fullscreen",
             },
             "memoizedState": null,
             "mode": 0,
@@ -1057,6 +1066,7 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [],
               "className": "sc-bdVaJa jcHNws",
+              "data-testid": "fullscreen",
             },
             "ref": null,
             "return": [Circular],
@@ -1064,6 +1074,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": <div
               class="sc-bdVaJa jcHNws"
+              data-testid="fullscreen"
             />,
             "tag": 5,
             "treeBaseDuration": 0,
@@ -1071,10 +1082,10 @@ ReactWrapper {
             "updateQueue": null,
           },
           "childExpirationTime": 0,
-          "contextDependencies": null,
           "effectTag": 1,
           "elementType": [Function],
           "expirationTime": 0,
+          "firstContextDependency": null,
           "firstEffect": null,
           "index": 0,
           "key": null,
@@ -1082,6 +1093,7 @@ ReactWrapper {
           "memoizedProps": Object {
             "active": true,
             "children": Array [],
+            "data-testid": "fullscreen",
           },
           "memoizedState": Object {
             "generatedClassName": "jcHNws",
@@ -1092,6 +1104,7 @@ ReactWrapper {
           "pendingProps": Object {
             "active": true,
             "children": Array [],
+            "data-testid": "fullscreen",
           },
           "ref": null,
           "return": FiberNode {
@@ -1107,10 +1120,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -1149,10 +1162,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -1170,6 +1183,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -1248,10 +1262,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -1280,6 +1294,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -1357,10 +1372,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -1378,6 +1393,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -1456,10 +1472,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -1488,6 +1504,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -1580,10 +1597,10 @@ ReactWrapper {
             "alternate": null,
             "child": [Circular],
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -1610,10 +1627,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -1652,10 +1669,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -1673,6 +1690,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -1751,10 +1769,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -1783,6 +1801,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -1860,10 +1879,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -1881,6 +1900,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -1959,10 +1979,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -1991,6 +2011,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa jcHNws"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -2116,6 +2137,7 @@ ReactWrapper {
         "props": Object {
           "active": true,
           "children": Array [],
+          "data-testid": "fullscreen",
         },
         "refs": Object {},
         "state": Object {
@@ -2135,17 +2157,20 @@ ReactWrapper {
       "props": Object {
         "active": true,
         "children": Array [],
+        "data-testid": "fullscreen",
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
           class="sc-bdVaJa jcHNws"
+          data-testid="fullscreen"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [],
           "className": "sc-bdVaJa jcHNws",
+          "data-testid": "fullscreen",
         },
         "ref": null,
         "rendered": Array [
@@ -2191,10 +2216,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -2233,10 +2258,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -2254,6 +2279,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -2332,10 +2358,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -2364,6 +2390,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -2441,10 +2468,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -2462,6 +2489,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -2540,10 +2568,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -2572,6 +2600,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -2664,10 +2693,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -2694,10 +2723,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -2736,10 +2765,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -2757,6 +2786,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -2835,10 +2865,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -2867,6 +2897,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -2944,10 +2975,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -2965,6 +2996,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -3043,10 +3075,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -3075,6 +3107,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -3183,10 +3216,10 @@ ReactWrapper {
               "alternate": null,
               "child": null,
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 0,
               "elementType": "div",
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -3194,6 +3227,7 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": Array [],
                 "className": "sc-bdVaJa jcHNws",
+                "data-testid": "fullscreen",
               },
               "memoizedState": null,
               "mode": 0,
@@ -3201,6 +3235,7 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": Array [],
                 "className": "sc-bdVaJa jcHNws",
+                "data-testid": "fullscreen",
               },
               "ref": null,
               "return": [Circular],
@@ -3208,6 +3243,7 @@ ReactWrapper {
               "sibling": null,
               "stateNode": <div
                 class="sc-bdVaJa jcHNws"
+                data-testid="fullscreen"
               />,
               "tag": 5,
               "treeBaseDuration": 0,
@@ -3215,10 +3251,10 @@ ReactWrapper {
               "updateQueue": null,
             },
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -3226,6 +3262,7 @@ ReactWrapper {
             "memoizedProps": Object {
               "active": true,
               "children": Array [],
+              "data-testid": "fullscreen",
             },
             "memoizedState": Object {
               "generatedClassName": "jcHNws",
@@ -3236,6 +3273,7 @@ ReactWrapper {
             "pendingProps": Object {
               "active": true,
               "children": Array [],
+              "data-testid": "fullscreen",
             },
             "ref": null,
             "return": FiberNode {
@@ -3251,10 +3289,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -3293,10 +3331,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -3314,6 +3352,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -3392,10 +3431,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -3424,6 +3463,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -3501,10 +3541,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -3522,6 +3562,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -3600,10 +3641,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -3632,6 +3673,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -3724,10 +3766,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -3754,10 +3796,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -3796,10 +3838,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -3817,6 +3859,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -3895,10 +3938,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -3927,6 +3970,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -4004,10 +4048,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -4025,6 +4069,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa jcHNws"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -4103,10 +4148,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -4135,6 +4180,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa jcHNws"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -4260,6 +4306,7 @@ ReactWrapper {
           "props": Object {
             "active": true,
             "children": Array [],
+            "data-testid": "fullscreen",
           },
           "refs": Object {},
           "state": Object {
@@ -4279,17 +4326,20 @@ ReactWrapper {
         "props": Object {
           "active": true,
           "children": Array [],
+          "data-testid": "fullscreen",
         },
         "ref": null,
         "rendered": Object {
           "instance": <div
             class="sc-bdVaJa jcHNws"
+            data-testid="fullscreen"
           />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": Array [],
             "className": "sc-bdVaJa jcHNws",
+            "data-testid": "fullscreen",
           },
           "ref": null,
           "rendered": Array [
@@ -4372,10 +4422,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -4412,10 +4462,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -4433,6 +4483,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -4509,10 +4560,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -4540,6 +4591,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -4615,10 +4667,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -4636,6 +4688,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -4712,10 +4765,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -4743,6 +4796,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -4832,10 +4886,10 @@ ReactWrapper {
             "alternate": null,
             "child": [Circular],
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -4860,10 +4914,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -4900,10 +4954,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -4921,6 +4975,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -4997,10 +5052,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -5028,6 +5083,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -5103,10 +5159,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -5124,6 +5180,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -5200,10 +5257,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -5231,6 +5288,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -5336,10 +5394,10 @@ ReactWrapper {
             "alternate": null,
             "child": null,
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 0,
             "elementType": "div",
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -5347,6 +5405,7 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": undefined,
               "className": "sc-bdVaJa hxjTWr",
+              "data-testid": "fullscreen",
             },
             "memoizedState": null,
             "mode": 0,
@@ -5354,6 +5413,7 @@ ReactWrapper {
             "pendingProps": Object {
               "children": undefined,
               "className": "sc-bdVaJa hxjTWr",
+              "data-testid": "fullscreen",
             },
             "ref": null,
             "return": [Circular],
@@ -5361,6 +5421,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": <div
               class="sc-bdVaJa hxjTWr"
+              data-testid="fullscreen"
             />,
             "tag": 5,
             "treeBaseDuration": 0,
@@ -5368,10 +5429,10 @@ ReactWrapper {
             "updateQueue": null,
           },
           "childExpirationTime": 0,
-          "contextDependencies": null,
           "effectTag": 1,
           "elementType": [Function],
           "expirationTime": 0,
+          "firstContextDependency": null,
           "firstEffect": null,
           "index": 0,
           "key": null,
@@ -5379,6 +5440,7 @@ ReactWrapper {
           "memoizedProps": Object {
             "active": false,
             "children": undefined,
+            "data-testid": "fullscreen",
           },
           "memoizedState": Object {
             "generatedClassName": "hxjTWr",
@@ -5389,6 +5451,7 @@ ReactWrapper {
           "pendingProps": Object {
             "active": false,
             "children": undefined,
+            "data-testid": "fullscreen",
           },
           "ref": null,
           "return": FiberNode {
@@ -5404,10 +5467,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -5444,10 +5507,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -5465,6 +5528,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -5541,10 +5605,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -5572,6 +5636,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -5647,10 +5712,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -5668,6 +5733,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -5744,10 +5810,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -5775,6 +5841,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -5864,10 +5931,10 @@ ReactWrapper {
             "alternate": null,
             "child": [Circular],
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -5892,10 +5959,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -5932,10 +5999,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -5953,6 +6020,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -6029,10 +6097,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -6060,6 +6128,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -6135,10 +6204,10 @@ ReactWrapper {
                   "alternate": [Circular],
                   "child": null,
                   "childExpirationTime": 1073741823,
-                  "contextDependencies": null,
                   "effectTag": 0,
                   "elementType": null,
                   "expirationTime": 1073741823,
+                  "firstContextDependency": null,
                   "firstEffect": null,
                   "index": 0,
                   "key": null,
@@ -6156,6 +6225,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -6232,10 +6302,10 @@ ReactWrapper {
                 },
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 32,
                 "elementType": null,
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": [Circular],
                 "index": 0,
                 "key": null,
@@ -6263,6 +6333,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <div
                       class="sc-bdVaJa hxjTWr"
+                      data-testid="fullscreen"
                     />
                   </div>,
                   "context": Object {},
@@ -6385,6 +6456,7 @@ ReactWrapper {
         "props": Object {
           "active": false,
           "children": undefined,
+          "data-testid": "fullscreen",
         },
         "refs": Object {},
         "state": Object {
@@ -6404,17 +6476,20 @@ ReactWrapper {
       "props": Object {
         "active": false,
         "children": undefined,
+        "data-testid": "fullscreen",
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
           class="sc-bdVaJa hxjTWr"
+          data-testid="fullscreen"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": undefined,
           "className": "sc-bdVaJa hxjTWr",
+          "data-testid": "fullscreen",
         },
         "ref": null,
         "rendered": Array [
@@ -6459,10 +6534,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -6499,10 +6574,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -6520,6 +6595,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -6596,10 +6672,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -6627,6 +6703,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -6702,10 +6779,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -6723,6 +6800,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -6799,10 +6877,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -6830,6 +6908,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -6919,10 +6998,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -6947,10 +7026,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -6987,10 +7066,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -7008,6 +7087,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -7084,10 +7164,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -7115,6 +7195,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -7190,10 +7271,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -7211,6 +7292,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -7287,10 +7369,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -7318,6 +7400,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -7423,10 +7506,10 @@ ReactWrapper {
               "alternate": null,
               "child": null,
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 0,
               "elementType": "div",
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -7434,6 +7517,7 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": undefined,
                 "className": "sc-bdVaJa hxjTWr",
+                "data-testid": "fullscreen",
               },
               "memoizedState": null,
               "mode": 0,
@@ -7441,6 +7525,7 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": undefined,
                 "className": "sc-bdVaJa hxjTWr",
+                "data-testid": "fullscreen",
               },
               "ref": null,
               "return": [Circular],
@@ -7448,6 +7533,7 @@ ReactWrapper {
               "sibling": null,
               "stateNode": <div
                 class="sc-bdVaJa hxjTWr"
+                data-testid="fullscreen"
               />,
               "tag": 5,
               "treeBaseDuration": 0,
@@ -7455,10 +7541,10 @@ ReactWrapper {
               "updateQueue": null,
             },
             "childExpirationTime": 0,
-            "contextDependencies": null,
             "effectTag": 1,
             "elementType": [Function],
             "expirationTime": 0,
+            "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
@@ -7466,6 +7552,7 @@ ReactWrapper {
             "memoizedProps": Object {
               "active": false,
               "children": undefined,
+              "data-testid": "fullscreen",
             },
             "memoizedState": Object {
               "generatedClassName": "hxjTWr",
@@ -7476,6 +7563,7 @@ ReactWrapper {
             "pendingProps": Object {
               "active": false,
               "children": undefined,
+              "data-testid": "fullscreen",
             },
             "ref": null,
             "return": FiberNode {
@@ -7491,10 +7579,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -7531,10 +7619,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -7552,6 +7640,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -7628,10 +7717,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -7659,6 +7748,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -7734,10 +7824,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -7755,6 +7845,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -7831,10 +7922,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -7862,6 +7953,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -7951,10 +8043,10 @@ ReactWrapper {
               "alternate": null,
               "child": [Circular],
               "childExpirationTime": 0,
-              "contextDependencies": null,
               "effectTag": 1,
               "elementType": [Function],
               "expirationTime": 0,
+              "firstContextDependency": null,
               "firstEffect": null,
               "index": 0,
               "key": null,
@@ -7979,10 +8071,10 @@ ReactWrapper {
                 "alternate": null,
                 "child": [Circular],
                 "childExpirationTime": 0,
-                "contextDependencies": null,
                 "effectTag": 1,
                 "elementType": [Function],
                 "expirationTime": 0,
+                "firstContextDependency": null,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
@@ -8019,10 +8111,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -8040,6 +8132,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -8116,10 +8209,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -8147,6 +8240,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -8222,10 +8316,10 @@ ReactWrapper {
                     "alternate": [Circular],
                     "child": null,
                     "childExpirationTime": 1073741823,
-                    "contextDependencies": null,
                     "effectTag": 0,
                     "elementType": null,
                     "expirationTime": 1073741823,
+                    "firstContextDependency": null,
                     "firstEffect": null,
                     "index": 0,
                     "key": null,
@@ -8243,6 +8337,7 @@ ReactWrapper {
                       "containerInfo": <div>
                         <div
                           class="sc-bdVaJa hxjTWr"
+                          data-testid="fullscreen"
                         />
                       </div>,
                       "context": Object {},
@@ -8319,10 +8414,10 @@ ReactWrapper {
                   },
                   "child": [Circular],
                   "childExpirationTime": 0,
-                  "contextDependencies": null,
                   "effectTag": 32,
                   "elementType": null,
                   "expirationTime": 0,
+                  "firstContextDependency": null,
                   "firstEffect": [Circular],
                   "index": 0,
                   "key": null,
@@ -8350,6 +8445,7 @@ ReactWrapper {
                     "containerInfo": <div>
                       <div
                         class="sc-bdVaJa hxjTWr"
+                        data-testid="fullscreen"
                       />
                     </div>,
                     "context": Object {},
@@ -8472,6 +8568,7 @@ ReactWrapper {
           "props": Object {
             "active": false,
             "children": undefined,
+            "data-testid": "fullscreen",
           },
           "refs": Object {},
           "state": Object {
@@ -8491,17 +8588,20 @@ ReactWrapper {
         "props": Object {
           "active": false,
           "children": undefined,
+          "data-testid": "fullscreen",
         },
         "ref": null,
         "rendered": Object {
           "instance": <div
             class="sc-bdVaJa hxjTWr"
+            data-testid="fullscreen"
           />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": undefined,
             "className": "sc-bdVaJa hxjTWr",
+            "data-testid": "fullscreen",
           },
           "ref": null,
           "rendered": Array [

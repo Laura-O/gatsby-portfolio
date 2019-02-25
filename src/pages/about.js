@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 import Tech from '../components/Tech/Tech';
 import Bio from '../components/Bio/Bio';
 import Wrapper from '../layouts/shared/Pagewrapper';
 import Layout from '../components/Layout/layout';
-import Me from "../components/Me/Me"
+import Me from '../components/Me/Me';
 
 import * as constants from '../layouts/shared/style-constants';
 

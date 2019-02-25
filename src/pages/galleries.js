@@ -8,9 +8,6 @@ import Layout from '../components/Layout/layout';
 const GalleryWrapper = styled.div`
   margin: 0 2rem;
   padding-top: 2em;
-
-  h1 {
-  }
 `;
 
 const Card = styled.div`
@@ -27,7 +24,7 @@ const CardsWrapper = styled.div`
 function Galleries({ data }) {
   let galleries = null;
   if (data !== undefined) {
-    galleries = data.allContentfulExtendedGallery.edges
+    galleries = data.allContentfulExtendedGallery.edges;
   }
 
   return (
@@ -35,19 +32,20 @@ function Galleries({ data }) {
       <GalleryWrapper>
         <h1>Galleries</h1>
         <CardsWrapper>
-          {galleries && galleries.map(gallery => (
-            <Card key={gallery.id}>
-              <Link to={gallery.node.slug}>
-                <img
-                  src={gallery.node.preview.fluid.src}
-                  alt={`Gallery Preview ${gallery.node.title}`}
-                />
-              </Link>
-              <footer>
-                <h3>{gallery.node.title}</h3>
-              </footer>
-            </Card>
-          ))}
+          {galleries &&
+            galleries.map(gallery => (
+              <Card key={gallery.id}>
+                <Link to={gallery.node.slug}>
+                  <img
+                    src={gallery.node.preview.fluid.src}
+                    alt={`Gallery Preview ${gallery.node.title}`}
+                  />
+                </Link>
+                <footer>
+                  <h3>{gallery.node.title}</h3>
+                </footer>
+              </Card>
+            ))}
           {!galleries && <div>There are not galleries available.</div>}
         </CardsWrapper>
       </GalleryWrapper>

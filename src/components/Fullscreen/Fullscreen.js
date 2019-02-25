@@ -33,7 +33,9 @@ const FullscreenWrapper = styled.div`
 const Fullscreen = ({ children, active }) => (
   // const containerClassName = classNames(styles.fullscreen, className);
 
-  <FullscreenWrapper active={active}>{children}</FullscreenWrapper>
+  <FullscreenWrapper active={active} data-testid="fullscreen">
+    {children}
+  </FullscreenWrapper>
 );
 
 export default Fullscreen;

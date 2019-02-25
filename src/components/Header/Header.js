@@ -113,6 +113,7 @@ export default class Header extends Component {
           active={menuActive}
           onClick={() => this.toggleMenu()}
           className="hamburger"
+          data-testid="menu"
         >
           <span />
           <span />
